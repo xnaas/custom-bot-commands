@@ -93,3 +93,31 @@ def fourteennm(bot, trigger):
 def bait(bot, trigger):
   bait = ['https://actionsack.com/img/bait/404bait.png', 'https://actionsack.com/img/bait/all-bait.gif', 'https://actionsack.com/img/bait/b8.png', 'https://actionsack.com/img/bait/bai--what.png', 'https://actionsack.com/img/bait/bait-g.gif', 'https://actionsack.com/img/bait/bait-krunk.jpg', 'https://actionsack.com/img/bait/bait-pole.png', 'https://actionsack.com/img/bait/bait-sim.png', 'https://actionsack.com/img/bait/bait-therapy.png', 'https://actionsack.com/img/bait/bait.gif', 'https://actionsack.com/img/bait/bait.png', 'https://actionsack.com/img/bait/bait001.jpg', 'https://actionsack.com/img/bait/bait002.png', 'https://actionsack.com/img/bait/bait003.jpg', 'https://actionsack.com/img/bait/bait004.jpg', 'https://actionsack.com/img/bait/bait005.jpg', 'https://actionsack.com/img/bait/bait006.png', 'https://actionsack.com/img/bait/bait007.png', 'https://actionsack.com/img/bait/bait008.png', 'https://actionsack.com/img/bait/bait009.jpg', 'https://actionsack.com/img/bait/bait010.jpg', 'https://actionsack.com/img/bait/bait011.jpg', 'https://actionsack.com/img/bait/bait012.jpg', 'https://actionsack.com/img/bait/bait013.jpg', 'https://actionsack.com/img/bait/bait014.jpg', 'https://actionsack.com/img/bait/bait015.jpg', 'https://actionsack.com/img/bait/bait016.jpg', 'https://actionsack.com/img/bait/bait017.png', 'https://actionsack.com/img/bait/bait018.png', 'https://actionsack.com/img/bait/bait019.png', 'https://actionsack.com/img/bait/bait020.jpg', 'https://actionsack.com/img/bait/bait021.jpg', 'https://actionsack.com/img/bait/bait022.png', 'https://actionsack.com/img/bait/bait023.jpg', 'https://actionsack.com/img/bait/bait024.jpg', 'https://actionsack.com/img/bait/bait025.png', 'https://actionsack.com/img/bait/bait026.png', 'https://actionsack.com/img/bait/bait027.png', 'https://actionsack.com/img/bait/baitkakke.jpg', 'https://actionsack.com/img/bait/baitku.png', 'https://actionsack.com/img/bait/baitnado.jpg', 'https://actionsack.com/img/bait/baito.png', 'https://actionsack.com/img/bait/changed-bait.jpg', 'https://actionsack.com/img/bait/chosen-bait.png', 'https://actionsack.com/img/bait/debait.png', 'https://actionsack.com/img/bait/hq-bait.jpg', 'https://actionsack.com/img/bait/MBGA.jpg', 'https://actionsack.com/img/bait/mikes-bait.jpg', 'https://actionsack.com/img/bait/poke-bait.png', 'https://actionsack.com/img/bait/teach-bait.jpg', 'https://actionsack.com/img/bait/whose-bait.jpg', 'https://actionsack.com/img/bait/wtf-bait.jpg', 'https://actionsack.com/img/bait/']
   bot.say(random.choice(bait))
+
+@rule('.*backhand.*')
+def backhand(bot, trigger):
+  bot.say('https://actionsack.com/img/misc/backhand.mp4')
+
+@rule('^😠$')
+def angryeyes(bot, trigger):
+  bot.say('https://actionsack.com/img/misc/angryeyes.gif')
+
+@rule('.*alot.*')
+def alot(bot, trigger):
+  bot.say('https://actionsack.com/img/alot/')
+
+@rule('.*♿.*')
+def handicap(bot, trigger):
+  bot.say('https://actionsack.com/img/♿/♿.mp4')
+
+@rule('.*⤵️.*')
+def down(bot, trigger):
+  bot.say('https://actionsack.com/img/mike/down.gif')
+
+@rule('\.\.\.')
+def dotdotdot(bot, trigger):
+  bot.say('...')
+
+@rule('^\.dz^')
+def deeznutz(bot, trigger):
+  bot.say(sopel.formatting.bold('DEEZ NUTZ!')
