@@ -204,4 +204,4 @@ def triggered(bot, trigger):
 
 @rule('.*to be fair.*')
 def tobefair(bot, trigger):
-  bot.say('https://www.youtube.com/watch?v=E55t0lnp_8M')
+  bot.say('https://actionsack.com/img/misc/tobefair.mp4')
