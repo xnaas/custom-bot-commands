@@ -201,3 +201,7 @@ def xfiles(bot, trigger):
 def triggered(bot, trigger):
   triggered = ['https://actionsack.com/img/triggered/beaker.gif', 'https://actionsack.com/img/triggered/triggered.gif', 'https://actionsack.com/img/triggered/feek.gif']
   bot.say(random.choice(triggered))
+
+@rule('.*to be fair.*')
+def tobefair(bot, trigger):
+  bot.say('https://www.youtube.com/watch?v=E55t0lnp_8M')
