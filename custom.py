@@ -192,3 +192,7 @@ def football(bot, trigger):
 @rule('.*🍍🍕.*')
 def sin(bot, trigger):
   bot.say('This is a sin.')
+
+@rule('.*xfiles.*')
+def xfiles(bot, trigger):
+  bot.say('Did you know that the X-Files is going to have 6 new episodes this summer on FOX, Aegisfate?')
