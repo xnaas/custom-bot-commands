@@ -209,3 +209,7 @@ def tobefair(bot, trigger):
 @rule('^This is The Way\.($|\s$)')
 def theway(bot, trigger):
   bot.say('This is The Way.')
+
+@rule('^stop being poor$')
+def stopbeingpoor(bot, trigger):
+  bot.say('https://actionsack.com/img/misc/stopbeingpoor.jpg')
