@@ -22,11 +22,11 @@ def hi(bot, trigger):
 def nice(bot, trigger):
   bot.say('Nice.')
 
-@rule('^yeah!$')
+@rule('^(Y|y)eah!$')
 def yeah(bot, trigger):
   bot.say('https://actionsack.com/img/misc/yeah!.gif')
 
-@rule('.*retarded.*')
+@rule('^retard.*')
 def retarded(bot, trigger):
   retard = ['https://actionsack.com/img/retard/catarded.png', 'https://actionsack.com/img/retard/retarded.gif', 'https://actionsack.com/img/retard/△.gif']
   bot.say(random.choice(retard))
