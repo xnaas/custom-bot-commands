@@ -205,3 +205,7 @@ def triggered(bot, trigger):
 @rule('.*to be fair.*')
 def tobefair(bot, trigger):
   bot.say('https://actionsack.com/img/misc/tobefair.mp4')
+
+@rule('^This is The Way.(\s$|$)'
+def theway(bot, trigger):
+  bot.say('This is The Way.')
