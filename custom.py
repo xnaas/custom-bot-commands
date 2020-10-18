@@ -144,3 +144,18 @@ def handsup(bot, trigger):
 def shrug(bot, trigger):
   bot.say('¯\\_(ツ)_/¯')
 
+@rule('^🦏$')
+def rhino(bot, trigger):
+  bot.say('https://actionsack.com/img/🦏/🦏.gif')
+
+@rule('^🧀$')
+def cheese(bot, trigger):
+  bot.say('https://actionsack.com/img/🧀/🧀.mp4')
+
+@rule('^🦄$')
+def unicorn(bot, trigger):
+  bot.say('https://actionsack.com/img/🦄/🦄.jpg')
+
+@rule('^🙃$')
+def upsidedown(bot, trigger):
+  bot.say('🙃')
