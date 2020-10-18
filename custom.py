@@ -61,7 +61,7 @@ def crying(bot, trigger):
 
 @rule('.*!xms.*')
 def xms(bot, trigger):
-  bot.say('https://app.getmetastream.com/join/0b2d5d7c15f53802b53d04adb28f7cb0be8b729a2b3010768456c60af35e0757')
+  bot.say('https://w2g.tv/rooms/actionsack-csurhbl9dkwvwnk91a')
 
 @rule('.*📖.*')
 def book(bot, trigger):
