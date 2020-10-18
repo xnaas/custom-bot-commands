@@ -171,3 +171,7 @@ def clap(bot, trigger):
 @rule('^👍$')
 def thumbsup(bot, trigger):
   bot.say('👍🏻👍🏼👍🏽👍🏾👍🏿')
+
+@rule('^👋$')
+def wave(bot, trigger):
+  bot.say('👋🏻👋🏼👋🏽👋🏾👋🏿')
