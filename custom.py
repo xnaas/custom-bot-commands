@@ -163,3 +163,7 @@ def upsidedown(bot, trigger):
 @rule('^(🖕|🖕🏻|🖕🏼|🖕🏽|🖕🏾|🖕🏿)$')
 def fuckyouback(bot, trigger):
   bot.say('Fuck you, ' + trigger.nick + '!')
+
+@rule('^👏$')
+def clap(bot, trigger):
+  bot.say('👏🏻👏🏼👏🏽👏🏾👏🏿')
