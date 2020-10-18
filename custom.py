@@ -18,11 +18,11 @@ def spok(bot, trigger):
 def hi(bot, trigger):
   bot.say('Hello, ' + trigger.nick + '!')
 
-@rule('^(N|n)ice\.$')
+@rule('^nice\.$')
 def nice(bot, trigger):
   bot.say('Nice.')
 
-@rule('^(Y|y)eah!$')
+@rule('^yeah!$')
 def yeah(bot, trigger):
   bot.say('https://actionsack.com/img/misc/yeah!.gif')
 
@@ -127,7 +127,7 @@ def lenny(bot, trigger):
   lenny = ['https://actionsack.com/img/lenny/lenny-anime.gif', 'https://actionsack.com/img/lenny/lenny-crazy.mp4', 'https://actionsack.com/img/lenny/lenny-spiral.gif']
   bot.say(random.choice(lenny))
 
-@rule('^(P|p)ranked!')
+@rule('^pranked!')
 def prank(bot, trigger):
   prank = ['https://actionsack.com/img/prank/prank01.png', 'https://actionsack.com/img/prank/prank02.png']
   bot.say(random.choice(prank))
