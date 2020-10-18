@@ -120,4 +120,4 @@ def dotdotdot(bot, trigger):
 
 @rule('^\.dz^')
 def deeznutz(bot, trigger):
-  bot.say(sopel.formatting.bold('DEEZ NUTZ!')
+  bot.say(sopel.formatting.bold('DEEZ NUTZ!'))
