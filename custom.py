@@ -86,7 +86,7 @@ def accident(bot, trigger):
   bot.say('https://actionsack.com/img/misc/accident.png')
 
 @rule('.*14nm.*')
-def 14nm(bot, trigger):
+def fourteennm(bot, trigger):
   bot.say('https://p.xnaas.info/zz-misc/14nm+++++.mp4')
 
 @rule('^bait$')
