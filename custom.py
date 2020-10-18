@@ -12,7 +12,7 @@ def nod(bot, trigger):
 @example('.spok')
 def spok(bot, trigger):
   """Summon SPOK"""
-  bot.say('https://actionsack.com/img/trek/spok.gif')  
+  bot.say('https://actionsack.com/img/trek/spok.gif')
 
 @rule('^Hello(\?|!)$')
 def hi(bot, trigger):
