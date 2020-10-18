@@ -114,10 +114,33 @@ def handicap(bot, trigger):
 def down(bot, trigger):
   bot.say('https://actionsack.com/img/mike/down.gif')
 
-@rule('\.\.\.')
+@rule('^\.\.\.$')
 def dotdotdot(bot, trigger):
   bot.say('...')
 
-@rule('^\.dz^')
+@rule('^\.dz$')
 def deeznutz(bot, trigger):
   bot.say(sopel.formatting.bold('DEEZ NUTZ!'))
+
+@rule('^\s\/lenny$')
+def lenny(bot, trigger):
+  lenny = ['https://actionsack.com/img/lenny/lenny-anime.gif', 'https://actionsack.com/img/lenny/lenny-crazy.mp4', 'https://actionsack.com/img/lenny/lenny-spiral.gif']
+  bot.say(random.choice(lenny))
+
+@rule('^(P|p)ranked!')
+def prank(bot, trigger):
+  prank = ['https://actionsack.com/img/prank/prank01.png', 'https://actionsack.com/img/prank/prank02.png']
+  bot.say(random.choice(prank))
+
+@rule('^\?\?\?$')
+def que(bot, trigger):
+  bot.say('https://actionsack.com/img/misc/¿¿¿.png')
+
+@rule('^\\\o/$')
+def handsup(bot, trigger):
+  bot.say('\\o/')
+
+@rule('^¯\\\_\(ツ\)_\/¯')
+def shrug(bot, trigger):
+  bot.say('¯\\_(ツ)_/¯')
+
