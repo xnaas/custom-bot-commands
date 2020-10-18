@@ -2,12 +2,6 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from sopel.module import commands, example, rule
 import random
 
-@commands('helloworld', 'hw')
-@example('.helloworld')
-def hw(bot, trigger):
-  """Say hello to the world!"""
-  bot.say('Hello, world!')
-
 @commands('nod')
 @example('.nod')
 def nod(bot, trigger):
