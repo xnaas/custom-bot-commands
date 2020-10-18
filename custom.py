@@ -160,6 +160,6 @@ def unicorn(bot, trigger):
 def upsidedown(bot, trigger):
   bot.say('🙃')
 
-@rule('^(🖕|🖕🏻|🖕🏼|🖕🏽|🖕🏾|🖕🏿$')
+@rule('^(🖕|🖕🏻|🖕🏼|🖕🏽|🖕🏾|🖕🏿)$')
 def fuckyouback(bot, trigger):
   bot.say('Fuck you, ' + trigger.nick + '!')
