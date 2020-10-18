@@ -196,3 +196,8 @@ def sin(bot, trigger):
 @rule('.*xfiles.*')
 def xfiles(bot, trigger):
   bot.say('Did you know that the X-Files is going to have 6 new episodes this summer on FOX, Aegisfate?')
+
+@rule('.*triggered.*')
+def triggered(bot, trigger):
+  triggered = ['https://actionsack.com/img/triggered/beaker.gif', 'https://actionsack.com/img/triggered/triggered.gif', 'https://actionsack.com/img/triggered/feek.gif']
+  bot.say(random.choice(triggered))
