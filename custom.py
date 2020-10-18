@@ -167,3 +167,7 @@ def fuckyouback(bot, trigger):
 @rule('^👏$')
 def clap(bot, trigger):
   bot.say('👏🏻👏🏼👏🏽👏🏾👏🏿')
+
+@rule('^👍$')
+def thumbsup(bot, trigger):
+  bot.say('👍🏻👍🏼👍🏽👍🏾👍🏿')
