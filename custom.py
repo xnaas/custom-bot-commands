@@ -222,3 +222,8 @@ def tb(bot, trigger):
 def jolly(bot, trigger):
   """Nothing tops The Jolly Rancher story."""
   bot.say("Nothing tops The Jolly Rancher story: pastebin.com/qnHyYZuV")
+
+@commands("hg")
+def hg(bot, trigger):
+  """I've got the highground now!"""
+  bot.say("https://actionsack.com/img/misc/highground.jpg")
