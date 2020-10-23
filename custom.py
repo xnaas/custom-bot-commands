@@ -227,3 +227,61 @@ def jolly(bot, trigger):
 def hg(bot, trigger):
   """I've got the highground now!"""
   bot.say("https://actionsack.com/img/misc/highground.jpg")
+
+@commands("fgr")
+def fgr(bot, trigger):
+  """Family Guy reference!!!!!"""
+  fgr = ["https://actionsack.com/img/fgr/gay.jpg", "https://actionsack.com/img/fgr/gears.jpg", "https://actionsack.com/img/fgr/hang.gif", "https://actionsack.com/img/fgr/stewie-gun.jpg"]
+  bot.say(random.choice(fgr))
+
+@commands("adr")
+def adr(bot, trigger):
+  """American Dad reference!"""
+  bot.say("https://actionsack.com/img/fgr/ADR.jpg")
+
+@commands("csr")
+def csr(bot, trigger):
+  """Cleveland Show reference!"""
+  bot.say("https://actionsack.com/img/fgr/CSR.jpg")
+
+@commands("aegislive")
+def aegislive(bot, trigger):
+  """Aegisfate's YouTube livestream link."""
+  bot.say("https://youtube.com/user/mac2486/live")
+
+@rule(".*!!banebread.*")
+def banebread(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/banebread.png")
+
+@rule(".*!!bread.*")
+def bread(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/🍞.png")
+
+@rule(".*!!datascii.*")
+def datascii(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/datascii.gif")
+
+@rule(".*!!dickaroo.*")
+def dickaroo(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/dickaroo.gif")
+
+@rule(".*!!fgr.*")
+def fgrnsfw(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/chris-in-brian.png")
+
+@rule(".*!!ghostbabies.*")
+def ghostbabies(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/ghostbabies.gif")
+
+@rule(".*!!gimp.*")
+def gimp(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/gimp.gif")
+
+@rule(".*!!ponies.*")
+def ponies(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/ponies.mp4")
+
+@rule(".*!!jordan.*")
+def jordan(bot, trigger):
+  jordan = ["https://actionsack.com/img/jordan/ddosvariants.png", "https://actionsack.com/img/jordan/littledick.png"]
+  bot.say(random.choice(jordan))
