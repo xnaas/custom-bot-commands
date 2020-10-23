@@ -285,3 +285,7 @@ def ponies(bot, trigger):
 def jordan(bot, trigger):
   jordan = ["https://actionsack.com/img/jordan/ddosvariants.png", "https://actionsack.com/img/jordan/littledick.png"]
   bot.say(random.choice(jordan))
+
+@rule("^!b8$")
+def beight(bot, trigger):
+  bot.say("steam://install/567090")
