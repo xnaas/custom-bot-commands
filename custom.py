@@ -16,7 +16,7 @@ def spok(bot, trigger):
 
 @rule('^Hello(\?|!)$')
 def hi(bot, trigger):
-  bot.say('Hello, ' + trigger.nick + '!')
+  bot.say(f"Hello, {trigger.nick}!")
 
 @rule('^nice\.$')
 def nice(bot, trigger):
