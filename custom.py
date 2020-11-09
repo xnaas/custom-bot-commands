@@ -317,3 +317,13 @@ def pledge(bot, trigger):
   bot.say("This is not a form of brainwashing. This is not a form of brainwashing. This is not a form of brainwashing.")
   bot.say("This is really the greatest country in the whole world. All the other countries suck. And if this country ever goes to go to war, as its often wont to do, I promise to help go and kill all the other country's kids.")
   bot.say("God bless Johnson & Johnson. God bless GE. God bless Citigroup.")
+
+@commands("mushkin")
+def mushkin(bot, trigger):
+  """Broken promises suck."""
+  bot.say("Hey xnaas and feek, did you know that Mushkin announced a 4TB SSD for $500 at CES 2016 and never fuckin' delivered? How neat is that?")
+
+@commands("mirai")
+def mirai(bot, trigger):
+  """Gone but not forgotten, noble soviet bear."""
+  bot.say("https://actionsack.com/img/putin/🐻.mp4")
