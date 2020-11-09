@@ -303,3 +303,17 @@ def tasianpickles(bot, trigger):
 def allsystemsgo(bot, trigger):
   """All systems go!"""
   bot.say("https://actionsack.com/img/misc/allsystemsgo.png")
+
+@commands("murica")
+def murica(bot, trigger):
+  """Delivers pure Freedom™ into chat."""
+  murica = ["https://actionsack.com/img/murica/clapping.mp4", "https://actionsack.com/img/murica/kiss.gif", "https://actionsack.com/img/murica/knockknock.gif", "https://actionsack.com/img/murica/freedomaf.mp4"]
+  bot.say(random.choice(murica))
+
+@commands("pledge")
+def pledge(bot, trigger):
+  """Say US Pledge of Allegiance."""
+  bot.say("I pledge allegiance to the flag of the United States of America. Thank you very very much for letting us little kids live here. It really really was nice of you. You didn't have to do it. And it's really not creepy to have little little kids mindlessly recite this anthem every day and pledge their life to a government before theyre old enough to really think about what they're saying.")
+  bot.say("This is not a form of brainwashing. This is not a form of brainwashing. This is not a form of brainwashing.")
+  bot.say("This is really the greatest country in the whole world. All the other countries suck. And if this country ever goes to go to war, as its often wont to do, I promise to help go and kill all the other country's kids.")
+  bot.say("God bless Johnson & Johnson. God bless GE. God bless Citigroup.")
