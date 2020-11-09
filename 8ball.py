@@ -2,7 +2,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from sopel.module import commands, example, rule
 import random
 
-@commands('8')
+@commands('8', '8ball')
 @example('.8 am I gay?')
 def eightball(bot, trigger):
   """The magic 8ball knows all."""
