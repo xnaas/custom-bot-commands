@@ -289,3 +289,17 @@ def jordan(bot, trigger):
 @rule("^!b8$")
 def beight(bot, trigger):
   bot.say("steam://install/567090")
+
+@rule(".*kristen.*")
+def kristen(bot, trigger):
+  kristen = ["https://actionsack.com/img/kristen/keith.png", "https://actionsack.com/img/kristen/pins.png", "https://actionsack.com/img/kristen/racist.png", "https://actionsack.com/img/kristen/rekt.png", "https://actionsack.com/img/kristen/repost.png", "https://actionsack.com/img/kristen/top.png"]
+  bot.say(random.choice(kristen))
+
+@rule("^Tasian loves pickles\.($|\s)")
+def tasianpickles(bot, trigger):
+  bot.say("https://actionsack.com/img/tasian/pickles.png")
+
+@commands("asg")
+def allsystemsgo(bot, trigger):
+  """All systems go!"""
+  bot.say("https://actionsack.com/img/misc/allsystemsgo.png")
