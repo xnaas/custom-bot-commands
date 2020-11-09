@@ -79,7 +79,7 @@ def adapters(bot, trigger):
   adapters = ["https://actionsack.com/img/misc/adapters01.png", "https://actionsack.com/img/misc/adapters02.png"]
   bot.say(random.choice(adapters))
 
-@rule(".*accident.*")
+@rule(".*accident\W")
 def accident(bot, trigger):
   bot.say("https://actionsack.com/img/misc/accident.png")
 
