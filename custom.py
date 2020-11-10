@@ -1,5 +1,5 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
-from sopel.module import commands, example, rule
+from sopel.module import commands, example, rule, require_admin
 import random
 
 @commands("nod")
@@ -404,3 +404,8 @@ def batdoge(bot, trigger):
 @rule(".*slow\sdown.*")
 def slowdown(bot, trigger):
   bot.say("https://www.youtube.com/watch?v=fJdqw-JzW08")
+
+@require_admin
+@commands("smmcb")
+def smmcb(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/smmcb.gif")
