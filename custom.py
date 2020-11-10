@@ -378,3 +378,7 @@ def mealwithit(bot, trigger):
 @commands("mindjack")
 def mindjack(bot, trigger):
   bot.say("https://actionsack.com/img/misc/mindjack.png")
+
+@commands("music")
+def listentomusic(bot, trigger):
+  bot.say("https://actionsack.com/img/kys/music.gif")
