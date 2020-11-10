@@ -352,3 +352,7 @@ def ohyou(bot, trigger):
 def battletoad(bot, trigger):
   """Deploy a battletoad!"""
   bot.say("https://actionsack.com/img/misc/battletoad.mp4")
+
+@commands("beaker")
+def beaker(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/beaker.mp4")
