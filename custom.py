@@ -356,3 +356,8 @@ def battletoad(bot, trigger):
 @commands("beaker")
 def beaker(bot, trigger):
   bot.say("https://actionsack.com/img/misc/beaker.mp4")
+
+@commands("bomb")
+def bomb(bot, trigger):
+  """Nuke 'em out of existence!"""
+  bot.say("https://actionsack.com/img/misc/bomb.mp4")
