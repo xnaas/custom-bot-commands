@@ -413,3 +413,7 @@ def smmcb(bot, trigger):
 @rule("^noice$")
 def noice(bot, trigger):
   bot.say("noice")
+
+@rule(".*sockbot.*")
+def sockbot(bot, trigger):
+  sockbot = ["https://actionsack.com/img/sackbot/headsortails.png", "https://actionsack.com/img/sackbot/L337.png", "https://actionsack.com/img/sackbot/phone.png"]
