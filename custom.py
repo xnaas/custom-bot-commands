@@ -374,3 +374,7 @@ def mikeybikey(bot, trigger):
 @rule(".*meal\swith\sit.*")
 def mealwithit(bot, trigger):
   bot.say("https://actionsack.com/img/deal/mealwithit.gif")
+
+@commands("mindjack")
+def mindjack(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/mindjack.png")
