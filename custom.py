@@ -343,3 +343,7 @@ def aidsclub(bot, trigger):
 def barometer(bot, trigger):
   """Look to Steve Harvey for moral support and understanding."""
   bot.say("https://actionsack.com/img/misc/barometer.png")
+
+@rule("^Oh,\syou!($|\s$)")
+def ohyou(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/Oh,you!.jpg")
