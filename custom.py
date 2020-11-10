@@ -400,3 +400,7 @@ def skeledoge(bot, trigger):
 @rule(".*!batdoge.*")
 def batdoge(bot, trigger):
   bot.say("https://actionsack.com/img/doge/batdoge.gif")
+
+@rule(".*slow\sdown.*")
+def slowdown(bot, trigger):
+  bot.say("https://www.youtube.com/watch?v=fJdqw-JzW08")
