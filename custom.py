@@ -366,3 +366,7 @@ def bomb(bot, trigger):
 def broden(bot, trigger):
   """Deploy Broden...👀"""
   bot.say("https://actionsack.com/img/misc/broden.mp4")
+
+@rule(".*mikey\sbikey.*")
+def mikeybikey(bot, trigger):
+  bot.say("https://actionsack.com/img/as/mikeybikey.png")
