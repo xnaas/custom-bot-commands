@@ -347,3 +347,8 @@ def barometer(bot, trigger):
 @rule("^Oh,\syou!($|\s$)")
 def ohyou(bot, trigger):
   bot.say("https://actionsack.com/img/misc/Oh,you!.jpg")
+
+@commands("battletoad")
+def battletoad(bot, trigger):
+  """Deploy a battletoad!"""
+  bot.say("https://actionsack.com/img/misc/battletoad.mp4")
