@@ -382,3 +382,21 @@ def mindjack(bot, trigger):
 @commands("music")
 def listentomusic(bot, trigger):
   bot.say("https://actionsack.com/img/kys/music.gif")
+
+@commands("doge")
+def doge(bot, trigger):
+  """Doge memes! (There's not very many...)"""
+  doge = ["https://actionsack.com/img/doge/batdoge.gif", "https://actionsack.com/img/doge/dogemine.gif", "https://actionsack.com/img/doge/skeledoge.gif"]
+  bot.say(random.choice(doge))
+
+@rule(".*!dogemine.*")
+def dogemine(bot, trigger):
+  bot.say("https://actionsack.com/img/doge/dogemine.gif")
+
+@rule(".*!skeledoge.*")
+def skeledoge(bot, trigger):
+  bot.say("https://actionsack.com/img/doge/skeledoge.gif")
+
+@rule(".*!batdoge.*")
+def batdoge(bot, trigger):
+  bot.say("https://actionsack.com/img/doge/batdoge.gif")
