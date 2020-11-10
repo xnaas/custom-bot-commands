@@ -416,4 +416,5 @@ def noice(bot, trigger):
 
 @rule(".*sockbot.*")
 def sockbot(bot, trigger):
-  sockbot = ["https://actionsack.com/img/sackbot/headsortails.png", "https://actionsack.com/img/sackbot/L337.png", "https://actionsack.com/img/sackbot/phone.png"]
+  sockbot = ["https://actionsack.com/img/sockbot/headsortails.png", "https://actionsack.com/img/sockbot/L337.png", "https://actionsack.com/img/sockbot/phone.png"]
+  bot.say(random.choice(sockbot))
