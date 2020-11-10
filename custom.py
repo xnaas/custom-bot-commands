@@ -370,3 +370,7 @@ def broden(bot, trigger):
 @rule(".*mikey\sbikey.*")
 def mikeybikey(bot, trigger):
   bot.say("https://actionsack.com/img/as/mikeybikey.png")
+
+@rule(".*meal\swith\sit.*")
+def mealwithit(bot, trigger):
+  bot.say("https://actionsack.com/img/deal/mealwithit.gif")
