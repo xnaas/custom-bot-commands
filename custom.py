@@ -361,3 +361,8 @@ def beaker(bot, trigger):
 def bomb(bot, trigger):
   """Nuke 'em out of existence!"""
   bot.say("https://actionsack.com/img/misc/bomb.mp4")
+
+@commands("broden")
+def broden(bot, trigger):
+  """Deploy Broden...👀"""
+  bot.say("https://actionsack.com/img/misc/broden.mp4")
