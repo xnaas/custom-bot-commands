@@ -409,3 +409,7 @@ def slowdown(bot, trigger):
 @commands("smmcb")
 def smmcb(bot, trigger):
   bot.say("https://actionsack.com/img/misc/smmcb.gif")
+
+@rule("^noice$")
+def noice(bot, trigger):
+  bot.say("noice")
