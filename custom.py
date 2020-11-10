@@ -336,4 +336,10 @@ def putin(bot, trigger):
 
 @commands("aidsclub")
 def aidsclub(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/aidsclub.png"
+  """Welcome to the club, loser."""
+  bot.say("https://actionsack.com/img/misc/aidsclub.png")
+
+@commands("barometer")
+def barometer(bot, trigger):
+  """Look to Steve Harvey for moral support and understanding."""
+  bot.say("https://actionsack.com/img/misc/barometer.png")
