@@ -327,3 +327,13 @@ def mushkin(bot, trigger):
 def mirai(bot, trigger):
   """Gone but not forgotten, noble soviet bear."""
   bot.say("https://actionsack.com/img/putin/🐻.mp4")
+
+@commands("putin")
+def putin(bot, trigger):
+  """'President' of Russia."""
+  putin = ["https://actionsack.com/img/putin/dance.mp4", "https://actionsack.com/img/putin/pigeon.mp4", "https://actionsack.com/img/putin/ritz.gif", "https://actionsack.com/img/putin/🐻.mp4"]
+  bot.say(random.choice(putin))
+
+@commands("aidsclub")
+def aidsclub(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/aidsclub.png"
