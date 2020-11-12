@@ -482,3 +482,7 @@ def breadchan(bot, trigger):
 def satna(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🎅.png")
 
+@module.rule(".*🎧.*")
+def headphones(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/🎧.png")
+
