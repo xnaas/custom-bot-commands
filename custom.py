@@ -465,3 +465,8 @@ def worktoday(bot, trigger):
 @module.rule(".*stbyn.*")
 def stbyn(bot, trigger):
   bot.say("Sucks to be you, %s!" %sopel.formatting.italic("nerd"))
+
+@module.rule(".*🥓.*")
+def bacon(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/🥓.mp4")
+
