@@ -508,3 +508,8 @@ def fuckyeah(bot, trigger):
 def fuckeverything(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuckeverything.mp4")
 
+@module.rule(".*ftge.*")
+def ftge(bot, trigger):
+  ftge = ["https://actionsack.com/img/fuck/ftge.gif", "https://actionsack.com/img/fuck/ftge.png"]
+  bot.say(random.choice(ftge))
+
