@@ -479,7 +479,7 @@ def breadchan(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🍞.png")
 
 @module.rule(".*(🎅|🎅🏻|🎅🏼|🎅🏽|🎅🏾|🎅🏿).*")
-def satna(bot, trigger):
+def santa(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🎅.png")
 
 @module.rule(".*🎧.*")
