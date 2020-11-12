@@ -470,3 +470,7 @@ def stbyn(bot, trigger):
 def bacon(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🥓.mp4")
 
+@module.rule(".*🍜.*")
+def soupbowl(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/🍜.mp4")
+
