@@ -423,3 +423,8 @@ def sockbot(bot, trigger):
 def brony(bot, trigger):
   bot.say("https://actionsack.com/img/mike/brony.png")
 
+@rule("^banned.*")
+def banned(bot, trigger):
+  banned = ["https://actionsack.com/img/banned/beetlejuice.mp4", "https://actionsack.com/img/banned/carryon.png", "https://actionsack.com/img/banned/clapping.gif", "https://actionsack.com/img/banned/hanging.gif", "https://actionsack.com/img/banned/samuel.gif", "https://actionsack.com/img/banned/slapbeavis.gif", "https://actionsack.com/img/banned/slap.gif", "https://actionsack.com/img/banned/tasian.gif", "https://actionsack.com/img/banned/trash.png", "https://actionsack.com/img/banned/voodoo.png", "https://actionsack.com/img/banned/xbox.png", "https://actionsack.com/img/banned/xnaas.gif"]
+  bot.say(random.choice(banned))
+
