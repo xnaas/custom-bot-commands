@@ -118,7 +118,7 @@ def dotdotdot(bot, trigger):
 
 @module.rule("^\.dz$")
 def deeznutz(bot, trigger):
-  bot.say(sopel.formatting.bold("DEEZ NUTZ!"))
+  bot.say(formatting.bold("DEEZ NUTZ!"))
 
 @module.rule("^\s\/lenny$")
 def lenny(bot, trigger):
@@ -464,7 +464,7 @@ def worktoday(bot, trigger):
 
 @module.rule(".*stbyn.*")
 def stbyn(bot, trigger):
-  bot.say("Sucks to be you, %s!" %sopel.formatting.italic("nerd"))
+  bot.say("Sucks to be you, %s!" %formatting.italic("nerd"))
 
 @module.rule(".*🥓.*")
 def bacon(bot, trigger):
