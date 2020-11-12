@@ -418,3 +418,8 @@ def noice(bot, trigger):
 def sockbot(bot, trigger):
   sockbot = ["https://actionsack.com/img/sockbot/headsortails.png", "https://actionsack.com/img/sockbot/L337.png", "https://actionsack.com/img/sockbot/phone.png"]
   bot.say(random.choice(sockbot))
+
+@commands("brony")
+def brony(bot, trigger):
+  bot.say("https://actionsack.com/img/mike/brony.png")
+
