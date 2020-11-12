@@ -517,3 +517,8 @@ def ftge(bot, trigger):
 def fooledyou(bot, trigger):
   bot.say("https://actionsack.com/img/misc/fooled.png")
 
+@module.rule(".*fite\sme.*")
+def fiteme(bot, trigger):
+  fiteme = ["https://actionsack.com/img/fite/cat.gif", "https://actionsack.com/img/fite/phones.gif", "https://actionsack.com/img/fite/🌮.gif"]
+  bot.say(random.choice(fiteme))
+
