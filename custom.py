@@ -437,3 +437,23 @@ def censor(bot, trigger):
   censor = ["https://actionsack.com/img/censored/bunny.png", "https://actionsack.com/img/censored/censored.png", "https://actionsack.com/img/censored/eyesored.png", "https://actionsack.com/img/censored/fox.gif", "https://actionsack.com/img/censored/fren.png", "https://actionsack.com/img/censored/nose.png", "https://actionsack.com/img/censored/spider.png", "https://actionsack.com/img/censored/tasian.png"]
   bot.say(random.choice(censor))
 
+@rule("^Ping!($|\s$)")
+def pingpong(bot, trigger):
+  bot.say("Pong!")
+
+@rule("^Bing!($|\s$)")
+def bingbong(bot, trigger):
+  bot.say("Bong!")
+
+@rule("^Ching!($|\s$)")
+def chingchong(bot, trigger):
+  bot.say("Chong!")
+
+@rule("^Ding!($|\s$)")
+def dingdong(bot, trigger):
+  bot.say("Dong!")
+
+@rule("^Wing!($|\s$)")
+def wingwong(bot, trigger):
+  bot.say("Wong!")
+
