@@ -457,3 +457,8 @@ def dingdong(bot, trigger):
 def wingwong(bot, trigger):
   bot.say("Wong!")
 
+@commands("work")
+def worktoday(bot, trigger):
+  """I don't really wanna do the work today..."""
+  bot.say("https://actionsack.com/img/misc/work.webm")
+
