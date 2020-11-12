@@ -486,12 +486,12 @@ def santa(bot, trigger):
 def headphones(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🎧.png")
 
-@module.rule(".*fuck you(?!r).*")
+@module.rule(".*fuck\syou(?!r).*")
 def fuckyou(bot, trigger):
   fuckyou = ["https://actionsack.com/img/fuck/01_Two_Feet-Go_Fuck_Yourself.mp3", "https://actionsack.com/img/fuck/airline.mp4", "https://actionsack.com/img/fuck/anime.webm", "https://actionsack.com/img/fuck/anime.mp4", "https://actionsack.com/img/fuck/ape.png", "https://actionsack.com/img/fuck/aquaman.gif", "https://actionsack.com/img/fuck/arms.gif", "https://actionsack.com/img/fuck/arrow.mp4", "https://actionsack.com/img/fuck/bb8.gif", "https://actionsack.com/img/fuck/bird.gif", "https://actionsack.com/img/fuck/bot.mp4", "https://actionsack.com/img/fuck/buzz.webm", "https://actionsack.com/img/fuck/card.gif", "https://actionsack.com/img/fuck/climb.gif", "https://actionsack.com/img/fuck/compilation.mp4", "https://actionsack.com/img/fuck/cunt.mp4", "https://actionsack.com/img/fuck/cutout.mp4", "https://actionsack.com/img/fuck/deaf.mp4", "https://actionsack.com/img/fuck/deer.mp4", "https://actionsack.com/img/fuck/disney.gif", "https://actionsack.com/img/fuck/doggogfy.mp4", "https://actionsack.com/img/fuck/driving.mp4", "https://actionsack.com/img/fuck/drums.mp4", "https://actionsack.com/img/fuck/enthusiastic.mp4", "https://actionsack.com/img/fuck/faoy.mp4", "https://actionsack.com/img/fuck/friday.mp4", "https://actionsack.com/img/fuck/fuku.png", "https://actionsack.com/img/fuck/fur.mp4", "https://actionsack.com/img/fuck/godzilla.mp4", "https://actionsack.com/img/fuck/gofuckyourself.mp4", "https://actionsack.com/img/fuck/goldenboye.mp4", "https://actionsack.com/img/fuck/grow.mp4", "https://actionsack.com/img/fuck/h3h3.mp4", "https://actionsack.com/img/fuck/hook.png", "https://actionsack.com/img/fuck/idgaf.mp4", "https://actionsack.com/img/fuck/jacket.gif", "https://actionsack.com/img/fuck/juliemao.mp4", "https://actionsack.com/img/fuck/kraken.gif", "https://actionsack.com/img/fuck/loop.gif", "https://actionsack.com/img/fuck/peaceamongworlds.gif", "https://actionsack.com/img/fuck/pigeon.mp4", "https://actionsack.com/img/fuck/pocketcat.gif", "https://actionsack.com/img/fuck/pocket.gif", "https://actionsack.com/img/fuck/ragnarok.mp4", "https://actionsack.com/img/fuck/rudy.png", "https://actionsack.com/img/fuck/rugrats.gif", "https://actionsack.com/img/fuck/samuel.mp4", "https://actionsack.com/img/fuck/samueltransparent.mp4", "https://actionsack.com/img/fuck/sayan.gif", "https://actionsack.com/img/fuck/sciencegfy.mp4", "https://actionsack.com/img/fuck/skating.mp4", "https://actionsack.com/img/fuck/square.gif", "https://actionsack.com/img/fuck/tommydoor.mp4", "https://actionsack.com/img/fuck/trumpet.mp4", "https://actionsack.com/img/fuck/westworld.mp4", "https://actionsack.com/img/fuck/ww-mib.mp4", "https://actionsack.com/img/fuck/☂.gif"]
   bot.say(random.choice(fuckyou))
 
-@module.rule(".*(gfy[^c]|go fuck yourself).*")
+@module.rule(".*(gfy[^c]|go\sfuck\syourself).*")
 def gfy(bot, trigger):
   gfy = ["https://actionsack.com/img/fuck/animegfy.mp4", "https://actionsack.com/img/fuck/gofuckyourself.mp4", "https://actionsack.com/img/fuck/doggogfy.mp4", "https://actionsack.com/img/fuck/sciencegfy.mp4"]
   bot.say(random.choice(gfy))
@@ -500,11 +500,11 @@ def gfy(bot, trigger):
 def fuckexclamation(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuck!.gif")
 
-@module.rule("^Fuck yeah!(\s$|$)")
+@module.rule("^Fuck\syeah!(\s$|$)")
 def fuckyeah(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuckyeah!.mp4")
 
-@module.rule(".*fuck everything.*")
+@module.rule(".*fuck\severything.*")
 def fuckeverything(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuckeverything.mp4")
 
@@ -512,4 +512,8 @@ def fuckeverything(bot, trigger):
 def ftge(bot, trigger):
   ftge = ["https://actionsack.com/img/fuck/ftge.gif", "https://actionsack.com/img/fuck/ftge.png"]
   bot.say(random.choice(ftge))
+
+@module.rule(".*fooled\syou.*")
+def fooledyou(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/fooled.png")
 
