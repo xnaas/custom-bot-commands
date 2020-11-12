@@ -465,4 +465,4 @@ def worktoday(bot, trigger):
 
 @rule(".*stbyn.*")
 def stbyn(bot, trigger):
-  bot.say("Sucks to be you, " + sopel.formatting.italic("nerd") + "!")
+  bot.say("Sucks to be you, %s!" %sopel.formatting.italic("nerd"))
