@@ -478,3 +478,7 @@ def soupbowl(bot, trigger):
 def breadchan(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🍞.png")
 
+@module.rule(".*(🎅|🎅🏻|🎅🏼|🎅🏽|🎅🏾|🎅🏿).*")
+def satna(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/🎅.png")
+
