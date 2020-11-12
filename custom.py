@@ -1,5 +1,6 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel.module import commands, example, rule, require_admin
+import sopel
 import random
 
 @commands("nod")
@@ -462,3 +463,6 @@ def worktoday(bot, trigger):
   """I don't really wanna do the work today..."""
   bot.say("https://actionsack.com/img/misc/work.webm")
 
+@rule(".*stbyn.*")
+def stbyn(bot, trigger):
+  bot.say("Sucks to be you, " + sopel.formatting.italic("nerd") + "!")
