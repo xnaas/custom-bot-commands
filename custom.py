@@ -432,3 +432,8 @@ def banned(bot, trigger):
 def boycott(bot, trigger):
   bot.say("https://actionsack.com/img/misc/boycott.jpg")
 
+@rule(".*censor.*")
+def censor(bot, trigger):
+  censor = ["https://actionsack.com/img/censored/bunny.png", "https://actionsack.com/img/censored/censored.png", "https://actionsack.com/img/censored/eyesored.png", "https://actionsack.com/img/censored/fox.gif", "https://actionsack.com/img/censored/fren.png", "https://actionsack.com/img/censored/nose.png", "https://actionsack.com/img/censored/spider.png", "https://actionsack.com/img/censored/tasian.png"]
+  bot.say(random.choice(censor))
+
