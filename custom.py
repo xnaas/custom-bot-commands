@@ -474,3 +474,7 @@ def bacon(bot, trigger):
 def soupbowl(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🍜.mp4")
 
+@module.rule(".*🍞.*")
+def breadchan(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/🍞.png")
+
