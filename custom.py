@@ -493,7 +493,7 @@ def fuckyou(bot, trigger):
 
 @module.rule(".*(gfy[^c]|go\sfuck\syourself).*")
 def gfy(bot, trigger):
-  gfy = ["https://actionsack.com/img/fuck/animegfy.mp4", "https://actionsack.com/img/fuck/gofuckyourself.mp4", "https://actionsack.com/img/fuck/doggogfy.mp4", "https://actionsack.com/img/fuck/sciencegfy.mp4"]
+  gfy = ["https://actionsack.com/img/fuck/animegfy.mp4", "https://actionsack.com/img/fuck/disney.gif", "https://actionsack.com/img/fuck/gofuckyourself.mp4", "https://actionsack.com/img/fuck/doggogfy.mp4", "https://actionsack.com/img/fuck/sciencegfy.mp4"]
   bot.say(random.choice(gfy))
 
 @module.rule("^Fuck!.*")
