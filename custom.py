@@ -562,3 +562,7 @@ def clickbait(bot, trigger):
 @module.rule(".*COVID19!.*")
 def windofgod(bot, trigger):
   bot.say("https://actionsack.com/img/videos/windofgod.webm")
+
+@module.rule(".*crossfit.*")
+def crossfit(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/crossfit.webm")
