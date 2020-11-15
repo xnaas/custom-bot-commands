@@ -621,3 +621,7 @@ def hackers(bot, trigger):
 def hue(bot, trigger):
   hue = ["https://actionsack.com/img/hue/bots.gif", "https://actionsack.com/img/hue/bus.gif", "https://actionsack.com/img/hue/cat.gif", "https://actionsack.com/img/hue/combo.gif", "https://actionsack.com/img/hue/drhue.gif", "https://actionsack.com/img/hue/drhueves.gif", "https://actionsack.com/img/hue/horse.gif", "https://actionsack.com/img/hue/huemanatee.gif", "https://actionsack.com/img/hue/hueppo.gif", "https://actionsack.com/img/hue/jellyfish.gif", "https://actionsack.com/img/hue/kitten.gif", "https://actionsack.com/img/hue/mike.gif", "https://actionsack.com/img/hue/owls.gif", "https://actionsack.com/img/hue/sdc.gif"]
   bot.say(random.choice(hue))
+
+@module.rule("^I am the machine\.")
+def iamthemachine(bot, trigger):
+  bot.say("https://www.youtube.com/watch?v=8PAtFsJY5q0")
