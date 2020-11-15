@@ -532,6 +532,11 @@ def faggot(bot, trigger):
   faggot = ["https://actionsack.com/img/faggot/faggot.gif", "https://actionsack.com/img/faggot/oh.gif", "https://actionsack.com/img/faggot/urafaget.png", "Faggot!", "(/¯◡ ‿ ◡)/¯ ~~~~ Abracadabra, you're a faggot!"]
   bot.say(random.choice(faggot))
 
+@module.rule("^Gay!$")
+def gayexclamation(bot, trigger):
+  gayexclamation = ["https://actionsack.com/img/gay/gay!.gif", "https://actionsack.com/img/gay/gayshit.png"]
+  bot.say(random.choice(gayexclamation))
+
 @module.rule(".*everything's\sfucked.*")
 def everythingsfucked(bot, trigger):
   bot.say("https://actionsack.com/img/misc/everythingsfucked.gif")
