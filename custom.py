@@ -658,3 +658,8 @@ def jpeg(bot, trigger):
 @module.rule(".*!kazoo.*")
 def kazoo(bot, trigger):
   bot.say("https://actionsack.com/img/videos/kazoo.webm")
+
+@module.rule("^kill\sme.*")
+def killme(bot, trigger):
+  killme = ["https://actionsack.com/img/misc/killme-bulb.png", "https://actionsack.com/img/misc/killme-char.png", "https://actionsack.com/img/misc/killme-pika.png"]
+  bot.say(random.choice(killme))
