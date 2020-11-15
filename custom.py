@@ -626,6 +626,6 @@ def hue(bot, trigger):
 def iamthemachine(bot, trigger):
   bot.say("https://www.youtube.com/watch?v=8PAtFsJY5q0")
 
-@module.rule(".*I\scan't\seven.*", ".*I\sliterally\scan't\seven.*")
+@module.rule(".*I\scan't\seven.*", ".*I'm\sliterally\scan't\seven.*")
 def icanteven(bot, trigger):
   bot.say("https://actionsack.com/img/videos/icanteven.webm")
