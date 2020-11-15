@@ -24,7 +24,7 @@ def nice(bot, trigger):
 def theway(bot, trigger):
   bot.say(trigger.group(1))
 
-@module.rule("^(It\is\known\.)(\s$|$)")
+@module.rule("^(It\sis\sknown\.)(\s$|$)")
 def itisknown(bot, trigger):
   bot.say(trigger.group(1))
 
