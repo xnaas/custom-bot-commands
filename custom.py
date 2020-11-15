@@ -642,3 +642,7 @@ def idgaf(bot, trigger):
 @module.rule(".*hugh\smungus.*")
 def hughmungus(bot, trigger):
   bot.say("https://actionsack.com/img/videos/hughmungus.webm")
+
+@module.rule(".*IMDABES.*")
+def imdabes(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/IMDABES.webm")
