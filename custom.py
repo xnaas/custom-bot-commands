@@ -419,7 +419,7 @@ def noice(bot, trigger):
 
 @module.rule(".*sockbot.*")
 def sockbot(bot, trigger):
-  sockbot = ["https://actionsack.com/img/sockbot/headsortails.png", "https://actionsack.com/img/sockbot/L337.png", "https://actionsack.com/img/sockbot/phone.png"]
+  sockbot = ["https://actionsack.com/img/sockbot/headsortails.png", "https://actionsack.com/img/sockbot/L337.png", "https://actionsack.com/img/sockbot/phone.png", "Gone, but not forgotten."]
   bot.say(random.choice(sockbot))
 
 @module.rule(".*!brony.*")
