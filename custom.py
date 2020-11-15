@@ -633,3 +633,8 @@ def icanteven(bot, trigger):
 @module.rule("^I\sship\s(it|that).*")
 def ishipit(bot, trigger):
   bot.say("https://actionsack.com/img/misc/fedex.gif")
+
+@module.rule(".*idgaf.*")
+def idgaf(bot, trigger):
+  idgaf = ["https://actionsack.com/img/idgaf/20thcentury.mp4", "https://actionsack.com/img/idgaf/nophux.mp4"]
+  bot.say(random.choice(idgaf))
