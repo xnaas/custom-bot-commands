@@ -650,3 +650,7 @@ def hughmungus(bot, trigger):
 @module.rule(".*IMDABES.*")
 def imdabes(bot, trigger):
   bot.say("https://actionsack.com/img/videos/IMDABES.webm")
+
+@module.rule(".*!JPEG.*")
+def jpeg(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/jpeg.webm")
