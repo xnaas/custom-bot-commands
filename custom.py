@@ -700,7 +700,6 @@ def judge(bot, trigger):
   """Judge someone or something."""
   judges = ["not guilty! https://actionsack.com/img/misc/not-guilty.png", "guilty! https://actionsack.com/img/misc/guilty.png"]
   text = clean(trigger.group(2) or '')
-  scheme = trigger.group(1).lower()
   
   if not text:
     try:
