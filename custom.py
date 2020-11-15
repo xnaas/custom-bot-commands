@@ -685,3 +685,29 @@ def kys(bot, trigger):
 def legal(bot, trigger):
   legal = ["https://actionsack.com/img/misc/👍LEGAL👍.mp4", "https://actionsack.com/img/misc/🕺LEGAL🕺.mp4"]
   bot.say(random.choice(legal))
+
+### Section Exists for "judge" command only ###
+# Remove when dropping support for Sopel < 7.1
+if hasattr(formatting, 'plain'):
+    clean = formatting.plain
+else:
+    clean = lambda t: t
+### Section Exists for "judge" command only ###
+
+@module.commands("judge")
+@module.require_chanmsg
+def judge(bot, trigger):
+  """Judge someone or something."""
+  judges = ["not guilty! https://actionsack.com/img/misc/not-guilty.png", "guilty! https://actionsack.com/img/misc/guilty.png"]
+  text = clean(trigger.group(2) or '')
+  scheme = trigger.group(1).lower()
+  
+  if not text:
+    try:
+      msg = "I need someone or something to judge!"[scheme]
+    except KeyError:
+      msg = "How did you do that?!"
+    bot.reply(msg)
+    return module.NOLIMIT
+  
+  bot.say("%s is %s" %(trigger.group(2), random.choice(judges)))
