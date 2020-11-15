@@ -608,3 +608,7 @@ def fake(bot, trigger):
 @module.rule(".*!erect.*")
 def erect(bot, trigger):
   bot.say("https://actionsack.com/img/misc/erect.gif")
+
+@module.rule("^GOAT!$")
+def goat(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/GOAT.webm")
