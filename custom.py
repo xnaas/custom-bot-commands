@@ -599,3 +599,7 @@ def deusvult(bot, trigger):
 def fake(bot, trigger):
   fake = ["https://actionsack.com/img/fake/faux.png", "https://actionsack.com/img/fake/kazoo.gif"]
   bot.say(random.choice(fake))
+
+@module.rule(".*!erect.*")
+def erect(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/erect.gif")
