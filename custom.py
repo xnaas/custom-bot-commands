@@ -616,3 +616,8 @@ def goat(bot, trigger):
 @module.rule("^hackers$")
 def hackers(bot, trigger):
   bot.say("https://actionsack.com/img/as/hackers.png")
+
+@module.rule("^hue.*")
+def hue(bot, trigger):
+  hue = ["https://actionsack.com/img/hue/bots.gif", "https://actionsack.com/img/hue/bus.gif", "https://actionsack.com/img/hue/cat.gif", "https://actionsack.com/img/hue/combo.gif", "https://actionsack.com/img/hue/drhue.gif", "https://actionsack.com/img/hue/drhueves.gif", "https://actionsack.com/img/hue/horse.gif", "https://actionsack.com/img/hue/huemanatee.gif", "https://actionsack.com/img/hue/hueppo.gif", "https://actionsack.com/img/hue/jellyfish.gif", "https://actionsack.com/img/hue/kitten.gif", "https://actionsack.com/img/hue/mike.gif", "https://actionsack.com/img/hue/owls.gif", "https://actionsack.com/img/hue/sdc.gif"]
+  bot.say(random.choice(hue))
