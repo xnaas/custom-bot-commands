@@ -20,7 +20,11 @@ def hi(bot, trigger):
 def nice(bot, trigger):
   bot.say(trigger.group(1))
 
-@module.rule("^(It is known\.)(\s$|$)")
+@module.rule("^(This\sis\sThe\sWay\.)($|\s$)")
+def theway(bot, trigger):
+  bot.say(trigger.group(1))
+
+@module.rule("^(It\is\known\.)(\s$|$)")
 def itisknown(bot, trigger):
   bot.say(trigger.group(1))
 
@@ -207,10 +211,6 @@ def triggered(bot, trigger):
 @module.rule(".*to\sbe\sfair.*")
 def tobefair(bot, trigger):
   bot.say("https://actionsack.com/img/videos/tobefair.webm")
-
-@module.rule("^This\sis\sThe\sWay\.($|\s$)")
-def theway(bot, trigger):
-  bot.say("This is The Way.")
 
 @module.rule("^stop\sbeing\spoor.*")
 def stopbeingpoor(bot, trigger):
