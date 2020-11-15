@@ -1,11 +1,27 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
-from sopel.module import commands, example, rule
+from sopel import module, formatting
 import random
+
+# Remove when dropping support for Sopel < 7.1
+if hasattr(formatting, 'plain'):
+    clean = formatting.plain
+else:
+    clean = lambda t: t
 
 @commands('8', '8ball')
 @example('.8 am I gay?')
 def eightball(bot, trigger):
   """The magic 8ball knows all."""
+  text = clean(trigger.group(2) or '')
+  
+  if not text:
+    try:
+      msg = "I need something to foretell!"
+    except KeyError:
+      msg = "How did you do that?!"
+    bot.reply(msg)
+    return module.NOLIMIT
+
   messages = [
     #Positive Replies (10)
     "It is certain.",
