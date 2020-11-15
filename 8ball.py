@@ -13,7 +13,7 @@ else:
 def eightball(bot, trigger):
   """The magic 8ball knows all."""
   text = clean(trigger.group(2) or '')
-  
+
   if not text:
     try:
       msg = "I need something to foretell!"
@@ -23,7 +23,7 @@ def eightball(bot, trigger):
     return module.NOLIMIT
 
   messages = [
-    #Positive Replies (10)
+    # Positive Replies (10)
     "It is certain.",
     "It is decidedly so.",
     "Without a doubt.",
