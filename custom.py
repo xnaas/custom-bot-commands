@@ -458,6 +458,10 @@ def dingdong(bot, trigger):
 def wingwong(bot, trigger):
   bot.say("Wong!")
 
+@module.rule("^Marco!$")
+def marcopolo(bot, trigger):
+  bot.say("Polo!")
+
 @module.commands("work")
 def worktoday(bot, trigger):
   """I don't really wanna do the work today..."""
