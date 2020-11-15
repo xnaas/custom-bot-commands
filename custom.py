@@ -397,7 +397,7 @@ def batdoge(bot, trigger):
 def slowdown(bot, trigger):
   bot.say("https://www.youtube.com/watch?v=fJdqw-JzW08")
 
-@require_admin
+@module.require_admin
 @module.commands("smmcb", "smd")
 def smmcb(bot, trigger):
   bot.say("https://actionsack.com/img/misc/smmcb.gif")
@@ -543,3 +543,8 @@ def swat(bot, trigger):
 @module.rule(".*\(╯°□°）╯︵ ┻━┻.*")
 def unflip(bot, trigger):
   bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, %s." %trigger.nick)
+
+@module.rule(".*bite\sme.*")
+@module.require_chanmsg
+def bitesback(bot, trigger):
+  bot.action("bites %s" %trigger.nick, trigger.sender)
