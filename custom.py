@@ -689,9 +689,9 @@ def legal(bot, trigger):
 ### Section Exists for "judge" command only ###
 # Remove when dropping support for Sopel < 7.1
 if hasattr(formatting, 'plain'):
-    clean = formatting.plain
+  clean = formatting.plain
 else:
-    clean = lambda t: t
+  clean = lambda t: t
 ### Section Exists for "judge" command only ###
 
 @module.commands("judge")

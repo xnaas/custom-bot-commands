@@ -4,9 +4,9 @@ import random
 
 # Remove when dropping support for Sopel < 7.1
 if hasattr(formatting, 'plain'):
-    clean = formatting.plain
+  clean = formatting.plain
 else:
-    clean = lambda t: t
+  clean = lambda t: t
 
 @commands('8', '8ball')
 @example('.8 am I gay?')
