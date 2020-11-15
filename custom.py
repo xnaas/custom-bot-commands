@@ -454,6 +454,10 @@ def chingchong(bot, trigger):
 def dingdong(bot, trigger):
   bot.say("Dong!")
 
+@module.rule("^Sing!$")
+def singsong(bot, trigger):
+  bot.say("Song!")
+
 @module.rule("^Wing!$")
 def wingwong(bot, trigger):
   bot.say("Wong!")
