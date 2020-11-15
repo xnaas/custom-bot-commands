@@ -296,7 +296,7 @@ def beight(bot, trigger):
 
 @module.rule(".*kristen.*")
 def kristen(bot, trigger):
-  kristen = ["https://actionsack.com/img/kristen/keith.png", "https://actionsack.com/img/kristen/pins.png", "https://actionsack.com/img/kristen/racist.png", "https://actionsack.com/img/kristen/rekt.png", "https://actionsack.com/img/kristen/repost.png", "https://actionsack.com/img/kristen/top.png"]
+  kristen = ["https://actionsack.com/img/kristen/chainsmokers.png", "https://actionsack.com/img/kristen/keith.png", "https://actionsack.com/img/kristen/pidgey.png", "https://actionsack.com/img/kristen/pins.png", "https://actionsack.com/img/kristen/racist.png", "https://actionsack.com/img/kristen/rekt.png", "https://actionsack.com/img/kristen/repost.png", "https://actionsack.com/img/kristen/top.png"]
   bot.say(random.choice(kristen))
 
 @module.rule("^Tasian\sloves\spickles\.($|\s)")
