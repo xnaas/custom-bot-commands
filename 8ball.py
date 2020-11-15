@@ -8,8 +8,8 @@ if hasattr(formatting, 'plain'):
 else:
   clean = lambda t: t
 
-@commands('8', '8ball')
-@example('.8 am I gay?')
+@module.commands('8', '8ball')
+@module.example('.8 Am I gay?')
 def eightball(bot, trigger):
   """The magic 8ball knows all."""
   text = clean(trigger.group(2) or '')
