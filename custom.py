@@ -629,3 +629,7 @@ def iamthemachine(bot, trigger):
 @module.rule(".*I\scan't\seven.*", ".*I'm\sliterally\scan't\seven.*")
 def icanteven(bot, trigger):
   bot.say("https://actionsack.com/img/videos/icanteven.webm")
+
+@module.rule("^I\sship\s(it|that).*")
+def ishipit(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/fedex.gif")
