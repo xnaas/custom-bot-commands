@@ -612,3 +612,7 @@ def erect(bot, trigger):
 @module.rule("^GOAT!$")
 def goat(bot, trigger):
   bot.say("https://actionsack.com/img/videos/GOAT.webm")
+
+@module.rule("^hackers$")
+def hackers(bot, trigger):
+  bot.say("https://actionsack.com/img/as/hackers.png")
