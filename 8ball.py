@@ -6,5 +6,28 @@ import random
 @example('.8 am I gay?')
 def eightball(bot, trigger):
   """The magic 8ball knows all."""
-  messages = ["It is certain", "It is decidedly so", "Without a doubt", "Yes definitely", "You may rely on it", "As I see it yes", "Most likely", "Outlook good", "Yes", "Signs point to yes", "Reply hazy try again", "Ask again later", "Better not tell you now", "Cannot predict now", "Concentrate and ask again", "Don't count on it", "My reply is no", "God says no", "Very doubtful", "Outlook not so good"]
+  messages = [
+    #Positive Replies (10)
+    "It is certain.",
+    "It is decidedly so.",
+    "Without a doubt.",
+    "Yes — definitely.",
+    "You may rely on it.",
+    "As I see it, yes.",
+    "Most likely.",
+    "Outlook good.",
+    "Yes.",
+    "Signs point to yes.",
+    # Ambiguous Bullshit Replies (5)
+    "Reply hazy, try again.",
+    "Ask again later.",
+    "Better not tell you now.",
+    "Cannot predict now.",
+    "Concentrate and ask again.",
+    # Negative Replies (5)
+    "Don't count on it.",
+    "My reply is no.",
+    "My sources say no.",
+    "Outlook not so good.",
+    "Very doubtful."]
   bot.say(random.choice(messages));
