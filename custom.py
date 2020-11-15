@@ -9,14 +9,14 @@ def nod(bot, trigger):
 
 @module.commands("spok")
 def spok(bot, trigger):
-  """Summon SPOK"""
+  """Summon SPOK into chat."""
   bot.say("https://actionsack.com/img/trek/spok.gif")
 
 @module.rule("^Hello(\?|!)$")
 def hi(bot, trigger):
   bot.say("Hello, %s!" %trigger.nick)
 
-@module.rule("^(Nice\.)$")
+@module.rule("^(Nice\.)(\s$|$)")
 def nice(bot, trigger):
   bot.say(trigger.group(1))
 
