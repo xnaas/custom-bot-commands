@@ -200,9 +200,9 @@ def triggered(bot, trigger):
   triggered = ["https://actionsack.com/img/triggered/beaker.gif", "https://actionsack.com/img/triggered/triggered.gif", "https://actionsack.com/img/triggered/feek.gif"]
   bot.say(random.choice(triggered))
 
-@module.rule(".*to be fair.*")
+@module.rule(".*to\sbe\sfair.*")
 def tobefair(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/tobefair.mp4")
+  bot.say("https://actionsack.com/img/videos/tobefair.webm")
 
 @module.rule("^This is The Way\.($|\s$)")
 def theway(bot, trigger):
@@ -539,3 +539,12 @@ def datboi(bot, trigger):
 def smitepro(bot, trigger):
   """YouTube and Twitch links for SPL stream."""
   bot.say("YT: youtube.com/user/smitegame/live | Twitch: twitch.tv/smitegame")
+
+@module.rule(".*!xmas.*")
+def xmassong(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/xmas.webm")
+
+@module.commands("swat")
+def swat(bot, trigger):
+  """Summon SWAT for assistance."""
+  bot.say("https://actionsack.com/img/videos/SWAT.mp4")
