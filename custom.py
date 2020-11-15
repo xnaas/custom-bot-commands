@@ -566,3 +566,7 @@ def windofgod(bot, trigger):
 @module.rule(".*crossfit.*")
 def crossfit(bot, trigger):
   bot.say("https://actionsack.com/img/videos/crossfit.webm")
+
+@module.rule("^dang$")
+def dang(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/dang.jpg")
