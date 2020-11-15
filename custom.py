@@ -704,7 +704,7 @@ def judge(bot, trigger):
   
   if not text:
     try:
-      msg = "I need someone or something to judge!"[scheme]
+      msg = "I need someone or something to judge!"
     except KeyError:
       msg = "How did you do that?!"
     bot.reply(msg)
