@@ -570,3 +570,9 @@ def crossfit(bot, trigger):
 @module.rule("^dang$")
 def dang(bot, trigger):
   bot.say("https://actionsack.com/img/misc/dang.jpg")
+
+@module.commands("dbc")
+def dbc(bot, trigger):
+  """Post a Dragonbro Chi comic."""
+  dbc = ["https://actionsack.com/img/dbc/dbc01.png", "https://actionsack.com/img/dbc/dbc02.png", "https://actionsack.com/img/dbc/dbc03.png", "https://actionsack.com/img/dbc/dbc04.png", "https://actionsack.com/img/dbc/dbc07.png", "https://actionsack.com/img/dbc/dbc08.png", "https://actionsack.com/img/dbc/dbc09.png", "https://actionsack.com/img/dbc/dbc10.png"]
+  bot.say(random.choice(dbc))
