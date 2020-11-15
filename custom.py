@@ -638,3 +638,7 @@ def ishipit(bot, trigger):
 def idgaf(bot, trigger):
   idgaf = ["https://actionsack.com/img/idgaf/20thcentury.mp4", "https://actionsack.com/img/idgaf/nophux.mp4"]
   bot.say(random.choice(idgaf))
+
+@module.rule(".*hugh\smungus.*")
+def hughmungus(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/hughmungus.webm")
