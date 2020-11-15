@@ -16,9 +16,9 @@ def spok(bot, trigger):
 def hi(bot, trigger):
   bot.say("Hello, %s!" %trigger.nick)
 
-@module.rule("^nice\.$")
+@module.rule("^(Nice\.)$")
 def nice(bot, trigger):
-  bot.say("Nice.")
+  bot.say(trigger.group(1))
 
 @module.rule("^yeah!$")
 def yeah(bot, trigger):
