@@ -29,7 +29,7 @@ def retarded(bot, trigger):
   retard = ["https://actionsack.com/img/retard/catarded.png", "https://actionsack.com/img/retard/retarded.gif", "https://actionsack.com/img/retard/△.gif"]
   bot.say(random.choice(retard))
 
-@module.rule("rekt", ".*get\srekt.*")
+@module.rule("^rekt.*", ".*get\srekt.*")
 def rekt(bot, trigger):
   rekt = ["https://actionsack.com/img/rekt/baseball.gif", "https://actionsack.com/img/rekt/beachdive.mp4", "https://actionsack.com/img/rekt/beachskillz.mp4", "https://actionsack.com/img/rekt/bf1revenge.mp4", "https://actionsack.com/img/rekt/bf1sniper.mp4", "https://actionsack.com/img/rekt/blackman.mp4", "https://actionsack.com/img/rekt/botw-sled.mp4", "https://actionsack.com/img/rekt/bridgedive.mp4", "https://actionsack.com/img/rekt/carcrash.gif", "https://actionsack.com/img/rekt/gta-bike.mp4", "https://actionsack.com/img/rekt/gta-flight.mp4", "https://actionsack.com/img/rekt/gta-phone.mp4", "https://actionsack.com/img/rekt/gta-post.mp4", "https://actionsack.com/img/rekt/gta-rekt.mp4", "https://actionsack.com/img/rekt/gta-stomp.gif", "https://actionsack.com/img/rekt/jeep.gif", "https://actionsack.com/img/rekt/leap!.mp4", "https://actionsack.com/img/rekt/LOLOLOLOL.gif", "https://actionsack.com/img/rekt/poolgirl.gif", "https://actionsack.com/img/rekt/rekt.png", "https://actionsack.com/img/rekt/running.gif", "https://actionsack.com/img/rekt/skateit.mp4", "https://actionsack.com/img/rekt/slammin.mp4", "https://actionsack.com/img/rekt/smash.mp4", "https://actionsack.com/img/rekt/sniped.mp4", "https://actionsack.com/img/rekt/walkbot.mp4", "https://actionsack.com/img/rekt/walkitoff.mp4", "https://actionsack.com/img/rekt/watergun.mp4"]
   bot.say(random.choice(rekt))
@@ -57,7 +57,7 @@ def crying(bot, trigger):
   crying = ["https://actionsack.com/img/QQ/QQ001.gif", "https://actionsack.com/img/QQ/QQ002.gif", "https://actionsack.com/img/QQ/QQ003.gif", "https://actionsack.com/img/QQ/QQ004.gif", "https://actionsack.com/img/QQ/QQ005.gif"]
   bot.say(random.choice(crying))
 
-@module.rule(".*!xms.*")
+@module.rule(".*!xms.*", ".*!bge.*")
 def xms(bot, trigger):
   bot.say("https://w2g.tv/rooms/actionsack-csurhbl9dkwvwnk91a")
 
@@ -66,7 +66,7 @@ def book(bot, trigger):
   book = ["https://actionsack.com/img/mike/📖/📖.gif", "https://actionsack.com/img/mike/📖/📖.jpg", "https://actionsack.com/img/mike/📖/📖+.jpg", "https://actionsack.com/img/mike/📖/📖🐇.jpg"]
   bot.say(random.choice(book))
 
-@module.rule("^8D$")
+@module.rule("^8D$", ".*Greg.*")
 def greg(bot, trigger):
   bot.say("Greg was never in IRC...")
 
@@ -85,7 +85,7 @@ def accident(bot, trigger):
 
 @module.rule(".*14nm.*")
 def fourteennm(bot, trigger):
-  bot.say("https://p.xnaas.info/zz-misc/14nm+++++.mp4")
+  bot.say("https://actionsack.com/img/misc/14nm+++++.mp4")
 
 @module.rule("^bait.*")
 def bait(bot, trigger):
@@ -125,7 +125,7 @@ def lenny(bot, trigger):
   lenny = ["https://actionsack.com/img/lenny/lenny-anime.gif", "https://actionsack.com/img/lenny/lenny-crazy.mp4", "https://actionsack.com/img/lenny/lenny-spiral.gif"]
   bot.say(random.choice(lenny))
 
-@module.rule("^pranked!")
+@module.rule("^pranked!$")
 def prank(bot, trigger):
   prank = ["https://actionsack.com/img/prank/prank01.png", "https://actionsack.com/img/prank/prank02.png"]
   bot.say(random.choice(prank))
@@ -138,19 +138,19 @@ def que(bot, trigger):
 def handsup(bot, trigger):
   bot.say("\\o/")
 
-@module.rule("^¯\\\_\(ツ\)_\/¯")
+@module.rule("^¯\\\_\(ツ\)_\/¯$")
 def shrug(bot, trigger):
   bot.say("¯\\_(ツ)_/¯")
 
-@module.rule("^🦏$")
+@module.rule(".*🦏.*")
 def rhino(bot, trigger):
   bot.say("https://actionsack.com/img/🦏/🦏.gif")
 
-@module.rule("^🧀$")
+@module.rule(".*🧀.*")
 def cheese(bot, trigger):
   bot.say("https://actionsack.com/img/🧀/🧀.mp4")
 
-@module.rule("^🦄$")
+@module.rule(".*🦄.*")
 def unicorn(bot, trigger):
   bot.say("https://actionsack.com/img/🦄/🦄.jpg")
 
@@ -204,11 +204,11 @@ def triggered(bot, trigger):
 def tobefair(bot, trigger):
   bot.say("https://actionsack.com/img/videos/tobefair.webm")
 
-@module.rule("^This is The Way\.($|\s$)")
+@module.rule("^This\sis\sThe\sWay\.($|\s$)")
 def theway(bot, trigger):
   bot.say("This is The Way.")
 
-@module.rule("^stop being poor.*")
+@module.rule("^stop\sbeing\spoor.*")
 def stopbeingpoor(bot, trigger):
   bot.say("https://actionsack.com/img/misc/stopbeingpoor.jpg")
 
@@ -295,18 +295,16 @@ def kristen(bot, trigger):
   kristen = ["https://actionsack.com/img/kristen/keith.png", "https://actionsack.com/img/kristen/pins.png", "https://actionsack.com/img/kristen/racist.png", "https://actionsack.com/img/kristen/rekt.png", "https://actionsack.com/img/kristen/repost.png", "https://actionsack.com/img/kristen/top.png"]
   bot.say(random.choice(kristen))
 
-@module.rule("^Tasian loves pickles\.($|\s)")
+@module.rule("^Tasian\sloves\spickles\.($|\s)")
 def tasianpickles(bot, trigger):
   bot.say("https://actionsack.com/img/tasian/pickles.png")
 
-@module.commands("asg")
+@module.rule(".*!asg.*")
 def allsystemsgo(bot, trigger):
-  """All systems go!"""
   bot.say("https://actionsack.com/img/misc/allsystemsgo.png")
 
-@module.commands("murica")
+@module.rule(".*murica.*")
 def murica(bot, trigger):
-  """Delivers pure Freedom™ into chat."""
   murica = ["https://actionsack.com/img/murica/clapping.mp4", "https://actionsack.com/img/murica/kiss.gif", "https://actionsack.com/img/murica/knockknock.gif", "https://actionsack.com/img/murica/freedomaf.mp4"]
   bot.say(random.choice(murica))
 
@@ -318,9 +316,8 @@ def pledge(bot, trigger):
   bot.say("This is really the greatest country in the whole world. All the other countries suck. And if this country ever goes to go to war, as its often wont to do, I promise to help go and kill all the other country's kids.")
   bot.say("God bless Johnson & Johnson. God bless GE. God bless Citigroup.")
 
-@module.commands("mushkin")
+@module.rule(".*mushkin.*")
 def mushkin(bot, trigger):
-  """Broken promises suck."""
   bot.say("Hey xnaas and feek, did you know that Mushkin announced a 4TB SSD for $500 at CES 2016 and never fuckin' delivered? How neat is that?")
 
 @module.commands("mirai")
@@ -328,9 +325,8 @@ def mirai(bot, trigger):
   """Gone but not forgotten, noble soviet bear."""
   bot.say("https://actionsack.com/img/putin/🐻.mp4")
 
-@module.commands("putin")
+@module.rule(".*!putin.*")
 def putin(bot, trigger):
-  """'President' of Russia."""
   putin = ["https://actionsack.com/img/putin/dance.mp4", "https://actionsack.com/img/putin/pigeon.mp4", "https://actionsack.com/img/putin/ritz.gif", "https://actionsack.com/img/putin/🐻.mp4"]
   bot.say(random.choice(putin))
 
@@ -339,32 +335,28 @@ def aidsclub(bot, trigger):
   """Welcome to the club, loser."""
   bot.say("https://actionsack.com/img/misc/aidsclub.png")
 
-@module.commands("barometer")
+@module.rule(".*!barometer.*")
 def barometer(bot, trigger):
-  """Look to Steve Harvey for moral support and understanding."""
   bot.say("https://actionsack.com/img/misc/barometer.png")
 
-@module.rule("^Oh,\syou!($|\s$)")
+@module.rule("^Oh,\syou!$")
 def ohyou(bot, trigger):
   bot.say("https://actionsack.com/img/misc/Oh,you!.jpg")
 
-@module.commands("battletoad")
+@module.rule(".*!battletoad.*")
 def battletoad(bot, trigger):
-  """Deploy a battletoad!"""
   bot.say("https://actionsack.com/img/misc/battletoad.mp4")
 
-@module.commands("beaker")
+@module.rule(".*!beaker.*")
 def beaker(bot, trigger):
   bot.say("https://actionsack.com/img/misc/beaker.mp4")
 
-@module.commands("bomb")
+@module.rule(".*!bomb.*")
 def bomb(bot, trigger):
-  """Nuke 'em out of existence!"""
   bot.say("https://actionsack.com/img/misc/bomb.mp4")
 
-@module.commands("broden")
+@module.rule(".*!broden.*")
 def broden(bot, trigger):
-  """Deploy Broden...👀"""
   bot.say("https://actionsack.com/img/misc/broden.mp4")
 
 @module.rule(".*mikey\sbikey.*")
@@ -375,11 +367,11 @@ def mikeybikey(bot, trigger):
 def mealwithit(bot, trigger):
   bot.say("https://actionsack.com/img/deal/mealwithit.gif")
 
-@module.commands("mindjack")
+@module.rule(".*!mindjack.*")
 def mindjack(bot, trigger):
   bot.say("https://actionsack.com/img/misc/mindjack.png")
 
-@module.commands("music")
+@module.rule(".*!music.*")
 def listentomusic(bot, trigger):
   bot.say("https://actionsack.com/img/kys/music.gif")
 
@@ -419,7 +411,7 @@ def sockbot(bot, trigger):
   sockbot = ["https://actionsack.com/img/sockbot/headsortails.png", "https://actionsack.com/img/sockbot/L337.png", "https://actionsack.com/img/sockbot/phone.png"]
   bot.say(random.choice(sockbot))
 
-@module.commands("brony")
+@module.rule(".*!brony.*")
 def brony(bot, trigger):
   bot.say("https://actionsack.com/img/mike/brony.png")
 
@@ -437,30 +429,30 @@ def censor(bot, trigger):
   censor = ["https://actionsack.com/img/censored/bunny.png", "https://actionsack.com/img/censored/censored.png", "https://actionsack.com/img/censored/eyesored.png", "https://actionsack.com/img/censored/fox.gif", "https://actionsack.com/img/censored/fren.png", "https://actionsack.com/img/censored/nose.png", "https://actionsack.com/img/censored/spider.png", "https://actionsack.com/img/censored/tasian.png"]
   bot.say(random.choice(censor))
 
-@module.rule("^Ping!($|\s$)")
+@module.rule("^Ping!$")
 def pingpong(bot, trigger):
   bot.say("Pong!")
 
-@module.rule("^Bing!($|\s$)")
+@module.rule("^Bing!$")
 def bingbong(bot, trigger):
   bot.say("Bong!")
 
-@module.rule("^Ching!($|\s$)")
+@module.rule("^Ching!$")
 def chingchong(bot, trigger):
   bot.say("Chong!")
 
-@module.rule("^Ding!($|\s$)")
+@module.rule("^Ding!$")
 def dingdong(bot, trigger):
   bot.say("Dong!")
 
-@module.rule("^Wing!($|\s$)")
+@module.rule("^Wing!$")
 def wingwong(bot, trigger):
   bot.say("Wong!")
 
 @module.commands("work")
 def worktoday(bot, trigger):
   """I don't really wanna do the work today..."""
-  bot.say("https://actionsack.com/img/misc/work.webm")
+  bot.say("https://actionsack.com/img/videos/work.webm")
 
 @module.rule(".*stbyn.*")
 def stbyn(bot, trigger):
@@ -496,11 +488,11 @@ def gfy(bot, trigger):
   gfy = ["https://actionsack.com/img/fuck/animegfy.mp4", "https://actionsack.com/img/fuck/disney.gif", "https://actionsack.com/img/fuck/gofuckyourself.mp4", "https://actionsack.com/img/fuck/doggogfy.mp4", "https://actionsack.com/img/fuck/sciencegfy.mp4"]
   bot.say(random.choice(gfy))
 
-@module.rule("^Fuck!.*")
+@module.rule("^Fuck!$")
 def fuckexclamation(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuck!.gif")
 
-@module.rule("^Fuck\syeah!(\s$|$)")
+@module.rule("^Fuck\syeah!$")
 def fuckyeah(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuckyeah!.mp4")
 
@@ -522,7 +514,7 @@ def fiteme(bot, trigger):
   fiteme = ["https://actionsack.com/img/fite/cat.gif", "https://actionsack.com/img/fite/phones.gif", "https://actionsack.com/img/fite/🌮.gif"]
   bot.say(random.choice(fiteme))
 
-@module.rule("^Fag!(\s$|$)")
+@module.rule("^Fag!$")
 def fagexclamation(bot, trigger):
   bot.say("You're gay. Hey poofta. You're a homo. You're a homo you faggot. Go suck a dick. Go suck a real big dick. Get those dick so far in your mouth that the dick's right there, you got 'em all the way, smashing the back of your throat, balls right there, bangin' on your chin. That's how much I want you to suck dick. Oi. This is me. Pretending to be you. Fist-fuckin' another man in the asshole. Just fist-fuckin' the god-givin' shit out of him. I bet you like that so much you'd like to get fist-fucked while you're doing it. Just getting fist-fucked while you're fist-fuckin' someone else. While you're at it chuck in another one. Just fist-fuckin' two strange men, getting your asshole fist-fucked with someone you just met on Grinder. I bet you wish these were dicks. I bet you wish these were big floppy dicks. You're in a big forest of dicks. Getting dicks all over ya. Covering yourself in cum. Loving cum. Can I suck your dick? Can I suck your dick and then kiss you? Kiss you square on the mouth and then fuck you? Scratch that. Can we make love? Can we make love in my bedroom and then maybe if we connect on more than just a physical level, I'll take you out, I'll introduce you to my mum and my dad and my little sister Jennifer, she's really cool. She's into Goosebumps at the moment. And then maybe we can all go out for dinner together. And they'll really like you because of your cool taste in music and your wonderful dress sense. And then maybe, after confronting their initial misguided preconceptions, my family will come to respect our love for its tangibility. And they'll reject it because of bias or religious and political agendas of hate that have been weaved through the social fabric of hundreds and hundreds of years. FAGGOT!!!", max_messages=6)
 
@@ -537,14 +529,13 @@ def datboi(bot, trigger):
 
 @module.commands("spl")
 def smitepro(bot, trigger):
-  """YouTube and Twitch links for SPL stream."""
+  """YouTube and Twitch links for the Smite Pro League stream."""
   bot.say("YT: youtube.com/user/smitegame/live | Twitch: twitch.tv/smitegame")
 
 @module.rule(".*!xmas.*")
 def xmassong(bot, trigger):
   bot.say("https://actionsack.com/img/videos/xmas.webm")
 
-@module.commands("swat")
+@module.rule(".*!swat.*")
 def swat(bot, trigger):
-  """Summon SWAT for assistance."""
   bot.say("https://actionsack.com/img/videos/SWAT.mp4")
