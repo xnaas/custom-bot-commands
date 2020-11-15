@@ -654,3 +654,7 @@ def imdabes(bot, trigger):
 @module.rule(".*!JPEG.*")
 def jpeg(bot, trigger):
   bot.say("https://actionsack.com/img/videos/jpeg.webm")
+
+@module.rule(".*!kazoo.*")
+def kazoo(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/kazoo.webm")
