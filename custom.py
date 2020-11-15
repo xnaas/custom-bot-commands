@@ -594,3 +594,8 @@ def dbc(bot, trigger):
 @module.rule("^Deus vult!$")
 def deusvult(bot, trigger):
   bot.say("https://actionsack.com/img/videos/deusvult.webm")
+
+@module.rule(".*fake!.*")
+def fake(bot, trigger):
+  fake = ["https://actionsack.com/img/fake/faux.png", "https://actionsack.com/img/fake/kazoo.gif"]
+  bot.say(random.choice(fake))
