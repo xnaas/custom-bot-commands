@@ -20,6 +20,10 @@ def hi(bot, trigger):
 def nice(bot, trigger):
   bot.say(trigger.group(1))
 
+@module.rule("^(It is known\.)(\s$|$)")
+def itisknown(bot, trigger):
+  bot.say(trigger.group(1))
+
 @module.rule("^yeah!$")
 def yeah(bot, trigger):
   bot.say("https://actionsack.com/img/misc/yeah!.gif")
