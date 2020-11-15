@@ -527,9 +527,9 @@ def fagexclamation(bot, trigger):
 def fags(bot, trigger):
   bot.say("https://actionsack.com/img/faggot/fags.png")
 
-@module.rule(".*faggot.*")
+@module.rule(".*faggot.*", "^fag$")
 def faggot(bot, trigger):
-  faggot = ["https://actionsack.com/img/faggot/faggot.gif", "https://actionsack.com/img/faggot/oh.gif", "https://actionsack.com/img/faggot/urafaget.png"]
+  faggot = ["https://actionsack.com/img/faggot/faggot.gif", "https://actionsack.com/img/faggot/oh.gif", "https://actionsack.com/img/faggot/urafaget.png", "Faggot!", "(/¯◡ ‿ ◡)/¯ ~~~~ Abracadabra, you're a faggot!"]
   bot.say(random.choice(faggot))
 
 @module.rule(".*everything's\sfucked.*")
