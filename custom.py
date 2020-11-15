@@ -581,3 +581,7 @@ def dbc(bot, trigger):
 def dealwithit(bot, trigger):
   deal = ["https://actionsack.com/img/deal/brule.gif", "https://actionsack.com/img/deal/coolkid.gif", "https://actionsack.com/img/deal/hippo.mp4", "https://actionsack.com/img/deal/mealwithit.gif", "https://actionsack.com/img/deal/spider.gif", "https://actionsack.com/img/deal/squirtle.gif", "https://actionsack.com/img/deal/tf2.gif"]
   bot.say(random.choice(deal))
+
+@module.rule("^Deus vult!$")
+def deusvult(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/deusvult.webm")
