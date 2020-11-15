@@ -668,3 +668,8 @@ def killme(bot, trigger):
 def kys(bot, trigger):
   kys = ["https://actionsack.com/img/kys/deals.png", "https://actionsack.com/img/kys/elmo.mp4", "https://actionsack.com/img/kys/gta.mp4", "https://actionsack.com/img/kys/hang.png", "https://actionsack.com/img/kys/howto.png", "https://actionsack.com/img/kys/iGuess.png", "https://actionsack.com/img/kys/ike.png", "https://actionsack.com/img/kys/kys.png", "https://actionsack.com/img/kys/mike-pepe.png", "https://actionsack.com/img/kys/mike.png", "https://actionsack.com/img/kys/music.gif", "https://actionsack.com/img/kys/pasta.png", "https://actionsack.com/img/kys/pepe.png", "https://actionsack.com/img/kys/peter-joe.mp4", "https://actionsack.com/img/kys/peter.mp4", "https://actionsack.com/img/kys/puft.mp4", "https://actionsack.com/img/kys/room.gif", "https://actionsack.com/img/kys/tried.png", "https://actionsack.com/img/kys/wendys.png", "https://actionsack.com/img/kys/window.gif", "https://lostallhope.com/"]
   bot.say(random.choice(kys))
+
+@module.rule(".*legal!*")
+def legal(bot, trigger):
+  legal = ["https://actionsack.com/img/misc/👍LEGAL👍.mp4", "https://actionsack.com/img/misc/🕺LEGAL🕺.mp4"]
+  bot.say(random.choice(legal))
