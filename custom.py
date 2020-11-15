@@ -539,3 +539,7 @@ def xmassong(bot, trigger):
 @module.rule(".*!swat.*")
 def swat(bot, trigger):
   bot.say("https://actionsack.com/img/videos/SWAT.mp4")
+
+@module.rule(".*\(╯°□°）╯︵ ┻━┻.*")
+def unflip(bot, trigger):
+  bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, %s." %trigger.nick)
