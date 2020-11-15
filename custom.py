@@ -398,7 +398,7 @@ def slowdown(bot, trigger):
   bot.say("https://www.youtube.com/watch?v=fJdqw-JzW08")
 
 @require_admin
-@module.commands("smmcb")
+@module.commands("smmcb", "smd")
 def smmcb(bot, trigger):
   bot.say("https://actionsack.com/img/misc/smmcb.gif")
 
