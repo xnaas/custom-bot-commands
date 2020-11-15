@@ -576,3 +576,8 @@ def dbc(bot, trigger):
   """Post a Dragonbro Chi comic."""
   dbc = ["https://actionsack.com/img/dbc/dbc01.png", "https://actionsack.com/img/dbc/dbc02.png", "https://actionsack.com/img/dbc/dbc03.png", "https://actionsack.com/img/dbc/dbc04.png", "https://actionsack.com/img/dbc/dbc07.png", "https://actionsack.com/img/dbc/dbc08.png", "https://actionsack.com/img/dbc/dbc09.png", "https://actionsack.com/img/dbc/dbc10.png"]
   bot.say(random.choice(dbc))
+
+@module.rule(".*deal with it.*")
+def dealwithit(bot, trigger):
+  deal = ["https://actionsack.com/img/deal/brule.gif", "https://actionsack.com/img/deal/coolkid.gif", "https://actionsack.com/img/deal/hippo.mp4", "https://actionsack.com/img/deal/mealwithit.gif", "https://actionsack.com/img/deal/spider.gif", "https://actionsack.com/img/deal/squirtle.gif", "https://actionsack.com/img/deal/tf2.gif"]
+  bot.say(random.choice(deal))
