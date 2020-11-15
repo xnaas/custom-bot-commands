@@ -558,3 +558,7 @@ def clickbait(bot, trigger):
   """Post clickbait into chat."""
   clickbait = ["10 celebrities you didn't know were transgender! #11 will shock you!", "Was it an alien or something?! Can't wait to find out!", "When you read these 19 shocking food facts, you'll never want to eat again!", "Think this is a normal shed? Just wait until you see what's inside...", "She puts her toilet brush under the seat. Why? It's genius!", "Fifty Shades of Grey: #36 took my breath away!", "These scientists **TRIPLED** a Janitors IQ! The result will break your heart.", "How freeing an escaped convict turned this little boy into a MILLIONAIRE!", "What This Man Learned From Having Sex With 365 Guys In One Year"]
   bot.say(random.choice(clickbait))
+
+@module.rule(".*COVID19!.*")
+def windofgod(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/windofgod.webm")
