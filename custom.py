@@ -1173,3 +1173,13 @@ def praisejesus(bot, trigger):
 @module.rule(".*jesus\schrist.*")
 def jesuschrist(bot, trigger):
   bot.say("Praise Him!")
+
+@module.rule(".*Windows\s10.*")
+def windowsten(bot, trigger):
+  w10 = [
+    "https://actionsack.com/img/W10/game.png",
+    "https://actionsack.com/img/W10/pubg.webm",
+    "https://actionsack.com/img/W10/stuck.png",
+    "https://actionsack.com/img/W10/updates.webm"
+  ]
+  bot.say(random.choice(w10))
