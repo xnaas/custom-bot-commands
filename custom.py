@@ -721,3 +721,7 @@ def wat(bot, trigger):
 @module.rule(".*✝.*")
 def praisejesus(bot, trigger):
   bot.say("Praise Jesus!")
+
+@module.rule(".*jesus\schrist.*")
+def jesuschrist(bot, trigger):
+  bot.say("Praise Him!")
