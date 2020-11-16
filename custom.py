@@ -34,17 +34,77 @@ def yeah(bot, trigger):
 
 @module.rule("^retard.*")
 def retarded(bot, trigger):
-  retard = ["https://actionsack.com/img/retard/catarded.png", "https://actionsack.com/img/retard/retarded.gif", "https://actionsack.com/img/retard/△.gif"]
+  retard = [
+    "https://actionsack.com/img/retard/catarded.png",
+    "https://actionsack.com/img/retard/retarded.gif",
+    "https://actionsack.com/img/retard/△.gif"
+  ]
   bot.say(random.choice(retard))
 
 @module.rule("^rekt.*", ".*get\srekt.*")
 def rekt(bot, trigger):
-  rekt = ["https://actionsack.com/img/rekt/baseball.gif", "https://actionsack.com/img/rekt/beachdive.mp4", "https://actionsack.com/img/rekt/beachskillz.mp4", "https://actionsack.com/img/rekt/bf1revenge.mp4", "https://actionsack.com/img/rekt/bf1sniper.mp4", "https://actionsack.com/img/rekt/blackman.mp4", "https://actionsack.com/img/rekt/botw-sled.mp4", "https://actionsack.com/img/rekt/bridgedive.mp4", "https://actionsack.com/img/rekt/carcrash.gif", "https://actionsack.com/img/rekt/gta-bike.mp4", "https://actionsack.com/img/rekt/gta-flight.mp4", "https://actionsack.com/img/rekt/gta-phone.mp4", "https://actionsack.com/img/rekt/gta-post.mp4", "https://actionsack.com/img/rekt/gta-rekt.mp4", "https://actionsack.com/img/rekt/gta-stomp.gif", "https://actionsack.com/img/rekt/jeep.gif", "https://actionsack.com/img/rekt/leap!.mp4", "https://actionsack.com/img/rekt/LOLOLOLOL.gif", "https://actionsack.com/img/rekt/poolgirl.gif", "https://actionsack.com/img/rekt/rekt.png", "https://actionsack.com/img/rekt/running.gif", "https://actionsack.com/img/rekt/skateit.mp4", "https://actionsack.com/img/rekt/slammin.mp4", "https://actionsack.com/img/rekt/smash.mp4", "https://actionsack.com/img/rekt/sniped.mp4", "https://actionsack.com/img/rekt/walkbot.mp4", "https://actionsack.com/img/rekt/walkitoff.mp4", "https://actionsack.com/img/rekt/watergun.mp4"]
+  rekt = [
+    "https://actionsack.com/img/rekt/baseball.gif",
+    "https://actionsack.com/img/rekt/beachdive.mp4",
+    "https://actionsack.com/img/rekt/beachskillz.mp4",
+    "https://actionsack.com/img/rekt/bf1revenge.mp4",
+    "https://actionsack.com/img/rekt/bf1sniper.mp4",
+    "https://actionsack.com/img/rekt/blackman.mp4",
+    "https://actionsack.com/img/rekt/botw-sled.mp4",
+    "https://actionsack.com/img/rekt/bridgedive.mp4",
+    "https://actionsack.com/img/rekt/carcrash.gif",
+    "https://actionsack.com/img/rekt/gta-bike.mp4",
+    "https://actionsack.com/img/rekt/gta-flight.mp4",
+    "https://actionsack.com/img/rekt/gta-phone.mp4",
+    "https://actionsack.com/img/rekt/gta-post.mp4",
+    "https://actionsack.com/img/rekt/gta-rekt.mp4",
+    "https://actionsack.com/img/rekt/gta-stomp.gif",
+    "https://actionsack.com/img/rekt/jeep.gif",
+    "https://actionsack.com/img/rekt/leap!.mp4",
+    "https://actionsack.com/img/rekt/LOLOLOLOL.gif",
+    "https://actionsack.com/img/rekt/poolgirl.gif",
+    "https://actionsack.com/img/rekt/rekt.png",
+    "https://actionsack.com/img/rekt/running.gif",
+    "https://actionsack.com/img/rekt/skateit.mp4",
+    "https://actionsack.com/img/rekt/slammin.mp4",
+    "https://actionsack.com/img/rekt/smash.mp4",
+    "https://actionsack.com/img/rekt/sniped.mp4",
+    "https://actionsack.com/img/rekt/walkbot.mp4",
+    "https://actionsack.com/img/rekt/walkitoff.mp4",
+    "https://actionsack.com/img/rekt/watergun.mp4"
+  ]
   bot.say(random.choice(rekt))
 
 @module.rule("^420.*")
 def fourtwenty(bot, trigger):
-  fourtwozero = ["https://actionsack.com/img/420/birb.png", "https://actionsack.com/img/420/champions.png", "https://actionsack.com/img/420/claim.png", "https://actionsack.com/img/420/coma.png", "https://actionsack.com/img/420/comrade.png", "https://actionsack.com/img/420/crewdragon.png", "https://actionsack.com/img/420/dr.png", "https://actionsack.com/img/420/exp.png", "https://actionsack.com/img/420/gravityfalls.png", "https://actionsack.com/img/420/highnoon.gif", "https://actionsack.com/img/420/highnoon.png", "https://actionsack.com/img/420/lisa.png", "https://actionsack.com/img/420/mowing.png", "https://actionsack.com/img/420/old.png", "https://actionsack.com/img/420/pikachu.png", "https://actionsack.com/img/420/🍩.png", "https://actionsack.com/img/420/pokemon.png", "https://actionsack.com/img/420/realdanger.png", "https://actionsack.com/img/420/sealab.png", "https://actionsack.com/img/420/telluhwat.png", "https://actionsack.com/img/420/thomas.png", "https://actionsack.com/img/420/thomasrust.png", "https://actionsack.com/img/420/timesheet.png", "https://actionsack.com/img/420/toasted.gif", "https://actionsack.com/img/420/toystory.png", "https://actionsack.com/img/420/wednesday.png"]
+  fourtwozero = [
+    "https://actionsack.com/img/420/birb.png",
+    "https://actionsack.com/img/420/champions.png",
+    "https://actionsack.com/img/420/claim.png",
+    "https://actionsack.com/img/420/coma.png",
+    "https://actionsack.com/img/420/comrade.png",
+    "https://actionsack.com/img/420/crewdragon.png",
+    "https://actionsack.com/img/420/dr.png",
+    "https://actionsack.com/img/420/exp.png",
+    "https://actionsack.com/img/420/gravityfalls.png",
+    "https://actionsack.com/img/420/highnoon.gif",
+    "https://actionsack.com/img/420/highnoon.png",
+    "https://actionsack.com/img/420/lisa.png",
+    "https://actionsack.com/img/420/mowing.png",
+    "https://actionsack.com/img/420/old.png",
+    "https://actionsack.com/img/420/pikachu.png",
+    "https://actionsack.com/img/420/🍩.png",
+    "https://actionsack.com/img/420/pokemon.png",
+    "https://actionsack.com/img/420/realdanger.png",
+    "https://actionsack.com/img/420/sealab.png",
+    "https://actionsack.com/img/420/telluhwat.png",
+    "https://actionsack.com/img/420/thomas.png",
+    "https://actionsack.com/img/420/thomasrust.png",
+    "https://actionsack.com/img/420/timesheet.png",
+    "https://actionsack.com/img/420/toasted.gif",
+    "https://actionsack.com/img/420/toystory.png",
+    "https://actionsack.com/img/420/wednesday.png"
+  ]
   bot.say(random.choice(fourtwozero))
 
 @module.rule(":retardeyes:")
@@ -57,12 +117,22 @@ def thx(bot, trigger):
 
 @module.rule("^(thanks.*|thank\syou.*)")
 def thanks(bot, trigger):
-  thanks = ["https://actionsack.com/img/thx/h3h3.webm", "https://actionsack.com/img/thx/t.hanks.mp4", "https://actionsack.com/img/thx/thankyou.mp4"]
+  thanks = [
+    "https://actionsack.com/img/thx/h3h3.webm",
+    "https://actionsack.com/img/thx/t.hanks.mp4",
+    "https://actionsack.com/img/thx/thankyou.mp4"
+  ]
   bot.say(random.choice(thanks))
 
 @module.rule("^😢$")
 def crying(bot, trigger):
-  crying = ["https://actionsack.com/img/QQ/QQ001.gif", "https://actionsack.com/img/QQ/QQ002.gif", "https://actionsack.com/img/QQ/QQ003.gif", "https://actionsack.com/img/QQ/QQ004.gif", "https://actionsack.com/img/QQ/QQ005.gif"]
+  crying = [
+    "https://actionsack.com/img/QQ/QQ001.gif",
+    "https://actionsack.com/img/QQ/QQ002.gif",
+    "https://actionsack.com/img/QQ/QQ003.gif",
+    "https://actionsack.com/img/QQ/QQ004.gif",
+    "https://actionsack.com/img/QQ/QQ005.gif"
+  ]
   bot.say(random.choice(crying))
 
 @module.rule(".*!xms.*", ".*!bge.*")
@@ -71,10 +141,15 @@ def xms(bot, trigger):
 
 @module.rule(".*📖.*")
 def book(bot, trigger):
-  book = ["https://actionsack.com/img/mike/📖/📖.gif", "https://actionsack.com/img/mike/📖/📖.jpg", "https://actionsack.com/img/mike/📖/📖+.jpg", "https://actionsack.com/img/mike/📖/📖🐇.jpg"]
+  book = [
+    "https://actionsack.com/img/mike/📖/📖.gif",
+    "https://actionsack.com/img/mike/📖/📖.jpg",
+    "https://actionsack.com/img/mike/📖/📖+.jpg",
+    "https://actionsack.com/img/mike/📖/📖🐇.jpg"
+  ]
   bot.say(random.choice(book))
 
-@module.rule("^8D$", ".*Greg.*")
+@module.rule("^8D$")
 def greg(bot, trigger):
   bot.say("Greg was never in IRC...")
 
@@ -84,7 +159,10 @@ def foad(bot, trigger):
 
 @module.rule(".*adapters.*")
 def adapters(bot, trigger):
-  adapters = ["https://actionsack.com/img/misc/adapters01.png", "https://actionsack.com/img/misc/adapters02.png"]
+  adapters = [
+    "https://actionsack.com/img/misc/adapters01.png",
+    "https://actionsack.com/img/misc/adapters02.png"
+  ]
   bot.say(random.choice(adapters))
 
 @module.rule(".*accident\W")
@@ -97,7 +175,60 @@ def fourteennm(bot, trigger):
 
 @module.rule("^bait.*")
 def bait(bot, trigger):
-  bait = ["https://actionsack.com/img/bait/404bait.png", "https://actionsack.com/img/bait/all-bait.gif", "https://actionsack.com/img/bait/b8.png", "https://actionsack.com/img/bait/bai--what.png", "https://actionsack.com/img/bait/bait-g.gif", "https://actionsack.com/img/bait/bait-krunk.jpg", "https://actionsack.com/img/bait/bait-pole.png", "https://actionsack.com/img/bait/bait-sim.png", "https://actionsack.com/img/bait/bait-therapy.png", "https://actionsack.com/img/bait/bait.gif", "https://actionsack.com/img/bait/bait.png", "https://actionsack.com/img/bait/bait001.jpg", "https://actionsack.com/img/bait/bait002.png", "https://actionsack.com/img/bait/bait003.jpg", "https://actionsack.com/img/bait/bait004.jpg", "https://actionsack.com/img/bait/bait005.jpg", "https://actionsack.com/img/bait/bait006.png", "https://actionsack.com/img/bait/bait007.png", "https://actionsack.com/img/bait/bait008.png", "https://actionsack.com/img/bait/bait009.jpg", "https://actionsack.com/img/bait/bait010.jpg", "https://actionsack.com/img/bait/bait011.jpg", "https://actionsack.com/img/bait/bait012.jpg", "https://actionsack.com/img/bait/bait013.jpg", "https://actionsack.com/img/bait/bait014.jpg", "https://actionsack.com/img/bait/bait015.jpg", "https://actionsack.com/img/bait/bait016.jpg", "https://actionsack.com/img/bait/bait017.png", "https://actionsack.com/img/bait/bait018.png", "https://actionsack.com/img/bait/bait019.png", "https://actionsack.com/img/bait/bait020.jpg", "https://actionsack.com/img/bait/bait021.jpg", "https://actionsack.com/img/bait/bait022.png", "https://actionsack.com/img/bait/bait023.jpg", "https://actionsack.com/img/bait/bait024.jpg", "https://actionsack.com/img/bait/bait025.png", "https://actionsack.com/img/bait/bait026.png", "https://actionsack.com/img/bait/bait027.png", "https://actionsack.com/img/bait/baitkakke.jpg", "https://actionsack.com/img/bait/baitku.png", "https://actionsack.com/img/bait/baitnado.jpg", "https://actionsack.com/img/bait/baito.png", "https://actionsack.com/img/bait/changed-bait.jpg", "https://actionsack.com/img/bait/chosen-bait.png", "https://actionsack.com/img/bait/debait.png", "https://actionsack.com/img/bait/hq-bait.jpg", "https://actionsack.com/img/bait/MBGA.jpg", "https://actionsack.com/img/bait/mikes-bait.jpg", "https://actionsack.com/img/bait/poke-bait.png", "https://actionsack.com/img/bait/teach-bait.jpg", "https://actionsack.com/img/bait/whose-bait.jpg", "https://actionsack.com/img/bait/wtf-bait.jpg", "https://actionsack.com/img/bait/"]
+  bait = [
+    "https://actionsack.com/img/bait/404bait.png",
+    "https://actionsack.com/img/bait/all-bait.gif",
+    "https://actionsack.com/img/bait/b8.png",
+    "https://actionsack.com/img/bait/bai--what.png",
+    "https://actionsack.com/img/bait/bait-g.gif",
+    "https://actionsack.com/img/bait/bait-krunk.jpg",
+    "https://actionsack.com/img/bait/bait-pole.png",
+    "https://actionsack.com/img/bait/bait-sim.png",
+    "https://actionsack.com/img/bait/bait-therapy.png",
+    "https://actionsack.com/img/bait/bait.gif",
+    "https://actionsack.com/img/bait/bait.png",
+    "https://actionsack.com/img/bait/bait001.jpg",
+    "https://actionsack.com/img/bait/bait002.png",
+    "https://actionsack.com/img/bait/bait003.jpg",
+    "https://actionsack.com/img/bait/bait004.jpg",
+    "https://actionsack.com/img/bait/bait005.jpg",
+    "https://actionsack.com/img/bait/bait006.png",
+    "https://actionsack.com/img/bait/bait007.png",
+    "https://actionsack.com/img/bait/bait008.png",
+    "https://actionsack.com/img/bait/bait009.jpg",
+    "https://actionsack.com/img/bait/bait010.jpg",
+    "https://actionsack.com/img/bait/bait011.jpg",
+    "https://actionsack.com/img/bait/bait012.jpg",
+    "https://actionsack.com/img/bait/bait013.jpg",
+    "https://actionsack.com/img/bait/bait014.jpg",
+    "https://actionsack.com/img/bait/bait015.jpg",
+    "https://actionsack.com/img/bait/bait016.jpg",
+    "https://actionsack.com/img/bait/bait017.png",
+    "https://actionsack.com/img/bait/bait018.png",
+    "https://actionsack.com/img/bait/bait019.png",
+    "https://actionsack.com/img/bait/bait020.jpg",
+    "https://actionsack.com/img/bait/bait021.jpg",
+    "https://actionsack.com/img/bait/bait022.png",
+    "https://actionsack.com/img/bait/bait023.jpg",
+    "https://actionsack.com/img/bait/bait024.jpg",
+    "https://actionsack.com/img/bait/bait025.png",
+    "https://actionsack.com/img/bait/bait026.png",
+    "https://actionsack.com/img/bait/bait027.png",
+    "https://actionsack.com/img/bait/baitkakke.jpg",
+    "https://actionsack.com/img/bait/baitku.png",
+    "https://actionsack.com/img/bait/baitnado.jpg",
+    "https://actionsack.com/img/bait/baito.png",
+    "https://actionsack.com/img/bait/changed-bait.jpg",
+    "https://actionsack.com/img/bait/chosen-bait.png",
+    "https://actionsack.com/img/bait/debait.png",
+    "https://actionsack.com/img/bait/hq-bait.jpg",
+    "https://actionsack.com/img/bait/MBGA.jpg",
+    "https://actionsack.com/img/bait/mikes-bait.jpg",
+    "https://actionsack.com/img/bait/poke-bait.png",
+    "https://actionsack.com/img/bait/teach-bait.jpg",
+    "https://actionsack.com/img/bait/whose-bait.jpg",
+    "https://actionsack.com/img/bait/wtf-bait.jpg"
+  ]
   bot.say(random.choice(bait))
 
 @module.rule(".*backhand.*")
@@ -130,12 +261,19 @@ def deeznutz(bot, trigger):
 
 @module.rule("^\s\/lenny$")
 def lenny(bot, trigger):
-  lenny = ["https://actionsack.com/img/lenny/lenny-anime.gif", "https://actionsack.com/img/lenny/lenny-crazy.mp4", "https://actionsack.com/img/lenny/lenny-spiral.gif"]
+  lenny = [
+    "https://actionsack.com/img/lenny/lenny-anime.gif",
+    "https://actionsack.com/img/lenny/lenny-crazy.mp4",
+    "https://actionsack.com/img/lenny/lenny-spiral.gif"
+  ]
   bot.say(random.choice(lenny))
 
 @module.rule("^pranked!$")
 def prank(bot, trigger):
-  prank = ["https://actionsack.com/img/prank/prank01.png", "https://actionsack.com/img/prank/prank02.png"]
+  prank = [
+    "https://actionsack.com/img/prank/prank01.png",
+    "https://actionsack.com/img/prank/prank02.png"
+  ]
   bot.say(random.choice(prank))
 
 @module.rule("^\?\?\?$")
@@ -205,7 +343,11 @@ def xfiles(bot, trigger):
 
 @module.rule(".*triggered.*")
 def triggered(bot, trigger):
-  triggered = ["https://actionsack.com/img/triggered/beaker.gif", "https://actionsack.com/img/triggered/triggered.gif", "https://actionsack.com/img/triggered/feek.gif"]
+  triggered = [
+    "https://actionsack.com/img/triggered/beaker.gif",
+    "https://actionsack.com/img/triggered/triggered.gif",
+    "https://actionsack.com/img/triggered/feek.gif"
+  ]
   bot.say(random.choice(triggered))
 
 @module.rule(".*to\sbe\sfair.*")
@@ -235,7 +377,12 @@ def hg(bot, trigger):
 @module.commands("fgr")
 def fgr(bot, trigger):
   """Family Guy reference!!!!!"""
-  fgr = ["https://actionsack.com/img/fgr/gay.jpg", "https://actionsack.com/img/fgr/gears.jpg", "https://actionsack.com/img/fgr/hang.gif", "https://actionsack.com/img/fgr/stewie-gun.jpg"]
+  fgr = [
+    "https://actionsack.com/img/fgr/gay.jpg",
+    "https://actionsack.com/img/fgr/gears.jpg",
+    "https://actionsack.com/img/fgr/hang.gif",
+    "https://actionsack.com/img/fgr/stewie-gun.jpg"
+  ]
   bot.say(random.choice(fgr))
 
 @module.commands("adr")
@@ -287,7 +434,10 @@ def ponies(bot, trigger):
 
 @module.rule(".*!!jordan.*")
 def jordan(bot, trigger):
-  jordan = ["https://actionsack.com/img/jordan/ddosvariants.png", "https://actionsack.com/img/jordan/littledick.png"]
+  jordan = [
+    "https://actionsack.com/img/jordan/ddosvariants.png",
+    "https://actionsack.com/img/jordan/littledick.png"
+  ]
   bot.say(random.choice(jordan))
 
 @module.rule("^!b8$")
@@ -296,7 +446,16 @@ def beight(bot, trigger):
 
 @module.rule(".*kristen.*")
 def kristen(bot, trigger):
-  kristen = ["https://actionsack.com/img/kristen/chainsmokers.png", "https://actionsack.com/img/kristen/keith.png", "https://actionsack.com/img/kristen/pidgey.png", "https://actionsack.com/img/kristen/pins.png", "https://actionsack.com/img/kristen/racist.png", "https://actionsack.com/img/kristen/rekt.png", "https://actionsack.com/img/kristen/repost.png", "https://actionsack.com/img/kristen/top.png"]
+  kristen = [
+    "https://actionsack.com/img/kristen/chainsmokers.png",
+    "https://actionsack.com/img/kristen/keith.png",
+    "https://actionsack.com/img/kristen/pidgey.png",
+    "https://actionsack.com/img/kristen/pins.png",
+    "https://actionsack.com/img/kristen/racist.png",
+    "https://actionsack.com/img/kristen/rekt.png",
+    "https://actionsack.com/img/kristen/repost.png",
+    "https://actionsack.com/img/kristen/top.png"
+  ]
   bot.say(random.choice(kristen))
 
 @module.rule("^Tasian\sloves\spickles\.($|\s)")
@@ -309,7 +468,12 @@ def allsystemsgo(bot, trigger):
 
 @module.rule(".*murica.*")
 def murica(bot, trigger):
-  murica = ["https://actionsack.com/img/murica/clapping.mp4", "https://actionsack.com/img/murica/kiss.gif", "https://actionsack.com/img/murica/knockknock.gif", "https://actionsack.com/img/murica/freedomaf.mp4"]
+  murica = [
+    "https://actionsack.com/img/murica/clapping.mp4",
+    "https://actionsack.com/img/murica/kiss.gif",
+    "https://actionsack.com/img/murica/knockknock.gif",
+    "https://actionsack.com/img/murica/freedomaf.mp4"
+  ]
   bot.say(random.choice(murica))
 
 @module.commands("pledge")
@@ -333,7 +497,12 @@ def mirai(bot, trigger):
 
 @module.rule(".*!putin.*")
 def putin(bot, trigger):
-  putin = ["https://actionsack.com/img/putin/dance.mp4", "https://actionsack.com/img/putin/pigeon.mp4", "https://actionsack.com/img/putin/ritz.gif", "https://actionsack.com/img/putin/🐻.mp4"]
+  putin = [
+    "https://actionsack.com/img/putin/dance.mp4",
+    "https://actionsack.com/img/putin/pigeon.mp4",
+    "https://actionsack.com/img/putin/ritz.gif",
+    "https://actionsack.com/img/putin/🐻.mp4"
+  ]
   bot.say(random.choice(putin))
 
 @module.commands("aidsclub")
@@ -373,9 +542,17 @@ def mikeybikey(bot, trigger):
 def mealwithit(bot, trigger):
   bot.say("https://actionsack.com/img/deal/mealwithit.gif")
 
-@module.rule(".*deal with it.*")
+@module.rule(".*deal\swith\sit.*")
 def dealwithit(bot, trigger):
-  deal = ["https://actionsack.com/img/deal/brule.gif", "https://actionsack.com/img/deal/coolkid.gif", "https://actionsack.com/img/deal/hippo.mp4", "https://actionsack.com/img/deal/mealwithit.gif", "https://actionsack.com/img/deal/spider.gif", "https://actionsack.com/img/deal/squirtle.gif", "https://actionsack.com/img/deal/tf2.gif"]
+  deal = [
+    "https://actionsack.com/img/deal/brule.gif",
+    "https://actionsack.com/img/deal/coolkid.gif",
+    "https://actionsack.com/img/deal/hippo.mp4",
+    "https://actionsack.com/img/deal/mealwithit.gif",
+    "https://actionsack.com/img/deal/spider.gif",
+    "https://actionsack.com/img/deal/squirtle.gif",
+    "https://actionsack.com/img/deal/tf2.gif"
+  ]
   bot.say(random.choice(deal))
 
 @module.rule(".*!mindjack.*")
@@ -389,7 +566,11 @@ def listentomusic(bot, trigger):
 @module.commands("doge")
 def doge(bot, trigger):
   """Doge memes! (There's not very many...)"""
-  doge = ["https://actionsack.com/img/doge/batdoge.gif", "https://actionsack.com/img/doge/dogemine.gif", "https://actionsack.com/img/doge/skeledoge.gif"]
+  doge = [
+    "https://actionsack.com/img/doge/batdoge.gif",
+    "https://actionsack.com/img/doge/dogemine.gif",
+    "https://actionsack.com/img/doge/skeledoge.gif"
+  ]
   bot.say(random.choice(doge))
 
 @module.rule(".*!dogemine.*")
@@ -419,7 +600,13 @@ def noice(bot, trigger):
 
 @module.rule(".*sockbot.*")
 def sockbot(bot, trigger):
-  sockbot = ["https://actionsack.com/img/sockbot/headsortails.png", "https://actionsack.com/img/sockbot/L337.png", "https://actionsack.com/img/sockbot/phone.png", "Gone, but not forgotten.", "Good riddance to Discord, but RIP Sockbot."]
+  sockbot = [
+    "https://actionsack.com/img/sockbot/headsortails.png",
+    "https://actionsack.com/img/sockbot/L337.png",
+    "https://actionsack.com/img/sockbot/phone.png",
+    "Gone, but not forgotten.",
+    "Good riddance to Discord, but RIP Sockbot. 😢"
+  ]
   bot.say(random.choice(sockbot))
 
 @module.rule(".*!brony.*")
@@ -428,7 +615,21 @@ def brony(bot, trigger):
 
 @module.rule("^banned.*")
 def banned(bot, trigger):
-  banned = ["https://actionsack.com/img/banned/beetlejuice.mp4", "https://actionsack.com/img/banned/carryon.png", "https://actionsack.com/img/banned/clapping.gif", "https://actionsack.com/img/banned/hanging.gif", "https://actionsack.com/img/banned/samuel.gif", "https://actionsack.com/img/banned/slapbeavis.gif", "https://actionsack.com/img/banned/slap.gif", "https://actionsack.com/img/banned/tasian.gif", "https://actionsack.com/img/banned/trash.png", "https://actionsack.com/img/banned/trump.gif", "https://actionsack.com/img/banned/voodoo.png", "https://actionsack.com/img/banned/xbox.png", "https://actionsack.com/img/banned/xnaas.gif"]
+  banned = [
+    "https://actionsack.com/img/banned/beetlejuice.mp4",
+    "https://actionsack.com/img/banned/carryon.png",
+    "https://actionsack.com/img/banned/clapping.gif",
+    "https://actionsack.com/img/banned/hanging.gif",
+    "https://actionsack.com/img/banned/samuel.gif",
+    "https://actionsack.com/img/banned/slapbeavis.gif",
+    "https://actionsack.com/img/banned/slap.gif",
+    "https://actionsack.com/img/banned/tasian.gif",
+    "https://actionsack.com/img/banned/trash.png",
+    "https://actionsack.com/img/banned/trump.gif",
+    "https://actionsack.com/img/banned/voodoo.png",
+    "https://actionsack.com/img/banned/xbox.png",
+    "https://actionsack.com/img/banned/xnaas.gif"
+  ]
   bot.say(random.choice(banned))
 
 @module.rule(".*boycott.*")
@@ -437,7 +638,16 @@ def boycott(bot, trigger):
 
 @module.rule(".*censor.*")
 def censor(bot, trigger):
-  censor = ["https://actionsack.com/img/censored/bunny.png", "https://actionsack.com/img/censored/censored.png", "https://actionsack.com/img/censored/eyesored.png", "https://actionsack.com/img/censored/fox.gif", "https://actionsack.com/img/censored/fren.png", "https://actionsack.com/img/censored/nose.png", "https://actionsack.com/img/censored/spider.png", "https://actionsack.com/img/censored/tasian.png"]
+  censor = [
+    "https://actionsack.com/img/censored/bunny.png",
+    "https://actionsack.com/img/censored/censored.png",
+    "https://actionsack.com/img/censored/eyesored.png",
+    "https://actionsack.com/img/censored/fox.gif",
+    "https://actionsack.com/img/censored/fren.png",
+    "https://actionsack.com/img/censored/nose.png",
+    "https://actionsack.com/img/censored/spider.png",
+    "https://actionsack.com/img/censored/tasian.png"
+  ]
   bot.say(random.choice(censor))
 
 @module.rule("^Ping!$")
@@ -503,12 +713,76 @@ def headphones(bot, trigger):
 
 @module.rule(".*fuck\syou(?!r).*")
 def fuckyou(bot, trigger):
-  fuckyou = ["https://actionsack.com/img/fuck/01_Two_Feet-Go_Fuck_Yourself.mp3", "https://actionsack.com/img/fuck/airline.mp4", "https://actionsack.com/img/fuck/anime.webm", "https://actionsack.com/img/fuck/anime.mp4", "https://actionsack.com/img/fuck/ape.png", "https://actionsack.com/img/fuck/aquaman.gif", "https://actionsack.com/img/fuck/arms.gif", "https://actionsack.com/img/fuck/arrow.mp4", "https://actionsack.com/img/fuck/bb8.gif", "https://actionsack.com/img/fuck/bird.gif", "https://actionsack.com/img/fuck/bot.mp4", "https://actionsack.com/img/fuck/buzz.webm", "https://actionsack.com/img/fuck/card.gif", "https://actionsack.com/img/fuck/climb.gif", "https://actionsack.com/img/fuck/compilation.mp4", "https://actionsack.com/img/fuck/cunt.mp4", "https://actionsack.com/img/fuck/cutout.mp4", "https://actionsack.com/img/fuck/deaf.mp4", "https://actionsack.com/img/fuck/deer.mp4", "https://actionsack.com/img/fuck/disney.gif", "https://actionsack.com/img/fuck/doggogfy.mp4", "https://actionsack.com/img/fuck/driving.mp4", "https://actionsack.com/img/fuck/drums.mp4", "https://actionsack.com/img/fuck/enthusiastic.mp4", "https://actionsack.com/img/fuck/faoy.mp4", "https://actionsack.com/img/fuck/friday.mp4", "https://actionsack.com/img/fuck/fuku.png", "https://actionsack.com/img/fuck/fur.mp4", "https://actionsack.com/img/fuck/godzilla.mp4", "https://actionsack.com/img/fuck/gofuckyourself.mp4", "https://actionsack.com/img/fuck/goldenboye.mp4", "https://actionsack.com/img/fuck/grow.mp4", "https://actionsack.com/img/fuck/h3h3.mp4", "https://actionsack.com/img/fuck/hook.png", "https://actionsack.com/img/fuck/idgaf.mp4", "https://actionsack.com/img/fuck/jacket.gif", "https://actionsack.com/img/fuck/juliemao.mp4", "https://actionsack.com/img/fuck/kraken.gif", "https://actionsack.com/img/fuck/loop.gif", "https://actionsack.com/img/fuck/peaceamongworlds.gif", "https://actionsack.com/img/fuck/pigeon.mp4", "https://actionsack.com/img/fuck/pocketcat.gif", "https://actionsack.com/img/fuck/pocket.gif", "https://actionsack.com/img/fuck/ragnarok.mp4", "https://actionsack.com/img/fuck/rudy.png", "https://actionsack.com/img/fuck/rugrats.gif", "https://actionsack.com/img/fuck/samuel.mp4", "https://actionsack.com/img/fuck/samueltransparent.mp4", "https://actionsack.com/img/fuck/sayan.gif", "https://actionsack.com/img/fuck/sciencegfy.mp4", "https://actionsack.com/img/fuck/skating.mp4", "https://actionsack.com/img/fuck/square.gif", "https://actionsack.com/img/fuck/tommydoor.mp4", "https://actionsack.com/img/fuck/trumpet.mp4", "https://actionsack.com/img/fuck/westworld.mp4", "https://actionsack.com/img/fuck/ww-mib.mp4", "https://actionsack.com/img/fuck/☂.gif"]
+  fuckyou = [
+    "https://actionsack.com/img/fuck/01_Two_Feet-Go_Fuck_Yourself.mp3",
+    "https://actionsack.com/img/fuck/airline.mp4",
+    "https://actionsack.com/img/fuck/anime.webm",
+    "https://actionsack.com/img/fuck/animegfy.mp4",
+    "https://actionsack.com/img/fuck/ape.png",
+    "https://actionsack.com/img/fuck/aquaman.gif",
+    "https://actionsack.com/img/fuck/arms.gif",
+    "https://actionsack.com/img/fuck/arrow.mp4",
+    "https://actionsack.com/img/fuck/bb8.gif",
+    "https://actionsack.com/img/fuck/bird.gif",
+    "https://actionsack.com/img/fuck/bot.mp4",
+    "https://actionsack.com/img/fuck/buzz.webm",
+    "https://actionsack.com/img/fuck/card.gif",
+    "https://actionsack.com/img/fuck/climb.gif",
+    "https://actionsack.com/img/fuck/compilation.mp4",
+    "https://actionsack.com/img/fuck/cunt.mp4",
+    "https://actionsack.com/img/fuck/cutout.mp4",
+    "https://actionsack.com/img/fuck/deaf.mp4",
+    "https://actionsack.com/img/fuck/deer.mp4",
+    "https://actionsack.com/img/fuck/disney.gif",
+    "https://actionsack.com/img/fuck/doggogfy.mp4",
+    "https://actionsack.com/img/fuck/driving.mp4",
+    "https://actionsack.com/img/fuck/drums.mp4",
+    "https://actionsack.com/img/fuck/enthusiastic.mp4",
+    "https://actionsack.com/img/fuck/faoy.mp4",
+    "https://actionsack.com/img/fuck/friday.mp4",
+    "https://actionsack.com/img/fuck/fuku.png",
+    "https://actionsack.com/img/fuck/fur.mp4",
+    "https://actionsack.com/img/fuck/godzilla.mp4",
+    "https://actionsack.com/img/fuck/gofuckyourself.mp4",
+    "https://actionsack.com/img/fuck/goldenboye.mp4",
+    "https://actionsack.com/img/fuck/grow.mp4",
+    "https://actionsack.com/img/fuck/h3h3.mp4",
+    "https://actionsack.com/img/fuck/hook.png",
+    "https://actionsack.com/img/fuck/idgaf.mp4",
+    "https://actionsack.com/img/fuck/jacket.gif",
+    "https://actionsack.com/img/fuck/juliemao.mp4",
+    "https://actionsack.com/img/fuck/kraken.gif",
+    "https://actionsack.com/img/fuck/loop.gif",
+    "https://actionsack.com/img/fuck/peaceamongworlds.gif",
+    "https://actionsack.com/img/fuck/pigeon.mp4",
+    "https://actionsack.com/img/fuck/pocketcat.gif",
+    "https://actionsack.com/img/fuck/pocket.gif",
+    "https://actionsack.com/img/fuck/ragnarok.mp4",
+    "https://actionsack.com/img/fuck/rudy.png",
+    "https://actionsack.com/img/fuck/rugrats.gif",
+    "https://actionsack.com/img/fuck/samuel.mp4",
+    "https://actionsack.com/img/fuck/samueltransparent.mp4",
+    "https://actionsack.com/img/fuck/sayan.gif",
+    "https://actionsack.com/img/fuck/sciencegfy.mp4",
+    "https://actionsack.com/img/fuck/skating.mp4",
+    "https://actionsack.com/img/fuck/square.gif",
+    "https://actionsack.com/img/fuck/tommydoor.mp4",
+    "https://actionsack.com/img/fuck/trumpet.mp4",
+    "https://actionsack.com/img/fuck/westworld.mp4",
+    "https://actionsack.com/img/fuck/ww-mib.mp4",
+    "https://actionsack.com/img/fuck/☂.gif"
+  ]
   bot.say(random.choice(fuckyou))
 
-@module.rule(".*(gfy[^c]|go\sfuck\syourself).*")
+@module.rule(".*(gfy(?!c)|go\sfuck\syourself).*")
 def gfy(bot, trigger):
-  gfy = ["https://actionsack.com/img/fuck/animegfy.mp4", "https://actionsack.com/img/fuck/disney.gif", "https://actionsack.com/img/fuck/gofuckyourself.mp4", "https://actionsack.com/img/fuck/doggogfy.mp4", "https://actionsack.com/img/fuck/sciencegfy.mp4"]
+  gfy = [
+    "https://actionsack.com/img/fuck/animegfy.mp4",
+    "https://actionsack.com/img/fuck/disney.gif",
+    "https://actionsack.com/img/fuck/gofuckyourself.mp4",
+    "https://actionsack.com/img/fuck/doggogfy.mp4",
+    "https://actionsack.com/img/fuck/sciencegfy.mp4"
+  ]
   bot.say(random.choice(gfy))
 
 @module.rule("^Fuck!$")
@@ -525,7 +799,10 @@ def fuckeverything(bot, trigger):
 
 @module.rule(".*ftge.*")
 def ftge(bot, trigger):
-  ftge = ["https://actionsack.com/img/fuck/ftge.gif", "https://actionsack.com/img/fuck/ftge.png"]
+  ftge = [
+    "https://actionsack.com/img/fuck/ftge.gif",
+    "https://actionsack.com/img/fuck/ftge.png"
+  ]
   bot.say(random.choice(ftge))
 
 @module.rule(".*fooled\syou.*")
@@ -534,7 +811,11 @@ def fooledyou(bot, trigger):
 
 @module.rule(".*fite\sme.*")
 def fiteme(bot, trigger):
-  fiteme = ["https://actionsack.com/img/fite/cat.gif", "https://actionsack.com/img/fite/phones.gif", "https://actionsack.com/img/fite/🌮.gif"]
+  fiteme = [
+    "https://actionsack.com/img/fite/cat.gif",
+    "https://actionsack.com/img/fite/phones.gif",
+    "https://actionsack.com/img/fite/🌮.gif"
+  ]
   bot.say(random.choice(fiteme))
 
 @module.rule("^Fag!$")
@@ -547,12 +828,21 @@ def fags(bot, trigger):
 
 @module.rule(".*faggot.*", "^fag$")
 def faggot(bot, trigger):
-  faggot = ["https://actionsack.com/img/faggot/faggot.gif", "https://actionsack.com/img/faggot/oh.gif", "https://actionsack.com/img/faggot/urafaget.png", "Faggot!", "(/¯◡ ‿ ◡)/¯ ~~~~ Abracadabra, you're a faggot!"]
+  faggot = [
+    "https://actionsack.com/img/faggot/faggot.gif",
+    "https://actionsack.com/img/faggot/oh.gif",
+    "https://actionsack.com/img/faggot/urafaget.png",
+    "Faggot!",
+    "(/¯◡ ‿ ◡)/¯ ~~~~ Abracadabra, you're a faggot!"
+  ]
   bot.say(random.choice(faggot))
 
 @module.rule("^Gay!$")
 def gayexclamation(bot, trigger):
-  gayexclamation = ["https://actionsack.com/img/gay/gay!.gif", "https://actionsack.com/img/gay/gayshit.png"]
+  gayexclamation = [
+    "https://actionsack.com/img/gay/gay!.gif",
+    "https://actionsack.com/img/gay/gayshit.png"
+  ]
   bot.say(random.choice(gayexclamation))
 
 @module.rule(".*everything's\sfucked.*")
@@ -561,7 +851,53 @@ def everythingsfucked(bot, trigger):
 
 @module.rule("^o\sshit.*")
 def datboi(bot, trigger):
-  oshit = ["https://actionsack.com/img/oshit/8ball.png", "https://actionsack.com/img/oshit/actorboi.gif", "https://actionsack.com/img/oshit/bikeboi.gif", "https://actionsack.com/img/oshit/boistory3.png", "https://actionsack.com/img/oshit/busboi.png", "https://actionsack.com/img/oshit/darksouls.png", "https://actionsack.com/img/oshit/datboi.gif", "https://actionsack.com/img/oshit/deadboi.gif", "https://actionsack.com/img/oshit/edgy.png", "https://actionsack.com/img/oshit/fallen.png", "https://actionsack.com/img/oshit/fancy.png", "https://actionsack.com/img/oshit/fastboi.gif", "https://actionsack.com/img/oshit/fellow.png", "https://actionsack.com/img/oshit/ghostboi.png", "https://actionsack.com/img/oshit/greninja.png", "https://actionsack.com/img/oshit/haramboi.png", "https://actionsack.com/img/oshit/IRL.png", "https://actionsack.com/img/oshit/iWish.png", "https://actionsack.com/img/oshit/jewboi.png", "https://actionsack.com/img/oshit/komradboi.png", "https://actionsack.com/img/oshit/lasthope.png", "https://actionsack.com/img/oshit/milkshake.png", "https://actionsack.com/img/oshit/mortyboi.png", "https://actionsack.com/img/oshit/movie.png", "https://actionsack.com/img/oshit/newboi.png", "https://actionsack.com/img/oshit/news.png", "https://actionsack.com/img/oshit/objectionboi.png", "https://actionsack.com/img/oshit/origin.gif", "https://actionsack.com/img/oshit/pajamaboi.png", "https://actionsack.com/img/oshit/playboi.png", "https://actionsack.com/img/oshit/poolboi.png", "https://actionsack.com/img/oshit/poster.png", "https://actionsack.com/img/oshit/realluke.png", "https://actionsack.com/img/oshit/reasons.png", "https://actionsack.com/img/oshit/sexboi.png", "https://actionsack.com/img/oshit/shiningboi.png", "https://actionsack.com/img/oshit/starwars.png", "https://actionsack.com/img/oshit/suicideboi.png", "https://actionsack.com/img/oshit/sweater.png", "https://actionsack.com/img/oshit/teamboi.png", "https://actionsack.com/img/oshit/towers.png", "https://actionsack.com/img/oshit/trumpboi.png", "https://actionsack.com/img/oshit/warriorboi.png", "https://actionsack.com/img/oshit/wat.png", "https://actionsack.com/img/oshit/woodwork.png"]
+  oshit = [
+    "https://actionsack.com/img/oshit/8ball.png",
+    "https://actionsack.com/img/oshit/actorboi.gif",
+    "https://actionsack.com/img/oshit/bikeboi.gif",
+    "https://actionsack.com/img/oshit/boistory3.png",
+    "https://actionsack.com/img/oshit/busboi.png",
+    "https://actionsack.com/img/oshit/darksouls.png",
+    "https://actionsack.com/img/oshit/datboi.gif",
+    "https://actionsack.com/img/oshit/deadboi.gif",
+    "https://actionsack.com/img/oshit/edgy.png",
+    "https://actionsack.com/img/oshit/fallen.png",
+    "https://actionsack.com/img/oshit/fancy.png",
+    "https://actionsack.com/img/oshit/fastboi.gif",
+    "https://actionsack.com/img/oshit/fellow.png",
+    "https://actionsack.com/img/oshit/ghostboi.png",
+    "https://actionsack.com/img/oshit/greninja.png",
+    "https://actionsack.com/img/oshit/haramboi.png",
+    "https://actionsack.com/img/oshit/IRL.png",
+    "https://actionsack.com/img/oshit/iWish.png",
+    "https://actionsack.com/img/oshit/jewboi.png",
+    "https://actionsack.com/img/oshit/komradboi.png",
+    "https://actionsack.com/img/oshit/lasthope.png",
+    "https://actionsack.com/img/oshit/milkshake.png",
+    "https://actionsack.com/img/oshit/mortyboi.png",
+    "https://actionsack.com/img/oshit/movie.png",
+    "https://actionsack.com/img/oshit/newboi.png",
+    "https://actionsack.com/img/oshit/news.png",
+    "https://actionsack.com/img/oshit/objectionboi.png",
+    "https://actionsack.com/img/oshit/origin.gif",
+    "https://actionsack.com/img/oshit/pajamaboi.png",
+    "https://actionsack.com/img/oshit/playboi.png",
+    "https://actionsack.com/img/oshit/poolboi.png",
+    "https://actionsack.com/img/oshit/poster.png",
+    "https://actionsack.com/img/oshit/realluke.png",
+    "https://actionsack.com/img/oshit/reasons.png",
+    "https://actionsack.com/img/oshit/sexboi.png",
+    "https://actionsack.com/img/oshit/shiningboi.png",
+    "https://actionsack.com/img/oshit/starwars.png",
+    "https://actionsack.com/img/oshit/suicideboi.png",
+    "https://actionsack.com/img/oshit/sweater.png",
+    "https://actionsack.com/img/oshit/teamboi.png",
+    "https://actionsack.com/img/oshit/towers.png",
+    "https://actionsack.com/img/oshit/trumpboi.png",
+    "https://actionsack.com/img/oshit/warriorboi.png",
+    "https://actionsack.com/img/oshit/wat.png",
+    "https://actionsack.com/img/oshit/woodwork.png"
+  ]
   bot.say(random.choice(oshit))
 
 @module.commands("spl")
@@ -593,7 +929,17 @@ def byebye(bot, trigger):
 @module.commands("cb")
 def clickbait(bot, trigger):
   """Post clickbait into chat."""
-  clickbait = ["10 celebrities you didn't know were transgender! #11 will shock you!", "Was it an alien or something?! Can't wait to find out!", "When you read these 19 shocking food facts, you'll never want to eat again!", "Think this is a normal shed? Just wait until you see what's inside...", "She puts her toilet brush under the seat. Why? It's genius!", "Fifty Shades of Grey: #36 took my breath away!", "These scientists **TRIPLED** a Janitors IQ! The result will break your heart.", "How freeing an escaped convict turned this little boy into a MILLIONAIRE!", "What This Man Learned From Having Sex With 365 Guys In One Year"]
+  clickbait = [
+    "10 celebrities you didn't know were transgender! #11 will shock you!",
+    "Was it an alien or something?! Can't wait to find out!",
+    "When you read these 19 shocking food facts, you'll never want to eat again!",
+    "Think this is a normal shed? Just wait until you see what's inside...",
+    "She puts her toilet brush under the seat. Why? It's genius!",
+    "Fifty Shades of Grey: #36 took my breath away!",
+    "These scientists **TRIPLED** a Janitors IQ! The result will break your heart.",
+    "How freeing an escaped convict turned this little boy into a MILLIONAIRE!",
+    "What This Man Learned From Having Sex With 365 Guys In One Year"
+  ]
   bot.say(random.choice(clickbait))
 
 @module.rule(".*COVID19!.*")
@@ -611,16 +957,28 @@ def dang(bot, trigger):
 @module.commands("dbc")
 def dbc(bot, trigger):
   """Post a Dragonbro Chi comic."""
-  dbc = ["https://actionsack.com/img/dbc/dbc01.png", "https://actionsack.com/img/dbc/dbc02.png", "https://actionsack.com/img/dbc/dbc03.png", "https://actionsack.com/img/dbc/dbc04.png", "https://actionsack.com/img/dbc/dbc07.png", "https://actionsack.com/img/dbc/dbc08.png", "https://actionsack.com/img/dbc/dbc09.png", "https://actionsack.com/img/dbc/dbc10.png"]
+  dbc = [
+    "https://actionsack.com/img/dbc/dbc01.png",
+    "https://actionsack.com/img/dbc/dbc02.png",
+    "https://actionsack.com/img/dbc/dbc03.png",
+    "https://actionsack.com/img/dbc/dbc04.png",
+    "https://actionsack.com/img/dbc/dbc07.png",
+    "https://actionsack.com/img/dbc/dbc08.png",
+    "https://actionsack.com/img/dbc/dbc09.png",
+    "https://actionsack.com/img/dbc/dbc10.png"
+  ]
   bot.say(random.choice(dbc))
 
-@module.rule("^Deus vult!$")
+@module.rule("^Deus\svult!$")
 def deusvult(bot, trigger):
   bot.say("https://actionsack.com/img/videos/deusvult.webm")
 
 @module.rule(".*fake!.*")
 def fake(bot, trigger):
-  fake = ["https://actionsack.com/img/fake/faux.png", "https://actionsack.com/img/fake/kazoo.gif"]
+  fake = [
+    "https://actionsack.com/img/fake/faux.png",
+    "https://actionsack.com/img/fake/kazoo.gif"
+  ]
   bot.say(random.choice(fake))
 
 @module.rule(".*!erect.*")
@@ -637,7 +995,22 @@ def hackers(bot, trigger):
 
 @module.rule("^hue.*")
 def hue(bot, trigger):
-  hue = ["https://actionsack.com/img/hue/bots.gif", "https://actionsack.com/img/hue/bus.gif", "https://actionsack.com/img/hue/cat.gif", "https://actionsack.com/img/hue/combo.gif", "https://actionsack.com/img/hue/drhue.gif", "https://actionsack.com/img/hue/drhueves.gif", "https://actionsack.com/img/hue/horse.gif", "https://actionsack.com/img/hue/huemanatee.gif", "https://actionsack.com/img/hue/hueppo.gif", "https://actionsack.com/img/hue/jellyfish.gif", "https://actionsack.com/img/hue/kitten.gif", "https://actionsack.com/img/hue/mike.gif", "https://actionsack.com/img/hue/owls.gif", "https://actionsack.com/img/hue/sdc.gif"]
+  hue = [
+    "https://actionsack.com/img/hue/bots.gif",
+    "https://actionsack.com/img/hue/bus.gif",
+    "https://actionsack.com/img/hue/cat.gif",
+    "https://actionsack.com/img/hue/combo.gif",
+    "https://actionsack.com/img/hue/drhue.gif",
+    "https://actionsack.com/img/hue/drhueves.gif",
+    "https://actionsack.com/img/hue/horse.gif",
+    "https://actionsack.com/img/hue/huemanatee.gif",
+    "https://actionsack.com/img/hue/hueppo.gif",
+    "https://actionsack.com/img/hue/jellyfish.gif",
+    "https://actionsack.com/img/hue/kitten.gif",
+    "https://actionsack.com/img/hue/mike.gif",
+    "https://actionsack.com/img/hue/owls.gif",
+    "https://actionsack.com/img/hue/sdc.gif"
+  ]
   bot.say(random.choice(hue))
 
 @module.rule("^I am the machine\.(\s$|$)")
@@ -654,7 +1027,10 @@ def ishipit(bot, trigger):
 
 @module.rule(".*idgaf.*")
 def idgaf(bot, trigger):
-  idgaf = ["https://actionsack.com/img/idgaf/20thcentury.mp4", "https://actionsack.com/img/idgaf/nophux.mp4"]
+  idgaf = [
+    "https://actionsack.com/img/idgaf/20thcentury.mp4",
+    "https://actionsack.com/img/idgaf/nophux.mp4"
+  ]
   bot.say(random.choice(idgaf))
 
 @module.rule(".*hugh\smungus.*")
@@ -675,17 +1051,46 @@ def kazoo(bot, trigger):
 
 @module.rule("^kill\sme.*")
 def killme(bot, trigger):
-  killme = ["https://actionsack.com/img/misc/killme-bulb.png", "https://actionsack.com/img/misc/killme-char.png", "https://actionsack.com/img/misc/killme-pika.png"]
+  killme = [
+    "https://actionsack.com/img/misc/killme-bulb.png",
+    "https://actionsack.com/img/misc/killme-char.png",
+    "https://actionsack.com/img/misc/killme-pika.png"
+  ]
   bot.say(random.choice(killme))
 
 @module.rule(".*(kys|kill\syourself).*")
 def kys(bot, trigger):
-  kys = ["https://actionsack.com/img/kys/deals.png", "https://actionsack.com/img/kys/elmo.mp4", "https://actionsack.com/img/kys/gta.mp4", "https://actionsack.com/img/kys/hang.png", "https://actionsack.com/img/kys/howto.png", "https://actionsack.com/img/kys/iGuess.png", "https://actionsack.com/img/kys/ike.png", "https://actionsack.com/img/kys/kys.png", "https://actionsack.com/img/kys/mike-pepe.png", "https://actionsack.com/img/kys/mike.png", "https://actionsack.com/img/kys/music.gif", "https://actionsack.com/img/kys/pasta.png", "https://actionsack.com/img/kys/pepe.png", "https://actionsack.com/img/kys/peter-joe.mp4", "https://actionsack.com/img/kys/peter.mp4", "https://actionsack.com/img/kys/puft.mp4", "https://actionsack.com/img/kys/room.gif", "https://actionsack.com/img/kys/tried.png", "https://actionsack.com/img/kys/wendys.png", "https://actionsack.com/img/kys/window.gif", "https://lostallhope.com/"]
+  kys = [
+    "https://actionsack.com/img/kys/deals.png",
+    "https://actionsack.com/img/kys/elmo.mp4",
+    "https://actionsack.com/img/kys/gta.mp4",
+    "https://actionsack.com/img/kys/hang.png",
+    "https://actionsack.com/img/kys/howto.png",
+    "https://actionsack.com/img/kys/iGuess.png",
+    "https://actionsack.com/img/kys/ike.png",
+    "https://actionsack.com/img/kys/kys.png",
+    "https://actionsack.com/img/kys/mike-pepe.png",
+    "https://actionsack.com/img/kys/mike.png",
+    "https://actionsack.com/img/kys/music.gif",
+    "https://actionsack.com/img/kys/pasta.png",
+    "https://actionsack.com/img/kys/pepe.png",
+    "https://actionsack.com/img/kys/peter-joe.mp4",
+    "https://actionsack.com/img/kys/peter.mp4",
+    "https://actionsack.com/img/kys/puft.mp4",
+    "https://actionsack.com/img/kys/room.gif",
+    "https://actionsack.com/img/kys/tried.png",
+    "https://actionsack.com/img/kys/wendys.png",
+    "https://actionsack.com/img/kys/window.gif",
+    "https://lostallhope.com/"
+  ]
   bot.say(random.choice(kys))
 
 @module.rule(".*legal!.*")
 def legal(bot, trigger):
-  legal = ["https://actionsack.com/img/misc/👍LEGAL👍.mp4", "https://actionsack.com/img/misc/🕺LEGAL🕺.mp4"]
+  legal = [
+    "https://actionsack.com/img/misc/👍LEGAL👍.mp4",
+    "https://actionsack.com/img/misc/🕺LEGAL🕺.mp4"
+  ]
   bot.say(random.choice(legal))
 
 ### Section Exists for "judge" command only ###
@@ -700,7 +1105,10 @@ else:
 @module.require_chanmsg
 def judge(bot, trigger):
   """Judge someone or something."""
-  judges = ["not guilty! https://actionsack.com/img/misc/not-guilty.png", "guilty! https://actionsack.com/img/misc/guilty.png"]
+  judges = [
+    "not guilty! https://actionsack.com/img/misc/not-guilty.png",
+    "guilty! https://actionsack.com/img/misc/guilty.png"
+  ]
   text = clean(trigger.group(2) or '')
   
   if not text:
@@ -715,7 +1123,39 @@ def judge(bot, trigger):
 
 @module.rule("^wat($|\W)")
 def wat(bot, trigger):
-  wat = ["https://actionsack.com/img/wat/3wats.png", "https://actionsack.com/img/wat/65wat.png", "https://actionsack.com/img/wat/emma.png", "https://actionsack.com/img/wat/filming.gif", "https://actionsack.com/img/wat/gigawat.png", "https://actionsack.com/img/wat/holdwat.png", "https://actionsack.com/img/wat/hwat01.png", "https://actionsack.com/img/wat/hwat02.png", "https://actionsack.com/img/wat/inthebutt.png", "https://actionsack.com/img/wat/jabba.png", "https://actionsack.com/img/wat/jaja.png", "https://actionsack.com/img/wat/jjwat.png", "https://actionsack.com/img/wat/konichiwat.png", "https://actionsack.com/img/wat/olde.png", "https://actionsack.com/img/wat/police.gif", "https://actionsack.com/img/wat/slipwat.png", "https://actionsack.com/img/wat/space.gif", "https://actionsack.com/img/wat/subwat.png", "https://actionsack.com/img/wat/swat.png", "https://actionsack.com/img/wat/watchdogs.png", "https://actionsack.com/img/wat/watduel.gif", "https://actionsack.com/img/wat/waterworld.png", "https://actionsack.com/img/wat/wathusky.gif", "https://actionsack.com/img/wat/watif.png", "https://actionsack.com/img/wat/watinthehat.png", "https://actionsack.com/img/wat/watislove.gif", "https://actionsack.com/img/wat/watmouth.gif", "https://actionsack.com/img/wat/wat.png", "https://actionsack.com/img/wat/watshake.gif", "https://actionsack.com/img/wat/watwatwatwat.png", "https://actionsack.com/img/wat/wow.png"]
+  wat = [
+    "https://actionsack.com/img/wat/3wats.png",
+    "https://actionsack.com/img/wat/65wat.png",
+    "https://actionsack.com/img/wat/emma.png",
+    "https://actionsack.com/img/wat/filming.gif",
+    "https://actionsack.com/img/wat/gigawat.png",
+    "https://actionsack.com/img/wat/holdwat.png",
+    "https://actionsack.com/img/wat/hwat01.png",
+    "https://actionsack.com/img/wat/hwat02.png",
+    "https://actionsack.com/img/wat/inthebutt.png",
+    "https://actionsack.com/img/wat/jabba.png",
+    "https://actionsack.com/img/wat/jaja.png",
+    "https://actionsack.com/img/wat/jjwat.png",
+    "https://actionsack.com/img/wat/konichiwat.png",
+    "https://actionsack.com/img/wat/olde.png",
+    "https://actionsack.com/img/wat/police.gif",
+    "https://actionsack.com/img/wat/slipwat.png",
+    "https://actionsack.com/img/wat/space.gif",
+    "https://actionsack.com/img/wat/subwat.png",
+    "https://actionsack.com/img/wat/swat.png",
+    "https://actionsack.com/img/wat/watchdogs.png",
+    "https://actionsack.com/img/wat/watduel.gif",
+    "https://actionsack.com/img/wat/waterworld.png",
+    "https://actionsack.com/img/wat/wathusky.gif",
+    "https://actionsack.com/img/wat/watif.png",
+    "https://actionsack.com/img/wat/watinthehat.png",
+    "https://actionsack.com/img/wat/watislove.gif",
+    "https://actionsack.com/img/wat/watmouth.gif",
+    "https://actionsack.com/img/wat/wat.png",
+    "https://actionsack.com/img/wat/watshake.gif",
+    "https://actionsack.com/img/wat/watwatwatwat.png",
+    "https://actionsack.com/img/wat/wow.png"
+  ]
   bot.say(random.choice(wat))
 
 @module.rule(".*✝.*")
