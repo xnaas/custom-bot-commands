@@ -918,7 +918,10 @@ def xmassong(bot, trigger):
   bot.say("https://actionsack.com/img/videos/xmas.webm")
 
 @module.rule(".*!swat.*")
+@module.commands("swat")
 def swat(bot, trigger):
+  """Summon SWAT into chat.
+  Can also be summoned by typing '!swat' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/SWAT.mp4")
 
 @module.rule(".*\(╯°□°）╯︵ ┻━┻.*")
@@ -982,7 +985,10 @@ def deusvult(bot, trigger):
   bot.say("https://actionsack.com/img/videos/deusvult.webm")
 
 @module.rule(".*fake!.*")
+@module.commands("fake")
 def fake(bot, trigger):
+  """For when something is super fake.
+  Can also be triggered by typing 'fake!' anywhere in a message."""
   fake = [
     "https://actionsack.com/img/fake/faux.png",
     "https://actionsack.com/img/fake/kazoo.gif"
@@ -990,15 +996,24 @@ def fake(bot, trigger):
   bot.say(random.choice(fake))
 
 @module.rule(".*!erect.*")
+@module.commands("erect")
 def erect(bot, trigger):
+  """Classic Krieger GIF.
+  Can also be triggered by typing '!erect' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/erect.gif")
 
-@module.rule("^GOAT!$")
+@module.rule(".*GOAT!.*")
+@module.commands("goat")
 def goat(bot, trigger):
+  """Greatest of all time!
+  Can also be triggered by typing 'GOAT!' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/GOAT.webm")
 
 @module.rule("^hackers$")
+@module.commands("hackers")
 def hackers(bot, trigger):
+  """Summons the world's two greatest hackers.
+  Can also be summoned without the preceeding period/full stop."""
   bot.say("https://actionsack.com/img/as/hackers.png")
 
 @module.rule("^hue.*")
@@ -1050,11 +1065,17 @@ def imdabes(bot, trigger):
   bot.say("https://actionsack.com/img/videos/IMDABES.webm")
 
 @module.rule(".*!JPEG.*")
+@module.commands("jpeg")
 def jpeg(bot, trigger):
+  """Do I look like I know what a JPEG is?
+  Can also be triggered by typing '!JPEG' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/jpeg.webm")
 
 @module.rule(".*!kazoo.*")
+@module.commands("kazoo")
 def kazoo(bot, trigger):
+  """Kaaazzzzoooooooooo!!!
+  Can also be triggered by typing '!kazoo' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/kazoo.webm")
 
 @module.rule("^kill\sme.*")
@@ -1094,7 +1115,10 @@ def kys(bot, trigger):
   bot.say(random.choice(kys))
 
 @module.rule(".*legal!.*")
+@module.commands("legal")
 def legal(bot, trigger):
+  """100% totally legal!
+  Can also be triggered by typing 'legal!' anywhere in a message."""
   legal = [
     "https://actionsack.com/img/misc/👍LEGAL👍.mp4",
     "https://actionsack.com/img/misc/🕺LEGAL🕺.mp4"
