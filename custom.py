@@ -1175,7 +1175,10 @@ def jesuschrist(bot, trigger):
   bot.say("Praise Him!")
 
 @module.rule(".*Windows\s10.*")
+@module.commands("w10")
 def windowsten(bot, trigger):
+  """Windows 10 bad.
+  Can also be triggered at any time by saying 'Windows 10' in a message."""
   w10 = [
     "https://actionsack.com/img/W10/game.png",
     "https://actionsack.com/img/W10/pubg.webm",
