@@ -785,6 +785,14 @@ def gfy(bot, trigger):
   ]
   bot.say(random.choice(gfy))
 
+@module.rule("^What\sthe\sfuck\?$")
+def wtfquestion(bot, trigger):
+  bot.say("https://actionsack.com/img/wtf/wtf¿.gif")
+
+@module.rule("^What\sthe\sfuck!$")
+def wtfexclamation(bot, trigger):
+  bot.say("https://actionsack.com/img/wtf/wtfh3h3.mp4")
+
 @module.rule("^Fuck!$")
 def fuckexclamation(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuck!.gif")
