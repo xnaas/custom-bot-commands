@@ -45,5 +45,6 @@ def eightball(bot, trigger):
     "My reply is no.",
     "My sources say no.",
     "Outlook not so good.",
-    "Very doubtful."]
+    "Very doubtful."
+  ]
   bot.say(random.choice(messages));
