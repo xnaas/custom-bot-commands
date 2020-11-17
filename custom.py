@@ -1238,3 +1238,14 @@ def whoa(bot, trigger):
 def wew(bot, trigger):
   """wew lad! — Can also be triggered by typing 'wew lad' or 'wew!' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/wew.png")
+
+@module.rule("^(uh\.\.\.|uh{2,})$")
+def uhh(bot, trigger):
+  uhh = [
+    "https://actionsack.com/img/uh/uh01.png",
+    "https://actionsack.com/img/uh/uh02.png",
+    "https://actionsack.com/img/uh/uh03.png",
+    "https://actionsack.com/img/uh/uh04.png",
+    "https://actionsack.com/img/uh/uhbytes.png"
+  ]
+  bot.say(random.choice(uhh))
