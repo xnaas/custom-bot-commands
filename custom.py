@@ -1219,7 +1219,9 @@ def wazard(bot, trigger):
   bot.say("https://actionsack.com/img/misc/wazard.mp4")
 
 @module.rule(".*wow!.*")
+@module.commands("wow")
 def wow(bot, trigger):
+  """Wow! — Can also be triggered by typing 'wow!' anywhere in a message."""
   wow = [
     "https://actionsack.com/img/wow/corrupt.gif",
     "https://actionsack.com/img/wow/wow!!.mp4",
@@ -1230,3 +1232,9 @@ def wow(bot, trigger):
 @module.rule(".*whoa.*")
 def whoa(bot, trigger):
   bot.say("https://actionsack.com/img/misc/whoa.gif")
+
+@module.rule(".*wew\slad.*", ".*wew!.*")
+@module.commands("wew")
+def wew(bot, trigger):
+  """wew lad! — Can also be triggered by typing 'wew lad' or 'wew!' anywhere in a message."""
+  bot.say("https://actionsack.com/img/misc/wew.png")
