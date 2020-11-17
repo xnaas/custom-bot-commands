@@ -1217,3 +1217,12 @@ def wazard(bot, trigger):
   """Hagrid tells you what you are.
   Can also be triggered by typing '!wizard' or 'wazard' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/wazard.mp4")
+
+@module.rule(".*wow!.*")
+def wow(bot, trigger):
+  wow = [
+    "https://actionsack.com/img/wow/corrupt.gif",
+    "https://actionsack.com/img/wow/wow!!.mp4",
+    "https://actionsack.com/img/wow/wow.gif"
+  ]
+  bot.say(random.choice(wow))
