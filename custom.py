@@ -1257,3 +1257,11 @@ def twerk(bot, trigger):
     "https://actionsack.com/img/twerk/nose.gif"
   ]
   bot.say(random.choice(twerkit))
+
+@module.rule(".*swiggity\sswooty.*")
+def swiggityswooty(bot, trigger):
+  swiggity = [
+    "https://actionsack.com/img/swiggityswooty/birb.gif",
+    "https://actionsack.com/img/swiggityswooty/fatman.gif"
+  ]
+  bot.say(random.choice(swiggity))
