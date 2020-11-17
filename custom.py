@@ -1216,4 +1216,4 @@ def windowsten(bot, trigger):
 def wazard(bot, trigger):
   """Hagrid tells you what you are.
   Can also be triggered by typing '!wizard' or 'wazard' anywhere in a message."""
-  bot.say("https://actionsack.com/img/misc/wazard.mp4"
+  bot.say("https://actionsack.com/img/misc/wazard.mp4")
