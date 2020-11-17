@@ -1210,3 +1210,10 @@ def windowsten(bot, trigger):
     "https://actionsack.com/img/W10/updates.webm"
   ]
   bot.say(random.choice(w10))
+
+@module.rule(".*!wizard.*", ".*wazard.*")
+@module.commands("wizard")
+def wazard(bot, trigger):
+  """Hagrid tells you what you are.
+  Can also be triggered by typing '!wizard' or 'wazard' anywhere in a message."""
+  bot.say("https://actionsack.com/img/misc/wazard.mp4"
