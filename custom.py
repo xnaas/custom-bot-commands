@@ -2,6 +2,14 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from sopel import module, formatting
 import random
 
+### Section Exists for "judge" command only ###
+# Remove when dropping support for Sopel < 7.1
+if hasattr(formatting, 'plain'):
+  clean = formatting.plain
+else:
+  clean = lambda t: t
+### Section Exists for "judge" command only ###
+
 @module.commands("nod")
 def nod(bot, trigger):
   """Nod."""
@@ -1125,14 +1133,6 @@ def legal(bot, trigger):
   ]
   bot.say(random.choice(legal))
 
-### Section Exists for "judge" command only ###
-# Remove when dropping support for Sopel < 7.1
-if hasattr(formatting, 'plain'):
-  clean = formatting.plain
-else:
-  clean = lambda t: t
-### Section Exists for "judge" command only ###
-
 @module.commands("judge")
 @module.require_chanmsg
 def judge(bot, trigger):
@@ -1272,3 +1272,7 @@ def praisethesun(bot, trigger):
   """Praise the Sun!
   Can also be triggered by saying 'praise the sun' anywhere."""
   bot.say("https://actionsack.com/img/videos/praisethesun.webm")
+
+@module.rule(".*#spam.*")
+def spam(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/spam.png")
