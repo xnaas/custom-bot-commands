@@ -1249,3 +1249,11 @@ def uhh(bot, trigger):
     "https://actionsack.com/img/uh/uhbytes.png"
   ]
   bot.say(random.choice(uhh))
+
+@module.rule(".*!!twerk.*")
+def twerk(bot, trigger):
+  twerkit = [
+    "https://actionsack.com/img/twerk/ash.gif",
+    "https://actionsack.com/img/twerk/nose.gif"
+  ]
+  bot.say(random.choice(twerkit))
