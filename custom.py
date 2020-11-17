@@ -1301,3 +1301,7 @@ def shh(bot, trigger):
     "https://actionsack.com/img/shh/tlou.jpg"
   ]
   bot.say(random.choice(shhh))
+
+@module.rule(".*sex\srobot.*")
+def sexrobot(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/sexrobot.gif")
