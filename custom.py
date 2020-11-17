@@ -1226,3 +1226,7 @@ def wow(bot, trigger):
     "https://actionsack.com/img/wow/wow.gif"
   ]
   bot.say(random.choice(wow))
+
+@module.rule(".*whoa.*")
+def whoa(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/whoa.gif")
