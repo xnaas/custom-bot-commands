@@ -1290,3 +1290,14 @@ def son(bot, trigger):
     "https://actionsack.com/img/son/wieners.png"
   ]
   bot.say(random.choice(son))
+
+@module.rule("^sh{2,}$")
+def shh(bot, trigger):
+  shhh = [
+    "https://actionsack.com/img/shh/clouds.jpg",
+    "https://actionsack.com/img/shh/eardrums.mp4",
+    "https://actionsack.com/img/shh/ninjagaiden.png",
+    "https://actionsack.com/img/shh/stfub.mp4",
+    "https://actionsack.com/img/shh/tlou.jpg"
+  ]
+  bot.say(random.choice(shhh))
