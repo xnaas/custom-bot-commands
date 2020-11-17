@@ -1265,3 +1265,10 @@ def swiggityswooty(bot, trigger):
     "https://actionsack.com/img/swiggityswooty/fatman.gif"
   ]
   bot.say(random.choice(swiggity))
+
+@module.rule(".*praise\sthe\ssun.*")
+@module.commands("praise")
+def praisethesun(bot, trigger):
+  """Praise the Sun!
+  Can also be triggered by saying 'praise the sun' anywhere."""
+  bot.say("https://actionsack.com/img/videos/praisethesun.webm")
