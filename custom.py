@@ -353,6 +353,10 @@ def clap(bot, trigger):
 def thumbsup(bot, trigger):
   bot.say("👍🏻👍🏼👍🏽👍🏾👍🏿")
 
+@module.rule("^👌$")
+def okhand(bot, trigger):
+  bot.say("👌🏻👌🏼👌🏽👌🏾👌🏿")
+
 @module.rule("^👋$")
 def wave(bot, trigger):
   bot.say("👋🏻👋🏼👋🏽👋🏾👋🏿")
