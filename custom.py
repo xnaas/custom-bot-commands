@@ -1443,3 +1443,15 @@ def drone(bot, trigger):
   """Summons a drone into chat.
   Can also be triggered with '!drone' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/drone.webm")
+
+@module.rule(".*!cage.*")
+@module.commands("cage")
+def nickcage(bot, trigger):
+  """Summons Nicolas Cage into chat.
+  Can also be summoned with '!cage' anywhere in a message."""
+  nick_cage = [
+    "https://actionsack.com/img/cage/scream.gif",
+    "https://actionsack.com/img/cage/side-to-side.gif",
+    "https://actionsack.com/img/cage/wink.gif"
+  ]
+  bot.say(random.choice(nick_cage))
