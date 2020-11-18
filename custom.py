@@ -133,13 +133,21 @@ def thanks(bot, trigger):
   bot.say(random.choice(thanks))
 
 @module.rule("^😢$")
+@module.commands("cry")
 def crying(bot, trigger):
+  """Bot will reply with a crying GIF or emoticon.
+  Can also be summoned by sending a message that is only the 😢 emoji."""
   crying = [
     "https://actionsack.com/img/QQ/QQ001.gif",
     "https://actionsack.com/img/QQ/QQ002.gif",
     "https://actionsack.com/img/QQ/QQ003.gif",
     "https://actionsack.com/img/QQ/QQ004.gif",
-    "https://actionsack.com/img/QQ/QQ005.gif"
+    "https://actionsack.com/img/QQ/QQ005.gif",
+    "ಥ_ಥ",
+    "＞︿＜",
+    "＞﹏＜",
+    "X﹏X",
+    "(T_T)"
   ]
   bot.say(random.choice(crying))
 
