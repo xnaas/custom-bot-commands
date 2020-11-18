@@ -1532,3 +1532,7 @@ def bustin(bot, trigger):
 @module.rule(".*(?<!s)canned(?!\sair).*")
 def canned(bot, trigger):
   bot.say("https://actionsack.com/img/misc/canned.gif")
+
+@module.rule(".*consider\sthis.*")
+def consider(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/consider.png")
