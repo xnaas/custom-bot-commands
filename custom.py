@@ -1540,3 +1540,7 @@ def consider(bot, trigger):
 @module.rule(".*congraturaisins.*")
 def congraturaisins(bot, trigger):
   bot.say("https://actionsack.com/img/misc/congraturaisins.png")
+
+@module.rule(".*cowabunga.*")
+def cowabunga(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/cowabunga.png")
