@@ -38,13 +38,13 @@ def rainbow_cmd(bot, trigger):
     bot.reply(msg)
     return module.NOLIMIT
 
-    try:
-      colors = COLOR_SCHEMES[scheme]
-    except KeyError:
-      # not possible to reach this at time of writing, but who knows?
-      # mistakes happen when updating stuff that needs to be changed in parallel
-      bot.reply("I don't know what color sequence to use for '{}'!".format(scheme))
-      return module.NOLIMIT
+  try:
+    colors = COLOR_SCHEMES[scheme]
+  except KeyError:
+    # not possible to reach this at time of writing, but who knows?
+    # mistakes happen when updating stuff that needs to be changed in parallel
+    bot.reply("I don't know what color sequence to use for '{}'!".format(scheme))
+    return module.NOLIMIT
 
   color_cycle = itertools.cycle(colors)
 
