@@ -1056,6 +1056,7 @@ def unflip(bot, trigger):
 
 @module.commands("dblflip")
 def dblflip(bot, trigger):
+  """Flip two tables...at the same time!"""
   bot.say("┻━┻ ︵ヽ(`Д´)ﾉ︵﻿ ┻━┻")
 
 @module.rule(".*bite\sme.*")
