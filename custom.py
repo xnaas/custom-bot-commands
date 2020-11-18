@@ -471,9 +471,11 @@ def hg(bot, trigger):
   """I've got the highground now!"""
   bot.say("https://actionsack.com/img/misc/highground.jpg")
 
+@module.rule(".*!fgr.*")
 @module.commands("fgr")
 def fgr(bot, trigger):
-  """Family Guy reference!!!!!"""
+  """Family Guy reference!!!!!
+  Can also be triggered with '!fgr' anywhere in a message."""
   fgr = [
     "https://actionsack.com/img/fgr/gay.jpg",
     "https://actionsack.com/img/fgr/gears.jpg",
@@ -482,14 +484,18 @@ def fgr(bot, trigger):
   ]
   bot.say(random.choice(fgr))
 
+@module.rule(".*!adr.*")
 @module.commands("adr")
 def adr(bot, trigger):
-  """American Dad reference!"""
+  """American Dad reference!
+  Can also be triggered with '!adr' anywhere in a message."""
   bot.say("https://actionsack.com/img/fgr/ADR.jpg")
 
+@module.rule(".*!csr.*")
 @module.commands("csr")
 def csr(bot, trigger):
-  """Cleveland Show reference!"""
+  """Cleveland Show reference!
+  Can also be triggered with '!csr' anywhere in a message."""
   bot.say("https://actionsack.com/img/fgr/CSR.jpg")
 
 @module.commands("aegislive")
@@ -1015,14 +1021,14 @@ def smitepro(bot, trigger):
 @module.commands("xmas")
 def xmassong(bot, trigger):
   """The only good Christmas song.
-  Can also be triggered by typing '!xmas' anywhere in a message."""
+  Can also be triggered with '!xmas' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/xmas.webm")
 
 @module.rule(".*!swat.*")
 @module.commands("swat")
 def swat(bot, trigger):
   """Summon SWAT into chat.
-  Can also be summoned by typing '!swat' anywhere in a message."""
+  Can also be triggered with '!swat' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/SWAT.mp4")
 
 @module.rule(".*\(╯°□°）╯︵ ┻━┻.*")
@@ -1089,7 +1095,7 @@ def deusvult(bot, trigger):
 @module.commands("fake")
 def fake(bot, trigger):
   """For when something is super fake.
-  Can also be triggered by typing 'fake!' anywhere in a message."""
+  Can also be triggered with 'fake!' anywhere in a message."""
   fake = [
     "https://actionsack.com/img/fake/faux.png",
     "https://actionsack.com/img/fake/kazoo.gif"
@@ -1100,14 +1106,14 @@ def fake(bot, trigger):
 @module.commands("erect")
 def erect(bot, trigger):
   """Classic Krieger GIF.
-  Can also be triggered by typing '!erect' anywhere in a message."""
+  Can also be triggered with '!erect' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/erect.gif")
 
 @module.rule(".*GOAT!.*")
 @module.commands("goat")
 def goat(bot, trigger):
   """Greatest of all time!
-  Can also be triggered by typing 'GOAT!' anywhere in a message."""
+  Can also be triggered with 'GOAT!' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/GOAT.webm")
 
 @module.rule("^hackers$")
@@ -1169,14 +1175,14 @@ def imdabes(bot, trigger):
 @module.commands("jpeg")
 def jpeg(bot, trigger):
   """Do I look like I know what a JPEG is?
-  Can also be triggered by typing '!JPEG' anywhere in a message."""
+  Can also be triggered with '!JPEG' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/jpeg.webm")
 
 @module.rule(".*!kazoo.*")
 @module.commands("kazoo")
 def kazoo(bot, trigger):
   """Kaaazzzzoooooooooo!!!
-  Can also be triggered by typing '!kazoo' anywhere in a message."""
+  Can also be triggered with '!kazoo' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/kazoo.webm")
 
 @module.rule("^kill\sme.*")
@@ -1219,7 +1225,7 @@ def kys(bot, trigger):
 @module.commands("legal")
 def legal(bot, trigger):
   """100% totally legal!
-  Can also be triggered by typing 'legal!' anywhere in a message."""
+  Can also be triggered with 'legal!' anywhere in a message."""
   legal = [
     "https://actionsack.com/img/misc/👍LEGAL👍.mp4",
     "https://actionsack.com/img/misc/🕺LEGAL🕺.mp4"
@@ -1295,7 +1301,7 @@ def jesuschrist(bot, trigger):
 @module.commands("w10")
 def windowsten(bot, trigger):
   """Windows 10 bad.
-  Can also be triggered at any time by saying 'Windows 10' in a message."""
+  Can also be triggered with 'Windows 10' anywhere in a message."""
   w10 = [
     "https://actionsack.com/img/W10/game.png",
     "https://actionsack.com/img/W10/pubg.webm",
@@ -1308,13 +1314,13 @@ def windowsten(bot, trigger):
 @module.commands("wizard")
 def wazard(bot, trigger):
   """Hagrid tells you what you are.
-  Can also be triggered by typing '!wizard' or 'wazard' anywhere in a message."""
+  Can also be triggered with '!wizard' or 'wazard' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/wazard.mp4")
 
 @module.rule(".*wow!.*")
 @module.commands("wow")
 def wow(bot, trigger):
-  """Wow! — Can also be triggered by typing 'wow!' anywhere in a message."""
+  """Wow! — Can also be triggered with 'wow!' anywhere in a message."""
   wow = [
     "https://actionsack.com/img/wow/corrupt.gif",
     "https://actionsack.com/img/wow/wow!!.mp4",
@@ -1329,7 +1335,7 @@ def whoa(bot, trigger):
 @module.rule(".*wew\slad.*", ".*wew!.*")
 @module.commands("wew")
 def wew(bot, trigger):
-  """wew lad! — Can also be triggered by typing 'wew lad' or 'wew!' anywhere in a message."""
+  """wew lad! — Can also be triggered with 'wew!' or 'wew lad' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/wew.png")
 
 @module.rule("^(uh\.\.\.|uh{2,})$")
@@ -1363,7 +1369,7 @@ def swiggityswooty(bot, trigger):
 @module.commands("praise")
 def praisethesun(bot, trigger):
   """Praise the Sun!
-  Can also be triggered by saying 'praise the sun' anywhere."""
+  Can also be triggered with 'praise the sun' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/praisethesun.webm")
 
 @module.rule(".*#spam.*")
@@ -1374,7 +1380,7 @@ def spam(bot, trigger):
 @module.commands("son")
 def son(bot, trigger):
   """Posts a 'don't talk to me or my son' meme.
-  Can also be triggered by typing a message that is only the word 'son'."""
+  Can also be triggered by sending a message that is only the word 'son'."""
   son = [
     "https://actionsack.com/img/son/acnh.png",
     "https://actionsack.com/img/son/doggos.png",
@@ -1403,10 +1409,23 @@ def sexrobot(bot, trigger):
 @module.commands("stickers")
 def stickers(bot, trigger):
   """Well-known fact: each sticker on your car adds 5 horsepower.
-  Can also be summoned with '!stickers' anywhere in a message."""
+  Can also be triggered with '!stickers' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/stickers.gif")
 
 @module.commands("shaved")
 def shaved(bot, trigger):
   """xnaas' beautiful shaved leg circa 2011."""
   bot.say("https://actionsack.com/img/xnaas/shaved.jpg")
+
+@module.rule(".*!rimshot.*")
+@module.commands("rimshot")
+def rimshot(bot, trigger):
+  """Replies with a 'rimshot' GIF.
+  Can also be triggered with '!rimshot' anywhere in a message."""
+  rim_shot = [
+    "https://actionsack.com/img/rimshot/effects.gif",
+    "https://actionsack.com/img/rimshot/fgr.gif",
+    "https://actionsack.com/img/rimshot/mlp.gif",
+    "https://actionsack.com/img/rimshot/rimshot.gif"
+  ]
+  bot.say(random.choice(rim_shot))
