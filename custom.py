@@ -373,9 +373,18 @@ def tb(bot, trigger):
   bot.say(random.choice(tb), max_messages=2)
 
 @module.commands("jolly")
+@module.rate(server=43200)
 def jolly(bot, trigger):
-  """Nothing tops The Jolly Rancher story."""
-  bot.say("Nothing tops The Jolly Rancher story: pastebin.com/qnHyYZuV")
+  """Nothing tops The Jolly Rancher story.
+  Server-wide rate limit of once every 12 hours."""
+  bot.say("Nothing tops the Jolly Rancher story.")
+  bot.say("Steve and his girlfriend Samantha went off to college in August. She went to Florida State, he went to Penn. So, she decides to fly to PA to visit him. He was really happy to see her so he decided to give her some oral action.")
+  bot.say("He had done this numerous times before and he always enjoyed doing it...but for some reason, this time, she smelled really horrible, and she tasted even worse. He didn't want to offend her though because he hadn't seen her in months...so he put a Jolly Rancher in his mouth to cover it up, even though it didn't do much to help.")
+  bot.say("In the course of eating her out, he accidentally pushed the candy inside of her... and stuck a finger in to grab it out. He took it out, and put it back into his mouth and bit it. Only...it wasn't the Jolly Rancher.")
+  bot.say("It was a nodule of gonorrhea.")
+  bot.say("As in, the blister-like structure that gonorrhea makes filled with diseased pus was the size of a fucking Jolly Rancher and the poor guy BIT it. I guess it was really dark in the room. He freaked out and started vomiting all over the place when it exploded in his mouth...")
+  bot.say("He demanded to know what was going on, turns out she had cheated on him at a club like, the first week of college, and fucked some random guy and the stupid bitch had no clue what was wrong with her. She noticed a strange smell though.")
+  bot.say("So now, Steve is freaking out that he now has gonorrhea of the mouth and God knows what else.")
 
 @module.commands("hg")
 def hg(bot, trigger):
