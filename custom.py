@@ -1054,6 +1054,10 @@ def swat(bot, trigger):
 def unflip(bot, trigger):
   bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, %s." %trigger.nick)
 
+@module.commands("dblflip")
+def dblflip(bot, trigger):
+  bot.say("┻━┻ ︵ヽ(`Д´)ﾉ︵﻿ ┻━┻")
+
 @module.rule(".*bite\sme.*")
 @module.require_chanmsg
 def bitesback(bot, trigger):
