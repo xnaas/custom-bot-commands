@@ -270,9 +270,9 @@ def deeznutz(bot, trigger):
 @module.rule("^\s\/lenny$")
 def lenny(bot, trigger):
   lenny = [
-    "https://actionsack.com/img/lenny/lenny-anime.gif",
-    "https://actionsack.com/img/lenny/lenny-crazy.mp4",
-    "https://actionsack.com/img/lenny/lenny-spiral.gif"
+    "https://actionsack.com/img/lenny/anime.gif",
+    "https://actionsack.com/img/lenny/crazy.mp4",
+    "https://actionsack.com/img/lenny/spiral.gif"
   ]
   bot.say(random.choice(lenny))
 
@@ -314,7 +314,7 @@ def upsidedown(bot, trigger):
 
 @module.rule("^(🖕|🖕🏻|🖕🏼|🖕🏽|🖕🏾|🖕🏿)$")
 def fuckyouback(bot, trigger):
-  bot.say("Fuck you, " + trigger.nick + "!")
+  bot.say("Fuck you, %s!" %trigger.nick)
 
 @module.rule("^👏$")
 def clap(bot, trigger):
