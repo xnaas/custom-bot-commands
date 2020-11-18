@@ -276,6 +276,27 @@ def lenny(bot, trigger):
   ]
   bot.say(random.choice(lenny))
 
+@module.commands("rlenny")
+def rlenny(bot, trigger):
+  """Sends a random ( ͡° ͜ʖ ͡°) variation."""
+  rlenny = [
+    "( ͡° ͜ʖ ͡°)",
+    "(☭ ͜ʖ ☭)",
+    "( ° ͜ʖ °)",
+    "(⟃ ͜ʖ ⟄) ",
+    "( ‾ ʖ̫ ‾)",
+    "( ͡° ʖ̯ ͡°)",
+    "ʕ ͡° ʖ̯ ͡°ʔ",
+    "( ͡° ل͜ ͡°)",
+    "( ͡o ͜ʖ ͡o)",
+    "( ͡◉ ͜ʖ ͡◉)",
+    "( ͡☉ ͜ʖ ͡☉)",
+    "ʕ ͡° ͜ʖ ͡°ʔ",
+    "( ͡ᵔ ͜ʖ ͡ᵔ )",
+    "¯\_( ͡° ͜ʖ ͡°)_/¯"
+  ]
+  bot.say(random.choice(rlenny))
+
 @module.rule("^pranked!$")
 def prank(bot, trigger):
   prank = [
