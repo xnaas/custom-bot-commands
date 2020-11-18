@@ -1558,3 +1558,20 @@ def correcthorse(bot, trigger):
 @module.rule(".*centaur.*")
 def centaur(bot, trigger):
   bot.say("https://actionsack.com/img/misc/centaur.png")
+
+@module.rule(".*(!dance|dance!).*")
+@module.commands("dance")
+def dance(bot, trigger):
+  """Posts a dancing GIF.
+  Can also be triggered with 'dance!' or '!dance' anywhere in a message."""
+  dance_gifs = [
+    "https://actionsack.com/img/dance/arms.gif",
+    "https://actionsack.com/img/dance/arthur.gif",
+    "https://actionsack.com/img/dance/bunny.gif",
+    "https://actionsack.com/img/dance/frankie.gif",
+    "https://actionsack.com/img/dance/gijoe.gif",
+    "https://actionsack.com/img/dance/guy.gif",
+    "https://actionsack.com/img/dance/jontron.gif",
+    "https://actionsack.com/img/dance/skeleton.gif"
+  ]
+  bot.say(random.choice(dance_gifs))
