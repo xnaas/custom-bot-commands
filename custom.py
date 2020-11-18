@@ -1554,3 +1554,7 @@ def cowabunga(bot, trigger):
 @module.rule(".*correct!.*")
 def correcthorse(bot, trigger):
   bot.say("https://actionsack.com/img/misc/correct!.gif")
+
+@module.rule(".*centaur.*")
+def centaur(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/centaur.png")
