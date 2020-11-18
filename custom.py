@@ -1429,3 +1429,10 @@ def rimshot(bot, trigger):
     "https://actionsack.com/img/rimshot/rimshot.gif"
   ]
   bot.say(random.choice(rim_shot))
+
+@module.rule(".*!newhouse.*")
+@module.commands("newhouse")
+def newhouse(bot, trigger):
+  """fecktk tells us about his new house.
+  Can also be triggered with '!newhouse' anywhere in a message."""
+  bot.say("https://actionsack.com/img/fecktk/newhouse.png")
