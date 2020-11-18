@@ -1544,3 +1544,7 @@ def congraturaisins(bot, trigger):
 @module.rule(".*cowabunga.*")
 def cowabunga(bot, trigger):
   bot.say("https://actionsack.com/img/misc/cowabunga.png")
+
+@module.rule(".*correct!.*")
+def correcthorse(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/correct!.gif")
