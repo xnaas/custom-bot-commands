@@ -1590,3 +1590,7 @@ def doomanimal(bot, trigger):
 def doomcrossing(bot, trigger):
   """Posts "DOOM CROSSING: Eternal Horizons" by The Chalkeaters feat. Natalia Natchan."""
   bot.say("https://actionsack.com/img/videos/DOOMCROSSING.webm")
+
+@module.rule(".*doom\sguy.*")
+def doomguy(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/doomguy.gif")
