@@ -570,7 +570,10 @@ def allsystemsgo(bot, trigger):
   bot.say("https://actionsack.com/img/misc/allsystemsgo.png")
 
 @module.rule(".*murica.*")
+@module.commands("america")
 def murica(bot, trigger):
+  """Summons Freedom™ into chat.
+  Can also be triggered with 'murica' anywhere in a message."""
   murica = [
     "https://actionsack.com/img/murica/clapping.mp4",
     "https://actionsack.com/img/murica/kiss.gif",
@@ -578,6 +581,13 @@ def murica(bot, trigger):
     "https://actionsack.com/img/murica/freedomaf.mp4"
   ]
   bot.say(random.choice(murica))
+
+@module.rule(".*!knock.*")
+@module.commands("knock")
+def knock(bot, trigger):
+  """RP: America knocks on your door...
+  Can also be triggered with '!knock' anywhere in a message."""
+  bot.say("https://actionsack.com/img/murica/knockknock.gif")
 
 @module.commands("pledge")
 @module.rate(server=5400)
@@ -630,7 +640,10 @@ def beaker(bot, trigger):
   bot.say("https://actionsack.com/img/misc/beaker.mp4")
 
 @module.rule(".*!bomb.*")
+@module.commands("bomb")
 def bomb(bot, trigger):
+  """Bombs Japan again... :/
+  Can also be triggered with '!bomb' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/bomb.mp4")
 
 @module.rule(".*!broden.*")
@@ -1441,7 +1454,7 @@ def newhouse(bot, trigger):
 @module.commands("drone")
 def drone(bot, trigger):
   """Summons a drone into chat.
-  Can also be triggered with '!drone' anywhere in a message."""
+  Can also be summoned with '!drone' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/drone.webm")
 
 @module.rule(".*!cage.*")
@@ -1462,7 +1475,7 @@ def nickcage(bot, trigger):
 def voiceactor(bot, trigger):
   """Quote (or pic!) of a #RealVoiceActor.
   Can only be triggered once per 15 minutes per user.
-  Can also be summoned with '!va' anywhere in a message."""
+  Can also be triggered with '!va' anywhere in a message."""
   voice_actor = [
     "You are a pathetic worm... Fight for your scraps... Take your pics haha. I am a true artist and someone that crushes vermin like you in my path. You are a fake and a child with no comprehension of skill nor talent. You are weak... Just like so many... I am pleasure to work with... Unless you cross me or treat me like dirt... Then you will feel my fury... You should have been nice... Now you pay... I am not a pushover... haha... I can make your soul cry and beg for mercy... I am tired of you jerks... I will fight back... Every time...",
     "Give me a break! You guys think you have some freaking special talent that deserves all this damn nonrecognition?! You guys want to get paid to sell and just SPEAK these god damn advertisements! I hate that side of this business! Real voice ACTING is art, it is all the animation and film, it is video games!",
@@ -1483,3 +1496,39 @@ def voiceactor(bot, trigger):
     "https://actionsack.com/img/misc/'voiceactor'.png"
   ]
   bot.say(random.choice(voice_actor), max_messages=3)
+
+@module.rule(".*!baby.*")
+@module.commands("baby")
+def baby(bot, trigger):
+  """Posts an image of GIF involving babies.
+  WARNING: not a cutesy command.
+  Can also be triggered with '!baby' anywhere in a message."""
+  baby_pics = [
+    "https://actionsack.com/img/baby/inflammable.gif",
+    "https://actionsack.com/img/baby/man.png",
+    "https://actionsack.com/img/baby/prayfor.png",
+    "https://actionsack.com/img/baby/rolling.gif",
+    "https://actionsack.com/img/baby/spider.gif"
+  ]
+  bot.say(random.choice(baby_pics))
+
+@module.rule(".*boom!.*")
+@module.commands("boom")
+def boom(bot, trigger):
+  """BOOM! — Can also be triggered with 'boom!' anywhere in a message."""
+  bot.say("https://actionsack.com/img/misc/boom.gif")
+
+@module.rule(".*burn!.*")
+def burn(bot, trigger):
+  bot.say("https://w.wiki/n9f")
+
+@module.rule(".*bustin'.*")
+@module.commands("bustin")
+def bustin(bot, trigger):
+  """Bustin' makes me feel good!
+  Can also be triggered with "bustin'" anywhere in a message."""
+  bot.say("https://actionsack.com/img/videos/bustin.webm")
+
+@module.rule(".*(?<!s)canned(?!\sair).*")
+def canned(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/canned.gif")
