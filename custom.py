@@ -1200,7 +1200,7 @@ def imdabes(bot, trigger):
 def jpeg(bot, trigger):
   """Do I look like I know what a JPEG is?
   Can also be triggered with '!JPEG' anywhere in a message."""
-  bot.say("https://actionsack.com/img/videos/jpeg.webm")
+  bot.say("https://actionsack.com/img/videos/JPEG.webm")
 
 @module.rule(".*!kazoo.*")
 @module.commands("kazoo")
@@ -1580,3 +1580,13 @@ def dance(bot, trigger):
     "https://actionsack.com/img/dance/skeleton.gif"
   ]
   bot.say(random.choice(dance_gifs))
+
+@module.commands("doomanimal")
+def doomanimal(bot, trigger):
+  """Posts "DOOMANIMAL" video by @andmish."""
+  bot.say("https://actionsack.com/img/videos/DOOMANIMAL.webm")
+
+@module.commands("doomcrossing")
+def doomcrossing(bot, trigger):
+  """Posts "DOOM CROSSING: Eternal Horizons" by The Chalkeaters feat. Natalia Natchan."""
+  bot.say("https://actionsack.com/img/videos/DOOMCROSSING.webm")
