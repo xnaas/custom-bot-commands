@@ -1598,3 +1598,12 @@ def doomguy(bot, trigger):
 @module.rule(".*grapist.*")
 def grapist(bot, trigger):
   bot.say("https://actionsack.com/img/misc/grapist.gif")
+
+@module.rule(".*it\swas\sme.*")
+def itwasme(bot, trigger):
+  me_dio = [
+    "https://actionsack.com/img/dio/dva.png",
+    "https://actionsack.com/img/dio/sombra.png",
+    "https://actionsack.com/img/dio/trumpva.gif"
+  ]
+  bot.say(random.choice(me_dio))
