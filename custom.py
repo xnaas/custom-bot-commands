@@ -1533,6 +1533,6 @@ def bustin(bot, trigger):
 def canned(bot, trigger):
   bot.say("https://actionsack.com/img/misc/canned.gif")
 
-@module.rule(".*consider\sthis.*")
+@module.rule(".*consider(\s|ed\s)this.*")
 def consider(bot, trigger):
   bot.say("https://actionsack.com/img/misc/consider.png")
