@@ -1398,3 +1398,10 @@ def shh(bot, trigger):
 @module.rule(".*sex\srobot.*")
 def sexrobot(bot, trigger):
   bot.say("https://actionsack.com/img/misc/sexrobot.gif")
+
+@module.rule(".*!stickers.*")
+@module.commands("stickers")
+def stickers(bot, trigger):
+  """Well-known fact: each sticker on your car adds 5 horsepower.
+  Can also be summoned with '!stickers' anywhere in a message."""
+  bot.say("https://actionsack.com/img/misc/stickers.gif")
