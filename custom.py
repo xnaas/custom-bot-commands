@@ -1436,3 +1436,10 @@ def newhouse(bot, trigger):
   """fecktk tells us about his new house.
   Can also be triggered with '!newhouse' anywhere in a message."""
   bot.say("https://actionsack.com/img/fecktk/newhouse.png")
+
+@module.rule(".*!drone.*")
+@module.commands("drone")
+def drone(bot, trigger):
+  """Summons a drone into chat.
+  Can also be triggered with '!drone' anywhere in a message."""
+  bot.say("https://actionsack.com/img/videos/drone.webm")
