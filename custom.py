@@ -155,6 +155,10 @@ def crying(bot, trigger):
   ]
   bot.say(random.choice(crying))
 
+@module.rule(".*cry\sme\sa\sriver.*")
+def cryriver(bot, trigger):
+  bot.say("https://actionsack.com/img/QQ/QQ007.gif")
+
 @module.rule(".*!xms.*", ".*!bge.*")
 def xms(bot, trigger):
   bot.say("https://w2g.tv/rooms/actionsack-csurhbl9dkwvwnk91a")
