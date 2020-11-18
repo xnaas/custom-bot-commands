@@ -1536,3 +1536,7 @@ def canned(bot, trigger):
 @module.rule(".*consider(\s|ed\s)this.*")
 def consider(bot, trigger):
   bot.say("https://actionsack.com/img/misc/consider.png")
+
+@module.rule(".*congraturaisins.*")
+def congraturaisins(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/congraturaisins.png")
