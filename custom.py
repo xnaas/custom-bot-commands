@@ -923,7 +923,10 @@ def smitepro(bot, trigger):
   bot.say("YT: youtube.com/user/smitegame/live | Twitch: twitch.tv/smitegame")
 
 @module.rule(".*!xmas.*")
+@module.commands("xmas")
 def xmassong(bot, trigger):
+  """The only good Christmas song.
+  Can also be triggered by typing '!xmas' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/xmas.webm")
 
 @module.rule(".*!swat.*")
