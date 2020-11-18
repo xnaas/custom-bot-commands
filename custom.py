@@ -1,6 +1,8 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module, formatting
 import random
+import itertools
+import unicodedata
 
 ### Section Exists for "judge" command only ###
 # Remove when dropping support for Sopel < 7.1
@@ -353,6 +355,10 @@ def clap(bot, trigger):
 def thumbsup(bot, trigger):
   bot.say("👍🏻👍🏼👍🏽👍🏾👍🏿")
 
+@module.rule("^👎$")
+def thumbsdown(bot, trigger):
+  bot.say("👎🏻👎🏼👎🏽👎🏾👎🏿")
+
 @module.rule("^👌$")
 def okhand(bot, trigger):
   bot.say("👌🏻👌🏼👌🏽👌🏾👌🏿")
@@ -360,6 +366,10 @@ def okhand(bot, trigger):
 @module.rule("^👋$")
 def wave(bot, trigger):
   bot.say("👋🏻👋🏼👋🏽👋🏾👋🏿")
+
+@module.rule("^🖖$")
+def vulcansalute(bot, trigger):
+  bot.say("🖖🏻🖖🏼🖖🏽🖖🏾🖖🏿")
 
 @module.rule(".*(🌎|🌍|🌏).*")
 def earthchan(bot, trigger):
