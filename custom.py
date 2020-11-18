@@ -371,6 +371,10 @@ def wave(bot, trigger):
 def vulcansalute(bot, trigger):
   bot.say("🖖🏻🖖🏼🖖🏽🖖🏾🖖🏿")
 
+@module.rule("^💪$")
+def muscle(bot, trigger):
+  bot.say("💪🏻💪🏼💪🏽💪🏾💪🏿")
+
 @module.rule(".*(🌎|🌍|🌏).*")
 def earthchan(bot, trigger):
   bot.say("https://actionsack.com/img/🌎/water.png")
