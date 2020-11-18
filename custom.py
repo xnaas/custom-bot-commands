@@ -49,7 +49,7 @@ def retarded(bot, trigger):
   ]
   bot.say(random.choice(retard))
 
-@module.rule("^rekt.*", ".*get\srekt.*")
+@module.rule(".*rekt.*")
 def rekt(bot, trigger):
   rekt = [
     "https://actionsack.com/img/rekt/baseball.gif",
