@@ -145,6 +145,8 @@ def crying(bot, trigger):
     "https://actionsack.com/img/QQ/QQ003.gif",
     "https://actionsack.com/img/QQ/QQ004.gif",
     "https://actionsack.com/img/QQ/QQ005.gif",
+    "https://actionsack.com/img/QQ/QQ006.gif",
+    "https://actionsack.com/img/QQ/QQ007.gif",
     "ಥ_ಥ",
     "＞︿＜",
     "＞﹏＜",
