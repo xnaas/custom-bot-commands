@@ -1405,3 +1405,8 @@ def stickers(bot, trigger):
   """Well-known fact: each sticker on your car adds 5 horsepower.
   Can also be summoned with '!stickers' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/stickers.gif")
+
+@module.commands("shaved")
+def shaved(bot, trigger):
+  """xnaas' beautiful shaved leg circa 2011."""
+  bot.say("https://actionsack.com/img/xnaas/shaved.jpg")
