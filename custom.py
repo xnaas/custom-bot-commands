@@ -1050,6 +1050,10 @@ def swat(bot, trigger):
   Can also be triggered with '!swat' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/SWAT.mp4")
 
+@module.rule(".*(▫|◽|◻|⬜|▪|◾|◼|⬛|🟥|🟧|🟨|🟩|🟦|🟪|🟫).*")
+def square(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/square.mp4")
+
 @module.rule(".*\(╯°□°）╯︵ ┻━┻.*")
 def unflip(bot, trigger):
   bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, %s." %trigger.nick)
