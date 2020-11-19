@@ -1611,3 +1611,7 @@ def itwasme(bot, trigger):
     "https://actionsack.com/img/dio/trumpva.gif"
   ]
   bot.say(random.choice(me_dio))
+
+@module.rule("(^god\sbless\s)(.*)")
+def godbless(bot, trigger):
+  bot.action("blesses %s" %trigger.group(2))
