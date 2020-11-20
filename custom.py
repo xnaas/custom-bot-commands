@@ -1749,3 +1749,7 @@ def racist(bot, trigger):
     "https://actionsack.com/img/racist/wash.png"
   ]
   bot.say(random.choice(racists))
+
+@module.rule(r".*pasta\sdisasta.*")
+def pastadisasta(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/PastaDisasta.webm")
