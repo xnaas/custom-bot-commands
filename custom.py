@@ -1783,3 +1783,7 @@ def nms(bot, trigger):
     "https://actionsack.com/img/nms/mike.png"
   ]
   bot.say(random.choice(no_mans_sky))
+
+@module.rule(r"^(nice|sick)\sgif.*")
+def sickgif(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/sickgif.gif")
