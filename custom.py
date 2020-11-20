@@ -1822,3 +1822,10 @@ def moist(bot, trigger):
     "https://actionsack.com/img/moist/old.jpg"
   ]
   bot.say(random.choice(moist))
+
+@module.rule(".*!manga.*")
+@module.commands("manga")
+def manga(bot, trigger):
+  """Posts a clip from the BowserVids "What's in the bag?" video.
+  Can also be triggered with '!manga' anywhere in a message."""
+  bot.say("https://actionsack.com/img/videos/manga.mp4")
