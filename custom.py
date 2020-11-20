@@ -728,10 +728,6 @@ def dealwithit(bot, trigger):
 def mindjack(bot, trigger):
   bot.say("https://actionsack.com/img/misc/mindjack.png")
 
-@module.rule(".*!music.*")
-def listentomusic(bot, trigger):
-  bot.say("https://actionsack.com/img/kys/music.gif")
-
 @module.commands("doge")
 def doge(bot, trigger):
   """Doge memes! (There's not very many...)"""
@@ -1283,18 +1279,26 @@ def kys(bot, trigger):
     "https://actionsack.com/img/kys/mike-pepe.png",
     "https://actionsack.com/img/kys/mike.png",
     "https://actionsack.com/img/kys/music.gif",
+    "https://actionsack.com/img/kys/ohhai.gif",
     "https://actionsack.com/img/kys/pasta.png",
     "https://actionsack.com/img/kys/pepe.png",
     "https://actionsack.com/img/kys/peter-joe.mp4",
     "https://actionsack.com/img/kys/peter.mp4",
     "https://actionsack.com/img/kys/puft.mp4",
-    "https://actionsack.com/img/kys/room.gif",
     "https://actionsack.com/img/kys/tried.png",
     "https://actionsack.com/img/kys/wendys.png",
     "https://actionsack.com/img/kys/window.gif",
     "https://lostallhope.com/"
   ]
   bot.say(random.choice(kys))
+
+@module.rule(".*!music.*")
+def listentomusic(bot, trigger):
+  bot.say("https://actionsack.com/img/kys/music.gif")
+
+@module.rule(r"^oh\shai.*")
+def ohhai(bot, trigger):
+  bot.say("https://actionsack.com/img/kys/ohhai.gif")
 
 @module.rule(".*legal!.*")
 @module.commands("legal")
