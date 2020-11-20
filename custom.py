@@ -21,19 +21,19 @@ def spok(bot, trigger):
   """Summon SPOK into chat."""
   bot.say("https://actionsack.com/img/trek/spok.gif")
 
-@module.rule("^Hello(\?|!)$")
+@module.rule(r"^Hello(\?|!)$")
 def hi(bot, trigger):
   bot.say("Hello, %s!" %trigger.nick)
 
-@module.rule("^(Nice\.)(\s$|$)")
+@module.rule(r"^(Nice\.)(\s$|$)")
 def nice(bot, trigger):
   bot.say(trigger.group(1))
 
-@module.rule("^(This\sis\sThe\sWay\.)($|\s$)")
+@module.rule(r"^(This\sis\sThe\sWay\.)($|\s$)")
 def theway(bot, trigger):
   bot.say(trigger.group(1))
 
-@module.rule("^(It\sis\sknown\.)(\s$|$)")
+@module.rule(r"^(It\sis\sknown\.)(\s$|$)")
 def itisknown(bot, trigger):
   bot.say(trigger.group(1))
 
@@ -124,7 +124,7 @@ def retardeyes(bot, trigger):
 def thx(bot, trigger):
   bot.say("https://actionsack.com/img/thx/thx.png")
 
-@module.rule("^(thanks.*|thank\syou.*)")
+@module.rule(r"^(thanks|thank\syou).*")
 def thanks(bot, trigger):
   thanks = [
     "https://actionsack.com/img/thx/h3h3.webm",
@@ -154,7 +154,7 @@ def crying(bot, trigger):
   ]
   bot.say(random.choice(crying))
 
-@module.rule(".*cry\sme\sa\sriver.*")
+@module.rule(r".*cry\sme\sa\sriver.*")
 def cryriver(bot, trigger):
   bot.say("https://actionsack.com/img/QQ/QQ007.gif")
 
@@ -192,7 +192,7 @@ def adapters(bot, trigger):
   ]
   bot.say(random.choice(adapters))
 
-@module.rule(".*accident\W")
+@module.rule(r".*accident\W")
 def accident(bot, trigger):
   bot.say("https://actionsack.com/img/misc/accident.png")
 
@@ -278,15 +278,15 @@ def handicap(bot, trigger):
 def down(bot, trigger):
   bot.say("https://actionsack.com/img/mike/down.gif")
 
-@module.rule("^\.\.\.$")
+@module.rule(r"^\.\.\.$")
 def dotdotdot(bot, trigger):
   bot.say("...")
 
-@module.rule("^\.dz$")
+@module.rule(r"^\.dz$")
 def deeznutz(bot, trigger):
   bot.say(formatting.bold("DEEZ NUTZ!"))
 
-@module.rule("^\s\/lenny$")
+@module.rule(r"^\s\/lenny$")
 def lenny(bot, trigger):
   lenny = [
     "https://actionsack.com/img/lenny/anime.gif",
@@ -324,15 +324,15 @@ def prank(bot, trigger):
   ]
   bot.say(random.choice(prank))
 
-@module.rule("^\?\?\?$")
+@module.rule(r"^\?\?\?$")
 def que(bot, trigger):
   bot.say("https://actionsack.com/img/misc/¿¿¿.png")
 
-@module.rule("^\\\o/$")
+@module.rule(r"^\\o/$")
 def handsup(bot, trigger):
   bot.say("\\o/")
 
-@module.rule("^¯\\\_\(ツ\)_\/¯$")
+@module.rule(r"^¯\\\_\(ツ\)_\/¯$")
 def shrug(bot, trigger):
   bot.say("¯\\_(ツ)_/¯")
 
@@ -447,11 +447,11 @@ def triggered(bot, trigger):
   ]
   bot.say(random.choice(triggered))
 
-@module.rule(".*to\sbe\sfair.*")
+@module.rule(r".*to\sbe\sfair.*")
 def tobefair(bot, trigger):
   bot.say("https://actionsack.com/img/videos/tobefair.webm")
 
-@module.rule("^stop\sbeing\spoor.*")
+@module.rule(r"^stop\sbeing\spoor.*")
 def stopbeingpoor(bot, trigger):
   bot.say("https://actionsack.com/img/misc/stopbeingpoor.jpg")
 
@@ -607,7 +607,7 @@ def kristen(bot, trigger):
   ]
   bot.say(random.choice(kristen))
 
-@module.rule("^Tasian\sloves\spickles\.($|\s)")
+@module.rule(r"^Tasian\sloves\spickles\.($|\s)")
 def tasianpickles(bot, trigger):
   bot.say("https://actionsack.com/img/tasian/pickles.png")
 
@@ -673,7 +673,7 @@ def aidsclub(bot, trigger):
 def barometer(bot, trigger):
   bot.say("https://actionsack.com/img/misc/barometer.png")
 
-@module.rule("^Oh,\syou!$")
+@module.rule(r"^Oh,\syou!$")
 def ohyou(bot, trigger):
   bot.say("https://actionsack.com/img/misc/Oh,you!.jpg")
 
@@ -696,15 +696,15 @@ def bomb(bot, trigger):
 def broden(bot, trigger):
   bot.say("https://actionsack.com/img/misc/broden.mp4")
 
-@module.rule(".*mikey\sbikey.*")
+@module.rule(r".*mikey\sbikey.*")
 def mikeybikey(bot, trigger):
   bot.say("https://actionsack.com/img/as/mikeybikey.png")
 
-@module.rule(".*meal\swith\sit.*")
+@module.rule(r".*meal\swith\sit.*")
 def mealwithit(bot, trigger):
   bot.say("https://actionsack.com/img/deal/mealwithit.gif")
 
-@module.rule(".*deal\swith\sit.*")
+@module.rule(r".*deal\swith\sit.*")
 def dealwithit(bot, trigger):
   deal = [
     "https://actionsack.com/img/deal/brule.gif",
@@ -747,7 +747,7 @@ def skeledoge(bot, trigger):
 def batdoge(bot, trigger):
   bot.say("https://actionsack.com/img/doge/batdoge.gif")
 
-@module.rule(".*slow\sdown.*")
+@module.rule(r".*slow\sdown.*")
 def slowdown(bot, trigger):
   bot.say("https://www.youtube.com/watch?v=fJdqw-JzW08")
 
@@ -824,7 +824,7 @@ def bingbong(bot, trigger):
 def chingchong(bot, trigger):
   bot.say("Chong!")
 
-@module.rule("^Ding!$")
+@module.rule(r"^Ding!$")
 def dingdong(bot, trigger):
   bot.say("Dong!")
 
@@ -873,7 +873,7 @@ def santa(bot, trigger):
 def headphones(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🎧.png")
 
-@module.rule(".*fuck\syou(?!r).*")
+@module.rule(r".*fuck\syou(?!r).*")
 def fuckyou(bot, trigger):
   fuckyou = [
     "https://actionsack.com/img/fuck/01_Two_Feet-Go_Fuck_Yourself.mp3",
@@ -936,7 +936,7 @@ def fuckyou(bot, trigger):
   ]
   bot.say(random.choice(fuckyou))
 
-@module.rule(".*(gfy(?!c)|go\sfuck\syourself).*")
+@module.rule(r".*(gfy(?!c)|go\sfuck\syourself).*")
 def gfy(bot, trigger):
   gfy = [
     "https://actionsack.com/img/fuck/animegfy.mp4",
@@ -947,11 +947,11 @@ def gfy(bot, trigger):
   ]
   bot.say(random.choice(gfy))
 
-@module.rule("^What\sthe\sfuck\?$")
+@module.rule(r"^What\sthe\sfuck\?$")
 def wtfquestion(bot, trigger):
   bot.say("https://actionsack.com/img/wtf/wtf¿.gif")
 
-@module.rule("^What\sthe\sfuck!$")
+@module.rule(r"^What\sthe\sfuck!$")
 def wtfexclamation(bot, trigger):
   bot.say("https://actionsack.com/img/wtf/wtfh3h3.mp4")
 
@@ -959,11 +959,11 @@ def wtfexclamation(bot, trigger):
 def fuckexclamation(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuck!.gif")
 
-@module.rule("^Fuck\syeah!$")
+@module.rule(r"^Fuck\syeah!$")
 def fuckyeah(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuckyeah!.mp4")
 
-@module.rule(".*fuck\severything.*")
+@module.rule(r".*fuck\severything.*")
 def fuckeverything(bot, trigger):
   bot.say("https://actionsack.com/img/fuck/fuckeverything.mp4")
 
@@ -975,11 +975,11 @@ def ftge(bot, trigger):
   ]
   bot.say(random.choice(ftge))
 
-@module.rule(".*fooled\syou.*")
+@module.rule(r".*fooled\syou.*")
 def fooledyou(bot, trigger):
   bot.say("https://actionsack.com/img/misc/fooled.png")
 
-@module.rule(".*fite\sme.*")
+@module.rule(r".*fite\sme.*")
 def fiteme(bot, trigger):
   fiteme = [
     "https://actionsack.com/img/fite/cat.gif",
@@ -1016,11 +1016,11 @@ def gayexclamation(bot, trigger):
   ]
   bot.say(random.choice(gayexclamation))
 
-@module.rule(".*everything's\sfucked.*")
+@module.rule(r".*everything's\sfucked.*")
 def everythingsfucked(bot, trigger):
   bot.say("https://actionsack.com/img/misc/everythingsfucked.gif")
 
-@module.rule("^o\sshit.*")
+@module.rule(r"^o\sshit.*")
 def datboi(bot, trigger):
   oshit = [
     "https://actionsack.com/img/oshit/8ball.png",
@@ -1094,7 +1094,7 @@ def swat(bot, trigger):
 def square(bot, trigger):
   bot.say("https://actionsack.com/img/videos/square.mp4")
 
-@module.rule(".*\(╯°□°）╯︵ ┻━┻.*")
+@module.rule(r".*\(╯°□°）╯︵ ┻━┻.*")
 def unflip(bot, trigger):
   bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, %s." %trigger.nick)
 
@@ -1103,7 +1103,7 @@ def dblflip(bot, trigger):
   """Flip two tables...at the same time!"""
   bot.say("┻━┻ ︵ヽ(`Д´)ﾉ︵﻿ ┻━┻")
 
-@module.rule(".*bite\sme.*")
+@module.rule(r".*bite\sme.*")
 @module.require_chanmsg
 def bitesback(bot, trigger):
   bot.action("bites %s" %trigger.nick, trigger.sender)
@@ -1155,7 +1155,7 @@ def dbc(bot, trigger):
   ]
   bot.say(random.choice(dbc))
 
-@module.rule("^Deus\svult!$")
+@module.rule(r"^Deus\svult!$")
 def deusvult(bot, trigger):
   bot.say("https://actionsack.com/img/videos/deusvult.webm")
 
@@ -1211,15 +1211,15 @@ def hue(bot, trigger):
   ]
   bot.say(random.choice(hue))
 
-@module.rule("^I am the machine\.(\s$|$)")
+@module.rule(r"^I am the machine\.(\s$|$)")
 def iamthemachine(bot, trigger):
   bot.say("https://www.youtube.com/watch?v=8PAtFsJY5q0")
 
-@module.rule(".*I\scan't\seven.*", ".*I'm\sliterally\scan't\seven.*")
+@module.rule(r".*I\scan't\seven.*", r".*I'm\sliterally\scan't\seven.*")
 def icanteven(bot, trigger):
   bot.say("https://actionsack.com/img/videos/icanteven.webm")
 
-@module.rule("^I\sship\s(it|that).*")
+@module.rule(r"^I\sship\s(it|that).*")
 def ishipit(bot, trigger):
   bot.say("https://actionsack.com/img/misc/fedex.gif")
 
@@ -1231,7 +1231,7 @@ def idgaf(bot, trigger):
   ]
   bot.say(random.choice(idgaf))
 
-@module.rule(".*hugh\smungus.*")
+@module.rule(r".*hugh\smungus.*")
 def hughmungus(bot, trigger):
   bot.say("https://actionsack.com/img/videos/hughmungus.webm")
 
@@ -1253,7 +1253,7 @@ def kazoo(bot, trigger):
   Can also be triggered with '!kazoo' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/kazoo.webm")
 
-@module.rule("^kill\sme.*")
+@module.rule(r"^kill\sme.*")
 def killme(bot, trigger):
   killme = [
     "https://actionsack.com/img/misc/killme-bulb.png",
@@ -1262,7 +1262,7 @@ def killme(bot, trigger):
   ]
   bot.say(random.choice(killme))
 
-@module.rule(".*(kys|kill\syourself).*")
+@module.rule(r".*(kys|kill\syourself).*")
 def kys(bot, trigger):
   kys = [
     "https://actionsack.com/img/kys/deals.png",
@@ -1320,7 +1320,7 @@ def judge(bot, trigger):
   
   bot.say("%s is %s" %(trigger.group(2), random.choice(judges)))
 
-@module.rule("^wat($|\W)")
+@module.rule(r"^wat($|\W)")
 def wat(bot, trigger):
   wat = [
     "https://actionsack.com/img/wat/3wats.png",
@@ -1361,11 +1361,11 @@ def wat(bot, trigger):
 def praisejesus(bot, trigger):
   bot.say("Praise Jesus!")
 
-@module.rule(".*jesus\schrist.*")
+@module.rule(r".*jesus\schrist.*")
 def jesuschrist(bot, trigger):
   bot.say("Praise Him!")
 
-@module.rule(".*Windows\s10.*")
+@module.rule(r".*Windows\s10.*")
 @module.commands("w10")
 def windowsten(bot, trigger):
   """Windows 10 bad.
@@ -1400,13 +1400,13 @@ def wow(bot, trigger):
 def whoa(bot, trigger):
   bot.say("https://actionsack.com/img/misc/whoa.gif")
 
-@module.rule(".*wew\slad.*", ".*wew!.*")
+@module.rule(r".*wew\slad.*", ".*wew!.*")
 @module.commands("wew")
 def wew(bot, trigger):
   """wew lad! — Can also be triggered with 'wew!' or 'wew lad' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/wew.png")
 
-@module.rule("^(uh\.\.\.|uh{2,})$")
+@module.rule(r"^(uh\.\.\.|uh{2,})$")
 def uhh(bot, trigger):
   uhh = [
     "https://actionsack.com/img/uh/uh01.png",
@@ -1425,7 +1425,7 @@ def twerk(bot, trigger):
   ]
   bot.say(random.choice(twerkit))
 
-@module.rule(".*swiggity\sswooty.*")
+@module.rule(r".*swiggity\sswooty.*")
 def swiggityswooty(bot, trigger):
   swiggity = [
     "https://actionsack.com/img/swiggityswooty/birb.gif",
@@ -1433,7 +1433,7 @@ def swiggityswooty(bot, trigger):
   ]
   bot.say(random.choice(swiggity))
 
-@module.rule(".*praise\sthe\ssun.*")
+@module.rule(r".*praise\sthe\ssun.*")
 @module.commands("praise")
 def praisethesun(bot, trigger):
   """Praise the Sun!
@@ -1469,7 +1469,7 @@ def shh(bot, trigger):
   ]
   bot.say(random.choice(shhh))
 
-@module.rule(".*sex\srobot.*")
+@module.rule(r".*sex\srobot.*")
 def sexrobot(bot, trigger):
   bot.say("https://actionsack.com/img/misc/sexrobot.gif")
 
@@ -1584,11 +1584,11 @@ def bustin(bot, trigger):
   Can also be triggered with "bustin'" anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/bustin.webm")
 
-@module.rule(".*(?<!s)canned(?!\sair).*")
+@module.rule(r".*(?<!s)canned(?!\sair).*")
 def canned(bot, trigger):
   bot.say("https://actionsack.com/img/misc/canned.gif")
 
-@module.rule(".*consider(\s|ed\s)this.*")
+@module.rule(r".*consider(\s|ed\s)this.*")
 def consider(bot, trigger):
   bot.say("https://actionsack.com/img/misc/consider.png")
 
@@ -1635,7 +1635,7 @@ def doomcrossing(bot, trigger):
   """Posts "DOOM CROSSING: Eternal Horizons" by The Chalkeaters feat. Natalia Natchan."""
   bot.say("https://actionsack.com/img/videos/DOOMCROSSING.webm")
 
-@module.rule(".*doom\sguy.*")
+@module.rule(r".*doom\sguy.*")
 def doomguy(bot, trigger):
   bot.say("https://actionsack.com/img/misc/doomguy.gif")
 
@@ -1643,7 +1643,7 @@ def doomguy(bot, trigger):
 def grapist(bot, trigger):
   bot.say("https://actionsack.com/img/misc/grapist.gif")
 
-@module.rule(".*it\swas\sme.*")
+@module.rule(r".*it\swas\sme.*")
 def itwasme(bot, trigger):
   me_dio = [
     "https://actionsack.com/img/dio/dva.png",
@@ -1652,11 +1652,11 @@ def itwasme(bot, trigger):
   ]
   bot.say(random.choice(me_dio))
 
-@module.rule("^god\sbless\s(.*)")
+@module.rule(r"^god\sbless\s(.*)")
 def godbless(bot, trigger):
   bot.action("blesses %s" %trigger.group(1))
 
-@module.rule(".*hail\ssatan!.*")
+@module.rule(r".*hail\ssatan!.*")
 def hailsatan(bot, trigger):
   hail_satan = [
     "https://actionsack.com/img/satan/mii.webm",
@@ -1664,7 +1664,7 @@ def hailsatan(bot, trigger):
   ]
   bot.say(random.choice(hail_satan))
 
-@module.rule(".*have\sa\sseat.*")
+@module.rule(r".*have\sa\sseat.*")
 def haveaseat(bot, trigger):
   bot.say("https://actionsack.com/img/misc/haveaseat.gif")
 
