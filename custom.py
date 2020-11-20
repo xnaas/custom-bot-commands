@@ -1746,7 +1746,6 @@ def racist(bot, trigger):
     "https://actionsack.com/img/racist/birds.gif",
     "https://actionsack.com/img/racist/blackmexican.gif",
     "https://actionsack.com/img/racist/fall.gif",
-    "actionsack.com/img/racist/naggers.gif", # Removed protocol to prevent auto-expand in thelounge
     "https://actionsack.com/img/racist/nelson.gif",
     "https://actionsack.com/img/racist/prettyracist.mp4",
     "https://actionsack.com/img/racist/racist.mp4",
