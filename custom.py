@@ -116,7 +116,7 @@ def fourtwenty(bot, trigger):
   ]
   bot.say(random.choice(fourtwozero))
 
-@module.rule(":retardeyes:")
+@module.rule(".*:retardeyes:.*")
 def retardeyes(bot, trigger):
   bot.say("https://cdn.discordapp.com/emojis/286222898836799488.png")
 
@@ -352,7 +352,7 @@ def unicorn(bot, trigger):
 def upsidedown(bot, trigger):
   bot.say("🙃")
 
-@module.rule("^🖕($|🏻|🏼|🏽|🏾|🏿)$")
+@module.rule("^🖕(|🏻|🏼|🏽|🏾|🏿)$")
 def fuckyouback(bot, trigger):
   bot.say("Fuck you, %s!" %trigger.nick)
 
@@ -451,7 +451,7 @@ def triggered(bot, trigger):
 def tobefair(bot, trigger):
   bot.say("https://actionsack.com/img/videos/tobefair.webm")
 
-@module.rule(r"^stop\sbeing\spoor.*")
+@module.rule(r".*stop\sbeing\spoor.*")
 def stopbeingpoor(bot, trigger):
   bot.say("https://actionsack.com/img/misc/stopbeingpoor.jpg")
 
