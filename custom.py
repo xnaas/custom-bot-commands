@@ -1746,6 +1746,7 @@ def racist(bot, trigger):
     "https://actionsack.com/img/racist/birds.gif",
     "https://actionsack.com/img/racist/blackmexican.gif",
     "https://actionsack.com/img/racist/fall.gif",
+    "actionsack.com/img/racist/naggers.gif", # Removed protocol to prevent auto-expand in thelounge
     "https://actionsack.com/img/racist/nelson.gif",
     "https://actionsack.com/img/racist/prettyracist.mp4",
     "https://actionsack.com/img/racist/racist.mp4",
@@ -1774,3 +1775,12 @@ def panic(bot, trigger):
 @module.rule(r".*my\sbrand.*")
 def mybrand(bot, trigger):
   bot.say("https://actionsack.com/img/videos/MY_BRAND!.webm")
+
+@module.rule(".*!nms.*")
+def nms(bot, trigger):
+  no_mans_sky = [
+    "https://actionsack.com/img/nms/ice.png",
+    "https://actionsack.com/img/nms/legit.gif",
+    "https://actionsack.com/img/nms/mike.png"
+  ]
+  bot.say(random.choice(no_mans_sky))
