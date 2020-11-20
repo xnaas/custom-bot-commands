@@ -1701,3 +1701,13 @@ def kay(bot, trigger):
 def words(bot, trigger):
   # Requested by Aegisfate on 2020-11-19
   bot.say("https://actionsack.com/img/misc/words.gif")
+
+@module.rule(".*kiki.*")
+def kiki(bot, trigger):
+  kiki = [
+    "https://actionsack.com/img/kiki/sauce.png",
+    "https://actionsack.com/img/kiki/snoop.png",
+    formatting.monospace('[4:44 PM] Kiki: U sound so far right now'),
+    "I S M A E L  C H I A  T O R R E S"
+  ]
+  bot.say(random.choice(kiki))
