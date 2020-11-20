@@ -1686,6 +1686,7 @@ def kay(bot, trigger):
     "👌🏽",
     "👌🏾",
     "👌🏿",
+    "👌🏻👌🏼👌🏽👌🏾👌🏿",
     "🆗",
     "https://actionsack.com/img/k/kermit.mp4",
     "https://actionsack.com/img/k/seuss.mp4",
