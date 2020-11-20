@@ -1805,3 +1805,12 @@ def neat(bot, trigger):
     "https://actionsack.com/img/neat/stare.gif"
   ]
   bot.say(random.choice(neat))
+
+@module.require_admin
+@module.rule(r".*my\sserver.*")
+def myserver(bot, trigger):
+  my_server = [
+    "https://actionsack.com/img/server/irl.jpg",
+    "https://actionsack.com/img/server/weekend.png"
+  ]
+  bot.say(random.choice(my_server))
