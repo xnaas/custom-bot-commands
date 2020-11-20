@@ -1652,9 +1652,9 @@ def itwasme(bot, trigger):
   ]
   bot.say(random.choice(me_dio))
 
-@module.rule("(^god\sbless\s)(.*)")
+@module.rule("^god\sbless\s(.*)")
 def godbless(bot, trigger):
-  bot.action("blesses %s" %trigger.group(2))
+  bot.action("blesses %s" %trigger.group(1))
 
 @module.rule(".*hail\ssatan!.*")
 def hailsatan(bot, trigger):
@@ -1667,3 +1667,11 @@ def hailsatan(bot, trigger):
 @module.rule(".*have\sa\sseat.*")
 def haveaseat(bot, trigger):
   bot.say("https://actionsack.com/img/misc/haveaseat.gif")
+
+@module.rule(".*jews.*")
+def jews(bot, trigger):
+  jew_pics = [
+    "https://actionsack.com/img/jews/blame.jpg",
+    "https://actionsack.com/img/jews/donate.gif"
+  ]
+  bot.say(random.choice(jew_pics))
