@@ -1711,3 +1711,7 @@ def kiki(bot, trigger):
     "I S M A E L  C H I A  T O R R E S"
   ]
   bot.say(random.choice(kiki))
+
+@module.rule(r".*major\sspoiler.*")
+def majorspoiler(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/spoiler.png")
