@@ -160,7 +160,7 @@ def cryriver(bot, trigger):
 
 @module.rule(".*!xms.*", ".*!bge.*")
 def xms(bot, trigger):
-  bot.say("https://w2g.tv/rooms/actionsack-csurhbl9dkwvwnk91a")
+  bot.say("w2g.tv/rooms/actionsack-csurhbl9dkwvwnk91a")
 
 @module.rule(".*📖.*")
 def book(bot, trigger):
