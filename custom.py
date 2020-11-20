@@ -1791,3 +1791,17 @@ def sickgif(bot, trigger):
 @module.rule("^nerd!$")
 def nerd(bot, trigger):
   bot.say("https://actionsack.com/img/misc/nerd!.gif")
+
+@module.rule(".*neat!.*")
+def neat(bot, trigger):
+  neat = [
+    "https://actionsack.com/img/neat/anime.gif",
+    "https://actionsack.com/img/neat/bender01.gif",
+    "https://actionsack.com/img/neat/bender02.gif",
+    "https://actionsack.com/img/neat/bender03.gif",
+    "https://actionsack.com/img/neat/ffcat.png",
+    "https://actionsack.com/img/neat/neat.mp4",
+    "https://actionsack.com/img/neat/spiderman.gif",
+    "https://actionsack.com/img/neat/stare.gif"
+  ]
+  bot.say(random.choice(neat))
