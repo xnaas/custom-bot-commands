@@ -1696,3 +1696,8 @@ def kay(bot, trigger):
     "https://actionsack.com/img/k/vldlk.gif"
   ]
   bot.say(random.choice(kk))
+
+@module.rule(".*!words.*")
+def words(bot, trigger):
+  # Requested by Aegisfate on 2020-11-19
+  bot.say("https://actionsack.com/img/misc/words.gif")
