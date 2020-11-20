@@ -1753,3 +1753,20 @@ def racist(bot, trigger):
 @module.rule(r".*pasta\sdisasta.*")
 def pastadisasta(bot, trigger):
   bot.say("https://actionsack.com/img/videos/PastaDisasta.webm")
+
+@module.rule(r".*(?<!his)panic!.*")
+def panic(bot, trigger):
+  panic_room = [
+    "https://actionsack.com/img/panic/panic01.gif",
+    "https://actionsack.com/img/panic/panic02.gif",
+    "https://actionsack.com/img/panic/panic03.gif",
+    "https://actionsack.com/img/panic/panic04.gif",
+    "https://actionsack.com/img/panic/panic05.gif",
+    "https://actionsack.com/img/panic/panic06.gif",
+    "https://actionsack.com/img/panic/panic07.gif"
+  ]
+  bot.say(random.choice(panic_room))
+
+@module.rule(r".*my\sbrand.*")
+def mybrand(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/MY_BRAND!.webm")
