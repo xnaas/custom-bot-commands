@@ -1675,3 +1675,23 @@ def jews(bot, trigger):
     "https://actionsack.com/img/jews/donate.gif"
   ]
   bot.say(random.choice(jew_pics))
+
+@module.rule("^k$")
+def kay(bot, trigger):
+  kk = [
+    "k",
+    "👌",
+    "👌🏻",
+    "👌🏼",
+    "👌🏽",
+    "👌🏾",
+    "👌🏿",
+    "🆗",
+    "https://actionsack.com/img/k/kermit.mp4",
+    "https://actionsack.com/img/k/seuss.mp4",
+    "https://actionsack.com/img/k/shirt.mp4",
+    "https://actionsack.com/img/k/snow.mp4",
+    "https://actionsack.com/img/k/VHS.mp4",
+    "https://actionsack.com/img/k/vldlk.gif"
+  ]
+  bot.say(random.choice(kk))
