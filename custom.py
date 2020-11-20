@@ -1787,3 +1787,7 @@ def nms(bot, trigger):
 @module.rule(r"^(nice|sick)\sgif.*")
 def sickgif(bot, trigger):
   bot.say("https://actionsack.com/img/misc/sickgif.gif")
+
+@module.rule("^nerd!$")
+def nerd(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/nerd!.gif")
