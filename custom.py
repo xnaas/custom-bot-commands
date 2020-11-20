@@ -1814,3 +1814,11 @@ def myserver(bot, trigger):
     "https://actionsack.com/img/server/weekend.png"
   ]
   bot.say(random.choice(my_server))
+
+@module.rule(r".*(?<!\w)moist(?!\w).*")
+def moist(bot, trigger):
+  moist = [
+    "https://actionsack.com/img/moist/asian.jpg",
+    "https://actionsack.com/img/moist/old.jpg"
+  ]
+  bot.say(random.choice(moist))
