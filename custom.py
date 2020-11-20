@@ -176,6 +176,10 @@ def book(bot, trigger):
 def greg(bot, trigger):
   bot.say("Greg was never in IRC...")
 
+@module.rule("^grim$")
+def grim(bot, trigger):
+  bot.say("Probably still showering with his sister to this day...")
+
 @module.rule("^FOAD.*")
 def foad(bot, trigger):
   bot.say("https://actionsack.com/img/misc/foad.png")
