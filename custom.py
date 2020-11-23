@@ -1846,3 +1846,7 @@ def imadethis(bot, trigger):
     "https://actionsack.com/img/OC/starwars.png"
   ]
   bot.say(random.choice(iMadeThis))
+
+@module.rule(r".*(?<!\w)eat\sshit.*")
+def frank(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/frank.gif")
