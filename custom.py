@@ -94,6 +94,7 @@ def rekt(bot, trigger):
 @module.rule("^420.*")
 def fourtwenty(bot, trigger):
   fourtwozero = [
+    "https://actionsack.com/img/420/attacks.png",
     "https://actionsack.com/img/420/birb.png",
     "https://actionsack.com/img/420/champions.png",
     "https://actionsack.com/img/420/claim.png",
