@@ -97,6 +97,7 @@ def fourtwenty(bot, trigger):
     "https://actionsack.com/img/420/attacks.png",
     "https://actionsack.com/img/420/birb.png",
     "https://actionsack.com/img/420/champions.png",
+    "https://actionsack.com/img/420/chinarocket.png",
     "https://actionsack.com/img/420/claim.png",
     "https://actionsack.com/img/420/coma.png",
     "https://actionsack.com/img/420/comrade.png",
