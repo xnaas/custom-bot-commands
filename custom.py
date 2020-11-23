@@ -1834,3 +1834,15 @@ def manga(bot, trigger):
 @module.rule(r".*let\sme\sin.*")
 def letmein(bot, trigger):
   bot.say("https://actionsack.com/img/videos/letmein.mp4")
+
+@module.rule(r".*i\smade\sthis.*")
+def imadethis(bot, trigger):
+  iMadeThis = [
+    "https://actionsack.com/img/OC/apple.png",
+    "https://actionsack.com/img/OC/comic.png",
+    "https://actionsack.com/img/OC/iGIF.gif",
+    "https://actionsack.com/img/OC/iGIF2.gif",
+    "https://actionsack.com/img/OC/iPickle.png",
+    "https://actionsack.com/img/OC/starwars.png"
+  ]
+  bot.say(random.choice(iMadeThis))
