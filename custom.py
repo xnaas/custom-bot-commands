@@ -290,7 +290,7 @@ def down(bot, trigger):
 def dotdotdot(bot, trigger):
   bot.say("...")
 
-@module.rule(r"^\.dz$")
+@module.commands("dz")
 def deeznutz(bot, trigger):
   bot.say(formatting.bold("DEEZ NUTZ!"))
 
