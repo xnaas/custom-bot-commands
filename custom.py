@@ -1341,7 +1341,6 @@ def wat(bot, trigger):
     "https://actionsack.com/img/wat/filming.gif",
     "https://actionsack.com/img/wat/gigawat.png",
     "https://actionsack.com/img/wat/holdwat.png",
-    "https://actionsack.com/img/wat/hwat01.png",
     "https://actionsack.com/img/wat/hwat02.png",
     "https://actionsack.com/img/wat/inthebutt.png",
     "https://actionsack.com/img/wat/jabba.png",
@@ -1858,3 +1857,11 @@ def gtfo(bot, trigger):
 @module.rule(".*hawt.*")
 def hawt(bot, trigger):
   bot.say("🥵")
+
+@module.rule("^hwat.*")
+def hwat(bot, trigger):
+  hwat = [
+    "https://actionsack.com/img/wat/hwat01.png",
+    "https://actionsack.com/img/wat/hwat02.png"
+  ]
+  bot.say(random.choice(hwat))
