@@ -1850,3 +1850,7 @@ def imadethis(bot, trigger):
 @module.rule(r".*(?<!\w)eat\sshit.*")
 def frank(bot, trigger):
   bot.say("https://actionsack.com/img/misc/frank.gif")
+
+@module.rule(".*GTFO.*")
+def gtfo(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/gtfo.png")
