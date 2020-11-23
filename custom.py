@@ -1866,3 +1866,38 @@ def hwat(bot, trigger):
     "https://actionsack.com/img/wat/hwat02.png"
   ]
   bot.say(random.choice(hwat))
+
+@module.rule(r".*I\ssee\syou(?!\').*")
+def iseeyou(bot, trigger):
+  bot.say("https://actionsack.com/img/👀/iSeeU.mp4")
+
+@module.rule(".*eyelids.*")
+def eyelids(bot, trigger):
+  bot.say("https://actionsack.com/img/👀/eyelids.mp4")
+
+@module.rule("^👀$")
+def eyes(bot, trigger):
+  eyes = [
+    "https://actionsack.com/img/👀/anime.png",
+    "https://actionsack.com/img/👀/big01.png",
+    "https://actionsack.com/img/👀/big02.png",
+    "https://actionsack.com/img/👀/big03.png",
+    "https://actionsack.com/img/👀/big04.png",
+    "https://actionsack.com/img/👀/big05.png",
+    "https://actionsack.com/img/👀/big06.png",
+    "https://actionsack.com/img/👀/big07.png",
+    "https://actionsack.com/img/👀/big08.png",
+    "https://actionsack.com/img/👀/bigred.png",
+    "https://actionsack.com/img/👀/deadpool.gif",
+    "https://actionsack.com/img/👀/eric01.png",
+    "https://actionsack.com/img/👀/eric02.png",
+    "https://actionsack.com/img/👀/eyelids.mp4",
+    "https://actionsack.com/img/👀/fecktk.png",
+    "https://actionsack.com/img/👀/iSeeU.mp4",
+    "https://actionsack.com/img/👀/monkey.png",
+    "https://actionsack.com/img/👀/obama.png",
+    "https://actionsack.com/img/👀/trump.png",
+    "https://actionsack.com/img/👀/walrus.png",
+    "https://actionsack.com/img/👀/woody.png"
+  ]
+  bot.say(random.choice(eyes))
