@@ -1854,3 +1854,7 @@ def frank(bot, trigger):
 @module.rule(".*GTFO.*")
 def gtfo(bot, trigger):
   bot.say("https://actionsack.com/img/misc/gtfo.png")
+
+@module.rule(".*hawt.*")
+def hawt(bot, trigger):
+  bot.say("🥵")
