@@ -1901,3 +1901,12 @@ def eyes(bot, trigger):
     "https://actionsack.com/img/👀/woody.png"
   ]
   bot.say(random.choice(eyes))
+
+@module.rule(r"^💩(|\s)💩$")
+def shit(bot, trigger):
+  shit_gifs = [
+    "https://actionsack.com/img/💩/cardi.mp4",
+    "https://actionsack.com/img/💩/extreme.mp4",
+    "https://actionsack.com/img/💩/McCafé.gif"
+  ]
+  bot.say(random.choice(shit_gifs))
