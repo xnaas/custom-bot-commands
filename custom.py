@@ -1910,3 +1910,9 @@ def shit(bot, trigger):
     "https://actionsack.com/img/💩/McCafé.gif"
   ]
   bot.say(random.choice(shit_gifs))
+
+@module.rule(".*!tesla.*")
+@module.commands("tesla")
+def tesla(bot, trigger):
+  """Can also be triggered with '!tesla' anywhere in a message."""
+  bot.say("https://actionsack.com/img/videos/tesla.webm")
