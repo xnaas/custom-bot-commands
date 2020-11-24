@@ -1,6 +1,6 @@
 """
 Source: https://github.com/xnaas/sopel-color-text
-Fored from: https://github.com/sopel-irc/sopel-rainbow
+Forked and heavily modified from: https://github.com/sopel-irc/sopel-rainbow
 """
 from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module, formatting
