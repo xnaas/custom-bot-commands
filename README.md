@@ -13,3 +13,6 @@ Moved from [sopel-color-text](https://github.com/xnaas/sopel-color-text) — don
 
 ## custom.py
 Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot.
+
+## dadjokes.py
+Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
