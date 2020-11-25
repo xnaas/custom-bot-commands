@@ -1986,3 +1986,13 @@ def vapenaysh(bot, trigger):
     "https://actionsack.com/img/vn/wut.png"
   ]
   bot.say(random.choice(vape_naysh))
+
+@module.rule(".*🦈.*")
+def sharku(bot, trigger):
+  sharks = [
+    "https://actionsack.com/img/🦈/buff_girl.png",
+    "https://actionsack.com/img/🦈/costume.gif",
+    "https://actionsack.com/img/🦈/flame.gif",
+    "https://actionsack.com/img/🦈/pet.gif"
+  ]
+  bot.say(random.choice(sharks))
