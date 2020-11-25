@@ -1916,3 +1916,73 @@ def shit(bot, trigger):
 def tesla(bot, trigger):
   """Can also be triggered with '!tesla' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/tesla.webm")
+
+@module.rule(".*!vn.*")
+@module.commands("vn")
+def vapenaysh(bot, trigger):
+  """Vape naysh, y'all!
+  Can also be triggered with '!vn' anywhere in a message."""
+  vape_naysh = [
+    "https://actionsack.com/img/vn/20.png",
+    "https://actionsack.com/img/vn/2fast.png",
+    "https://actionsack.com/img/vn/5minutes.png",
+    "https://actionsack.com/img/vn/anal.png",
+    "https://actionsack.com/img/vn/area.png",
+    "https://actionsack.com/img/vn/arrest.webm",
+    "https://actionsack.com/img/vn/bart.gif",
+    "https://actionsack.com/img/vn/bart.webm",
+    "https://actionsack.com/img/vn/beanie.png",
+    "https://actionsack.com/img/vn/breakingbad.png",
+    "https://actionsack.com/img/vn/bubble.mp4",
+    "https://actionsack.com/img/vn/burns.gif",
+    "https://actionsack.com/img/vn/charged.png",
+    "https://actionsack.com/img/vn/C&H.gif",
+    "https://actionsack.com/img/vn/coconut.png",
+    "https://actionsack.com/img/vn/dora.png",
+    "https://actionsack.com/img/vn/faceswap.gif",
+    "https://actionsack.com/img/vn/fancy-ethan.png",
+    "https://actionsack.com/img/vn/first.png",
+    "https://actionsack.com/img/vn/flappy.gif",
+    "https://actionsack.com/img/vn/gaysex.png",
+    "https://actionsack.com/img/vn/godzilla.gif",
+    "https://actionsack.com/img/vn/goldengate.png",
+    "https://actionsack.com/img/vn/h3h3.png",
+    "https://actionsack.com/img/vn/iRape.png",
+    "https://actionsack.com/img/vn/it.png",
+    "https://actionsack.com/img/vn/iVape.png",
+    "https://actionsack.com/img/vn/legend.png",
+    "https://actionsack.com/img/vn/LOV.png",
+    "https://actionsack.com/img/vn/lungs.gif",
+    "https://actionsack.com/img/vn/mei.gif",
+    "https://actionsack.com/img/vn/minecraft.png",
+    "https://actionsack.com/img/vn/mountvapemore.png",
+    "https://actionsack.com/img/vn/mowing.webm",
+    "https://actionsack.com/img/vn/party.png",
+    "https://actionsack.com/img/vn/passcode.png",
+    "https://actionsack.com/img/vn/pc.mp4",
+    "https://actionsack.com/img/vn/pepe.png",
+    "https://actionsack.com/img/vn/phatcash.png",
+    "https://actionsack.com/img/vn/phatclouds.mp4",
+    "https://actionsack.com/img/vn/☂.png",
+    "https://actionsack.com/img/vn/server.mp4",
+    "https://actionsack.com/img/vn/skills.gif",
+    "https://actionsack.com/img/vn/skull.png",
+    "https://actionsack.com/img/vn/space-smile.png",
+    "https://actionsack.com/img/vn/sphynx.png",
+    "https://actionsack.com/img/vn/spongebob.png",
+    "https://actionsack.com/img/vn/stock_vape.png",
+    "https://actionsack.com/img/vn/tornado-ethan.png",
+    "https://actionsack.com/img/vn/tornado.png",
+    "https://actionsack.com/img/vn/tower.png",
+    "https://actionsack.com/img/vn/twintowers.png",
+    "https://actionsack.com/img/vn/vapecat.gif",
+    "https://actionsack.com/img/vn/vapecat.mp4",
+    "https://actionsack.com/img/vn/vapecat.png",
+    "https://actionsack.com/img/vn/vapeman.mp4",
+    "https://actionsack.com/img/vn/vnkit.png",
+    "https://actionsack.com/img/vn/wedding.png",
+    "https://actionsack.com/img/vn/whale.png",
+    "https://actionsack.com/img/vn/woodwork.png",
+    "https://actionsack.com/img/vn/wut.png"
+  ]
+  bot.say(random.choice(vape_naysh))
