@@ -2035,3 +2035,16 @@ def think(bot, trigger):
 def as_linus(bot, trigger):
   bot.say("https://actionsack.com/img/as/linus.png")
 
+@module.rule(".*🚬.*")
+def smoking(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/smoking.gif")
+
+@module.rule(".*🚁.*")
+def heli(bot, trigger):
+  helicopter = [
+    "https://actionsack.com/img/🚁/engineer.gif",
+    "https://actionsack.com/img/🚁/fgr.png",
+    "https://actionsack.com/img/🚁/hair.png",
+    "https://actionsack.com/img/🚁/peewee.png"
+  ]
+  bot.say(random.choice(helicopter))
