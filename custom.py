@@ -2030,3 +2030,8 @@ def think(bot, trigger):
     "https://actionsack.com/img/think/thonk.gif"
   ]
   bot.say(random.choice(thinking))
+
+@module.rule(".*🚸.*")
+def as_linus(bot, trigger):
+  bot.say("https://actionsack.com/img/as/linus.png")
+
