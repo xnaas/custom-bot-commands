@@ -2012,3 +2012,21 @@ def batman(bot, trigger):
     "https://actionsack.com/img/🦇👨/ZmVlaw==.png"
   ]
   bot.say(random.choice(bat_men))
+
+@module.rule("^🤔+$")
+def think(bot, trigger):
+  thinking = [
+    "https://actionsack.com/img/think/aesthetic.png",
+    "https://actionsack.com/img/think/barometer.png",
+    "https://actionsack.com/img/think/beer.png",
+    "https://actionsack.com/img/think/circle.jpg",
+    "https://actionsack.com/img/think/fu.png",
+    "https://actionsack.com/img/think/layers.png",
+    "https://actionsack.com/img/think/statue.png",
+    "https://actionsack.com/img/think/thinksomething.gif",
+    "https://actionsack.com/img/think/thinkspin2.gif",
+    "https://actionsack.com/img/think/thinkspin.gif",
+    "https://actionsack.com/img/think/thinkspinner.gif",
+    "https://actionsack.com/img/think/thonk.gif"
+  ]
+  bot.say(random.choice(thinking))
