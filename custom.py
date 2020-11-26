@@ -1757,7 +1757,7 @@ def racist(bot, trigger):
 
 @module.rule(r".*pasta\sdisasta.*")
 def pastadisasta(bot, trigger):
-  bot.say("https://actionsack.com/img/videos/PastaDisasta.webm")
+  bot.say("https://actionsack.com/img/🍝/disasta.webm")
 
 @module.rule(r".*(?<!his)panic!.*")
 def panic(bot, trigger):
@@ -2048,3 +2048,15 @@ def heli(bot, trigger):
     "https://actionsack.com/img/🚁/peewee.png"
   ]
   bot.say(random.choice(helicopter))
+
+@module.rule(".*🍝.*")
+def spaghetti(bot, trigger):
+  spaghettis = [
+    "https://actionsack.com/img/🍝/21pilots.webm",
+    "https://actionsack.com/img/🍝/allstar.webm",
+    "https://actionsack.com/img/🍝/disasta.webm",
+    "https://actionsack.com/img/🍝/double.png",
+    "https://actionsack.com/img/🍝/lie.webm",
+    "https://actionsack.com/img/🍝/mom's.webm"
+  ]
+  bot.say(random.choice(spaghettis))
