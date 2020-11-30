@@ -1991,6 +1991,7 @@ def vapenaysh(bot, trigger):
 def sharku(bot, trigger):
   sharks = [
     "https://actionsack.com/img/🦈/buff_girl.png",
+    "https://actionsack.com/img/🦈/comic.jpg",
     "https://actionsack.com/img/🦈/costume.gif",
     "https://actionsack.com/img/🦈/flame.gif",
     "https://actionsack.com/img/🦈/pet.gif"
