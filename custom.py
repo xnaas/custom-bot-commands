@@ -2070,3 +2070,21 @@ def svehla(bot, trigger):
 @module.rule(".*🗑.*")
 def trash(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🗑.gif")
+
+@module.commands("cumcan")
+def cumcan(bot, trigger):
+  """Cum cleanup."""
+  bot.say("https://actionsack.com/img/misc/cumcan.gif")
+
+@module.commands("cancer")
+def cancer(bot, trigger):
+  """Warning! Posts pure cancer into chat."""
+  cancer_images = [
+    "https://actionsack.com/img/as/cancer-list.png",
+    "https://actionsack.com/img/as/cancer-microscope.png"
+  ]
+  bot.say(random.choice(cancer_images))
+
+@module.commands("daquan")
+def daquan(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/daquan.jpg")
