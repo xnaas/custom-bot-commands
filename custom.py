@@ -2065,3 +2065,7 @@ def spaghetti(bot, trigger):
 @module.rule(".*svehla.*")
 def svehla(bot, trigger):
   bot.say("https://actionsack.com/img/misc/svehla.png")
+
+@module.rule(".*🗑.*")
+def trash(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/🗑.gif")
