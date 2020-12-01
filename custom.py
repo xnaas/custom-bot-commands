@@ -2061,3 +2061,7 @@ def spaghetti(bot, trigger):
     "https://actionsack.com/img/🍝/mom's.webm"
   ]
   bot.say(random.choice(spaghettis))
+
+@module.rule(".*svehla.*")
+def svehla(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/svehla.png")
