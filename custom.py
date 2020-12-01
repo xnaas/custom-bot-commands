@@ -1655,7 +1655,7 @@ def doomguy(bot, trigger):
 def grapist(bot, trigger):
   bot.say("https://actionsack.com/img/misc/grapist.gif")
 
-@module.rule(r".*it\swas\sme.*")
+@module.rule(r".*it\swas\sme(?!ant).*")
 def itwasme(bot, trigger):
   me_dio = [
     "https://actionsack.com/img/dio/dva.png",
