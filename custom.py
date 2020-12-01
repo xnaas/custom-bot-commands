@@ -503,7 +503,8 @@ def tb(bot, trigger):
     "The secondary gyrodyne relays of the propulsion field intermatrix have depolarized!",
     "The Enterprise computer system is controlled by three primary main processing cores, cross-linked with a redundant melacortz ramistat. Fourteen kiloquad interface modules. The core element is based on an FTL nanoprocessor with twenty five bilateral kelilactirals, with twenty of those being slaved into the primary heisenfram terminal.",
     "Shunt plasma from the buzzard collectors into the Heisenberg compensators in order to generate sufficient tachyon emissions to disperse neutrino buildup around the warp core, thereby establishing a static warp bubble!",
-    "Nanogel. It acts as a quantum transducer."
+    "Nanogel. It acts as a quantum transducer.",
+    "Don’t forget to move your mouse counter clockwise to reverse the logging process."
   ]
   bot.say(random.choice(tb), max_messages=2)
 
