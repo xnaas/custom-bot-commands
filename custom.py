@@ -1485,6 +1485,7 @@ def son(bot, trigger):
   son = [
     "https://actionsack.com/img/son/acnh.png",
     "https://actionsack.com/img/son/doggos.png",
+    "https://actionsack.com/img/son/halo.png",
     "https://actionsack.com/img/son/subs.png",
     "https://actionsack.com/img/son/teslas.png",
     "https://actionsack.com/img/son/wieners.png"
@@ -2260,3 +2261,23 @@ def bernii(bot, trigger):
 @module.rule(".*blumkin.*")
 def blumpkin(bot, trigger):
   bot.say("https://actionsack.com/img/misc/blumkin.gif")
+
+@module.rule(".*!(chief|halo).*")
+@module.commands("chief", "halo")
+def chief(bot, trigger):
+  master_chef = [
+    "https://actionsack.com/img/son/halo.png",
+    "https://actionsack.com/img/chief/59bullets.png",
+    "https://actionsack.com/img/chief/car.gif",
+    "https://actionsack.com/img/chief/face00.gif",
+    "https://actionsack.com/img/chief/face01.gif",
+    "https://actionsack.com/img/chief/Halo5.png",
+    "https://actionsack.com/img/chief/jaja.png",
+    "https://actionsack.com/img/chief/perfect_game.png",
+    "https://actionsack.com/img/chief/pony.png",
+    "https://actionsack.com/img/chief/skiing.png",
+    "https://actionsack.com/img/chief/what_do_you_think.png",
+    "https://actionsack.com/img/chief/❔.png",
+    "https://actionsack.com/img/chief/🗑.png"
+  ]
+  bot.say(random.choice(master_chef))
