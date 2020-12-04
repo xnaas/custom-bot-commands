@@ -2598,3 +2598,11 @@ def drphil(bot, trigger):
     "https://actionsack.com/img/drphil/WSTYAHHWASFOH.png"
   ]
   bot.say(random.choice(dr_phil))
+
+@module.rule(".*🌀.*")
+def hurricane(bot, trigger):
+  hurricanes = [
+    "https://actionsack.com/img/🌀/AD.png",
+    "https://actionsack.com/img/🌀/matthew.png"
+  ]
+  bot.say(random.choice(hurricanes))
