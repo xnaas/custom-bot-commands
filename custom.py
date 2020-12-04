@@ -2219,3 +2219,7 @@ def rickles(bot, trigger):
 @module.rule(r"^(yo|)u\swin.*")
 def uwin(bot, trigger):
   bot.say("https://actionsack.com/img/misc/uWin.png")
+
+@module.rule(r"^you\sdon\'t\ssay.*")
+def udontsay(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/yds.png")
