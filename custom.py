@@ -2235,3 +2235,7 @@ def urtooslow(bot, trigger):
 @module.rule(r".*whale\srape.*")
 def whalerape(bot, trigger):
   bot.say("https://actionsack.com/img/videos/whalerape.mp4")
+
+@module.rule(".*kwaken.*")
+def kwaken(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/kwaken.png")
