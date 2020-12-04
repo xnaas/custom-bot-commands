@@ -2248,3 +2248,7 @@ def kfc(bot, trigger):
     "https://actionsack.com/img/kfc/02.png",
   ]
   bot.say(random.choice(kfc))
+
+@module.rule(".*(?<!en)joy!.*")
+def joy(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/joy.gif")
