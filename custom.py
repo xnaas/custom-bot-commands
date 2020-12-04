@@ -341,7 +341,7 @@ def que(bot, trigger):
 def handsup(bot, trigger):
   bot.say("\\o/")
 
-@module.rule(r"^¯\\\_\(ツ\)_\/¯$")
+@module.rule(r"^¯\\\_\(ツ\)_\/¯(\s$|$)")
 def shrug(bot, trigger):
   bot.say("¯\\_(ツ)_/¯")
 
