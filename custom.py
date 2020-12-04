@@ -2072,20 +2072,33 @@ def svehla(bot, trigger):
 def trash(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🗑.gif")
 
+@module.rule("!cumcan")
 @module.commands("cumcan")
 def cumcan(bot, trigger):
-  """Cum cleanup."""
+  """Cum cleanup.
+  Can also be triggered with '!cumcan' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/cumcan.gif")
 
+@module.rule("!cancer")
 @module.commands("cancer")
 def cancer(bot, trigger):
-  """Warning! Posts pure cancer into chat."""
+  """Warning! Posts pure cancer into chat.
+  Can also be triggered with '!cancer' anywhere in a message."""
   cancer_images = [
     "https://actionsack.com/img/as/cancer-list.png",
     "https://actionsack.com/img/as/cancer-microscope.png"
   ]
   bot.say(random.choice(cancer_images))
 
+@module.rule("!daquan")
 @module.commands("daquan")
 def daquan(bot, trigger):
+  """Can also be triggered with '!daquan' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/daquan.jpg")
+
+@module.rule("!heff")
+@module.commands("heff")
+def heff(bot, trigger):
+  """Is only game, why you heff to be mad?
+  Can also be triggered with '!heff' anywhere in a message."""
+  bot.say("https://actionsack.com/img/videos/heff.webm")
