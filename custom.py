@@ -2283,3 +2283,14 @@ def chief(bot, trigger):
     "https://actionsack.com/img/chief/🗑.png"
   ]
   bot.say(random.choice(master_chef))
+
+@module.rule(".*!drphil.*")
+@module.commands("drphil")
+def drphil(bot, trigger):
+  """Can also be triggered with '!drphil' anywhere in a message."""
+  dr_phil = [
+    "https://actionsack.com/img/drphil/apples.png",
+    "https://actionsack.com/img/drphil/ride.gif",
+    "https://actionsack.com/img/drphil/WSTYAHHWASFOH.png"
+  ]
+  bot.say(random.choice(dr_phil))
