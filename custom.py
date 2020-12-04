@@ -2141,6 +2141,10 @@ def salty(bot, trigger):
 def laughs(bot, trigger):
   bot.say("https://actionsack.com/img/misc/laughs.jpg")
 
+@module.rule(r".*\[raughs\].*")
+def raughs(bot, trigger):
+  bot.say("https://actionsack.com/img/tasian/raughs.png")
+
 @module.rule(".*!asak.*")
 @module.commands("asak")
 def asak(bot, trigger):
