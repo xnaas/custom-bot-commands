@@ -2265,6 +2265,8 @@ def blumpkin(bot, trigger):
 @module.rule(".*!(chief|halo).*")
 @module.commands("chief", "halo")
 def chief(bot, trigger):
+  """Posts a Master Chief/Halo-related image.
+  Can also be triggered with '!chief' or '!halo' anywhere in chat."""
   master_chef = [
     "https://actionsack.com/img/son/halo.png",
     "https://actionsack.com/img/chief/59bullets.png",
