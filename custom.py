@@ -2175,3 +2175,19 @@ def asak(bot, trigger):
     "https://actionsack.com/img/as/soup.png"
   ]
   bot.say(random.choice(asak))
+
+@module.rule(".*!bytes.*")
+@module.commands("bytes")
+def ComputersByte(bot, trigger):
+  """Posts a ComputersByte meme.
+  Can also be triggered with '!bytes' anywhere in a message."""
+  computers_byte = [
+    "https://actionsack.com/img/bytes/april.png",
+    "https://actionsack.com/img/bytes/bj.png",
+    "https://actionsack.com/img/bytes/bytes.gif",
+    "https://actionsack.com/img/bytes/bytes01.png",
+    "https://actionsack.com/img/bytes/cursor.png",
+    "https://actionsack.com/img/bytes/hatched.png",
+    "https://actionsack.com/img/bytes/syrup.png"
+  ]
+  bot.say(random.choice(computers_byte))
