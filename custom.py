@@ -2203,3 +2203,7 @@ def ComputersByte(bot, trigger):
 def RGB(bot, trigger):
   """Can also be triggered with '!RGB' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/RGB.gif")
+
+@module.rule(".*savage!.*")
+def savage(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/savage.gif")
