@@ -163,6 +163,19 @@ def crying(bot, trigger):
   ]
   bot.say(random.choice(crying))
 
+@module.rule(".*!pat.*")
+@module.commands("pat")
+def pat(bot, trigger):
+  pat_gifs = [
+    "https://actionsack.com/img/pat/00.gif",
+    "https://actionsack.com/img/pat/01.gif",
+    "https://actionsack.com/img/pat/02.gif",
+    "https://actionsack.com/img/pat/03.gif",
+    "https://actionsack.com/img/pat/04.gif",
+    "https://actionsack.com/img/pat/05.gif"
+  ]
+  bot.say(random.choice(pat_gifs))
+
 @module.rule(r".*cry\sme\sa\sriver.*")
 def cryriver(bot, trigger):
   bot.say("https://actionsack.com/img/QQ/QQ007.gif")
@@ -2073,14 +2086,14 @@ def svehla(bot, trigger):
 def trash(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🗑.gif")
 
-@module.rule("!cumcan")
+@module.rule(".*!cumcan.*")
 @module.commands("cumcan")
 def cumcan(bot, trigger):
   """Cum cleanup.
   Can also be triggered with '!cumcan' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/cumcan.gif")
 
-@module.rule("!cancer")
+@module.rule(".*!cancer.*")
 @module.commands("cancer")
 def cancer(bot, trigger):
   """Warning! Posts pure cancer into chat.
@@ -2091,13 +2104,13 @@ def cancer(bot, trigger):
   ]
   bot.say(random.choice(cancer_images))
 
-@module.rule("!daquan")
+@module.rule(".*!daquan.*")
 @module.commands("daquan")
 def daquan(bot, trigger):
   """Can also be triggered with '!daquan' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/daquan.jpg")
 
-@module.rule("!heff")
+@module.rule(".*!heff.*")
 @module.commands("heff")
 def heff(bot, trigger):
   """Is only game, why you heff to be mad?
