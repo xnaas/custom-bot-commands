@@ -2251,6 +2251,256 @@ def fecktk(bot, trigger):
     "https://actionsack.com/img/fecktk/zoomies.gif"
   ]
   bot.say(random.choice(fecktks))
+
+@module.rule(".*!feek.*")
+@module.commands("feek")
+@module.rate(user=900)
+def feek(bot, trigger):
+  """A user triggering this command can only do so once per 15 minutes."""
+  feeks = [
+    "Works for Me™",
+    "https://actionsack.com/img/feek/ben.gif",
+    "https://actionsack.com/img/feek/bitch.png",
+    "https://actionsack.com/img/feek/die.png",
+    "https://actionsack.com/img/feek/error.png",
+    "https://actionsack.com/img/feek/feek01.png",
+    "https://actionsack.com/img/feek/feek02.png",
+    "https://actionsack.com/img/feek/feek03.gif",
+    "https://actionsack.com/img/feek/feek04.png",
+    "https://actionsack.com/img/feek/feek05.png",
+    "https://actionsack.com/img/feek/feek06.png",
+    "https://actionsack.com/img/feek/feek07.png",
+    "https://actionsack.com/img/feek/feek08.png",
+    "https://actionsack.com/img/feek/free.png",
+    "https://actionsack.com/img/feek/hated.png",
+    "https://actionsack.com/img/feek/hidden.gif",
+    "https://actionsack.com/img/feek/lucky.png",
+    "https://actionsack.com/img/feek/PokéKeith.png",
+    "https://actionsack.com/img/feek/rape.png"
+  ]
+  bot.say(random.choice(feeks))
+
+@module.rule(".*!jajabro.*")
+@module.commands("jajabro")
+@module.rate(user=900)
+def jajabro(bot, trigger):
+  """A user triggering this command can only do so once per 15 minutes."""
+  jajabros = [
+    "https://actionsack.com/img/jaja/dogs.png",
+    "https://actionsack.com/img/jaja/halo.jpg",
+    "https://actionsack.com/img/jaja/jaja01.png",
+    "https://actionsack.com/img/jaja/jaja02.png",
+    "https://actionsack.com/img/jaja/jaja03.png",
+    "https://actionsack.com/img/jaja/jaja04.png",
+    "https://actionsack.com/img/jaja/jaja05.png",
+    "https://actionsack.com/img/jaja/jaja06.gif",
+    "https://actionsack.com/img/jaja/jaja07.gif",
+    "https://actionsack.com/img/jaja/jaja08.png",
+    "https://actionsack.com/img/jaja/jaja09.png",
+    "https://actionsack.com/img/jaja/jaja10.png",
+    "https://actionsack.com/img/jaja/jaja11.png",
+    "https://actionsack.com/img/jaja/jaja12.png",
+    "https://actionsack.com/img/jaja/plush.png",
+    "https://actionsack.com/img/jaja/que.png",
+    "https://actionsack.com/img/jaja/smrt.gif",
+    "https://actionsack.com/img/jaja/subwat.png"
+  ]
+  bot.say(random.choice(jajabros))
+
+@module.rule(".*!mike.*")
+@module.commands("mike")
+@module.rate(user=900)
+def mike(bot, trigger):
+  """A user triggering this command can only do so once per 15 minutes."""
+  mikes = [
+    "https://actionsack.com/img/mike/720v1080.png",
+    "https://actionsack.com/img/mike/8ball.png",
+    "https://actionsack.com/img/mike/amnesia.png",
+    "https://actionsack.com/img/mike/bath.png",
+    "https://actionsack.com/img/mike/bernie.png",
+    "https://actionsack.com/img/mike/blowie.png",
+    "https://actionsack.com/img/mike/brony.png",
+    "https://actionsack.com/img/mike/change.png",
+    "https://actionsack.com/img/mike/cocksucker.png",
+    "https://actionsack.com/img/mike/cuppstick.gif",
+    "https://actionsack.com/img/mike/cuppstick.png",
+    "https://actionsack.com/img/mike/dance.mp4",
+    "https://actionsack.com/img/mike/doll.png",
+    "https://actionsack.com/img/mike/down.gif",
+    "https://actionsack.com/img/mike/drink.gif",
+    "https://actionsack.com/img/mike/everydaymike.gif",
+    "https://actionsack.com/img/mike/fraud.png",
+    "https://actionsack.com/img/mike/graphene.png",
+    "https://actionsack.com/img/mike/haloistrash.png",
+    "https://actionsack.com/img/mike/high.png",
+    "https://actionsack.com/img/mike/MAGA.png",
+    "https://actionsack.com/img/mike/mashed-potatoes.png",
+    "https://actionsack.com/img/mike/mike001.png",
+    "https://actionsack.com/img/mike/mike002.png",
+    "https://actionsack.com/img/mike/mike004.png",
+    "https://actionsack.com/img/mike/mike005.png",
+    "https://actionsack.com/img/mike/mike006.png",
+    "https://actionsack.com/img/mike/mike008.png",
+    "https://actionsack.com/img/mike/mike009.png",
+    "https://actionsack.com/img/mike/mike010.png",
+    "https://actionsack.com/img/mike/mike011.png",
+    "https://actionsack.com/img/mike/mike012.png",
+    "https://actionsack.com/img/mike/mike013.png",
+    "https://actionsack.com/img/mike/mike014.png",
+    "https://actionsack.com/img/mike/mike015.png",
+    "https://actionsack.com/img/mike/mike016.png",
+    "https://actionsack.com/img/mike/mike017.png",
+    "https://actionsack.com/img/mike/mike018.png",
+    "https://actionsack.com/img/mike/mike019.png",
+    "https://actionsack.com/img/mike/mike020.png",
+    "https://actionsack.com/img/mike/mike021.png",
+    "https://actionsack.com/img/mike/mike022.png",
+    "https://actionsack.com/img/mike/mike023.png",
+    "https://actionsack.com/img/mike/mike024.png",
+    "https://actionsack.com/img/mike/mike025.png",
+    "https://actionsack.com/img/mike/mike026.png",
+    "https://actionsack.com/img/mike/mike027.png",
+    "https://actionsack.com/img/mike/mike028.png",
+    "https://actionsack.com/img/mike/mike029.png",
+    "https://actionsack.com/img/mike/mike030.png",
+    "https://actionsack.com/img/mike/mike031.png",
+    "https://actionsack.com/img/mike/mike032.png",
+    "https://actionsack.com/img/mike/miker.png",
+    "https://actionsack.com/img/mike/MLP.png",
+    "https://actionsack.com/img/mike/MMM.png",
+    "https://actionsack.com/img/mike/noctua.png",
+    "https://actionsack.com/img/mike/nosex.png",
+    "https://actionsack.com/img/mike/quora.png",
+    "https://actionsack.com/img/mike/simple-mike.png",
+    "https://actionsack.com/img/mike/smurf.png",
+    "https://actionsack.com/img/mike/syria.png",
+    "https://actionsack.com/img/mike/virgin.png",
+    "https://actionsack.com/img/mike/yoj.png",
+    "https://actionsack.com/img/mike/yummy-mike.png",
+    "https://actionsack.com/img/mike/📖/📖+.jpg",
+    "https://actionsack.com/img/mike/📖/📖.gif",
+    "https://actionsack.com/img/mike/📖/📖.jpg",
+    "https://actionsack.com/img/mike/📖/📖🐇.jpg"
+  ]
+  bot.say(random.choice(mikes))
+
+@module.rule(".*!tasian.*")
+@module.commands("tasian")
+@module.rate(user=900)
+def tasian(bot, trigger):
+  """A user triggering this command can only do so once per 15 minutes."""
+  tasians = [
+    "https://actionsack.com/img/tasian/2016.png",
+    "https://actionsack.com/img/tasian/balloon.png",
+    "https://actionsack.com/img/tasian/dance.gif",
+    "https://actionsack.com/img/tasian/dance.mp4",
+    "https://actionsack.com/img/tasian/D.gif",
+    "https://actionsack.com/img/tasian/driver.png",
+    "https://actionsack.com/img/tasian/fortnite.png",
+    "https://actionsack.com/img/tasian/grin.png",
+    "https://actionsack.com/img/tasian/korea.gif",
+    "https://actionsack.com/img/tasian/koreatext.gif",
+    "https://actionsack.com/img/tasian/math.gif",
+    "https://actionsack.com/img/tasian/naga.png",
+    "https://actionsack.com/img/tasian/noodles.gif",
+    "https://actionsack.com/img/tasian/pacman.gif",
+    "https://actionsack.com/img/tasian/pickles.png",
+    "https://actionsack.com/img/tasian/pikaval.png",
+    "https://actionsack.com/img/tasian/racist01.png",
+    "https://actionsack.com/img/tasian/racist02.png",
+    "https://actionsack.com/img/tasian/racist03.png",
+    "https://actionsack.com/img/tasian/raughs.png",
+    "https://actionsack.com/img/tasian/tall.png",
+    "https://actionsack.com/img/tasian/val01.png",
+    "https://actionsack.com/img/tasian/val02.png",
+    "https://actionsack.com/img/tasian/val03.png",
+    "https://actionsack.com/img/tasian/val04.png",
+    "https://actionsack.com/img/tasian/val05.png",
+    "https://actionsack.com/img/tasian/val06.png",
+    "https://actionsack.com/img/tasian/val07.gif"
+  ]
+  bot.say(random.choice(tasians))
+
+@module.rule(".*!viz.*")
+@module.commands("viz")
+@module.rate(user=900)
+def viz(bot, trigger):
+  """A user triggering this command can only do so once per 15 minutes."""
+  vizs = [
+    "https://actionsack.com/img/viz/bad4u.png",
+    "https://actionsack.com/img/viz/drunk01.png",
+    "https://actionsack.com/img/viz/drunk02.png",
+    "https://actionsack.com/img/viz/drunk03.png",
+    "https://actionsack.com/img/viz/drunk04.png",
+    "https://actionsack.com/img/viz/drunk05.png",
+    "https://actionsack.com/img/viz/drunk06.png",
+    "https://actionsack.com/img/viz/drunk07.png",
+    "https://actionsack.com/img/viz/drunk08.png",
+    "https://actionsack.com/img/viz/drunk09.png",
+    "https://actionsack.com/img/viz/fecktk.png",
+    "https://actionsack.com/img/viz/FOT.png",
+    "https://actionsack.com/img/viz/lololololol.png",
+    "https://actionsack.com/img/viz/lovescock.png",
+    "https://actionsack.com/img/viz/oh.ok.png",
+    "https://actionsack.com/img/viz/poison.png",
+    "https://actionsack.com/img/viz/ride.png",
+    "https://actionsack.com/img/viz/tree.png",
+    "https://actionsack.com/img/viz/whoknows.png"
+  ]
+  bot.say(random.choice(vizs))
+
+@module.rule(".*!voodoo.*")
+@module.commands("voodoo")
+@module.rate(user=900)
+def voodoo(bot, trigger):
+  """A user triggering this command can only do so once per 15 minutes."""
+  voodoos = [
+    "https://actionsack.com/img/voodoo/eggslut-smol.png",
+    "https://actionsack.com/img/voodoo/eggslut.gif",
+    "https://actionsack.com/img/voodoo/eggslut.jpg",
+    "https://actionsack.com/img/voodoo/eggslut.png",
+    "I fantasize about fucking California's earthquake fault line. The dirt, the debris, the thought of the earth quivering under me as I slowly stick my dick into its gaping wide entrance. I keep looking at news stories and getting the firmest erections of my life seeing those beautiful cracks. She's so open and so wanting. Each earthquake is like another whimper just begging for me to take her. The amount of cum I've lost just thinking about thrusting my rod into our beloved planet. Talk about getting my rocks off. Fuck I'm hard."
+  ]
+  bot.say(random.choice(voodoos), max_messages=2)
+
+@module.rule(".*!xnaas.*")
+@module.commands("xnaas")
+@module.rate(user=900)
+def xnaas(bot, trigger):
+  """A user triggering this command can only do so once per 15 minutes."""
+  xnass = [
+    "https://actionsack.com/img/xnaas/aidsclub.png",
+    "https://actionsack.com/img/xnaas/animals.png",
+    "https://actionsack.com/img/xnaas/d3.webm",
+    "https://actionsack.com/img/xnaas/feline_delight.webm",
+    "https://actionsack.com/img/xnaas/gape.png",
+    "https://actionsack.com/img/xnaas/iShit.png",
+    "https://actionsack.com/img/xnaas/mac.gif",
+    "https://actionsack.com/img/xnaas/propain.png",
+    "https://actionsack.com/img/xnaas/pussy.mp4",
+    "https://actionsack.com/img/xnaas/reality.png",
+    "https://actionsack.com/img/xnaas/shaved.jpg",
+    "https://actionsack.com/img/xnaas/typing.gif",
+    "https://actionsack.com/img/xnaas/vamp.gif",
+    "https://actionsack.com/img/xnaas/victory.png",
+    "https://actionsack.com/img/xnaas/wesmart.png",
+    "https://actionsack.com/img/xnaas/xnaas001.png",
+    "https://actionsack.com/img/xnaas/xnaas002.png",
+    "https://actionsack.com/img/xnaas/xnaas003.png",
+    "https://actionsack.com/img/xnaas/xnaas004.png",
+    "https://actionsack.com/img/xnaas/xnaas005.png",
+    "https://actionsack.com/img/xnaas/xnaas006.png",
+    "https://actionsack.com/img/xnaas/xnaas008.png",
+    "https://actionsack.com/img/xnaas/xnaas009.gif",
+    "https://actionsack.com/img/xnaas/xnaas010.png",
+    "https://actionsack.com/img/xnaas/xnaas011.png",
+    "https://actionsack.com/img/xnaas/xnaas012.png",
+    "https://actionsack.com/img/xnaas/xnaas013.png",
+    "https://actionsack.com/img/xnaas/xnaas014.png",
+    "https://actionsack.com/img/xnaas/yeehaw.gif",
+    "https://actionsack.com/img/videos/tesla.webm"
+  ]
+  bot.say(random.choice(xnass))
 # Action Sack People Memes
 
 @module.rule(".*!RGB.*")
