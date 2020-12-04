@@ -2134,3 +2134,38 @@ def salty(bot, trigger):
 @module.rule(r".*\[laughs\].*")
 def laughs(bot, trigger):
   bot.say("https://actionsack.com/img/misc/laughs.jpg")
+
+@module.rule(".*!asak.*")
+@module.commands("asak")
+def asak(bot, trigger):
+  """Posts an Action Sack meme.
+  Can also be triggered with '!asak' anywhere in a message."""
+  asak = [
+    "https://actionsack.com/img/as/AG.gif",
+    "https://actionsack.com/img/as/aids-convo.png",
+    "https://actionsack.com/img/as/beej.gif",
+    "https://actionsack.com/img/as/brokeback.png",
+    "https://actionsack.com/img/as/bus-stop.png",
+    "https://actionsack.com/img/as/cancer-list.png",
+    "https://actionsack.com/img/as/cancer-microscope.png",
+    "https://actionsack.com/img/as/copy.png",
+    "https://actionsack.com/img/as/dirty-jaja.png",
+    "https://actionsack.com/img/as/family-fart.png",
+    "https://actionsack.com/img/as/family-gun.gif",
+    "https://actionsack.com/img/as/fecktk-eyes-mike.png",
+    "https://actionsack.com/img/as/gangster.png",
+    "https://actionsack.com/img/as/gay-shit.png",
+    "https://actionsack.com/img/as/hackers.png",
+    "https://actionsack.com/img/as/hand.gif",
+    "https://actionsack.com/img/as/iQuit.png",
+    "https://actionsack.com/img/as/kys-mike.png",
+    "https://actionsack.com/img/as/kys-or-smd.png",
+    "https://actionsack.com/img/as/linus.png",
+    "https://actionsack.com/img/as/mikeybikey.png",
+    "https://actionsack.com/img/as/mugshot.png",
+    "https://actionsack.com/img/as/pumpkin.png",
+    "https://actionsack.com/img/as/reflection.png",
+    "https://actionsack.com/img/as/snapchat.png",
+    "https://actionsack.com/img/as/soup.png"
+  ]
+  bot.say(random.choice(asak))
