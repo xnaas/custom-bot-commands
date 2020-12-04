@@ -2116,3 +2116,16 @@ def heff(bot, trigger):
   """Is only game, why you heff to be mad?
   Can also be triggered with '!heff' anywhere in a message."""
   bot.say("https://actionsack.com/img/videos/heff.webm")
+
+@module.rule(".*!salty.*")
+@module.commands("salty")
+def salty(bot, trigger):
+  salty = [
+    "https://actionsack.com/img/salt/#staysalty.png",
+    "https://actionsack.com/img/salt/all-these-flavors.png",
+    "https://actionsack.com/img/salt/power-salt.gif",
+    "https://actionsack.com/img/salt/salty-bitch.png",
+    "https://actionsack.com/img/salt/salty-dance.gif",
+    "https://actionsack.com/img/salt/super-salty.png"
+  ]
+  bot.say(random.choice(salty))
