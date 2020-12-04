@@ -1909,7 +1909,8 @@ def shit(bot, trigger):
   shit_gifs = [
     "https://actionsack.com/img/💩/cardi.mp4",
     "https://actionsack.com/img/💩/extreme.mp4",
-    "https://actionsack.com/img/💩/McCafé.gif"
+    "https://actionsack.com/img/💩/McCafé.gif",
+    "https://actionsack.com/img/💩/🚽.gif"
   ]
   bot.say(random.choice(shit_gifs))
 
