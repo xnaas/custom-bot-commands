@@ -2197,6 +2197,60 @@ def ComputersByte(bot, trigger):
     "https://actionsack.com/img/bytes/syrup.png"
   ]
   bot.say(random.choice(computers_byte))
+
+@module.rule(".*!fecktk.*")
+@module.commands("fecktk")
+@module.rate(user=900)
+def fecktk(bot, trigger):
+  """A user triggering this command can only do so once per 15 minutes."""
+  fecktks = [
+    "https://actionsack.com/img/fecktk/ascii.png",
+    "https://actionsack.com/img/fecktk/baclol.png",
+    "https://actionsack.com/img/fecktk/bacon.png",
+    "https://actionsack.com/img/fecktk/blowie.png",
+    "https://actionsack.com/img/fecktk/elif.png",
+    "https://actionsack.com/img/fecktk/empty.png",
+    "https://actionsack.com/img/fecktk/eyes.png",
+    "https://actionsack.com/img/fecktk/fecktk01.png",
+    "https://actionsack.com/img/fecktk/fecktk02.png",
+    "https://actionsack.com/img/fecktk/fecktk03.png",
+    "https://actionsack.com/img/fecktk/fecktk04.png",
+    "https://actionsack.com/img/fecktk/fecktk05.png",
+    "https://actionsack.com/img/fecktk/fecktk06.png",
+    "https://actionsack.com/img/fecktk/fecktk07.png",
+    "https://actionsack.com/img/fecktk/fecktk08.png",
+    "https://actionsack.com/img/fecktk/fecktk09.png",
+    "https://actionsack.com/img/fecktk/fecktk10.png",
+    "https://actionsack.com/img/fecktk/fecktk11.png",
+    "https://actionsack.com/img/fecktk/fecktk12.png",
+    "https://actionsack.com/img/fecktk/fecktk13.png",
+    "https://actionsack.com/img/fecktk/fecktk14.png",
+    "https://actionsack.com/img/fecktk/fecktk15.png",
+    "https://actionsack.com/img/fecktk/fecktk16.png",
+    "https://actionsack.com/img/fecktk/fecktk17.png",
+    "https://actionsack.com/img/fecktk/fecktk18.png",
+    "https://actionsack.com/img/fecktk/fecktk19.png",
+    "https://actionsack.com/img/fecktk/fecktk20.png",
+    "https://actionsack.com/img/fecktk/fecktk21.png",
+    "https://actionsack.com/img/fecktk/fecktk22.png",
+    "https://actionsack.com/img/fecktk/fecktk23.png",
+    "https://actionsack.com/img/fecktk/fetus.png",
+    "https://actionsack.com/img/fecktk/guilty.png",
+    "https://actionsack.com/img/fecktk/holden.png",
+    "https://actionsack.com/img/fecktk/lildick.png",
+    "https://actionsack.com/img/fecktk/mumble.png",
+    "https://actionsack.com/img/fecktk/neck.png",
+    "https://actionsack.com/img/fecktk/newegg.png",
+    "https://actionsack.com/img/fecktk/newhouse.png",
+    "https://actionsack.com/img/fecktk/punch.png",
+    "https://actionsack.com/img/fecktk/rape.png",
+    "https://actionsack.com/img/fecktk/sandwich.png",
+    "https://actionsack.com/img/fecktk/slap.gif",
+    "https://actionsack.com/img/fecktk/snatch.gif",
+    "https://actionsack.com/img/fecktk/strim.png",
+    "https://actionsack.com/img/fecktk/zoomies.gif"
+  ]
+  bot.say(random.choice(fecktks))
 # Action Sack People Memes
 
 @module.rule(".*!RGB.*")
