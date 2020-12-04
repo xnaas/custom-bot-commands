@@ -2120,6 +2120,7 @@ def heff(bot, trigger):
 @module.rule(".*!salty.*")
 @module.commands("salty")
 def salty(bot, trigger):
+  """Can also be triggered with '!salty' anywhere in a message."""
   salty = [
     "https://actionsack.com/img/salt/#staysalty.png",
     "https://actionsack.com/img/salt/all-these-flavors.png",
