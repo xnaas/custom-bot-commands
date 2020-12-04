@@ -2207,3 +2207,7 @@ def RGB(bot, trigger):
 @module.rule(".*savage!.*")
 def savage(bot, trigger):
   bot.say("https://actionsack.com/img/misc/savage.gif")
+
+@module.rule(".*salad.*")
+def salad(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/🥗.png")
