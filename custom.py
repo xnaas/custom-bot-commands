@@ -2211,3 +2211,7 @@ def savage(bot, trigger):
 @module.rule(".*salad.*")
 def salad(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🥗.png")
+
+@module.rule(".*rickles.*")
+def rickles(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/rickles.png")
