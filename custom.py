@@ -2231,3 +2231,7 @@ def urtooslow(bot, trigger):
     "https://actionsack.com/img/sanic/running.gif"
   ]
   bot.say(random.choice(too_slow))
+
+@module.rule(r".*whale\srape.*")
+def whalerape(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/whalerape.mp4")
