@@ -2130,3 +2130,7 @@ def salty(bot, trigger):
     "https://actionsack.com/img/salt/super-salty.png"
   ]
   bot.say(random.choice(salty))
+
+@module.rule(r".*\[laughs\].*")
+def laughs(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/laughs.jpg")
