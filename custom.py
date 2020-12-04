@@ -2223,3 +2223,11 @@ def uwin(bot, trigger):
 @module.rule(r"^you\sdon\'t\ssay.*")
 def udontsay(bot, trigger):
   bot.say("https://actionsack.com/img/misc/yds.png")
+
+@module.rule(r".*you\'re\stoo\sslow.*")
+def urtooslow(bot, trigger):
+  too_slow = [
+    "https://actionsack.com/img/sanic/master.png",
+    "https://actionsack.com/img/sanic/running.gif"
+  ]
+  bot.say(random.choice(too_slow))
