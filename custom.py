@@ -2620,3 +2620,36 @@ def pepe(bot, trigger):
     "https://actionsack.com/img/pepe/steak.png"
   ]
   bot.say(random.choice(rare_pepes))
+
+@module.rule(".*repost.*")
+def repost(bot, trigger):
+  reposts = [
+    "https://actionsack.com/img/repost/3weeks.png",
+    "https://actionsack.com/img/repost/5minutes.png",
+    "https://actionsack.com/img/repost/back-to-the-repost.png",
+    "https://actionsack.com/img/repost/better.gif",
+    "https://actionsack.com/img/repost/cat.gif",
+    "https://actionsack.com/img/repost/cock.png",
+    "https://actionsack.com/img/repost/detected.gif",
+    "https://actionsack.com/img/repost/evil.gif",
+    "https://actionsack.com/img/repost/GotG.mp4",
+    "https://actionsack.com/img/repost/groundhog.gif",
+    "https://actionsack.com/img/repost/homer.png",
+    "https://actionsack.com/img/repost/IB.mp4",
+    "https://actionsack.com/img/repost/IT'S A REPOST!!!.png",
+    "https://actionsack.com/img/repost/jurassic.gif",
+    "https://actionsack.com/img/repost/MiB.gif",
+    "https://actionsack.com/img/repost/nobody_cares.gif",
+    "https://actionsack.com/img/repost/ohshit.mp4",
+    "https://actionsack.com/img/repost/pacific_rim.gif",
+    "https://actionsack.com/img/repost/picard.mp4",
+    "https://actionsack.com/img/repost/police.png",
+    "https://actionsack.com/img/repost/rekt.gif",
+    "https://actionsack.com/img/repost/remember.png",
+    "https://actionsack.com/img/repost/repeat.gif",
+    "https://actionsack.com/img/repost/security-check.png",
+    "https://actionsack.com/img/repost/seinfeld.gif",
+    "https://actionsack.com/img/repost/soflo.png",
+    "https://actionsack.com/img/repost/wait....gif"
+  ]
+  bot.say(random.choice(reposts))
