@@ -2145,6 +2145,7 @@ def laughs(bot, trigger):
 def raughs(bot, trigger):
   bot.say("https://actionsack.com/img/tasian/raughs.png")
 
+# Action Sack People Memes
 @module.rule(".*!asak.*")
 @module.commands("asak")
 def asak(bot, trigger):
@@ -2195,3 +2196,10 @@ def ComputersByte(bot, trigger):
     "https://actionsack.com/img/bytes/syrup.png"
   ]
   bot.say(random.choice(computers_byte))
+# Action Sack People Memes
+
+@module.rule(".*!RGB.*")
+@module.commands("RGB")
+def RGB(bot, trigger):
+  """Can also be triggered with '!RGB' anywhere in a message."""
+  bot.say("https://actionsack.com/img/misc/RGB.gif")
