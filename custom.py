@@ -572,6 +572,7 @@ def aegislive(bot, trigger):
   """Aegisfate's YouTube livestream link."""
   bot.say("https://youtube.com/user/mac2486/live")
 
+# === NSFW Commands ===
 @module.rule(".*!!banebread.*")
 def banebread(bot, trigger):
   bot.say("https://actionsack.com/img/nsfw/banebread.png")
@@ -615,6 +616,7 @@ def jordan(bot, trigger):
     "https://actionsack.com/img/jordan/littledick.png"
   ]
   bot.say(random.choice(jordan))
+# === NSFW Commands ===
 
 @module.rule("^!b8$")
 def beight(bot, trigger):
