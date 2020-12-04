@@ -2252,3 +2252,11 @@ def kfc(bot, trigger):
 @module.rule(".*(?<!en)joy!.*")
 def joy(bot, trigger):
   bot.say("https://actionsack.com/img/misc/joy.gif")
+
+@module.rule(".*bernie.*")
+def bernii(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/bernii.png")
+
+@module.rule(".*blumkin.*")
+def blumpkin(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/blumkin.gif")
