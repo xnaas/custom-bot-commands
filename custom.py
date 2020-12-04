@@ -2215,3 +2215,7 @@ def salad(bot, trigger):
 @module.rule(".*rickles.*")
 def rickles(bot, trigger):
   bot.say("https://actionsack.com/img/misc/rickles.png")
+
+@module.rule(r"^(yo|)u\swin.*")
+def uwin(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/uWin.png")
