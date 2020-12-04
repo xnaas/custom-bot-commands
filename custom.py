@@ -600,6 +600,10 @@ def ghostbabies(bot, trigger):
 def gimp(bot, trigger):
   bot.say("https://actionsack.com/img/nsfw/gimp.gif")
 
+@module.rule(".*!!nazi.*")
+def nazi(bot, trigger):
+  bot.say("https://actionsack.com/img/nsfw/nazi.gif")
+
 @module.rule(".*!!ponies.*")
 def ponies(bot, trigger):
   bot.say("https://actionsack.com/img/nsfw/ponies.mp4")
