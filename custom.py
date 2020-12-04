@@ -2239,3 +2239,12 @@ def whalerape(bot, trigger):
 @module.rule(".*kwaken.*")
 def kwaken(bot, trigger):
   bot.say("https://actionsack.com/img/misc/kwaken.png")
+
+@module.rule(".*KFC.*")
+def kfc(bot, trigger):
+  kfc = [
+    "https://actionsack.com/img/kfc/00.png",
+    "https://actionsack.com/img/kfc/01.png",
+    "https://actionsack.com/img/kfc/02.png",
+  ]
+  bot.say(random.choice(kfc))
