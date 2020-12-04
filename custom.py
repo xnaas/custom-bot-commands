@@ -2606,3 +2606,17 @@ def hurricane(bot, trigger):
     "https://actionsack.com/img/🌀/matthew.png"
   ]
   bot.say(random.choice(hurricanes))
+
+@module.rule(".*!pepe.*")
+@module.commands("pepe")
+def pepe(bot, trigger):
+  """Posts a rare pepe into chat.
+  Can also be triggered with '!pepe' anywhere in a message."""
+  rare_pepes = [
+    "https://actionsack.com/img/pepe/anime.png",
+    "https://actionsack.com/img/pepe/great-post.png",
+    "https://actionsack.com/img/pepe/human-mouth.gif",
+    "https://actionsack.com/img/pepe/reeeee.gif",
+    "https://actionsack.com/img/pepe/steak.png"
+  ]
+  bot.say(random.choice(rare_pepes))
