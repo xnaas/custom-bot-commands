@@ -2790,3 +2790,12 @@ def shooting(bot, trigger):
 @module.rule(r"^🆒(|\s)🐱$")
 def coolcat(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🆒🐱.png")
+
+@module.rule(".*shitpost.*")
+def shitpost(bot, trigger):
+  shit_post = [
+    "https://actionsack.com/img/shitpost/catpost.gif",
+    "https://actionsack.com/img/shitpost/dbz.png",
+    "https://actionsack.com/img/shitpost/shitpost.png"
+  ]
+  bot.say(random.choice(shit_post))
