@@ -198,7 +198,7 @@ def book(bot, trigger):
 def greg(bot, trigger):
   bot.say("Greg was never in IRC...")
 
-@module.rule("^grim$")
+@module.rule("^grimm$")
 def grim(bot, trigger):
   bot.say("Probably still showering with his sister to this day...")
 
