@@ -2752,3 +2752,11 @@ def pepsi(bot, trigger):
 @module.rule(".*terrorist.*")
 def terrorists(bot, trigger):
   bot.say("https://actionsack.com/img/misc/terrorist.gif")
+
+@module.rule(r".*space\spants!.*")
+def spacepants(bot, trigger):
+  space_pants = [
+    "https://actionsack.com/img/misc/spacepants.gif",
+    "https://actionsack.com/img/videos/spacepants.mp4"
+  ]
+  bot.say(random.choice(space_pants))
