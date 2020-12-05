@@ -2799,3 +2799,15 @@ def shitpost(bot, trigger):
     "https://actionsack.com/img/shitpost/shitpost.png"
   ]
   bot.say(random.choice(shit_post))
+
+@module.rule("^No!$")
+def no(bot, trigger):
+  nonono = [
+    "https://actionsack.com/img/no/00.mp4",
+    "https://actionsack.com/img/no/01.mp4",
+  ]
+  bot.say(random.choice(nonono))
+
+@module.rule(r"^just\.\.\.no$")
+def justno(bot, trigger):
+  bot.say("https://actionsack.com/img/no/just...no.gif")
