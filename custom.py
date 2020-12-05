@@ -2760,3 +2760,9 @@ def spacepants(bot, trigger):
     "https://actionsack.com/img/videos/spacepants.mp4"
   ]
   bot.say(random.choice(space_pants))
+
+@module.rule(".*!peep.*")
+@module.commands("peep")
+def peep(bot, trigger):
+  """Peep on chat. Can also be triggered with '!peep' anywhere in a message."""
+  bot.say("https://actionsack.com/img/misc/peep.gif")
