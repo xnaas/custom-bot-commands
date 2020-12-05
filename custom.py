@@ -2737,3 +2737,7 @@ def timetostop(bot, trigger):
     "https://actionsack.com/img/🛑/03.gif",
   ]
   bot.say(random.choice(time_to_stop))
+
+@module.rule(".*pepsi.*")
+def pepsi(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/pepsi.gif")
