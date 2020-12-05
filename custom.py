@@ -704,7 +704,7 @@ def aidsclub(bot, trigger):
 
 @module.rule(".*!barometer.*")
 def barometer(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/barometer.png")
+  bot.say("https://actionsack.com/img/misc/barometer.jpg")
 
 @module.rule(r"^Oh,\syou!$")
 def ohyou(bot, trigger):
