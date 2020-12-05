@@ -2615,10 +2615,17 @@ def pepe(bot, trigger):
   Can also be triggered with '!pepe' anywhere in a message."""
   rare_pepes = [
     "https://actionsack.com/img/pepe/anime.png",
+    "https://actionsack.com/img/pepe/black.png",
+    "https://actionsack.com/img/pepe/bulba.jpg",
+    "https://actionsack.com/img/pepe/combat.gif",
+    "https://actionsack.com/img/pepe/cthulhu.png",
     "https://actionsack.com/img/pepe/great-post.png",
     "https://actionsack.com/img/pepe/human-mouth.gif",
     "https://actionsack.com/img/pepe/reeeee.gif",
-    "https://actionsack.com/img/pepe/steak.png"
+    "https://actionsack.com/img/pepe/religion.jpg",
+    "https://actionsack.com/img/pepe/steak.png",
+    "https://actionsack.com/img/pepe/sub.png",
+    "https://actionsack.com/img/pepe/trump.png"
   ]
   bot.say(random.choice(rare_pepes))
 
