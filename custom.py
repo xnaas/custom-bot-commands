@@ -2727,3 +2727,13 @@ def happening(bot, trigger):
     "https://actionsack.com/img/misc/happening.gif"
   ]
   bot.say(random.choice(its_happening))
+
+@module.rule(r"^It\'s\stime\sto\sstop!$")
+def timetostop(bot, trigger):
+  time_to_stop = [
+    "https://actionsack.com/img/🛑/00.gif",
+    "https://actionsack.com/img/🛑/01.gif",
+    "https://actionsack.com/img/🛑/02.gif",
+    "https://actionsack.com/img/🛑/03.gif",
+  ]
+  bot.say(random.choice(time_to_stop))
