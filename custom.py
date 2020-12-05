@@ -2774,3 +2774,10 @@ def cucumber(bot, trigger):
 @module.rule(".*krang.*")
 def krang(bot, trigger):
   bot.say("https://actionsack.com/img/misc/krang.png")
+
+@module.rule(".*!reality.*")
+@module.commands("reality")
+@module.rate(channel=86400)
+def reality(bot, trigger):
+  """Lays down a hard reality. Rate-limited to once per day per channel."""
+  bot.say("https://actionsack.com/img/xnaas/reality.png")
