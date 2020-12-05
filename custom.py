@@ -2748,3 +2748,7 @@ def timetostop(bot, trigger):
 @module.rule(".*pepsi.*")
 def pepsi(bot, trigger):
   bot.say("https://actionsack.com/img/misc/pepsi.gif")
+
+@module.rule(".*terrorist.*")
+def terrorists(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/terrorist.gif")
