@@ -2572,18 +2572,20 @@ def chief(bot, trigger):
   Can also be triggered with '!chief' or '!halo' anywhere in chat."""
   master_chef = [
     "https://actionsack.com/img/son/halo.png",
-    "https://actionsack.com/img/chief/59bullets.png",
-    "https://actionsack.com/img/chief/car.gif",
-    "https://actionsack.com/img/chief/face00.gif",
-    "https://actionsack.com/img/chief/face01.gif",
-    "https://actionsack.com/img/chief/Halo5.png",
-    "https://actionsack.com/img/chief/jaja.png",
-    "https://actionsack.com/img/chief/perfect_game.png",
-    "https://actionsack.com/img/chief/pony.png",
-    "https://actionsack.com/img/chief/skiing.png",
-    "https://actionsack.com/img/chief/what_do_you_think.png",
-    "https://actionsack.com/img/chief/❔.png",
-    "https://actionsack.com/img/chief/🗑.png"
+    "https://actionsack.com/img/halo/59bullets.png",
+    "https://actionsack.com/img/halo/anime.png",
+    "https://actionsack.com/img/halo/car.gif",
+    "https://actionsack.com/img/halo/face00.gif",
+    "https://actionsack.com/img/halo/face01.gif",
+    "https://actionsack.com/img/halo/Halo5.png",
+    "https://actionsack.com/img/halo/happening.gif",
+    "https://actionsack.com/img/halo/jaja.png",
+    "https://actionsack.com/img/halo/perfect_game.png",
+    "https://actionsack.com/img/halo/pony.png",
+    "https://actionsack.com/img/halo/skiing.png",
+    "https://actionsack.com/img/halo/what_do_you_think.png",
+    "https://actionsack.com/img/halo/❔.png",
+    "https://actionsack.com/img/halo/🗑.png"
   ]
   bot.say(random.choice(master_chef))
 
