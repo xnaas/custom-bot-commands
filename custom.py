@@ -2719,3 +2719,11 @@ def upvote(bot, trigger):
 @module.rule(r"^apologize\.(\s$|$)")
 def apologize(bot, trigger):
   bot.say("https://actionsack.com/img/misc/apologize.gif")
+
+@module.rule(r".*it\'s\shappening.*")
+def happening(bot, trigger):
+  its_happening = [
+    "https://actionsack.com/img/halo/happening.gif",
+    "https://actionsack.com/img/misc/happening.gif"
+  ]
+  bot.say(random.choice(its_happening))
