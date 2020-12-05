@@ -2699,3 +2699,18 @@ def trump(bot, trigger):
     "https://actionsack.com/img/trump/トランプ.webm"
   ]
   bot.say(random.choice(trumps))
+
+@module.commands("downvote")
+def downvote(bot, trigger):
+  downvotes = [
+    "https://actionsack.com/img/vote/down/00.gif"
+  ]
+  bot.say(random.choice(downvotes))
+
+@module.commands("upvote")
+def upvote(bot, trigger):
+  upvotes = [
+    "https://actionsack.com/img/vote/up/00.mp4",
+    "https://actionsack.com/img/vote/up/01.mp4"
+  ]
+  bot.say(random.choice(upvotes))
