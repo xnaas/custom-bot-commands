@@ -308,19 +308,13 @@ def dotdotdot(bot, trigger):
 def deeznutz(bot, trigger):
   bot.say(formatting.bold("DEEZ NUTZ!"))
 
-@module.rule(r"^\s\/lenny$")
-def lenny(bot, trigger):
-  lenny = [
-    "https://actionsack.com/img/lenny/anime.gif",
-    "https://actionsack.com/img/lenny/crazy.mp4",
-    "https://actionsack.com/img/lenny/spiral.gif"
-  ]
-  bot.say(random.choice(lenny))
-
 @module.commands("rlenny")
 def rlenny(bot, trigger):
-  """Sends a random ( ͡° ͜ʖ ͡°) variation."""
+  """Sends a random ( ͡° ͜ʖ ͡°) variation...or a GIF/MP4!"""
   rlenny = [
+    "https://actionsack.com/img/lenny/anime.gif",
+    "https://actionsack.com/img/lenny/crazy.mp4",
+    "https://actionsack.com/img/lenny/spiral.gif",
     "( ͡° ͜ʖ ͡°)",
     "(☭ ͜ʖ ☭)",
     "( ° ͜ʖ °)",
