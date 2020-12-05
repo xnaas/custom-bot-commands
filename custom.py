@@ -2280,8 +2280,8 @@ def feek(bot, trigger):
   ]
   bot.say(random.choice(feeks))
 
-@module.rule(".*!jajabro.*")
-@module.commands("jajabro")
+@module.rule(".*!jaja.*")
+@module.commands("jaja")
 @module.rate(user=900)
 def jajabro(bot, trigger):
   """A user triggering this command can only do so once per 15 minutes."""
@@ -2636,7 +2636,7 @@ def repost(bot, trigger):
     "https://actionsack.com/img/repost/groundhog.gif",
     "https://actionsack.com/img/repost/homer.png",
     "https://actionsack.com/img/repost/IB.mp4",
-    "https://actionsack.com/img/repost/IT'S A REPOST!!!.png",
+    "https://actionsack.com/img/repost/ITSAREPOST!!!.png",
     "https://actionsack.com/img/repost/jurassic.gif",
     "https://actionsack.com/img/repost/MiB.gif",
     "https://actionsack.com/img/repost/nobody_cares.gif",
@@ -2657,3 +2657,45 @@ def repost(bot, trigger):
 @module.rule("^(rip|🪦)$")
 def rip(bot, trigger):
   bot.say("https://actionsack.com/img/emoji/rip.png")
+
+@module.rule(".*!trump.*")
+@module.commands("trump")
+def trump(bot, trigger):
+  """Can also be triggered with '!trump' anywhere in a message."""
+  trumps = [
+    "https://actionsack.com/img/trump/baby.png",
+    "https://actionsack.com/img/trump/beatdown.gif",
+    "https://actionsack.com/img/trump/bingbong.png",
+    "https://actionsack.com/img/trump/blog.mp4",
+    "https://actionsack.com/img/trump/boo!.mp4",
+    "https://actionsack.com/img/trump/caress.gif",
+    "https://actionsack.com/img/trump/covfefe.png",
+    "https://actionsack.com/img/trump/dump.png",
+    "https://actionsack.com/img/trump/fuckyou.gif",
+    "https://actionsack.com/img/trump/golf.gif",
+    "https://actionsack.com/img/trump/HEYYOUGUYS.png",
+    "https://actionsack.com/img/trump/kiss.png",
+    "https://actionsack.com/img/trump/monster.mp4",
+    "https://actionsack.com/img/trump/nagus.png",
+    "https://actionsack.com/img/trump/no.mp4",
+    "https://actionsack.com/img/trump/real-villian.gif",
+    "https://actionsack.com/img/trump/reason.mp4",
+    "https://actionsack.com/img/trump/satan.gif",
+    "https://actionsack.com/img/trump/sauron.png",
+    "https://actionsack.com/img/trump/simple.png",
+    "https://actionsack.com/img/trump/stump.gif",
+    "https://actionsack.com/img/trump/tacos.gif",
+    "https://actionsack.com/img/trump/tap.png",
+    "https://actionsack.com/img/trump/tears.mp4",
+    "https://actionsack.com/img/trump/tears.png",
+    "https://actionsack.com/img/trump/think.png",
+    "https://actionsack.com/img/trump/troll.png",
+    "https://actionsack.com/img/trump/trump-chan.png",
+    "https://actionsack.com/img/trump/trumpler.mp4",
+    "https://actionsack.com/img/trump/trump-vs-hillary.mp4",
+    "https://actionsack.com/img/trump/trump-yell.png",
+    "https://actionsack.com/img/trump/wall.mp4",
+    "https://actionsack.com/img/trump/WOF.png",
+    "https://actionsack.com/img/trump/トランプ.webm"
+  ]
+  bot.say(random.choice(trumps))
