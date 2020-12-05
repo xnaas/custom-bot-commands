@@ -2713,3 +2713,7 @@ def upvote(bot, trigger):
     "https://actionsack.com/img/vote/up/01.mp4"
   ]
   bot.say(random.choice(upvotes))
+
+@module.rule(r"^apologize\.(\s$|$)")
+def apologize(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/apologize.gif")
