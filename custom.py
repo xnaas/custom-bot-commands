@@ -685,7 +685,10 @@ def mirai(bot, trigger):
   bot.say("https://actionsack.com/img/putin/🐻.mp4")
 
 @module.rule(".*!putin.*")
+@module.commands("putin")
 def putin(bot, trigger):
+  """Posts a Putin meme of some sort.
+  Can also be triggered with '!putin' anywhere in a message."""
   putin = [
     "https://actionsack.com/img/putin/dance.mp4",
     "https://actionsack.com/img/putin/pigeon.mp4",
