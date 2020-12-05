@@ -2469,7 +2469,6 @@ def voodoo(bot, trigger):
 def xnaas(bot, trigger):
   """A user triggering this command can only do so once per 15 minutes."""
   xnass = [
-    "https://actionsack.com/img/xnaas/aidsclub.png",
     "https://actionsack.com/img/xnaas/animals.png",
     "https://actionsack.com/img/xnaas/d3.webm",
     "https://actionsack.com/img/xnaas/feline_delight.webm",
