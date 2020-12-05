@@ -452,7 +452,7 @@ def football(bot, trigger):
   ]
   bot.say(random.choice(football))
 
-@module.rule(".*🍍🍕.*")
+@module.rule(".*🍍(|\s)🍕.*")
 def sin(bot, trigger):
   bot.say("This is a sin.")
 
