@@ -2781,3 +2781,8 @@ def krang(bot, trigger):
 def reality(bot, trigger):
   """Lays down a hard reality. Rate-limited to once per day per channel."""
   bot.say("https://actionsack.com/img/xnaas/reality.png")
+
+@module.rule(r".*mass\smurder.*")
+@module.commands("shooting")
+def shooting(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/shooting.gif")
