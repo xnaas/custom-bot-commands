@@ -781,9 +781,9 @@ def slowdown(bot, trigger):
 def smmcb(bot, trigger):
   bot.say("https://actionsack.com/img/misc/smmcb.gif")
 
-@module.rule("^noice$")
+@module.rule("^(noice)$")
 def noice(bot, trigger):
-  bot.say("noice")
+  bot.say(trigger.group(1))
 
 @module.rule(".*sockbot.*")
 def sockbot(bot, trigger):
