@@ -2770,3 +2770,7 @@ def peep(bot, trigger):
 @module.rule(".*🥒.*")
 def cucumber(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🥒.gif")
+
+@module.rule(".*krang.*")
+def krang(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/krang.png")
