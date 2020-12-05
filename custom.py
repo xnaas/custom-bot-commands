@@ -703,6 +703,7 @@ def aidsclub(bot, trigger):
   bot.say("https://actionsack.com/img/misc/aidsclub.png")
 
 @module.rule(".*!barometer.*")
+@module.commands("barometer")
 def barometer(bot, trigger):
   bot.say("https://actionsack.com/img/misc/barometer.jpg")
 
@@ -711,10 +712,12 @@ def ohyou(bot, trigger):
   bot.say("https://actionsack.com/img/misc/Oh,you!.jpg")
 
 @module.rule(".*!battletoad.*")
+@module.commands("battletoad")
 def battletoad(bot, trigger):
   bot.say("https://actionsack.com/img/misc/battletoad.mp4")
 
 @module.rule(".*!beaker.*")
+@module.commands("beaker")
 def beaker(bot, trigger):
   bot.say("https://actionsack.com/img/misc/beaker.mp4")
 
@@ -726,6 +729,7 @@ def bomb(bot, trigger):
   bot.say("https://actionsack.com/img/misc/bomb.mp4")
 
 @module.rule(".*!broden.*")
+@module.commands("broden")
 def broden(bot, trigger):
   bot.say("https://actionsack.com/img/misc/broden.mp4")
 
@@ -802,6 +806,7 @@ def sockbot(bot, trigger):
   bot.say(random.choice(sockbot))
 
 @module.rule(".*!brony.*")
+@module.commands("brony")
 def brony(bot, trigger):
   bot.say("https://actionsack.com/img/mike/brony.png")
 
@@ -842,37 +847,17 @@ def censor(bot, trigger):
   ]
   bot.say(random.choice(censor))
 
-@module.rule("^Ping!$")
+@module.rule("^(P|B|Ch|D|S|W)ing!$")
 def pingpong(bot, trigger):
-  bot.say("Pong!")
-
-@module.rule("^Bing!$")
-def bingbong(bot, trigger):
-  bot.say("Bong!")
-
-@module.rule("^Ching!$")
-def chingchong(bot, trigger):
-  bot.say("Chong!")
-
-@module.rule(r"^Ding!$")
-def dingdong(bot, trigger):
-  bot.say("Dong!")
-
-@module.rule("^Sing!$")
-def singsong(bot, trigger):
-  bot.say("Song!")
-
-@module.rule("^Wing!$")
-def wingwong(bot, trigger):
-  bot.say("Wong!")
+  bot.say("%song!" %trigger.group(1))
 
 @module.rule("^Marco!$")
 def marcopolo(bot, trigger):
   bot.say("Polo!")
 
-@module.rule("^Wee!$")
+@module.rule("^(W)ee!$")
 def marcopolo(bot, trigger):
-  bot.say("Woo!")
+  bot.say("%soo!" %trigger.group(1))
 
 @module.commands("work")
 def worktoday(bot, trigger):
