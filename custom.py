@@ -2766,3 +2766,7 @@ def spacepants(bot, trigger):
 def peep(bot, trigger):
   """Peep on chat. Can also be triggered with '!peep' anywhere in a message."""
   bot.say("https://actionsack.com/img/misc/peep.gif")
+
+@module.rule(".*🥒.*")
+def cucumber(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/🥒.gif")
