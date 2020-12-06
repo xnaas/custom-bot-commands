@@ -2802,3 +2802,7 @@ def horses(bot, trigger):
     "https://actionsack.com/img/🏇/hoh.gif"
   ]
   bot.say(random.choice(race_horses))
+
+@module.rule(".*👽.*")
+def alien(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/👽.webp")
