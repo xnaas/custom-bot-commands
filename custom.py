@@ -2821,7 +2821,7 @@ def spider(bot, trigger):
   ]
   bot.say(random.choice(spiders))
 
-@module.rule(".*(spiderman|🕷👨).*")
+@module.rule(r".*(spiderman|🕷(|\s)👨).*")
 def spiderman(bot, trigger):
   spider_man = [
     "https://actionsack.com/img/🕷👨/orphans.webp",
