@@ -2810,3 +2810,21 @@ def alien(bot, trigger):
 @module.rule(".*😮😮😮.*")
 def gaping_mouth(bot, trigger):
   bot.say("https://actionsack.com/img/misc/😮.webp")
+
+@module.rule(".*🕷(?!👨).*")
+def spider(bot, trigger):
+  spiders = [
+    "https://actionsack.com/img/🕷/cat.webp",
+    "https://actionsack.com/img/🕷/girl.webp",
+    "https://actionsack.com/img/🕷/song.webp",
+    "https://actionsack.com/img/🕷/swing.webp"
+  ]
+  bot.say(random.choice(spiders))
+
+@module.rule(".*(spiderman|🕷👨).*")
+def spiderman(bot, trigger):
+  spider_man = [
+    "https://actionsack.com/img/🕷👨/orphans.webp",
+    "https://actionsack.com/img/🕷👨/smell.webp"
+  ]
+  bot.say(random.choice(spider_man))
