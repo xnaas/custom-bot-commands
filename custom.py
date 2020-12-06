@@ -2795,10 +2795,10 @@ def no(bot, trigger):
 def justno(bot, trigger):
   bot.say("https://actionsack.com/img/no/just...no.gif")
 
-@module.rule(".*🏇🏻.*")
+@module.rule(".*🏇.*")
 def horses(bot, trigger):
   race_horses = [
-    "https://actionsack.com/img/🏇🏻/girl.gif",
-    "https://actionsack.com/img/🏇🏻/hoh.gif"
+    "https://actionsack.com/img/🏇/girl.gif",
+    "https://actionsack.com/img/🏇/hoh.gif"
   ]
   bot.say(random.choice(race_horses))
