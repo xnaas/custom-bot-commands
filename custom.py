@@ -148,6 +148,7 @@ def crying(bot, trigger):
   """Bot will reply with a crying GIF or emoticon.
   Can also be summoned by sending a message that is only the 😢 emoji."""
   crying = [
+    "https://actionsack.com/img/QQ/QQ000.webp",
     "https://actionsack.com/img/QQ/QQ001.gif",
     "https://actionsack.com/img/QQ/QQ002.gif",
     "https://actionsack.com/img/QQ/QQ003.gif",
