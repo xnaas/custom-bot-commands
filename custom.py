@@ -823,6 +823,8 @@ def banned(bot, trigger):
     "https://actionsack.com/img/banned/beetlejuice.mp4",
     "https://actionsack.com/img/banned/carryon.png",
     "https://actionsack.com/img/banned/clapping.gif",
+    "https://actionsack.com/img/banned/hammer00.webp",
+    "https://actionsack.com/img/banned/hammer01.webp",
     "https://actionsack.com/img/banned/hanging.gif",
     "https://actionsack.com/img/banned/samuel.gif",
     "https://actionsack.com/img/banned/slapbeavis.gif",
