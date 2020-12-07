@@ -2125,9 +2125,9 @@ def salty(bot, trigger):
   salty = [
     "https://actionsack.com/img/salt/#staysalty.png",
     "https://actionsack.com/img/salt/all-these-flavors.png",
+    "https://actionsack.com/img/salt/dance.webp",
     "https://actionsack.com/img/salt/power-salt.gif",
     "https://actionsack.com/img/salt/salty-bitch.png",
-    "https://actionsack.com/img/salt/salty-dance.gif",
     "https://actionsack.com/img/salt/super-salty.png"
   ]
   bot.say(random.choice(salty))
