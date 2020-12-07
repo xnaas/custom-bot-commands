@@ -2836,3 +2836,7 @@ def spiderman(bot, trigger):
     "https://actionsack.com/img/🕷👨/smell.webp"
   ]
   bot.say(random.choice(spider_man))
+
+@module.rule(".*shitstorm.*")
+def shitstorm(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/shitstorm.webp")
