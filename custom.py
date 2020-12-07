@@ -2804,7 +2804,7 @@ def no(bot, trigger):
 
 @module.rule(r"^just\.\.\.no$")
 def justno(bot, trigger):
-  bot.say("https://actionsack.com/img/no/just...no.gif")
+  bot.say("https://actionsack.com/img/no/just...no.webp")
 
 @module.rule(".*🏇.*")
 def horses(bot, trigger):
