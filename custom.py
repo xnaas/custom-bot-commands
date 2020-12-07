@@ -159,7 +159,7 @@ def crying(bot, trigger):
     "＞︿＜",
     "＞﹏＜",
     "X﹏X",
-    "(T_T)"
+    "T_T"
   ]
   bot.say(random.choice(crying))
 
@@ -308,7 +308,7 @@ def dotdotdot(bot, trigger):
 def deeznutz(bot, trigger):
   bot.say(formatting.bold("DEEZ NUTZ!"))
 
-@module.commands("rlenny")
+@module.commands("lenny", "rlenny")
 def rlenny(bot, trigger):
   """Sends a random ( ͡° ͜ʖ ͡°) variation...or a GIF/MP4!"""
   rlenny = [
@@ -331,6 +331,18 @@ def rlenny(bot, trigger):
     "¯\_( ͡° ͜ʖ ͡°)_/¯"
   ]
   bot.say(random.choice(rlenny))
+
+@module.commands("shrug")
+def shrug(bot, trigger):
+  bot.say("¯\\_(ツ)_/¯")
+
+@module.commands("tableflip", "tflip")
+def tableflip(bot, trigger):
+  bot.say("(╯°□°）╯︵ ┻━┻")
+
+@module.rule(r".*\(╯°□°）╯︵ ┻━┻.*")
+def unflip(bot, trigger):
+  bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, %s." %trigger.nick)
 
 @module.rule("^pranked!$")
 def prank(bot, trigger):
@@ -1102,10 +1114,6 @@ def swat(bot, trigger):
 @module.rule(".*(▫|◽|◻|⬜|▪|◾|◼|⬛|🟥|🟧|🟨|🟩|🟦|🟪|🟫).*")
 def square(bot, trigger):
   bot.say("https://actionsack.com/img/videos/square.mp4")
-
-@module.rule(r".*\(╯°□°）╯︵ ┻━┻.*")
-def unflip(bot, trigger):
-  bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, %s." %trigger.nick)
 
 @module.commands("dblflip")
 def dblflip(bot, trigger):
