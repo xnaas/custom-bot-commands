@@ -44,7 +44,7 @@ def yeah(bot, trigger):
 @module.rule("^retard.*")
 def retarded(bot, trigger):
   retard = [
-    "https://actionsack.com/img/retard/catarded.png",
+    "https://actionsack.com/img/retard/catarded.webp",
     "https://actionsack.com/img/retard/retarded.gif",
     "https://actionsack.com/img/retard/△.gif"
   ]
