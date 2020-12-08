@@ -2630,7 +2630,7 @@ def repost(bot, trigger):
     "https://actionsack.com/img/repost/5minutes.png",
     "https://actionsack.com/img/repost/back-to-the-repost.png",
     "https://actionsack.com/img/repost/better.gif",
-    "https://actionsack.com/img/repost/cat.gif",
+    "https://actionsack.com/img/repost/cat.webp",
     "https://actionsack.com/img/repost/cock.png",
     "https://actionsack.com/img/repost/detected.gif",
     "https://actionsack.com/img/repost/evil.gif",
