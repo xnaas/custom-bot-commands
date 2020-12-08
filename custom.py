@@ -14,12 +14,12 @@ else:
 @module.commands("nod")
 def nod(bot, trigger):
   """Nod."""
-  bot.say("https://actionsack.com/img/trek/nod.gif")
+  bot.say("https://actionsack.com/img/trek/nod.webp")
 
 @module.commands("spok")
 def spok(bot, trigger):
   """Summon SPOK into chat."""
-  bot.say("https://actionsack.com/img/trek/spok.gif")
+  bot.say("https://actionsack.com/img/trek/spok.webp")
 
 @module.rule(r"^Hello(\?|!)$")
 def hi(bot, trigger):
