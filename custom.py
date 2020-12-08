@@ -39,7 +39,7 @@ def itisknown(bot, trigger):
 
 @module.rule("^yeah!$")
 def yeah(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/yeah!.gif")
+  bot.say("https://actionsack.com/img/misc/yeah!.webp")
 
 @module.rule("^retard.*")
 def retarded(bot, trigger):
