@@ -2640,7 +2640,7 @@ def repost(bot, trigger):
     "https://actionsack.com/img/repost/IB.mp4",
     "https://actionsack.com/img/repost/ITSAREPOST!!!.png",
     "https://actionsack.com/img/repost/jurassic.gif",
-    "https://actionsack.com/img/repost/MiB.gif",
+    "https://actionsack.com/img/repost/MiB.webp",
     "https://actionsack.com/img/repost/nobody_cares.gif",
     "https://actionsack.com/img/repost/ohshit.mp4",
     "https://actionsack.com/img/repost/pacific_rim.gif",
