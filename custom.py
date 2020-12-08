@@ -471,7 +471,7 @@ def xfiles(bot, trigger):
 def triggered(bot, trigger):
   triggered = [
     "https://actionsack.com/img/triggered/beaker.gif",
-    "https://actionsack.com/img/triggered/triggered.gif",
+    "https://actionsack.com/img/triggered/triggered.webp",
     "https://actionsack.com/img/triggered/feek.gif"
   ]
   bot.say(random.choice(triggered))
