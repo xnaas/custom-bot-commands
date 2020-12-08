@@ -470,9 +470,9 @@ def xfiles(bot, trigger):
 @module.rule(".*triggered.*")
 def triggered(bot, trigger):
   triggered = [
-    "https://actionsack.com/img/triggered/beaker.gif",
+    "https://actionsack.com/img/triggered/beaker.webp",
     "https://actionsack.com/img/triggered/triggered.webp",
-    "https://actionsack.com/img/triggered/feek.gif"
+    "https://actionsack.com/img/triggered/feek.webp"
   ]
   bot.say(random.choice(triggered))
 
