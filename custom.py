@@ -22,7 +22,7 @@ def spok(bot, trigger):
   bot.say("https://actionsack.com/img/trek/spok.webp")
 
 @module.commands("cube")
-def trek_cube(bot, trigger)
+def trek_cube(bot, trigger):
   bot.say("https://actionsack.com/img/trek/cube.webp")
 
 @module.rule(r"^Hello(\?|!)$")
