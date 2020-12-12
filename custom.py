@@ -1039,8 +1039,8 @@ def faggot(bot, trigger):
 @module.rule("^Gay!$")
 def gayexclamation(bot, trigger):
   gayexclamation = [
-    "https://actionsack.com/img/gay/gay!.gif",
-    "https://actionsack.com/img/gay/gayshit.png"
+    "https://actionsack.com/img/gay/gay!.webp",
+    "https://actionsack.com/img/gay/gayshit.webp"
   ]
   bot.say(random.choice(gayexclamation))
 
