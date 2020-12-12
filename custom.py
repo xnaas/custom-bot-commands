@@ -49,8 +49,8 @@ def yeah(bot, trigger):
 def retarded(bot, trigger):
   retard = [
     "https://actionsack.com/img/retard/catarded.webp",
-    "https://actionsack.com/img/retard/retarded.gif",
-    "https://actionsack.com/img/retard/△.gif"
+    "https://actionsack.com/img/retard/retarded.webp",
+    "https://actionsack.com/img/retard/△.webp"
   ]
   bot.say(random.choice(retard))
 
