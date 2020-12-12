@@ -2513,7 +2513,7 @@ def xnaas(bot, trigger):
 @module.commands("RGB")
 def RGB(bot, trigger):
   """Can also be triggered with '!RGB' anywhere in a message."""
-  bot.say("https://actionsack.com/img/misc/RGB.gif")
+  bot.say("https://actionsack.com/img/misc/RGB.webp")
 
 @module.rule(".*savage!.*")
 def savage(bot, trigger):
