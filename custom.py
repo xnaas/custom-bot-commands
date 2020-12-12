@@ -2098,7 +2098,7 @@ def svehla(bot, trigger):
 
 @module.rule(".*🗑.*")
 def trash(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/🗑.gif")
+  bot.say("https://actionsack.com/img/misc/🗑.webp")
 
 @module.rule(".*!cumcan.*")
 @module.commands("cumcan")
