@@ -2068,7 +2068,7 @@ def as_linus(bot, trigger):
 
 @module.rule(".*🚬.*")
 def smoking(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/smoking.gif")
+  bot.say("https://actionsack.com/img/misc/smoking.webp")
 
 @module.rule(".*🚁.*")
 def heli(bot, trigger):
