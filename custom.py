@@ -2011,20 +2011,20 @@ def vapenaysh(bot, trigger):
 @module.rule(".*🦈.*")
 def sharku(bot, trigger):
   sharks = [
-    "https://actionsack.com/img/shark/TV.webp",
-    "https://actionsack.com/img/shark/bed.webp",
-    "https://actionsack.com/img/shark/bleps_irl.webp",
-    "https://actionsack.com/img/shark/borking.webp",
-    "https://actionsack.com/img/shark/buff_girl.webp",
-    "https://actionsack.com/img/shark/comic.webp",
-    "https://actionsack.com/img/shark/costume.webp",
-    "https://actionsack.com/img/shark/cuddles.webp",
-    "https://actionsack.com/img/shark/drawing.webp",
-    "https://actionsack.com/img/shark/flame.webp",
-    "https://actionsack.com/img/shark/food_bowl.webp",
-    "https://actionsack.com/img/shark/hidden",
-    "https://actionsack.com/img/shark/leash.webp",
-    "https://actionsack.com/img/shark/pet.webp"
+    "https://actionsack.com/img/🦈/TV.webp",
+    "https://actionsack.com/img/🦈/bed.webp",
+    "https://actionsack.com/img/🦈/bleps_irl.webp",
+    "https://actionsack.com/img/🦈/borking.webp",
+    "https://actionsack.com/img/🦈/buff_girl.webp",
+    "https://actionsack.com/img/🦈/comic.webp",
+    "https://actionsack.com/img/🦈/costume.webp",
+    "https://actionsack.com/img/🦈/cuddles.webp",
+    "https://actionsack.com/img/🦈/drawing.webp",
+    "https://actionsack.com/img/🦈/flame.webp",
+    "https://actionsack.com/img/🦈/food_bowl.webp",
+    "https://actionsack.com/img/🦈/hidden",
+    "https://actionsack.com/img/🦈/leash.webp",
+    "https://actionsack.com/img/🦈/pet.webp"
   ]
   bot.say(random.choice(sharks))
 
