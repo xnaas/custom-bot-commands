@@ -2011,11 +2011,20 @@ def vapenaysh(bot, trigger):
 @module.rule(".*🦈.*")
 def sharku(bot, trigger):
   sharks = [
-    "https://actionsack.com/img/🦈/buff_girl.png",
-    "https://actionsack.com/img/🦈/comic.jpg",
-    "https://actionsack.com/img/🦈/costume.gif",
-    "https://actionsack.com/img/🦈/flame.gif",
-    "https://actionsack.com/img/🦈/pet.gif"
+    "https://actionsack.com/img/shark/TV.webp",
+    "https://actionsack.com/img/shark/bed.webp",
+    "https://actionsack.com/img/shark/bleps_irl.webp",
+    "https://actionsack.com/img/shark/borking.webp",
+    "https://actionsack.com/img/shark/buff_girl.webp",
+    "https://actionsack.com/img/shark/comic.webp",
+    "https://actionsack.com/img/shark/costume.webp",
+    "https://actionsack.com/img/shark/cuddles.webp",
+    "https://actionsack.com/img/shark/drawing.webp",
+    "https://actionsack.com/img/shark/flame.webp",
+    "https://actionsack.com/img/shark/food_bowl.webp",
+    "https://actionsack.com/img/shark/hidden",
+    "https://actionsack.com/img/shark/leash.webp",
+    "https://actionsack.com/img/shark/pet.webp"
   ]
   bot.say(random.choice(sharks))
 
