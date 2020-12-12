@@ -371,7 +371,7 @@ def shrug(bot, trigger):
 
 @module.rule(".*🦏.*")
 def rhino(bot, trigger):
-  bot.say("https://actionsack.com/img/🦏/🦏.gif")
+  bot.say("https://actionsack.com/img/🦏/🦏.webp")
 
 @module.rule(".*🧀.*")
 def cheese(bot, trigger):
