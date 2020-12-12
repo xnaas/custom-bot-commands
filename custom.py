@@ -2105,7 +2105,7 @@ def trash(bot, trigger):
 def cumcan(bot, trigger):
   """Cum cleanup.
   Can also be triggered with '!cumcan' anywhere in a message."""
-  bot.say("https://actionsack.com/img/misc/cumcan.gif")
+  bot.say("https://actionsack.com/img/misc/cumcan.webp")
 
 @module.rule(".*!cancer.*")
 @module.commands("cancer")
