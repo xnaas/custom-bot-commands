@@ -6,7 +6,7 @@ import requests
 @module.commands("ass")
 @module.require_chanmsg
 def ass_api(bot, trigger):
-  """Posts a random ass pic. NSFW, obviously."""
+  """Posts a random ass pic. #nsfw only."""
   if trigger.sender == "#nsfw":
     url = "http://api.obutts.ru/butts/%s" %random.randint(0, 8286)
     ass_preview = requests.get(url).json()[0]['preview']
@@ -17,7 +17,7 @@ def ass_api(bot, trigger):
 @module.commands("boobs")
 @module.require_chanmsg
 def boobs_api(bot, trigger):
-  """Posts a random boobs pic. NSFW, obviously."""
+  """Posts a random boobs pic. #nsfw only."""
   if trigger.sender == "#nsfw":
     url = "http://api.oboobs.ru/boobs/%s" %random.randint(0, 14620)
     boobs_preview = requests.get(url).json()[0]['preview']
