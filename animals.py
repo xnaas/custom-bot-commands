@@ -29,7 +29,7 @@ def shibe(bot, trigger):
   url = "https://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true"
   shibe_image = requests.get(url).json()[0]
   bot.say(shibe_image)
-  
+
 @module.commands("birb", "bird")
 def birbs(bot, trigger):
   """Posts a random bird using the shibe.online bird API."""
