@@ -214,8 +214,9 @@ def foad(bot, trigger):
 @module.rule(".*adapters.*")
 def adapters(bot, trigger):
   adapters = [
-    "https://actionsack.com/img/misc/adapters01.png",
-    "https://actionsack.com/img/misc/adapters02.png"
+    "https://actionsack.com/img/adapters/00.webp",
+    "https://actionsack.com/img/adapters/01.webp",
+    "https://actionsack.com/img/adapters/02.webp"
   ]
   bot.say(random.choice(adapters))
 
