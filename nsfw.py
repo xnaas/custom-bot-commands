@@ -4,7 +4,6 @@ import random
 import requests
 
 @module.commands("ass")
-@module.require_chanmsg
 def ass_api(bot, trigger):
   """Posts a random ass pic. #nsfw only."""
   if trigger.sender == "#nsfw":
@@ -15,7 +14,6 @@ def ass_api(bot, trigger):
     bot.say("This command is only usable in the #nsfw channel.")
 
 @module.commands("boobs")
-@module.require_chanmsg
 def boobs_api(bot, trigger):
   """Posts a random boobs pic. #nsfw only."""
   if trigger.sender == "#nsfw":
