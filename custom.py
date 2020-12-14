@@ -2267,24 +2267,24 @@ def feek(bot, trigger):
   """A user triggering this command can only do so once per 15 minutes."""
   feeks = [
     "Works for Me™",
-    "https://actionsack.com/img/feek/ben.gif",
-    "https://actionsack.com/img/feek/bitch.png",
-    "https://actionsack.com/img/feek/die.png",
-    "https://actionsack.com/img/feek/error.png",
-    "https://actionsack.com/img/feek/feek01.png",
-    "https://actionsack.com/img/feek/feek02.png",
-    "https://actionsack.com/img/feek/feek03.gif",
-    "https://actionsack.com/img/feek/feek04.png",
-    "https://actionsack.com/img/feek/feek05.png",
-    "https://actionsack.com/img/feek/feek06.png",
-    "https://actionsack.com/img/feek/feek07.png",
-    "https://actionsack.com/img/feek/feek08.png",
-    "https://actionsack.com/img/feek/free.png",
-    "https://actionsack.com/img/feek/hated.png",
-    "https://actionsack.com/img/feek/hidden.gif",
-    "https://actionsack.com/img/feek/lucky.png",
-    "https://actionsack.com/img/feek/PokéKeith.png",
-    "https://actionsack.com/img/feek/rape.png"
+    "https://actionsack.com/img/feek/ben.webp",
+    "https://actionsack.com/img/feek/bitch.webp",
+    "https://actionsack.com/img/feek/die.webp",
+    "https://actionsack.com/img/feek/error.webp",
+    "https://actionsack.com/img/feek/feek01.webp",
+    "https://actionsack.com/img/feek/feek02.webp",
+    "https://actionsack.com/img/feek/feek03.webp",
+    "https://actionsack.com/img/feek/feek04.webp",
+    "https://actionsack.com/img/feek/feek05.webp",
+    "https://actionsack.com/img/feek/feek06.webp",
+    "https://actionsack.com/img/feek/feek07.webp",
+    "https://actionsack.com/img/feek/feek08.webp",
+    "https://actionsack.com/img/feek/free.webp",
+    "https://actionsack.com/img/feek/hated.webp",
+    "https://actionsack.com/img/feek/hidden.webp",
+    "https://actionsack.com/img/feek/lucky.webp",
+    "https://actionsack.com/img/feek/PokéKeith.webp",
+    "https://actionsack.com/img/feek/rape.webp"
   ]
   bot.say(random.choice(feeks))
 
