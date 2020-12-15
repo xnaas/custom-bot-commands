@@ -2023,7 +2023,6 @@ def sharku(bot, trigger):
     "https://actionsack.com/img/🦈/drawing.webp",
     "https://actionsack.com/img/🦈/flame.webp",
     "https://actionsack.com/img/🦈/food_bowl.webp",
-    "https://actionsack.com/img/🦈/hidden",
     "https://actionsack.com/img/🦈/leash.webp",
     "https://actionsack.com/img/🦈/pet.webp"
   ]
