@@ -2028,7 +2028,7 @@ def sharku(bot, trigger):
   ]
   bot.say(random.choice(sharks))
 
-@module.rule(r"^🦇(|\s)👨(|🏻|🏼|🏽|🏾|🏿)$")
+@module.rule(r".*(batman|🦇(|\s)👨).*")
 @module.commands("batman")
 def batman(bot, trigger):
   """Summons a Batman. Names are base64 encoded.
