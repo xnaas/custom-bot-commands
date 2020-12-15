@@ -2832,7 +2832,7 @@ def horses(bot, trigger):
 def alien(bot, trigger):
   bot.say("https://actionsack.com/img/misc/👽.webp")
 
-@module.rule(".*😮😮😮.*")
+@module.rule(".*😮{3,}.*")
 def gaping_mouth(bot, trigger):
   bot.say("https://actionsack.com/img/misc/😮.webp")
 
