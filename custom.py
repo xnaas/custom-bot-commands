@@ -1342,7 +1342,7 @@ def judge(bot, trigger):
     "guilty! https://actionsack.com/img/misc/guilty.png"
   ]
   text = clean(trigger.group(2) or '')
-  
+
   if not text:
     try:
       msg = "I need someone or something to judge!"
@@ -1350,7 +1350,7 @@ def judge(bot, trigger):
       msg = "How did you do that?!"
     bot.reply(msg)
     return module.NOLIMIT
-  
+
   bot.say("%s is %s" %(trigger.group(2), random.choice(judges)))
 
 @module.rule(r"^wat($|\W)")
