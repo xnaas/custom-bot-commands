@@ -2034,13 +2034,13 @@ def batman(bot, trigger):
   """Summons a Batman. Names are base64 encoded.
   Can also be triggered by sending a message that is only the "🦇👨" emoji."""
   bat_men = [
-    "https://actionsack.com/img/🦇👨/amFqYWJybzE=.png",
-    "https://actionsack.com/img/🦇👨/beer.png",
-    "https://actionsack.com/img/🦇👨/bWlrZQ==.png",
-    "https://actionsack.com/img/🦇👨/dGFzaWFu.png",
-    "https://actionsack.com/img/🦇👨/eG5hYXM=.png",
-    "https://actionsack.com/img/🦇👨/ZmVja3Rr.png",
-    "https://actionsack.com/img/🦇👨/ZmVlaw==.png"
+    "https://actionsack.com/img/🦇👨/amFqYWJybzE=.webp",
+    "https://actionsack.com/img/🦇👨/beer.webp",
+    "https://actionsack.com/img/🦇👨/bWlrZQ==.webp",
+    "https://actionsack.com/img/🦇👨/dGFzaWFu.webp",
+    "https://actionsack.com/img/🦇👨/eG5hYXM=.webp",
+    "https://actionsack.com/img/🦇👨/ZmVja3Rr.webp",
+    "https://actionsack.com/img/🦇👨/ZmVlaw==.webp"
   ]
   bot.say(random.choice(bat_men))
 
