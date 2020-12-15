@@ -2047,13 +2047,13 @@ def batman(bot, trigger):
 @module.rule(".*🤔{3,}.*")
 def think(bot, trigger):
   thinking = [
-    "https://actionsack.com/img/think/aesthetic.png",
-    "https://actionsack.com/img/think/barometer.png",
-    "https://actionsack.com/img/think/beer.png",
-    "https://actionsack.com/img/think/circle.jpg",
-    "https://actionsack.com/img/think/fu.png",
-    "https://actionsack.com/img/think/layers.png",
-    "https://actionsack.com/img/think/statue.png",
+    "https://actionsack.com/img/think/aesthetic.webp",
+    "https://actionsack.com/img/think/barometer.webp",
+    "https://actionsack.com/img/think/beer.webp",
+    "https://actionsack.com/img/think/circle.webp",
+    "https://actionsack.com/img/think/fu.webp",
+    "https://actionsack.com/img/think/layers.webp",
+    "https://actionsack.com/img/think/statue.webp",
     "https://actionsack.com/img/think/thinksomething.gif",
     "https://actionsack.com/img/think/thinkspin2.gif",
     "https://actionsack.com/img/think/thinkspin.gif",
