@@ -380,7 +380,7 @@ def cheese(bot, trigger):
 
 @module.rule(".*🦄.*")
 def unicorn(bot, trigger):
-  bot.say("https://actionsack.com/img/🦄/🦄.jpg")
+  bot.say("https://actionsack.com/img/🦄/🦄.webp")
 
 @module.rule("^🙃$")
 def upsidedown(bot, trigger):
