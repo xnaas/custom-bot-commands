@@ -2048,17 +2048,18 @@ def batman(bot, trigger):
 def think(bot, trigger):
   thinking = [
     "https://actionsack.com/img/think/aesthetic.webp",
+    "https://actionsack.com/img/think/agon.webp",
     "https://actionsack.com/img/think/barometer.webp",
     "https://actionsack.com/img/think/beer.webp",
     "https://actionsack.com/img/think/circle.webp",
+    "https://actionsack.com/img/think/e.webp",
     "https://actionsack.com/img/think/fu.webp",
     "https://actionsack.com/img/think/layers.webp",
+    "https://actionsack.com/img/think/something.webp",
+    "https://actionsack.com/img/think/spin.webp",
+    "https://actionsack.com/img/think/spinner.webp",
     "https://actionsack.com/img/think/statue.webp",
-    "https://actionsack.com/img/think/thinksomething.gif",
-    "https://actionsack.com/img/think/thinkspin2.gif",
-    "https://actionsack.com/img/think/thinkspin.gif",
-    "https://actionsack.com/img/think/thinkspinner.gif",
-    "https://actionsack.com/img/think/thonk.gif"
+    "https://actionsack.com/img/think/thonk.webp"
   ]
   bot.say(random.choice(thinking))
 
