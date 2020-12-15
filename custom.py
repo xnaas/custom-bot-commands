@@ -2044,7 +2044,7 @@ def batman(bot, trigger):
   ]
   bot.say(random.choice(bat_men))
 
-@module.rule("^🤔+$")
+@module.rule(".*🤔{3,}.*")
 def think(bot, trigger):
   thinking = [
     "https://actionsack.com/img/think/aesthetic.png",
