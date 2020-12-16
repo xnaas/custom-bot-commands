@@ -2602,9 +2602,9 @@ def chief(bot, trigger):
 def drphil(bot, trigger):
   """Can also be triggered with '!drphil' anywhere in a message."""
   dr_phil = [
-    "https://actionsack.com/img/drphil/apples.png",
-    "https://actionsack.com/img/drphil/ride.gif",
-    "https://actionsack.com/img/drphil/WSTYAHHWASFOH.png"
+    "https://actionsack.com/img/drphil/apples.webp",
+    "https://actionsack.com/img/drphil/ride.webp",
+    "https://actionsack.com/img/drphil/WSTYAHHWASFOH.webp"
   ]
   bot.say(random.choice(dr_phil))
 
