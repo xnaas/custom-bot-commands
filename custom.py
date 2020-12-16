@@ -873,6 +873,7 @@ def marcopolo(bot, trigger):
 def marcopolo(bot, trigger):
   bot.say("%soo!" %trigger.group(1))
 
+@module.rule(".*!work.*")
 @module.commands("work")
 def worktoday(bot, trigger):
   """I don't really wanna do the work today..."""
