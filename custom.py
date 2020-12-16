@@ -292,7 +292,7 @@ def backhand(bot, trigger):
 
 @module.rule("^😠$")
 def angryeyes(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/angryeyes.gif")
+  bot.say("https://actionsack.com/img/misc/angryeyes.webp")
 
 @module.rule(".*alot.*")
 def alot(bot, trigger):
