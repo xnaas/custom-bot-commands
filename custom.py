@@ -2407,7 +2407,7 @@ def tasian(bot, trigger):
     "https://actionsack.com/img/tasian/driver.webp",
     "https://actionsack.com/img/tasian/fortnite.webp",
     "https://actionsack.com/img/tasian/grin.webp",
-    "https://actionsack.com/img/tasian/korea.gif",
+    "https://actionsack.com/img/tasian/korea.webp",
     "https://actionsack.com/img/tasian/koreatext.gif",
     "https://actionsack.com/img/tasian/math.gif",
     "https://actionsack.com/img/tasian/naga.webp",
