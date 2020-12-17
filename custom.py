@@ -1431,7 +1431,7 @@ def wow(bot, trigger):
 
 @module.rule(".*whoa.*")
 def whoa(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/whoa.gif")
+  bot.say("https://actionsack.com/img/misc/whoa.webp")
 
 @module.rule(r".*wew\slad.*", ".*wew!.*")
 @module.commands("wew")
