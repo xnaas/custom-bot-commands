@@ -2436,25 +2436,25 @@ def tasian(bot, trigger):
 def viz(bot, trigger):
   """A user triggering this command can only do so once per 15 minutes."""
   vizs = [
-    "https://actionsack.com/img/viz/bad4u.png",
-    "https://actionsack.com/img/viz/drunk01.png",
-    "https://actionsack.com/img/viz/drunk02.png",
-    "https://actionsack.com/img/viz/drunk03.png",
-    "https://actionsack.com/img/viz/drunk04.png",
-    "https://actionsack.com/img/viz/drunk05.png",
-    "https://actionsack.com/img/viz/drunk06.png",
-    "https://actionsack.com/img/viz/drunk07.png",
-    "https://actionsack.com/img/viz/drunk08.png",
-    "https://actionsack.com/img/viz/drunk09.png",
-    "https://actionsack.com/img/viz/fecktk.png",
-    "https://actionsack.com/img/viz/FOT.png",
-    "https://actionsack.com/img/viz/lololololol.png",
-    "https://actionsack.com/img/viz/lovescock.png",
-    "https://actionsack.com/img/viz/oh.ok.png",
-    "https://actionsack.com/img/viz/poison.png",
-    "https://actionsack.com/img/viz/ride.png",
-    "https://actionsack.com/img/viz/tree.png",
-    "https://actionsack.com/img/viz/whoknows.png"
+    "https://actionsack.com/img/viz/bad4u.webp",
+    "https://actionsack.com/img/viz/drunk01.webp",
+    "https://actionsack.com/img/viz/drunk02.webp",
+    "https://actionsack.com/img/viz/drunk03.webp",
+    "https://actionsack.com/img/viz/drunk04.webp",
+    "https://actionsack.com/img/viz/drunk05.webp",
+    "https://actionsack.com/img/viz/drunk06.webp",
+    "https://actionsack.com/img/viz/drunk07.webp",
+    "https://actionsack.com/img/viz/drunk08.webp",
+    "https://actionsack.com/img/viz/drunk09.webp",
+    "https://actionsack.com/img/viz/fecktk.webp",
+    "https://actionsack.com/img/viz/FOT.webp",
+    "https://actionsack.com/img/viz/lololololol.webp",
+    "https://actionsack.com/img/viz/lovescock.webp",
+    "https://actionsack.com/img/viz/oh.ok.webp",
+    "https://actionsack.com/img/viz/poison.webp",
+    "https://actionsack.com/img/viz/ride.webp",
+    "https://actionsack.com/img/viz/tree.webp",
+    "https://actionsack.com/img/viz/whoknows.webp"
   ]
   bot.say(random.choice(vizs))
 
