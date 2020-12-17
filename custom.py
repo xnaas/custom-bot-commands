@@ -1442,11 +1442,11 @@ def wew(bot, trigger):
 @module.rule(r"^(uh\.\.\.|uh{2,})$")
 def uhh(bot, trigger):
   uhh = [
-    "https://actionsack.com/img/uh/uh01.png",
-    "https://actionsack.com/img/uh/uh02.png",
-    "https://actionsack.com/img/uh/uh03.png",
-    "https://actionsack.com/img/uh/uh04.png",
-    "https://actionsack.com/img/uh/uhbytes.png"
+    "https://actionsack.com/img/uh/uh01.webp",
+    "https://actionsack.com/img/uh/uh02.webp",
+    "https://actionsack.com/img/uh/uh03.webp",
+    "https://actionsack.com/img/uh/uh04.webp",
+    "https://actionsack.com/img/uh/uhbytes.webp"
   ]
   bot.say(random.choice(uhh))
 
