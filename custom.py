@@ -2075,10 +2075,10 @@ def smoking(bot, trigger):
 @module.rule(".*🚁.*")
 def heli(bot, trigger):
   helicopter = [
-    "https://actionsack.com/img/🚁/engineer.gif",
-    "https://actionsack.com/img/🚁/fgr.png",
-    "https://actionsack.com/img/🚁/hair.png",
-    "https://actionsack.com/img/🚁/peewee.png"
+    "https://actionsack.com/img/🚁/engineer.webp",
+    "https://actionsack.com/img/🚁/fgr.webp",
+    "https://actionsack.com/img/🚁/hair.webp",
+    "https://actionsack.com/img/🚁/peewee.webp"
   ]
   bot.say(random.choice(helicopter))
 
