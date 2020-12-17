@@ -2401,7 +2401,7 @@ def tasian(bot, trigger):
   tasians = [
     "https://actionsack.com/img/tasian/2016.png",
     "https://actionsack.com/img/tasian/balloon.png",
-    "https://actionsack.com/img/tasian/dance.gif",
+    "https://actionsack.com/img/tasian/dance.webp",
     "https://actionsack.com/img/tasian/dance.mp4",
     "https://actionsack.com/img/tasian/D.gif",
     "https://actionsack.com/img/tasian/driver.png",
