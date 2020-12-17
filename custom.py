@@ -2403,16 +2403,16 @@ def tasian(bot, trigger):
     "https://actionsack.com/img/tasian/balloon.webp",
     "https://actionsack.com/img/tasian/dance.webp",
     "https://actionsack.com/img/tasian/dance.mp4",
-    "https://actionsack.com/img/tasian/D.gif",
+    "https://actionsack.com/img/tasian/D.webp",
     "https://actionsack.com/img/tasian/driver.webp",
     "https://actionsack.com/img/tasian/fortnite.webp",
     "https://actionsack.com/img/tasian/grin.webp",
     "https://actionsack.com/img/tasian/korea.webp",
-    "https://actionsack.com/img/tasian/koreatext.gif",
-    "https://actionsack.com/img/tasian/math.gif",
+    "https://actionsack.com/img/tasian/koreatext.webp",
+    "https://actionsack.com/img/tasian/math.webp",
     "https://actionsack.com/img/tasian/naga.webp",
-    "https://actionsack.com/img/tasian/noodles.gif",
-    "https://actionsack.com/img/tasian/pacman.gif",
+    "https://actionsack.com/img/tasian/noodles.webp",
+    "https://actionsack.com/img/tasian/pacman.webp",
     "https://actionsack.com/img/tasian/pickles.webp",
     "https://actionsack.com/img/tasian/pikaval.webp",
     "https://actionsack.com/img/tasian/racist01.webp",
@@ -2426,7 +2426,7 @@ def tasian(bot, trigger):
     "https://actionsack.com/img/tasian/val04.webp",
     "https://actionsack.com/img/tasian/val05.webp",
     "https://actionsack.com/img/tasian/val06.webp",
-    "https://actionsack.com/img/tasian/val07.gif"
+    "https://actionsack.com/img/tasian/val07.webp"
   ]
   bot.say(random.choice(tasians))
 
