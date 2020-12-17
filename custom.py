@@ -1734,7 +1734,7 @@ def kay(bot, trigger):
 @module.rule(".*!words.*")
 def words(bot, trigger):
   # Requested by Aegisfate on 2020-11-19
-  bot.say("https://actionsack.com/img/misc/words.gif")
+  bot.say("https://actionsack.com/img/misc/words.webp")
 
 @module.rule(".*kiki.*")
 def kiki(bot, trigger):
