@@ -1423,9 +1423,9 @@ def wazard(bot, trigger):
 def wow(bot, trigger):
   """Wow! — Can also be triggered with 'wow!' anywhere in a message."""
   wow = [
-    "https://actionsack.com/img/wow/corrupt.gif",
+    "https://actionsack.com/img/wow/corrupt.webp",
     "https://actionsack.com/img/wow/wow!!.mp4",
-    "https://actionsack.com/img/wow/wow.gif"
+    "https://actionsack.com/img/wow/wow.webp"
   ]
   bot.say(random.choice(wow))
 
