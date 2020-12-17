@@ -12,7 +12,7 @@ Posts random animal pics from several different APIs.
 Moved from [sopel-color-text](https://github.com/xnaas/sopel-color-text) — don't want to actually deal with publishing to pypi in the future.
 
 ## custom.py
-Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot.
+Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot. Many of these are highly inappropriate.
 
 ## dadjokes.py
 Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
