@@ -1437,7 +1437,7 @@ def whoa(bot, trigger):
 @module.commands("wew")
 def wew(bot, trigger):
   """wew lad! — Can also be triggered with 'wew!' or 'wew lad' anywhere in a message."""
-  bot.say("https://actionsack.com/img/misc/wew.png")
+  bot.say("https://actionsack.com/img/misc/wew.webp")
 
 @module.rule(r"^(uh\.\.\.|uh{2,})$")
 def uhh(bot, trigger):
