@@ -1884,8 +1884,8 @@ def hawt(bot, trigger):
 @module.rule("^hwat.*")
 def hwat(bot, trigger):
   hwat = [
-    "https://actionsack.com/img/wat/hwat01.png",
-    "https://actionsack.com/img/wat/hwat02.png"
+    "https://actionsack.com/img/wat/hwat01.webp",
+    "https://actionsack.com/img/wat/hwat02.webp"
   ]
   bot.say(random.choice(hwat))
 
