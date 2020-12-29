@@ -1777,6 +1777,18 @@ def racist(bot, trigger):
   ]
   bot.say(random.choice(racists))
 
+@module.rule(".*niggers.*")
+def niggers(bot, trigger):
+  niggers = [
+    "https://actionsack.com/img/racist/nig/cana.png",
+    "https://actionsack.com/img/racist/nig/kan.png",
+    "https://actionsack.com/img/racist/nig/kristen.png",
+    "https://actionsack.com/img/racist/nig/naggers.gif",
+    "https://actionsack.com/img/racist/nig/welfare.png"
+  ]
+  if trigger.is_privmsg or trigger.sender == "#nsfw":
+    bot.say(random.choice(niggers))
+
 @module.rule(r".*pasta\sdisasta.*")
 def pastadisasta(bot, trigger):
   bot.say("https://actionsack.com/img/🍝/disasta.webm")
