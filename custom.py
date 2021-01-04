@@ -2870,3 +2870,8 @@ def spiderman(bot, trigger):
 @module.rule(".*shitstorm.*")
 def shitstorm(bot, trigger):
   bot.say("https://actionsack.com/img/misc/shitstorm.webp")
+
+@module.rule("!ts")
+@module.commands("ts")
+def teamspeak(bot, trigger):
+  bot.say("https://actionsack.com/img/videos/teamspeak.webm")
