@@ -168,7 +168,7 @@ def crying(bot, trigger):
   ]
   bot.say(random.choice(crying))
 
-@module.rule(".*!pat.*")
+@module.rule(".*!pat(?!ch).*")
 @module.commands("pat")
 def pat(bot, trigger):
   pat_gifs = [
