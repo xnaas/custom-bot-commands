@@ -2875,3 +2875,8 @@ def shitstorm(bot, trigger):
 @module.commands("ts")
 def teamspeak(bot, trigger):
   bot.say("https://actionsack.com/img/videos/teamspeak.webm")
+
+@module.rule(".*!tmf.*")
+@module.commands("tmf")
+def thatsmyfetish(bot, trigger):
+  bot.say("https://actionsack.com/img/misc/tmf.gif")
