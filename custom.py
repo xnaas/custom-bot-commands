@@ -2879,4 +2879,5 @@ def teamspeak(bot, trigger):
 @module.rule(".*!tmf.*")
 @module.commands("tmf")
 def thatsmyfetish(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/tmf.gif")
+  """That's my fetish. ( ͡° ͜ʖ ͡°)"""
+  bot.say("https://actionsack.com/img/misc/tmf.webp")
