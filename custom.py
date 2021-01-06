@@ -183,7 +183,7 @@ def pat(bot, trigger):
 
 @module.rule(r".*cry\sme\sa\sriver.*")
 def cryriver(bot, trigger):
-  bot.say("https://actionsack.com/img/QQ/QQ007.gif")
+  bot.say("https://actionsack.com/img/QQ/QQ007.webp")
 
 @module.rule(".*!(xms|bge).*")
 def xms(bot, trigger):
