@@ -650,7 +650,7 @@ def kristen(bot, trigger):
 
 @module.rule(r"^Tasian\sloves\spickles\.($|\s)")
 def tasianpickles(bot, trigger):
-  bot.say("https://actionsack.com/img/tasian/pickles.png")
+  bot.say("https://actionsack.com/img/tasian/pickles.webp")
 
 @module.rule(".*!asg.*")
 def allsystemsgo(bot, trigger):
