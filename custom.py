@@ -2165,7 +2165,7 @@ def laughs(bot, trigger):
 
 @module.rule(r".*\[raughs\].*")
 def raughs(bot, trigger):
-  bot.say("https://actionsack.com/img/tasian/raughs.png")
+  bot.say("https://actionsack.com/img/tasian/raughs.webp")
 
 # Action Sack People Memes
 @module.rule(".*!asak.*")
