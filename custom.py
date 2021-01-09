@@ -1477,11 +1477,11 @@ def praisethesun(bot, trigger):
 def spam(bot, trigger):
   bot.say("https://actionsack.com/img/misc/spam.png")
 
-@module.rule("^son$")
+@module.rule(".*!son.*")
 @module.commands("son")
 def son(bot, trigger):
-  """Posts a 'don't talk to me or my son' meme.
-  Can also be triggered by sending a message that is only the word 'son'."""
+  """Posts a "don't talk to me or my son" meme/image.
+  Can also be triggered with "!son" anywhere in a message."""
   son = [
     "https://actionsack.com/img/son/acnh.png",
     "https://actionsack.com/img/son/chiefs.png",
