@@ -310,9 +310,15 @@ def down(bot, trigger):
 def dotdotdot(bot, trigger):
   bot.say("...")
 
+@module.rule(r".*deez\snutz.*")
 @module.commands("dz")
 def deeznutz(bot, trigger):
-  bot.say(formatting.bold("DEEZ NUTZ!"))
+  """Can also be triggered with "deez nutz" anywhere in a message."""
+  deez_nutz = [
+    formatting.bold("DEEZ NUTZ!"),
+    "https://actionsack.com/img/nutz/aldeez.webp"
+  ]
+  bot.say(random.choice(deez_nutz))
 
 @module.commands("lenny", "rlenny")
 def rlenny(bot, trigger):
