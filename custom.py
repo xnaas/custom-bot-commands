@@ -2498,6 +2498,7 @@ def xnaas(bot, trigger):
     "https://actionsack.com/img/xnaas/mac.webp",
     "https://actionsack.com/img/xnaas/propain.webp",
     "https://actionsack.com/img/xnaas/pussy.mp4",
+    "https://actionsack.com/img/xnaas/QotH.webp",
     "https://actionsack.com/img/xnaas/reality.webp",
     "https://actionsack.com/img/xnaas/shaved.jpg",
     "https://actionsack.com/img/xnaas/typing.webp",
