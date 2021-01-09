@@ -30,7 +30,7 @@ SCHEME_ERRORS = {
 
 @module.commands('rainbow', 'usa', 'commie', 'spooky')
 def rainbow_cmd(bot, trigger):
-  """Make text colored."""
+  """Make text colored. Options are "rainbow", "usa", "commie", and "spooky"."""
   text = clean(trigger.group(2) or '')
   scheme = trigger.group(1).lower()
 
