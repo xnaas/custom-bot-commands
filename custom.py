@@ -1536,8 +1536,7 @@ def rimshot(bot, trigger):
 @module.rule(".*!newhouse.*")
 @module.commands("newhouse")
 def newhouse(bot, trigger):
-  """fecktk tells us about his new house.
-  Can also be triggered with '!newhouse' anywhere in a message."""
+  """Can also be triggered with '!newhouse' anywhere in a message."""
   bot.say("https://actionsack.com/img/fecktk/newhouse.webp")
 
 @module.rule(".*!drone.*")
