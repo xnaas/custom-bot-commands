@@ -1483,13 +1483,13 @@ def son(bot, trigger):
   """Posts a "don't talk to me or my son" meme/image.
   Can also be triggered with "!son" anywhere in a message."""
   son = [
-    "https://actionsack.com/img/son/acnh.png",
-    "https://actionsack.com/img/son/chiefs.png",
-    "https://actionsack.com/img/son/doggos.png",
-    "https://actionsack.com/img/son/halo.png",
-    "https://actionsack.com/img/son/subs.png",
-    "https://actionsack.com/img/son/teslas.png",
-    "https://actionsack.com/img/son/wieners.png"
+    "https://actionsack.com/img/son/acnh.webp",
+    "https://actionsack.com/img/son/chiefs.webp",
+    "https://actionsack.com/img/son/doggos.webp",
+    "https://actionsack.com/img/son/halo.webp",
+    "https://actionsack.com/img/son/subs.webp",
+    "https://actionsack.com/img/son/teslas.webp",
+    "https://actionsack.com/img/son/wieners.webp"
   ]
   bot.say(random.choice(son))
 
