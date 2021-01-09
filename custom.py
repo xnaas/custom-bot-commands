@@ -1484,6 +1484,7 @@ def son(bot, trigger):
   Can also be triggered by sending a message that is only the word 'son'."""
   son = [
     "https://actionsack.com/img/son/acnh.png",
+    "https://actionsack.com/img/son/chiefs.png",
     "https://actionsack.com/img/son/doggos.png",
     "https://actionsack.com/img/son/halo.png",
     "https://actionsack.com/img/son/subs.png",
