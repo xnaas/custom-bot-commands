@@ -712,7 +712,7 @@ def putin(bot, trigger):
 @module.commands("aidsclub")
 def aidsclub(bot, trigger):
   """Welcome to the club, loser."""
-  bot.say("https://actionsack.com/img/misc/aidsclub.png")
+  bot.say("https://actionsack.com/img/misc/aidsclub.webp")
 
 @module.rule(".*!barometer.*")
 @module.commands("barometer")
