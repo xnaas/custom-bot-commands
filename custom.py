@@ -774,23 +774,23 @@ def mindjack(bot, trigger):
 def doge(bot, trigger):
   """Doge memes! (There's not very many...)"""
   doge = [
-    "https://actionsack.com/img/doge/batdoge.gif",
-    "https://actionsack.com/img/doge/dogemine.gif",
-    "https://actionsack.com/img/doge/skeledoge.gif"
+    "https://actionsack.com/img/doge/batdoge.webp",
+    "https://actionsack.com/img/doge/dogemine.webp",
+    "https://actionsack.com/img/doge/skeledoge.webp"
   ]
   bot.say(random.choice(doge))
 
 @module.rule(".*!dogemine.*")
 def dogemine(bot, trigger):
-  bot.say("https://actionsack.com/img/doge/dogemine.gif")
+  bot.say("https://actionsack.com/img/doge/dogemine.webp")
 
 @module.rule(".*!skeledoge.*")
 def skeledoge(bot, trigger):
-  bot.say("https://actionsack.com/img/doge/skeledoge.gif")
+  bot.say("https://actionsack.com/img/doge/skeledoge.webp")
 
 @module.rule(".*!batdoge.*")
 def batdoge(bot, trigger):
-  bot.say("https://actionsack.com/img/doge/batdoge.gif")
+  bot.say("https://actionsack.com/img/doge/batdoge.webp")
 
 @module.rule(r".*slow\sdown.*")
 def slowdown(bot, trigger):
