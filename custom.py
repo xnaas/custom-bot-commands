@@ -1796,13 +1796,13 @@ def pastadisasta(bot, trigger):
 @module.rule(r".*(?<!his)panic!.*")
 def panic(bot, trigger):
   panic_room = [
-    "https://actionsack.com/img/panic/panic01.gif",
-    "https://actionsack.com/img/panic/panic02.gif",
-    "https://actionsack.com/img/panic/panic03.gif",
-    "https://actionsack.com/img/panic/panic04.gif",
-    "https://actionsack.com/img/panic/panic05.gif",
-    "https://actionsack.com/img/panic/panic06.gif",
-    "https://actionsack.com/img/panic/panic07.gif"
+    "https://actionsack.com/img/panic/00.webp",
+    "https://actionsack.com/img/panic/01.webp",
+    "https://actionsack.com/img/panic/02.webp",
+    "https://actionsack.com/img/panic/03.webp",
+    "https://actionsack.com/img/panic/04.webp",
+    "https://actionsack.com/img/panic/05.webp",
+    "https://actionsack.com/img/panic/06.webp"
   ]
   bot.say(random.choice(panic_room))
 
