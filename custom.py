@@ -1552,9 +1552,9 @@ def nickcage(bot, trigger):
   """Summons Nicolas Cage into chat.
   Can also be summoned with '!cage' anywhere in a message."""
   nick_cage = [
-    "https://actionsack.com/img/cage/scream.gif",
-    "https://actionsack.com/img/cage/side-to-side.gif",
-    "https://actionsack.com/img/cage/wink.gif"
+    "https://actionsack.com/img/cage/scream.webp",
+    "https://actionsack.com/img/cage/side-to-side.webp",
+    "https://actionsack.com/img/cage/wink.webp"
   ]
   bot.say(random.choice(nick_cage))
 
