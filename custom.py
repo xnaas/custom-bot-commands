@@ -2492,7 +2492,7 @@ def xnaas(bot, trigger):
   xnass = [
     "https://actionsack.com/img/xnaas/animals.webp",
     "https://actionsack.com/img/xnaas/d3.webm",
-    "https://actionsack.com/img/xnaas/feline_delight.webm",
+    "https://actionsack.com/img/xnaas/fd.webm",
     "https://actionsack.com/img/xnaas/gape.webp",
     "https://actionsack.com/img/xnaas/iShit.webp",
     "https://actionsack.com/img/xnaas/mac.webp",
