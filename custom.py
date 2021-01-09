@@ -2592,7 +2592,7 @@ def chief(bot, trigger):
   """Posts a Master Chief/Halo-related image.
   Can also be triggered with '!chief' or '!halo' anywhere in chat."""
   master_chef = [
-    "https://actionsack.com/img/son/halo.png",
+    "https://actionsack.com/img/son/halo.webp",
     "https://actionsack.com/img/halo/59bullets.png",
     "https://actionsack.com/img/halo/anime.png",
     "https://actionsack.com/img/halo/car.gif",
