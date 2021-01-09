@@ -850,14 +850,14 @@ def boycott(bot, trigger):
 @module.rule(".*censor.*")
 def censor(bot, trigger):
   censor = [
-    "https://actionsack.com/img/censored/bunny.png",
-    "https://actionsack.com/img/censored/censored.png",
-    "https://actionsack.com/img/censored/eyesored.png",
-    "https://actionsack.com/img/censored/fox.gif",
-    "https://actionsack.com/img/censored/fren.png",
-    "https://actionsack.com/img/censored/nose.png",
-    "https://actionsack.com/img/censored/spider.png",
-    "https://actionsack.com/img/censored/tasian.png"
+    "https://actionsack.com/img/censored/bunny.webp",
+    "https://actionsack.com/img/censored/censored.webp",
+    "https://actionsack.com/img/censored/eyesored.webp",
+    "https://actionsack.com/img/censored/fox.webp",
+    "https://actionsack.com/img/censored/fren.webp",
+    "https://actionsack.com/img/censored/nose.webp",
+    "https://actionsack.com/img/censored/spider.webp",
+    "https://actionsack.com/img/censored/tasian.webp"
   ]
   bot.say(random.choice(censor))
 
