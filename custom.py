@@ -2472,14 +2472,13 @@ def viz(bot, trigger):
 
 @module.rule(".*!voodoo.*")
 @module.commands("voodoo")
-@module.rate(user=900)
 def voodoo(bot, trigger):
   """A user triggering this command can only do so once per 15 minutes."""
   voodoos = [
-    "https://actionsack.com/img/voodoo/eggslut-smol.png",
-    "https://actionsack.com/img/voodoo/eggslut.gif",
-    "https://actionsack.com/img/voodoo/eggslut.jpg",
-    "https://actionsack.com/img/voodoo/eggslut.png",
+    "https://actionsack.com/img/voodoo/eggslut.webp",
+    "https://actionsack.com/img/voodoo/eggslut-lq.webp",
+    "https://actionsack.com/img/voodoo/eggslut-smol.webp",
+    "https://actionsack.com/img/voodoo/pewpew.webp",
     "I fantasize about fucking California's earthquake fault line. The dirt, the debris, the thought of the earth quivering under me as I slowly stick my dick into its gaping wide entrance. I keep looking at news stories and getting the firmest erections of my life seeing those beautiful cracks. She's so open and so wanting. Each earthquake is like another whimper just begging for me to take her. The amount of cum I've lost just thinking about thrusting my rod into our beloved planet. Talk about getting my rocks off. Fuck I'm hard."
   ]
   bot.say(random.choice(voodoos), max_messages=2)
