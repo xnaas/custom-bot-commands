@@ -222,7 +222,7 @@ def adapters(bot, trigger):
 
 @module.rule(r".*accident\W")
 def accident(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/accident.png")
+  bot.say("https://actionsack.com/img/misc/accident.webp")
 
 @module.rule(".*14nm.*")
 def fourteennm(bot, trigger):
