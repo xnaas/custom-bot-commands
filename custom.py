@@ -2592,7 +2592,7 @@ def joy(bot, trigger):
 
 @module.rule(".*bernie.*")
 def bernii(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/bernii.png")
+  bot.say("https://actionsack.com/img/misc/bernii.webp")
 
 @module.rule(".*blumkin.*")
 def blumpkin(bot, trigger):
