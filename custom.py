@@ -316,7 +316,11 @@ def deeznutz(bot, trigger):
   """Can also be triggered with "deez nutz" anywhere in a message."""
   deez_nutz = [
     formatting.bold("DEEZ NUTZ!"),
-    "https://actionsack.com/img/nutz/aldeez.webp"
+    "https://actionsack.com/img/nutz/aldeez.webp",
+    "https://actionsack.com/img/nutz/dd.webp",
+    "https://actionsack.com/img/nutz/grandma.webp",
+    "https://actionsack.com/img/nutz/prez.webp",
+    "https://actionsack.com/img/nutz/wood.webp"
   ]
   bot.say(random.choice(deez_nutz))
 
