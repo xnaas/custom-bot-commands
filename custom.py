@@ -1148,7 +1148,7 @@ def bitesback(bot, trigger):
 
 @module.rule("^Bye!$")
 def byebye(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/BYE!.png")
+  bot.say("https://actionsack.com/img/misc/BYE!.webp")
 
 @module.commands("cb")
 def clickbait(bot, trigger):
