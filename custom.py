@@ -368,9 +368,9 @@ def prank(bot, trigger):
   ]
   bot.say(random.choice(prank))
 
-@module.rule(r"^\?\?\?$")
+@module.rule(r"^\?{3,}$")
 def que(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/¿¿¿.png")
+  bot.say("https://actionsack.com/img/misc/¿¿¿.webp")
 
 @module.rule(r"^\\o/$")
 def handsup(bot, trigger):
