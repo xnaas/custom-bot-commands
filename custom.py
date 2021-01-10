@@ -857,7 +857,7 @@ def banned(bot, trigger):
 
 @module.rule(".*boycott.*")
 def boycott(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/boycott.jpg")
+  bot.say("https://actionsack.com/img/misc/boycott.webp")
 
 @module.rule(".*censor.*")
 def censor(bot, trigger):
