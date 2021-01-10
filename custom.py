@@ -1617,7 +1617,7 @@ def baby(bot, trigger):
 @module.commands("boom")
 def boom(bot, trigger):
   """BOOM! — Can also be triggered with 'boom!' anywhere in a message."""
-  bot.say("https://actionsack.com/img/misc/boom.gif")
+  bot.say("https://actionsack.com/img/misc/boom.webp")
 
 @module.rule(".*burn!.*")
 def burn(bot, trigger):
