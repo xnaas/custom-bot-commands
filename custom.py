@@ -663,8 +663,10 @@ def tasianpickles(bot, trigger):
   bot.say("https://actionsack.com/img/tasian/pickles.webp")
 
 @module.rule(".*!asg.*")
+@module.commands("asg")
 def allsystemsgo(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/allsystemsgo.png")
+  """Can also be triggered with "!asg" anywhere in a message."""
+  bot.say("https://actionsack.com/img/misc/asg.webp")
 
 @module.rule(".*murica.*")
 @module.commands("america")
