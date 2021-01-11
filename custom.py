@@ -763,18 +763,18 @@ def mikeybikey(bot, trigger):
 
 @module.rule(r".*meal\swith\sit.*")
 def mealwithit(bot, trigger):
-  bot.say("https://actionsack.com/img/deal/mealwithit.gif")
+  bot.say("https://actionsack.com/img/deal/mealwithit.webp")
 
 @module.rule(r".*deal\swith\sit.*")
 def dealwithit(bot, trigger):
   deal = [
-    "https://actionsack.com/img/deal/brule.gif",
-    "https://actionsack.com/img/deal/coolkid.gif",
+    "https://actionsack.com/img/deal/brule.webp",
+    "https://actionsack.com/img/deal/coolkid.webp",
     "https://actionsack.com/img/deal/hippo.mp4",
-    "https://actionsack.com/img/deal/mealwithit.gif",
-    "https://actionsack.com/img/deal/spider.gif",
-    "https://actionsack.com/img/deal/squirtle.gif",
-    "https://actionsack.com/img/deal/tf2.gif"
+    "https://actionsack.com/img/deal/mealwithit.webp",
+    "https://actionsack.com/img/deal/spider.webp",
+    "https://actionsack.com/img/deal/squirtle.webp",
+    "https://actionsack.com/img/deal/tf2.webp"
   ]
   bot.say(random.choice(deal))
 
