@@ -2983,4 +2983,8 @@ def vgs_vew(bot, trigger):
 @module.rule("^VAG$")
 def vgs_vag(bot, trigger):
   bot.say("Attack the Gold Fury!")
+
+@module.rule("^VSO$")
+def vgs_vso(bot, trigger):
+  bot.say("I'm on it!")
 ### Smite VGS Section
