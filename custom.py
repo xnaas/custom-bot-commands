@@ -2961,7 +2961,7 @@ def vgs_vvx(bot, trigger):
   bot.say("Cancel that!")
 
 @module.rule("^VVY$")
-def vgs_v(bot, trigger):
+def vgs_vvy(bot, trigger):
   bot.say("Yes!")
 
 @module.rule("^VEA$")
