@@ -2993,6 +2993,6 @@ def vgs_vss(bot, trigger):
   bot.say("I'm building stacks!")
 
 @module.rule("^VSTT$")
-def vgs_vso(bot, trigger):
+def vgs_vstt(bot, trigger):
   bot.say("I have returned!")
 ### Smite VGS Section
