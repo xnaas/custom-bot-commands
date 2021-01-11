@@ -2179,7 +2179,7 @@ def laughs(bot, trigger):
 def raughs(bot, trigger):
   bot.say("https://actionsack.com/img/tasian/raughs.webp")
 
-# Action Sack People Memes
+# Action Sack People Section
 @module.rule(".*!asak.*")
 @module.commands("asak")
 def asak(bot, trigger):
@@ -2533,7 +2533,7 @@ def xnaas(bot, trigger):
     "https://actionsack.com/img/videos/tesla.webm"
   ]
   bot.say(random.choice(xnass))
-# Action Sack People Memes
+# /Action Sack People Section
 
 @module.rule(".*!RGB.*")
 @module.commands("RGB")
@@ -2894,3 +2894,93 @@ def teamspeak(bot, trigger):
 def thatsmyfetish(bot, trigger):
   """That's my fetish. ( ͡° ͜ʖ ͡°)"""
   bot.say("https://actionsack.com/img/misc/tmf.webp")
+
+### Smite VGS Section
+@module.rule("^VVA$")
+def vgs_vva(bot, trigger):
+  bot.say("Ok!")
+
+@module.rule("^VVGF$")
+def vgs_vvgf(bot, trigger):
+  bot.say("Have fun!")
+
+@module.rule("^VVGL$")
+def vgs_vvgl(bot, trigger):
+  bot.say("Good luck!")
+
+@module.rule("^VVGN$")
+def vgs_vvgn(bot, trigger):
+  bot.say("Nice job!")
+
+@module.rule("^VVGO$")
+def vgs_vvgo(bot, trigger):
+  bot.say("Oops!")
+
+@module.rule("^VVGQ$")
+def vgs_vvgq(bot, trigger):
+  bot.say("Quiet!")
+
+@module.rule("^VVGR$")
+def vgs_vvgr(bot, trigger):
+  bot.say("No problem!")
+
+@module.rule("^VVGS$")
+def vgs_vvgs(bot, trigger):
+  bot.say("Curses!")
+
+@module.rule("^VVGT$")
+def vgs_vvgt(bot, trigger):
+  bot.say("That's too bad!")
+
+@module.rule("^VVGW$")
+def vgs_vvgw(bot, trigger):
+  bot.say("You're welcome!")
+
+@module.rule("^VVN$")
+def vgs_vvn(bot, trigger):
+  bot.say("No!")
+
+@module.rule("^VVP$")
+def vgs_vvp(bot, trigger):
+  bot.say("Please?")
+
+@module.rule("^VVS$")
+def vgs_vvs(bot, trigger):
+  bot.say("Sorry!")
+
+@module.rule("^VVT$")
+def vgs_vvt(bot, trigger):
+  bot.say("Thanks!")
+
+@module.rule("^VVW$")
+def vgs_vvw(bot, trigger):
+  bot.say("Wait!")
+
+@module.rule("^VVX$")
+def vgs_vvx(bot, trigger):
+  bot.say("Cancel that!")
+
+@module.rule("^VVY$")
+def vgs_v(bot, trigger):
+  bot.say("Yes!")
+
+@module.rule("^VEA$")
+def vgs_vea(bot, trigger):
+  bot.say("Awesome!")
+
+@module.rule("^VEG$")
+def vgs_veg(bot, trigger):
+  bot.say("I'm the greatest!")
+
+@module.rule("^VER$")
+def vgs_ver(bot, trigger):
+  bot.say("You rock!")
+
+@module.rule("^VEW$")
+def vgs_vew(bot, trigger):
+  bot.say("Woohoo!")
+
+@module.rule("^VAG$")
+def vgs_vag(bot, trigger):
+  bot.say("Attack the Gold Fury!")
+### Smite VGS Section
