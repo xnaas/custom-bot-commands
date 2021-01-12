@@ -2899,9 +2899,17 @@ def thatsmyfetish(bot, trigger):
 def vgs_vva(bot, trigger):
   bot.say("{}{}{}: [VVA] Ok!".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
 
+@module.rule("^VVB$")
+def vgs_vvb(bot, trigger):
+  bot.say("{}{}{}: [VVB] Be right back!".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
+
 @module.rule("^VVGF$")
 def vgs_vvgf(bot, trigger):
   bot.say("{}{}{}: [VVGF] Have fun!".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
+
+@module.rule("^VVGB$")
+def vgs_vvgb(bot, trigger):
+  bot.say("{}{}{}: [VVGB] Bye!".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
 
 @module.rule("^VVGL$")
 def vgs_vvgl(bot, trigger):
