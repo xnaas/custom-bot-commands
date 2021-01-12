@@ -2897,101 +2897,105 @@ def thatsmyfetish(bot, trigger):
 ### Smite VGS Section
 @module.rule("^VVA$")
 def vgs_vva(bot, trigger):
-  bot.say("Ok!")
+  bot.say("{}: [VVA] Ok!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGF$")
 def vgs_vvgf(bot, trigger):
-  bot.say("Have fun!")
+  bot.say("Have fun!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGL$")
 def vgs_vvgl(bot, trigger):
-  bot.say("Good luck!")
+  bot.say("{}: [VVGL] Good luck!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGN$")
 def vgs_vvgn(bot, trigger):
-  bot.say("Nice job!")
+  bot.say("{}: [VVGN] Nice job!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGO$")
 def vgs_vvgo(bot, trigger):
-  bot.say("Oops!")
+  bot.say("{}: [VVGO] Oops!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGQ$")
 def vgs_vvgq(bot, trigger):
-  bot.say("Quiet!")
+  bot.say("{}: [VVGQ] Quiet!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGR$")
 def vgs_vvgr(bot, trigger):
-  bot.say("No problem!")
+  bot.say("{}: [VVGR] No problem!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGS$")
 def vgs_vvgs(bot, trigger):
-  bot.say("Curses!")
+  bot.say("{}: [VVGS] Curses!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGT$")
 def vgs_vvgt(bot, trigger):
-  bot.say("That's too bad!")
+  bot.say("{}: [VVGT] That's too bad!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVGW$")
 def vgs_vvgw(bot, trigger):
-  bot.say("You're welcome!")
+  bot.say("{}: [VVGW] You're welcome!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVN$")
 def vgs_vvn(bot, trigger):
-  bot.say("No!")
+  bot.say("{}: [VVN] No!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVP$")
 def vgs_vvp(bot, trigger):
-  bot.say("Please?")
+  bot.say("{}: [VVP] Please?".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVS$")
 def vgs_vvs(bot, trigger):
-  bot.say("Sorry!")
+  bot.say("{}: [VVS] Sorry!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVT$")
 def vgs_vvt(bot, trigger):
-  bot.say("Thanks!")
+  bot.say("{}: [VVT] Thanks!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVW$")
 def vgs_vvw(bot, trigger):
-  bot.say("Wait!")
+  bot.say("{}: [VVW] Wait!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVX$")
 def vgs_vvx(bot, trigger):
-  bot.say("Cancel that!")
+  bot.say("{}: [VVX] Cancel that!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VVY$")
 def vgs_vvy(bot, trigger):
-  bot.say("Yes!")
+  bot.say("{}: [VVY] Yes!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VEA$")
 def vgs_vea(bot, trigger):
-  bot.say("Awesome!")
+  bot.say("{}: [VEA] Awesome!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VEG$")
 def vgs_veg(bot, trigger):
-  bot.say("I'm the greatest!")
+  bot.say("{}: [VEG] I'm the greatest!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VER$")
 def vgs_ver(bot, trigger):
-  bot.say("You rock!")
+  bot.say("{}: [VER] You rock!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VEW$")
 def vgs_vew(bot, trigger):
-  bot.say("Woohoo!")
+  bot.say("{}: [VEW] Woohoo!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VAG$")
 def vgs_vag(bot, trigger):
-  bot.say("Attack the Gold Fury!")
+  bot.say("{}: [VAG] Attack the Gold Fury!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VSO$")
 def vgs_vso(bot, trigger):
-  bot.say("I'm on it!")
+  bot.say("{}: [VSO] I'm on it!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VSS$")
 def vgs_vss(bot, trigger):
-  bot.say("I'm building stacks!")
+  bot.say("{}: [VSS] I'm building stacks!".format('\u200B'.join(trigger.nick)))
 
 @module.rule("^VSTT$")
 def vgs_vstt(bot, trigger):
-  bot.say("I have returned!")
+  bot.say("{}: [VSTT] I have returned!".format('\u200B'.join(trigger.nick)))
+
+@module.rule("^VVK$")
+def vgs_vvk(bot, trigger):
+  bot.say("{}: [VVK] Stepping away for a moment.".format('\u200B'.join(trigger.nick)))
 ### Smite VGS Section
