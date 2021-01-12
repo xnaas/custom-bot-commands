@@ -11,7 +11,7 @@ def ass_api(bot, trigger):
         url = "http://api.obutts.ru/butts/0/1/random"
         ass_preview = requests.get(url).json()[0]["preview"]
         ass_img = ass_preview.replace("_preview", "")
-        bot.say("http://media.obutts.ru/%s" % ass_img)
+        bot.say("http://media.obutts.ru/{}".format(ass_img))
     else:
         bot.say("This command is only usable in the #nsfw channel.")
 
@@ -23,6 +23,6 @@ def boobs_api(bot, trigger):
         url = "http://api.oboobs.ru/boobs/0/1/random"
         boobs_preview = requests.get(url).json()[0]["preview"]
         boobs_img = boobs_preview.replace("_preview", "")
-        bot.say("https://media.oboobs.ru/%s" % boobs_img)
+        bot.say("https://media.oboobs.ru/{}".format(boobs_img))
     else:
         bot.say("This command is only usable in the #nsfw channel.")
