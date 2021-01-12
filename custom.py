@@ -3006,4 +3006,8 @@ def vgs_vstt(bot, trigger):
 @module.rule("^VVK$")
 def vgs_vvk(bot, trigger):
   bot.say("{}{}{}: [VVK] Stepping away for a moment.".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
+
+@module.rule("^VVVT$")
+def vgs_vvvt(bot, trigger):
+  bot.say("{}{}{}: [VVVT] It's a trap!".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
 ### Smite VGS Section
