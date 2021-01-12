@@ -27,7 +27,7 @@ def trek_cube(bot, trigger):
 
 @module.rule(r"^Hello(\?|!)$")
 def hi(bot, trigger):
-  bot.say("Hello, %s!" %trigger.nick)
+  bot.say("Hello, {}!".format(trigger.nick))
 
 @module.rule(r"^(Nice\.)(\s$|$)")
 def nice(bot, trigger):
@@ -358,7 +358,7 @@ def tableflip(bot, trigger):
 
 @module.rule(r".*\(╯°□°）╯︵ ┻━┻.*")
 def unflip(bot, trigger):
-  bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, %s." %trigger.nick)
+  bot.say("┬─┬﻿ ノ( ゜-゜ノ) — Please respect tables, {}.".format(trigger.nick))
 
 @module.rule("^pranked!$")
 def prank(bot, trigger):
@@ -398,7 +398,7 @@ def upsidedown(bot, trigger):
 
 @module.rule("^🖕(|🏻|🏼|🏽|🏾|🏿)$")
 def fuckyouback(bot, trigger):
-  bot.say("Fuck you, %s!" %trigger.nick)
+  bot.say("Fuck you, {}!".format(trigger.nick))
 
 @module.rule("^👏$")
 def clap(bot, trigger):
@@ -875,7 +875,7 @@ def censor(bot, trigger):
 
 @module.rule("^(P|B|Ch|D|S|W)ing!$")
 def pingpong(bot, trigger):
-  bot.say("%song!" %trigger.group(1))
+  bot.say("{}ong!".format(trigger.group(1)))
 
 @module.rule("^Marco!$")
 def marcopolo(bot, trigger):
@@ -883,7 +883,7 @@ def marcopolo(bot, trigger):
 
 @module.rule("^(W)ee!$")
 def marcopolo(bot, trigger):
-  bot.say("%soo!" %trigger.group(1))
+  bot.say("{}oo!".format(trigger.group(1)))
 
 @module.rule(".*!work.*")
 @module.commands("work")
@@ -893,7 +893,7 @@ def worktoday(bot, trigger):
 
 @module.rule(".*stbyn.*")
 def stbyn(bot, trigger):
-  bot.say("Sucks to be you, %s!" %formatting.italic("nerd"))
+  bot.say("Sucks to be you, {}!".format(formatting.italic("nerd")))
 
 @module.rule(".*🥓.*")
 def bacon(bot, trigger):
@@ -1144,7 +1144,7 @@ def dblflip(bot, trigger):
 @module.rule(r".*bite\sme.*")
 @module.require_chanmsg
 def bitesback(bot, trigger):
-  bot.action("bites %s" %trigger.nick, trigger.sender)
+  bot.action("bites {}".format(trigger.nick))
 
 @module.rule("^Bye!$")
 def byebye(bot, trigger):
@@ -1363,8 +1363,7 @@ def judge(bot, trigger):
       msg = "How did you do that?!"
     bot.reply(msg)
     return module.NOLIMIT
-
-  bot.say("%s is %s" %(trigger.group(2), random.choice(judges)))
+  bot.say("{} is {}".format(trigger.group(2), random.choice(judges)))
 
 @module.rule(r"^wat($|\W)")
 def wat(bot, trigger):
@@ -1700,7 +1699,7 @@ def itwasme(bot, trigger):
 
 @module.rule(r"^god\sbless\s(.*)")
 def godbless(bot, trigger):
-  bot.action("blesses %s" %trigger.group(1))
+  bot.action("blesses {}".format(trigger.group(1)))
 
 @module.rule(r".*hail\ssatan!.*")
 def hailsatan(bot, trigger):
