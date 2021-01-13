@@ -2895,6 +2895,9 @@ def thatsmyfetish(bot, trigger):
   bot.say("https://actionsack.com/img/misc/tmf.webp")
 
 ### Smite VGS Section
+# \x0311 – Start Light Cyan
+# \u200B – ZWSP
+# \x0315 – Start Light Grey
 @module.rule("^VVA$")
 def vgs_vva(bot, trigger):
   bot.say("{}{}{}: [VVA] Ok!".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
@@ -3014,4 +3017,8 @@ def vgs_vvvt(bot, trigger):
 @module.rule("^VVC$")
 def vgs_vvc(bot, trigger):
   bot.say("{}{}{}: [VVC] Completed!".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
+
+@module.rule("^VCC$")
+def vgs_vcc(bot, trigger):
+  bot.say("{}{}{}: [VCC] Be careful!".format("\x0311", "\u200B".join(trigger.nick), "\x0315"))
 ### Smite VGS Section
