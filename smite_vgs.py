@@ -620,7 +620,7 @@ def vgs_vvvc(bot, trigger):
 
 @module.rule("^VVVD$")
 def vgs_vvvd(bot, trigger):
-    bot.say("{}{}{}: [VVVD] Ultimate is down! ({} remaining)".format("\x0311", "\u200B".join(trigger.nick), "\x0315", decimal.Decimal(random.randrange(141)) / 100))
+    bot.say("{}{}{}: [VVVD] Ultimate is down! ({} remaining)".format("\x0311", "\u200B".join(trigger.nick), "\x0315", decimal.Decimal(random.randrange(0, 1401)) / 10))
 
 @module.rule("^VVVE$")
 def vgs_vvve(bot, trigger):
