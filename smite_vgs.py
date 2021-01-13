@@ -55,7 +55,7 @@ def vgs_vat2(bot, trigger):
         "middle tower",
         "the middle phoenix"
     ]
-    bot.say("{}{}{}: [VAT2] Attack!".format("\x0311", "\u200B".join(trigger.nick), "\x0315", random.choice(tof)))
+    bot.say("{}{}{}: [VAT2] Attack {}!".format("\x0311", "\u200B".join(trigger.nick), "\x0315", random.choice(tof)))
 
 @module.rule("^VAT3$")
 def vgs_vat3(bot, trigger):
@@ -63,7 +63,7 @@ def vgs_vat3(bot, trigger):
         "right tower",
         "the right phoenix"
     ]
-    bot.say("{}{}{}: [VAT3] Attack!".format("\x0311", "\u200B".join(trigger.nick), "\x0315", random.choice(tof)))
+    bot.say("{}{}{}: [VAT3] Attack {}!".format("\x0311", "\u200B".join(trigger.nick), "\x0315", random.choice(tof)))
 # </VA – Attack>
 
 
