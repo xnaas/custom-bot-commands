@@ -19,3 +19,6 @@ Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
 
 ## nsfw.py
 RNG of NSFW things.
+
+## smite_vgs.py
+Adds [Smite's VGS](https://smite.gamepedia.com/Voice_Guided_System) to Sopel.
