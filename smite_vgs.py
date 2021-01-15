@@ -5,7 +5,6 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module, formatting
 import random
-import decimal
 import unicodedata
 
 # <VA – Attack>
@@ -620,7 +619,7 @@ def vgs_vvvc(bot, trigger):
 
 @module.rule("^VVVD$")
 def vgs_vvvd(bot, trigger):
-    bot.say("{}{}{}: [VVVD] Ultimate is down! ({} remaining)".format("\x0311", "\u200B".join(trigger.nick), "\x0315", decimal.Decimal(random.randrange(0, 1401)) / 10))
+    bot.say("{}{}{}: [VVVD] Ultimate is down! ({:0.2f} remaining)".format("\x0311", "\u200B".join(trigger.nick), "\x0315", random.randrange(0, 1401) / 10))
 
 @module.rule("^VVVE$")
 def vgs_vvve(bot, trigger):
