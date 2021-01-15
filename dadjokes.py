@@ -7,5 +7,6 @@ import requests
 def dadjoke(bot, trigger):
     """Posts a dad joke."""
     url = "https://icanhazdadjoke.com/"
-    dad_joke = requests.get(url, headers={"Accept": "application/json"}).json()['joke']
+    headers = {"Accept": "application/json"}
+    dad_joke = requests.get(url, headers=headers).json()['joke']
     bot.say(dad_joke)
