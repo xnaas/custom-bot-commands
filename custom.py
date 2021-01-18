@@ -349,7 +349,7 @@ def rlenny(bot, trigger):
   bot.say(random.choice(rlenny))
 
 @module.commands("shrug")
-def shrug(bot, trigger):
+def shrugc(bot, trigger):
   bot.say("¯\\_(ツ)_/¯")
 
 @module.commands("tableflip", "tflip")
