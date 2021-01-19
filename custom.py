@@ -979,7 +979,7 @@ def gfy(bot, trigger):
     "https://actionsack.com/img/fuck/urself/doggo.mp4",
     "https://actionsack.com/img/fuck/urself/gay.webp",
     "https://actionsack.com/img/fuck/urself/gfy.mp4",
-    "https://actionsack.com/img/fuck/urself/rugrats.gif",
+    "https://actionsack.com/img/fuck/urself/rugrats.webp",
     "https://actionsack.com/img/fuck/urself/science.mp4"
   ]
   bot.say(random.choice(gfy))
