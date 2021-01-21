@@ -2881,7 +2881,7 @@ def shitstorm(bot, trigger):
 @module.rule("!ts")
 @module.commands("ts")
 def teamspeak(bot, trigger):
-  bot.say("https://actionsack.com/img/videos/teamspeak.webm")
+  bot.say("https://actionsack.com/img/music/teamspeak.opus")
 
 @module.rule(".*!tmf.*")
 @module.commands("tmf")
