@@ -499,6 +499,7 @@ def tobefair(bot, trigger):
 def stopbeingpoor(bot, trigger):
   bot.say("https://actionsack.com/img/misc/stopbeingpoor.jpg")
 
+@module.rule(".*!tb.*")
 @module.commands("tb")
 def tb(bot, trigger):
   """Spout technobabble."""
