@@ -3,6 +3,10 @@ from sopel import module
 import random
 import requests
 
+headers = {
+    "User-Agent": "python/requests",
+    "Content-Type": "application/json"
+}
 
 @module.commands("ass")
 def ass_api(bot, trigger):
@@ -32,10 +36,6 @@ def reddit_boobs(bot, trigger):
     """Posts a random boob pic from Reddit. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
         url = "https://old.reddit.com/search.json?q=(boobs+OR+titties)+AND+nsfw%3Ayes+AND+(site%3Areddit.com+OR+site%3Aredgifs.com+OR+site%3Aimgur.com)&restrict_sr=&include_over_18=on&sort=top&t=day&type=link&limit=100"
-        headers = {
-            "User-Agent": "python/requests",
-            "Content-Type": "application/json"
-        }
         rboobs_img = requests.get(url, headers=headers).json()["data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rboobs_img)
     else:
@@ -46,10 +46,6 @@ def reddit_ass(bot, trigger):
     """Posts a random ass pic from Reddit. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
         url = "https://old.reddit.com/search.json?q=(ass+OR+butt)+AND+nsfw%3Ayes+AND+(site%3Areddit.com+OR+site%3Aredgifs.com+OR+site%3Aimgur.com)&restrict_sr=&include_over_18=on&sort=top&t=day&type=link&limit=100"
-        headers = {
-            "User-Agent": "python/requests",
-            "Content-Type": "application/json"
-        }
         rass_img = requests.get(url, headers=headers).json()["data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rass_img)
     else:
