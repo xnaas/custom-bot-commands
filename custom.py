@@ -540,7 +540,8 @@ def tb(bot, trigger):
     "Shunt plasma from the buzzard collectors into the Heisenberg compensators in order to generate sufficient tachyon emissions to disperse neutrino buildup around the warp core, thereby establishing a static warp bubble!",
     "Nanogel. It acts as a quantum transducer.",
     "Don’t forget to move your mouse counter clockwise to reverse the logging process.",
-    "But since their cryptographic protocols use poly-phasic entagled waveforms, cracking a code set would take half a century."
+    "But since their cryptographic protocols use poly-phasic entagled waveforms, cracking a code set would take half a century.",
+    "If I can just overclock the UNIX django, I can BASIC the DDOS root. Damn. No Dice. But wait...if I disencrypt their kilobytes with a backdoor handshake then...jackpot!"
   ]
   bot.say(random.choice(tb), max_messages=2)
 
