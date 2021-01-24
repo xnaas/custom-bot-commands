@@ -1917,7 +1917,7 @@ def iseeyou(bot, trigger):
 def eyelids(bot, trigger):
   bot.say("https://actionsack.com/img/👀/eyelids.mp4")
 
-@module.rule("^👀$")
+@module.rule(".*👀.*")
 def eyes(bot, trigger):
   eyes = [
     "https://actionsack.com/img/👀/anime.png",
