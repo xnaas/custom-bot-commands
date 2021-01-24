@@ -975,7 +975,7 @@ def fuckyou(bot, trigger):
 @module.rule(r".*(gfy(?!c)|go\sfuck\syourself).*")
 def gfy(bot, trigger):
   gfy = [
-    "https://actionsack.com/img/fuck/urself/01_Two_Feet-Go_Fuck_Yourself.mp3",
+    "https://actionsack.com/img/fuck/urself/01_Two_Feet-Go_Fuck_Yourself.opus",
     "https://actionsack.com/img/fuck/urself/anime.mp4",
     "https://actionsack.com/img/fuck/urself/disney.webp",
     "https://actionsack.com/img/fuck/urself/doggo.mp4",
