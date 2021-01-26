@@ -22,3 +22,6 @@ RNG of NSFW things.
 
 ## [smite_vgs.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/smite_vgs.py)
 Adds [Smite's VGS](https://smite.gamepedia.com/Voice_Guided_System) to Sopel.
+
+## [yourmom.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/yourmom.py)
+Posts a random joke from [yourmom.txt](https://github.com/xnaas/custom-sopel-plugins/blob/master/yourmom.txt).
