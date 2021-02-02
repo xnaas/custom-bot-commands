@@ -1297,7 +1297,7 @@ def killme(bot, trigger):
   ]
   bot.say(random.choice(killme))
 
-@module.rule(r".*(kys|kill\syourself).*")
+@module.rule(r".*((?<!\w)k(y|m)s(?!\w)|kill\syourself).*")
 def kys(bot, trigger):
   kys = [
     "https://actionsack.com/img/kys/deals.png",
