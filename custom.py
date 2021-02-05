@@ -647,7 +647,7 @@ def jordan(bot, trigger):
 def beight(bot, trigger):
   bot.say("steam://install/567090")
 
-@module.rule(".*kristen.*")
+@module.rule(".*!kristen.*")
 def kristen(bot, trigger):
   kristen = [
     "https://actionsack.com/img/kristen/chainsmokers.png",
