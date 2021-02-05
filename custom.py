@@ -228,7 +228,7 @@ def accident(bot, trigger):
 def fourteennm(bot, trigger):
   bot.say("https://actionsack.com/img/misc/14nm+++++.mp4")
 
-@module.rule("^bait.*")
+@module.rule(".*bait.*")
 def bait(bot, trigger):
   bait = [
     "https://actionsack.com/img/bait/404bait.png",
