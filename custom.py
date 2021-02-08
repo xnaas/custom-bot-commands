@@ -2890,3 +2890,7 @@ def teamspeak(bot, trigger):
 def thatsmyfetish(bot, trigger):
   """That's my fetish. ( ͡° ͜ʖ ͡°)"""
   bot.say("https://actionsack.com/img/misc/tmf.webp")
+
+@module.rule("^NDA$")
+def nda(bot, trigger):
+    bot.say(formatting.bold("⚠️ That's ⚠️ some ⚠️ NDA ⚠️ shit ⚠️ right ⚠️ there! ⚠️"))
