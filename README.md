@@ -8,6 +8,9 @@ Just a standard, run-of-the-mill [magic 8-ball](https://en.wikipedia.org/wiki/Ma
 ## [animals.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/animals.py)
 Posts random animal pics from several different APIs.
 
+## [base64.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/base64.py)
+Encodes or decode base64 data.
+
 ## [colors.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/colors.py)
 Moved from [sopel-color-text](https://github.com/xnaas/sopel-color-text) — don't want to actually deal with publishing to pypi in the future.
 
