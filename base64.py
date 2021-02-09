@@ -20,7 +20,9 @@ def base64_decode(bot, trigger):
         bot.reply("I need something to decode.")
         return
     
-    decodedBytes = base64.b64decode(trigger.group(2).encode("utf-8"))
-    decodedStr = str(decodedBytes, "utf-8")
-    
-    bot.say(decodedStr)
+    try:
+        decodedBytes = base64.b64decode(trigger.group(2).encode("utf-8"))
+        decodedStr = str(decodedBytes, "utf-8")
+        bot.say(decodedStr)
+    except:
+        bot.reply("I need real base64, fool.")
