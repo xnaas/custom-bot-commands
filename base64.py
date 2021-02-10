@@ -4,7 +4,9 @@ import base64
 
 
 @module.commands("b64e")
+@module.example(".b64e I love you.")
 def base64_encode(bot, trigger):
+    """Encodes a message into base64."""
     if not trigger.group(2):
         bot.reply("I need something to encode.")
         return
@@ -16,7 +18,9 @@ def base64_encode(bot, trigger):
 
 
 @module.commands("b64d")
+@module.example(".b64d V293ISBNdWNoIHNlY3JldC4=")
 def base64_decode(bot, trigger):
+    """Decodes a base64 string."""
     if not trigger.group(2):
         bot.reply("I need something to decode.")
         return
