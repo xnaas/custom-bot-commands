@@ -976,7 +976,7 @@ def gfy(bot, trigger):
   gfy = [
     "https://actionsack.com/img/fuck/urself/01_Two_Feet-Go_Fuck_Yourself.opus",
     "https://actionsack.com/img/fuck/urself/anime.mp4",
-    "https://actionsack.com/img/fuck/you/arms.webp",
+    "https://actionsack.com/img/fuck/urself/arms.webp",
     "https://actionsack.com/img/fuck/urself/disney.webp",
     "https://actionsack.com/img/fuck/urself/doggo.mp4",
     "https://actionsack.com/img/fuck/urself/gay.webp",
