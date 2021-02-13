@@ -962,6 +962,7 @@ def fuckyou(bot, trigger):
     "https://actionsack.com/img/fuck/you/samueltransparent.webp",
     "https://actionsack.com/img/fuck/you/sayan.webp",
     "https://actionsack.com/img/fuck/you/skating.webp",
+    "https://actionsack.com/img/fuck/you/space_invader.webp",
     "https://actionsack.com/img/fuck/you/square.webp",
     "https://actionsack.com/img/fuck/you/tommydoor.webp",
     "https://actionsack.com/img/fuck/you/trumpet.webp",
@@ -996,21 +997,21 @@ def wtfexclamation(bot, trigger):
 
 @module.rule("^Fuck!$")
 def fuckexclamation(bot, trigger):
-  bot.say("https://actionsack.com/img/fuck/fuck!.gif")
+  bot.say("https://actionsack.com/img/fuck/fuck!.webp")
 
 @module.rule(r"^Fuck\syeah!$")
 def fuckyeah(bot, trigger):
-  bot.say("https://actionsack.com/img/fuck/fuckyeah!.mp4")
+  bot.say("https://actionsack.com/img/fuck/fuckyeah!.webp")
 
 @module.rule(r".*fuck\severything.*")
 def fuckeverything(bot, trigger):
-  bot.say("https://actionsack.com/img/fuck/fuckeverything.mp4")
+  bot.say("https://actionsack.com/img/fuck/fuckeverything.webp")
 
 @module.rule(".*ftge.*")
 def ftge(bot, trigger):
   ftge = [
-    "https://actionsack.com/img/fuck/ftge.gif",
-    "https://actionsack.com/img/fuck/ftge.png"
+    "https://actionsack.com/img/fuck/ftge-a.gif",
+    "https://actionsack.com/img/fuck/ftge.webp"
   ]
   bot.say(random.choice(ftge))
 
@@ -1261,8 +1262,8 @@ def ishipit(bot, trigger):
 @module.rule(".*idgaf.*")
 def idgaf(bot, trigger):
   idgaf = [
-    "https://actionsack.com/img/idgaf/20thcentury.mp4",
-    "https://actionsack.com/img/idgaf/nophux.mp4"
+    "https://actionsack.com/img/idgaf/20thcentury.webp",
+    "https://actionsack.com/img/idgaf/nophux.webp"
   ]
   bot.say(random.choice(idgaf))
 
