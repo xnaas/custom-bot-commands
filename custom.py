@@ -1010,7 +1010,7 @@ def fuckeverything(bot, trigger):
 @module.rule(".*ftge.*")
 def ftge(bot, trigger):
   ftge = [
-    "https://actionsack.com/img/fuck/ftge-a.gif",
+    "https://actionsack.com/img/fuck/ftge-a.webp",
     "https://actionsack.com/img/fuck/ftge.webp"
   ]
   bot.say(random.choice(ftge))
