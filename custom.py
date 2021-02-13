@@ -1257,7 +1257,7 @@ def icanteven(bot, trigger):
 
 @module.rule(r"^I\sship\s(it|that).*")
 def ishipit(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/fedex.gif")
+  bot.say("https://actionsack.com/img/misc/fedex.webp")
 
 @module.rule(".*idgaf.*")
 def idgaf(bot, trigger):
