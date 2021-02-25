@@ -1680,7 +1680,7 @@ def doomcrossing(bot, trigger):
 
 @module.rule(r".*doom\sguy.*")
 def doomguy(bot, trigger):
-  bot.say("https://actionsack.com/img/misc/doomguy.gif")
+  bot.say("https://actionsack.com/img/misc/doomguy.webp")
 
 @module.rule(".*grapist.*")
 def grapist(bot, trigger):
