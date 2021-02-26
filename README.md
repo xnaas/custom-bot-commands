@@ -20,6 +20,9 @@ Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot. Many of t
 ## [dadjokes.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/dadjokes.py)
 Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
 
+## [isbn.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/isbn.py)
+Uses the [Open Library Books API](https://openlibrary.org/dev/docs/api/books) to lookup a book via ISBN.
+
 ## [nsfw.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/nsfw.py)
 RNG of NSFW things.
 
