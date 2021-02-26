@@ -6,7 +6,7 @@ import requests
 
 @module.commands("isbn")
 def isbn(bot, trigger):
-    """Lookup a book by its ISBN."""
+    """Look up a book by its ISBN."""
     if not re.match(r"((978[\--– ])?[0-9][0-9\--– ]{10}[\--– ][0-9xX])|((978)?[0-9]{9}[0-9Xx])", trigger.group(2)):
         bot.reply("I need a valid ISBN.")
         return
