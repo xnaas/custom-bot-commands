@@ -2759,7 +2759,7 @@ def upvote(bot, trigger):
 def apologize(bot, trigger):
   bot.say("https://actionsack.com/img/misc/apologize.webp")
 
-@module.rule(r".*it\'s\shappening.*")
+@module.rule(r".*(?<!sh)it\'s\shappening.*")
 def happening(bot, trigger):
   its_happening = [
     "https://actionsack.com/img/halo/happening.gif",
