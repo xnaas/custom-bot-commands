@@ -119,6 +119,7 @@ def fourtwenty(bot, trigger):
     "https://actionsack.com/img/420/🍩.webp",
     "https://actionsack.com/img/420/pokemon.webp",
     "https://actionsack.com/img/420/realdanger.webp",
+    "https://actionsack.com/img/420/replacements.webp",
     "https://actionsack.com/img/420/sealab.webp",
     "https://actionsack.com/img/420/telluhwat.webp",
     "https://actionsack.com/img/420/thomas.webp",
