@@ -958,6 +958,7 @@ def fuckyou(bot, trigger):
     "https://actionsack.com/img/fuck/you/juliemao.webp",
     "https://actionsack.com/img/fuck/you/kraken.webp",
     "https://actionsack.com/img/fuck/you/loop.webp",
+    "https://actionsack.com/img/fuck/you/marvel.webp",
     "https://actionsack.com/img/fuck/you/peaceamongworlds.webp",
     "https://actionsack.com/img/fuck/you/pigeon.webp",
     "https://actionsack.com/img/fuck/you/pocket.webp",
