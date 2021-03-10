@@ -2901,3 +2901,7 @@ def thatsmyfetish(bot, trigger):
 @module.rule("^NDA$")
 def nda(bot, trigger):
     bot.say(formatting.bold("⚠️ That's ⚠️ some ⚠️ NDA ⚠️ shit ⚠️ right ⚠️ there! ⚠️"))
+
+@module.rule(".*darude.*")
+def darude(bot, trigger):
+    bot.say("https://actionsack.com/img/videos/darude.mp4")
