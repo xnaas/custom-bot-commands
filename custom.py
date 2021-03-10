@@ -430,6 +430,10 @@ def vulcansalute(bot, trigger):
 def muscle(bot, trigger):
   bot.say("💪🏻💪🏼💪🏽💪🏾💪🏿")
 
+@module.rule("^🤞$")
+def crossed(bot, trigger):
+  bot.say("🤞🏻🤞🏼🤞🏽🤞🏾🤞🏿")
+
 @module.rule(".*(🌎|🌍|🌏).*")
 def earthchan(bot, trigger):
   bot.say("https://actionsack.com/img/🌎/water.png")
