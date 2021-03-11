@@ -2825,7 +2825,7 @@ def reality(bot, trigger):
 def shooting(bot, trigger):
   bot.say("https://actionsack.com/img/misc/shooting.gif")
 
-@module.rule(r"^🆒(|\s)🐱$")
+@module.rule(r".*🆒(|\s)🐱.*")
 def coolcat(bot, trigger):
   bot.say("https://actionsack.com/img/misc/🆒🐱.png")
 
