@@ -2447,6 +2447,7 @@ def tasian(bot, trigger):
     "https://actionsack.com/img/tasian/racist02.webp",
     "https://actionsack.com/img/tasian/racist03.webp",
     "https://actionsack.com/img/tasian/raughs.webp",
+    "https://actionsack.com/img/tasian/singing.mp4",
     "https://actionsack.com/img/tasian/tall.webp",
     "https://actionsack.com/img/tasian/val01.webp",
     "https://actionsack.com/img/tasian/val02.webp",
