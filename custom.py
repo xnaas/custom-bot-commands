@@ -2907,3 +2907,7 @@ def nda(bot, trigger):
 @module.rule(".*darude.*")
 def darude(bot, trigger):
     bot.say("https://actionsack.com/img/videos/darude.mp4")
+
+@module.rule(".*numa.*")
+def numanuma(bot, trigger):
+    bot.say("https://actionsack.com/img/videos/numa.mp4")
