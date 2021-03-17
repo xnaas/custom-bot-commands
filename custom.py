@@ -107,6 +107,7 @@ def fourtwenty(bot, trigger):
     "https://actionsack.com/img/420/commits.webp",
     "https://actionsack.com/img/420/comrade.webp",
     "https://actionsack.com/img/420/crewdragon.webp",
+    "https://actionsack.com/img/420/doc.webp",
     "https://actionsack.com/img/420/dr.webp",
     "https://actionsack.com/img/420/exp.webp",
     "https://actionsack.com/img/420/gravityfalls.webp",
