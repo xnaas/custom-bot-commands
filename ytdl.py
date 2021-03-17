@@ -19,7 +19,7 @@ def ytdl(bot, trigger):
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             meta = ydl.extract_info(trigger.group(3), download=False)
-            id = meta["id"].replace(" ", "%20")
+            id = meta["id"]
             ext = meta["ext"]
             ydl.download([trigger.group(3)])
             bot.say("https://actionsack.com/tmp/{}.{}".format(id, ext))
