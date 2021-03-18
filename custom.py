@@ -1719,7 +1719,7 @@ def hailsatan(bot, trigger):
 def haveaseat(bot, trigger):
   bot.say("https://actionsack.com/img/misc/haveaseat.gif")
 
-@module.rule(".*jews.*")
+@module.rule(".*(jews|✡️|✡).*")
 def jews(bot, trigger):
   jew_pics = [
     "https://actionsack.com/img/jews/blame.jpg",
