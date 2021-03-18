@@ -2820,7 +2820,7 @@ def krang(bot, trigger):
 @module.rate(channel=86400)
 def reality(bot, trigger):
   """Lays down a hard reality. Rate-limited to once per day per channel."""
-  bot.say("https://actionsack.com/img/xnaas/reality.png")
+  bot.say("https://actionsack.com/img/xnaas/reality.webp")
 
 @module.rule(r".*mass\smurder.*")
 @module.commands("shooting")
