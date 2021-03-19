@@ -20,6 +20,9 @@ Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot. Many of t
 ## [dadjokes.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/dadjokes.py)
 Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
 
+## [img.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/img.py)
+Uses the [Imgur API](https://apidocs.imgur.com/) to post image results to chat.
+
 ## [isbn.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/isbn.py)
 Uses the [Open Library Books API](https://openlibrary.org/dev/docs/api/books) to look up a book via ISBN.
 
