@@ -25,7 +25,7 @@ def img_search(bot, trigger):
     search_term = trigger.group(2)
 
     if not search_term:
-        bot.say("I need something to search.")
+        bot.reply("I need something to search.")
         return
 
     client_id = bot.config.imgur.client_id
@@ -37,4 +37,4 @@ def img_search(bot, trigger):
         result = requests.get(url, params=params, headers=headers).json()["data"][0]["link"]
         bot.say(result)
     except IndexError:
-        bot.say("No results.")
+        bot.reply("No results.")
