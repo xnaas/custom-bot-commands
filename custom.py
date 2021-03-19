@@ -1722,8 +1722,8 @@ def haveaseat(bot, trigger):
 @module.rule(".*(jews|✡️|✡).*")
 def jews(bot, trigger):
   jew_pics = [
-    "https://actionsack.com/img/jews/blame.jpg",
-    "https://actionsack.com/img/jews/donate.gif"
+    "https://actionsack.com/img/jews/blame.webp",
+    "https://actionsack.com/img/jews/donate.webp"
   ]
   bot.say(random.choice(jew_pics))
 
