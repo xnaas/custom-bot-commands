@@ -29,14 +29,12 @@ def img_search(bot, trigger):
         return
 
     client_id = bot.config.imgur.client_id
-    headers = {
-        "User-Agent": "python/requests",
-        "Authorization": "Client-ID {}".format(client_id)
-    }
+    headers = {"Authorization": "Client-ID {}".format(client_id)}
+    params = {"q": search_term}
 
     try:
-        url = "https://api.imgur.com/3/gallery/search/top/all/1?q={}".format(search_term)
-        result = requests.get(url, headers=headers).json()["data"][0]["link"]
+        url = "https://api.imgur.com/3/gallery/search/top/all/1"
+        result = requests.get(url, params=params, headers=headers).json()["data"][0]["link"]
         bot.say(result)
     except IndexError:
         bot.say("No results.")
