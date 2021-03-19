@@ -25,7 +25,7 @@ def img_search(bot, trigger):
     search_term = trigger.group(2)
 
     if not search_term:
-        bot.say("I need something to search")
+        bot.say("I need something to search.")
         return
 
     client_id = bot.config.imgur.client_id
