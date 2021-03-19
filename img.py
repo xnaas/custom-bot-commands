@@ -14,7 +14,7 @@ def setup(bot):
 
 
 def configure(config):
-    config.define_section("client_id", ImgurSection)
+    config.define_section("imgur", ImgurSection)
     config.imgur.configure_setting("client_id", "imgur client id")
 
 
