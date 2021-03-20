@@ -19,7 +19,7 @@ def configure(config):
 
 @module.commands("imgur")
 @module.example(".imgur catgirl")
-def img_search(bot, trigger):
+def imgur_search(bot, trigger):
     """Searches Imgur API and returns an image."""
     search_term = trigger.group(2)
 
