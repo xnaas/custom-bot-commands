@@ -20,7 +20,7 @@ Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot. Many of t
 ## [dadjokes.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/dadjokes.py)
 Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
 
-## **LEGACY** [imgur.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/imgur.py)
+## **LEGACY** [imgur.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/deprecated/imgur.py)
 Note: deprecated. Use [img.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/img.py) instead.
 
 Uses the [Imgur API](https://apidocs.imgur.com/) to post image results to chat.
