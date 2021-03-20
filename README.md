@@ -20,10 +20,10 @@ Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot. Many of t
 ## [dadjokes.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/dadjokes.py)
 Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
 
-## **LEGACY** [imgur.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/deprecated/imgur.py)
-Note: deprecated. Use [img.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/img.py) instead.
+## [img.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/img.py)
+**Note: work in progress.**
 
-Uses the [Imgur API](https://apidocs.imgur.com/) to post image results to chat.
+First queries the [DuckDuckGo Instant Answers API](https://duckduckgo.com/api), then moves onto a [Google CSE](https://programmablesearchengine.google.com/about/), if you've setup a custom search engine and API key for it.
 
 ## [isbn.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/isbn.py)
 Uses the [Open Library Books API](https://openlibrary.org/dev/docs/api/books) to look up a book via ISBN.
@@ -39,3 +39,16 @@ Posts a random joke from [yourmom.txt](https://github.com/xnaas/custom-sopel-plu
 
 ## [ytdl.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/ytdl.py)
 Uses [youtube-dl](https://youtube-dl.org/) to download and share a video. Would require editing to be useful to anyone else.
+
+---
+
+### Deprecated Plugins
+
+These plugins are deprecated and no longer used or updated.
+
+#### [imgur.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/deprecated/imgur.py)
+This was abandoned because the Imgur API isn't great for this purpose.
+
+Use [img.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/img.py) instead.
+
+Used the [Imgur API](https://apidocs.imgur.com/) to post image results to chat.
