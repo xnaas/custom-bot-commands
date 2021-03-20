@@ -21,9 +21,7 @@ Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot. Many of t
 Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
 
 ## [img.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/img.py)
-**Note: work in progress.**
-
-First queries the [DuckDuckGo Instant Answers API](https://duckduckgo.com/api), then moves onto a [Google CSE](https://programmablesearchengine.google.com/about/), if you've setup a custom search engine and API key for it.
+Image searching with [DuckDuckGo Instant Answers API](https://duckduckgo.com/api) and [Google CSE](https://programmablesearchengine.google.com/about/).
 
 ## [isbn.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/isbn.py)
 Uses the [Open Library Books API](https://openlibrary.org/dev/docs/api/books) to look up a book via ISBN.
