@@ -17,8 +17,8 @@ def configure(config):
     config.imgur.configure_setting("client_id", "imgur client id")
 
 
-@module.commands("img")
-@module.example(".img catgirl")
+@module.commands("imgur")
+@module.example(".imgur catgirl")
 def img_search(bot, trigger):
     """Searches Imgur API and returns an image."""
     search_term = trigger.group(2)
