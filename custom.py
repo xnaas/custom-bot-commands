@@ -134,7 +134,11 @@ def fourtwenty(bot, trigger):
 
 @module.rule(".*:retardeyes:.*")
 def retardeyes(bot, trigger):
-  bot.say("https://cdn.discordapp.com/emojis/286222898836799488.png")
+  bot.say("https://actionsack.com/img/emoji/retardeyes.webp")
+
+@module.rule(".*:wesmart:.*")
+def wesmart(bot, trigger):
+    bot.say("https://actionsack.com/img/emoji/wesmart.webp")
 
 @module.rule("^thx.*")
 def thx(bot, trigger):
