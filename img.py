@@ -32,8 +32,12 @@ def img_search(bot, trigger):
         bot.reply("I need something to search.")
         return
 
-    ddg_params = {"q": search_term}
-    ddg_url = "https://api.duckduckgo.com/?format=json&pretty=1"
+    ddg_params = {
+        "q": search_term,
+        "format": "json",
+        "pretty": "1"
+    }
+    ddg_url = "https://api.duckduckgo.com/"
 
     try:
         ddg_result = requests.get(
