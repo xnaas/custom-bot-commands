@@ -2553,7 +2553,8 @@ def JTL(bot, trigger):
     JTL = [
         "JTL thinks he's not 100% gay lol",
         "JTL is addicted to {} 😱".format("\u200B".join("xnaas")),
-        "God cries because JTL touches himself at night."
+        "God cries because JTL touches himself at night.",
+        "JTL's quote addition is insane. Almost feel bad for the dude."
     ]
     bot.say(random.choice(JTL))
 
