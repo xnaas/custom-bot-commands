@@ -42,10 +42,19 @@ def img_search(bot, trigger):
             google_headers = {"Accept": "application/json"}
             google_params = {
                 "cx": bot.config.googlecse.engine_id,
+                "c2coff": "1",
+                "cr": "countryUS",
+                "num": "10",
+                "safe": "active",
+                "searchType": "image",
+                "siteSearch": "www.pinterest.com",
+                "siteSearchFilter": "e",
+                "prettyPrint": "true",
+                "alt": "json",
                 "q": search_term,
                 "key": bot.config.googlecse.api_key
             }
-            google_url = "https://customsearch.googleapis.com/customsearch/v1?c2coff=1&cr=countryUS&num=10&safe=active&searchType=image&siteSearch=www.pinterest.com&siteSearchFilter=e&prettyPrint=true&alt=json"
+            google_url = "https://customsearch.googleapis.com/customsearch/v1"
             google_result = requests.get(
                 google_url,
                 params=google_params,
@@ -72,10 +81,19 @@ def rimg_search(bot, trigger):
     google_headers = {"Accept": "application/json"}
     google_params = {
         "cx": bot.config.googlecse.engine_id,
+        "c2coff": "1",
+        "cr": "countryUS",
+        "num": "10",
+        "safe": "active",
+        "searchType": "image",
+        "siteSearch": "www.pinterest.com",
+        "siteSearchFilter": "e",
+        "prettyPrint": "true",
+        "alt": "json",
         "q": search_term,
         "key": bot.config.googlecse.api_key
     }
-    google_url = "https://customsearch.googleapis.com/customsearch/v1?c2coff=1&cr=countryUS&num=10&safe=active&searchType=image&siteSearch=www.pinterest.com&siteSearchFilter=e&prettyPrint=true&alt=json"
+    google_url = "https://customsearch.googleapis.com/customsearch/v1"
     try:
         google_result = requests.get(google_url, params=google_params, headers=google_headers).json()[
             "items"][random.randrange(10)]["link"]
