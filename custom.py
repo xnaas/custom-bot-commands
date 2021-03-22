@@ -2543,6 +2543,20 @@ def xnaas(bot, trigger):
     "https://actionsack.com/img/videos/tesla.webm"
   ]
   bot.say(random.choice(xnass))
+
+
+@module.rule(".*!JTL.*")
+@module.commands("JTL")
+@module.rate(user=900)
+def JTL(bot, trigger):
+    """A user triggering this command can only do so once per 15 minutes."""
+    JTL = [
+        "JTL thinks he's not 100% gay lol",
+        "JTL is addicted to {} 😱".format("\u200B".join("xnaas")),
+        "God cries because JTL touches himself at night."
+    ]
+    bot.say(random.choice(JTL))
+
 # /Action Sack People Section
 
 @module.rule(".*!RGB.*")
