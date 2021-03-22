@@ -98,6 +98,7 @@ def rimg_search(bot, trigger):
         "key": bot.config.googlecse.api_key
     }
     google_url = "https://customsearch.googleapis.com/customsearch/v1"
+    
     try:
         google_result = requests.get(google_url, params=google_params, headers=google_headers).json()[
             "items"][random.randrange(10)]["link"]
