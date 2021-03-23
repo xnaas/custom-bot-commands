@@ -2554,7 +2554,8 @@ def JTL(bot, trigger):
         "JTL thinks he's not 100% gay lol",
         "JTL is addicted to {} 😱".format("\u200B".join("xnaas")),
         "God cries because JTL touches himself at night.",
-        "JTL's quote addition is insane. Almost feel bad for the dude."
+        "JTL's quote addition is insane. Almost feel bad for the dude.",
+        "https://actionsack.com/img/JTL/sendit.webp"
     ]
     bot.say(random.choice(JTL))
 
