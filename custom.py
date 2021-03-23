@@ -2932,3 +2932,8 @@ def darude(bot, trigger):
 @module.rule(".*numa.*")
 def numanuma(bot, trigger):
     bot.say("https://actionsack.com/img/videos/numa.mp4")
+
+@module.rule(".*!gems.*")
+@module.commands("gems")
+def gems(bot, trigger):
+    bot.say("https://actionsack.com/img/videos/gems.mp4")
