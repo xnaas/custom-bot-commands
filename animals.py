@@ -14,8 +14,9 @@ def cats(bot, trigger):
 @module.commands("catgif")
 def catgif(bot, trigger):
     """Posts a random cat GIF using thecatapi.com API."""
-    url = "https://api.thecatapi.com/v1/images/search?mime_types=gif"
-    cat_gif = requests.get(url).json()[0]['url']
+    url = "https://api.thecatapi.com/v1/images/search"
+    params = {"mime_types": "gif"}
+    cat_gif = requests.get(url, params=params).json()[0]['url']
     bot.say(cat_gif)
 
 
@@ -30,16 +31,26 @@ def dogs(bot, trigger):
 @module.commands("shibe")
 def shibe(bot, trigger):
     """Posts a random Shiba Inu using the shibe.online API."""
-    url = "https://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true"
-    shibe_image = requests.get(url).json()[0]
+    url = "https://shibe.online/api/shibes"
+    params = {
+        "count": "1"
+        "urls": "true"
+        "httpsUrls": "true"
+    }
+    shibe_image = requests.get(url, params=params).json()[0]
     bot.say(shibe_image)
 
 
 @module.commands("birb", "bird")
 def birbs(bot, trigger):
     """Posts a random bird using the shibe.online bird API."""
-    url = "https://shibe.online/api/birds?count=1&urls=true&httpsUrls=true"
-    birb_image = requests.get(url).json()[0]
+    url = "https://shibe.online/api/birds"
+    params = {
+        "count": "1"
+        "urls": "true"
+        "httpsUrls": "true"
+    }
+    birb_image = requests.get(url, params=params).json()[0]
     bot.say(birb_image)
 
 
