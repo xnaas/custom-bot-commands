@@ -37,15 +37,15 @@ def boobs_api(bot, trigger):
 def reddit_boobs(bot, trigger):
     """Posts a random boob pic from Reddit. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
-        url = "https://old.reddit.com/search.json?q=(boobs+OR+titties)+AND+nsfw%3Ayes+AND+(site%3Areddit.com+OR+site%3Aredgifs.com+OR+site%3Aimgur.com)"
+        url = "https://old.reddit.com/search.json"
         params = {
+            "q": "(boobs OR titties) AND nsfw:yes AND (site:reddit.com OR site:redgifs.com OR site:imgur.com)",
             "restrict_sr": "",
             "include_over_18": "on",
             "sort": "top",
             "t": "day",
             "type": "link",
-            "limit": "100"
-        }
+            "limit": "100"}
         rboobs_img = requests.get(url, params=params, headers=headers).json()[
             "data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rboobs_img)
@@ -57,15 +57,15 @@ def reddit_boobs(bot, trigger):
 def reddit_ass(bot, trigger):
     """Posts a random ass pic from Reddit. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
-        url = "https://old.reddit.com/search.json?q=(ass+OR+butt)+AND+nsfw%3Ayes+AND+(site%3Areddit.com+OR+site%3Aredgifs.com+OR+site%3Aimgur.com)"
+        url = "https://old.reddit.com/search.json"
         params = {
+            "q": "(ass+OR+butt) AND nsfw:yes AND (site:reddit.com OR site:redgifs.com OR site:imgur.com)",
             "restrict_sr": "",
             "include_over_18": "on",
             "sort": "top",
             "t": "day",
             "type": "link",
-            "limit": "100"
-        }
+            "limit": "100"}
         rass_img = requests.get(url, params=params, headers=headers).json()[
             "data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rass_img)
