@@ -46,7 +46,8 @@ def reddit_boobs(bot, trigger):
             "type": "link",
             "limit": "100"
         }
-        rboobs_img = requests.get(url, params=params, headers=headers).json()["data"]["children"][random.randrange(100)]["data"]["url"]
+        rboobs_img = requests.get(url, params=params, headers=headers).json()[
+            "data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rboobs_img)
     else:
         bot.say("This command is only usable in the #nsfw channel.")
@@ -65,7 +66,8 @@ def reddit_ass(bot, trigger):
             "type": "link",
             "limit": "100"
         }
-        rass_img = requests.get(url, params=params, headers=headers).json()["data"]["children"][random.randrange(100)]["data"]["url"]
+        rass_img = requests.get(url, params=params, headers=headers).json()[
+            "data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rass_img)
     else:
         bot.say("This command is only usable in the #nsfw channel.")
