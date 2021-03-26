@@ -33,8 +33,8 @@ def shibe(bot, trigger):
     """Posts a random Shiba Inu using the shibe.online API."""
     url = "https://shibe.online/api/shibes"
     params = {
-        "count": "1"
-        "urls": "true"
+        "count": "1",
+        "urls": "true",
         "httpsUrls": "true"
     }
     shibe_image = requests.get(url, params=params).json()[0]
@@ -46,8 +46,8 @@ def birbs(bot, trigger):
     """Posts a random bird using the shibe.online bird API."""
     url = "https://shibe.online/api/birds"
     params = {
-        "count": "1"
-        "urls": "true"
+        "count": "1",
+        "urls": "true",
         "httpsUrls": "true"
     }
     birb_image = requests.get(url, params=params).json()[0]
