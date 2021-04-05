@@ -623,7 +623,7 @@ def tb(bot, trigger):
 
 
 @module.commands("jolly")
-@module.rate(server=43200)
+@module.rate(server=21600)
 def jolly(bot, trigger):
     """Nothing tops The Jolly Rancher story.
     Server-wide rate limit of once every 12 hours."""
@@ -802,7 +802,7 @@ def pledge(bot, trigger):
 
 
 @module.rule(".*mushkin.*")
-@module.rate(channel=900)
+@module.rate(channel=5400)
 def mushkin(bot, trigger):
     bot.say("Hey xnaas and feek, did you know that Mushkin announced a 4TB SSD for $500 at CES 2016 and never fuckin' delivered? How neat is that?")
 
@@ -1175,7 +1175,7 @@ def fiteme(bot, trigger):
 
 
 @module.rule(r"^Found\sout\sI\'m\sgay(|\.|\s)$")
-@module.rate(server=21600)
+@module.rate(channel=21600)
 def fagexclamation(bot, trigger):
     bot.say("You're gay. Hey poofta. You're a homo. You're a homo you faggot. Go suck a dick. Go suck a real big dick. Get those dick so far in your mouth that the dick's right there, you got 'em all the way, smashing the back of your throat, balls right there, bangin' on your chin. That's how much I want you to suck dick. Oi. This is me. Pretending to be you. Fist-fuckin' another man in the asshole. Just fist-fuckin' the god-givin' shit out of him. I bet you like that so much you'd like to get fist-fucked while you're doing it. Just getting fist-fucked while you're fist-fuckin' someone else. While you're at it chuck in another one. Just fist-fuckin' two strange men, getting your asshole fist-fucked with someone you just met on Grinder. I bet you wish these were dicks. I bet you wish these were big floppy dicks. You're in a big forest of dicks. Getting dicks all over ya. Covering yourself in cum. Loving cum. Can I suck your dick? Can I suck your dick and then kiss you? Kiss you square on the mouth and then fuck you? Scratch that. Can we make love? Can we make love in my bedroom and then maybe if we connect on more than just a physical level, I'll take you out, I'll introduce you to my mum and my dad and my little sister Jennifer, she's really cool. She's into Goosebumps at the moment. And then maybe we can all go out for dinner together. And they'll really like you because of your cool taste in music and your wonderful dress sense. And then maybe, after confronting their initial misguided preconceptions, my family will come to respect our love for its tangibility. And they'll reject it because of bias or religious and political agendas of hate that have been weaved through the social fabric of hundreds and hundreds of years. FAGGOT!!!", max_messages=6)
 
@@ -1989,7 +1989,7 @@ def majorspoiler(bot, trigger):
 
 @module.rule(".*!navy.*")
 @module.commands("navy")
-@module.rate(server=21600)
+@module.rate(channel=21600)
 def navyseal(bot, trigger):
     """Posts the infamous Navy Seal copypasta...or you get a cat GIF/MP4 version.
     Server-wide rate limit of once per 6 hours.
