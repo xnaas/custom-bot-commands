@@ -623,10 +623,10 @@ def tb(bot, trigger):
 
 
 @module.commands("jolly")
-@module.rate(server=21600)
+@module.rate(channel=21600)
 def jolly(bot, trigger):
     """Nothing tops The Jolly Rancher story.
-    Server-wide rate limit of once every 12 hours."""
+    Channel-wide rate limit of once every 6 hours."""
     bot.say("Nothing tops the Jolly Rancher story.")
     bot.say("Steve and his girlfriend Samantha went off to college in August. She went to Florida State, he went to Penn. So, she decides to fly to PA to visit him. He was really happy to see her so he decided to give her some oral action.")
     bot.say("He had done this numerous times before and he always enjoyed doing it...but for some reason, this time, she smelled really horrible, and she tasted even worse. He didn't want to offend her though because he hadn't seen her in months...so he put a Jolly Rancher in his mouth to cover it up, even though it didn't do much to help.")
