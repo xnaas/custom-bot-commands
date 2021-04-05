@@ -24,4 +24,4 @@ def ytdl(bot, trigger):
             ydl.download([trigger.group(3)])
             bot.say("https://actionsack.com/tmp/{}.{}".format(id, ext))
     except youtube_dl.utils.DownloadError:
-        bot.say("Please submit a valid link.")
+        bot.reply("Please submit a valid link.")
