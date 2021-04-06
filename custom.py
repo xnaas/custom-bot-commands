@@ -3008,7 +3008,7 @@ def repost(bot, trigger):
     bot.say(random.choice(reposts))
 
 
-@module.rule("^(rip|🪦)$")
+@module.rule("^🪦$")
 def rip(bot, trigger):
     bot.say("https://actionsack.com/img/emoji/rip.png")
 
