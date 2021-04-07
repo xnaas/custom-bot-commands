@@ -7,8 +7,11 @@ import requests
 def cats(bot, trigger):
     """Posts a random cat using the aws.random.cat/meow API."""
     url = "https://aws.random.cat/meow"
-    cat_image = requests.get(url).json()['file']
-    bot.say(cat_image)
+    try:
+        cat_image = requests.get(url).json()['file']
+        bot.say(cat_image)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
 
 
 @module.commands("catgif")
@@ -16,16 +19,22 @@ def catgif(bot, trigger):
     """Posts a random cat GIF using thecatapi.com API."""
     url = "https://api.thecatapi.com/v1/images/search"
     params = {"mime_types": "gif"}
-    cat_gif = requests.get(url, params=params).json()[0]['url']
-    bot.say(cat_gif)
+    try:
+        cat_gif = requests.get(url, params=params).json()[0]['url']
+        bot.say(cat_gif)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
 
 
 @module.commands("dog")
 def dogs(bot, trigger):
     """Posts a random dog using the dog.ceo/dog-api API."""
     url = "https://dog.ceo/api/breeds/image/random"
-    dog_image = requests.get(url).json()['message']
-    bot.say(dog_image)
+    try:
+        dog_image = requests.get(url).json()['message']
+        bot.say(dog_image)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
 
 
 @module.commands("shibe")
@@ -37,8 +46,11 @@ def shibe(bot, trigger):
         "urls": "true",
         "httpsUrls": "true"
     }
-    shibe_image = requests.get(url, params=params).json()[0]
-    bot.say(shibe_image)
+    try:
+        shibe_image = requests.get(url, params=params).json()[0]
+        bot.say(shibe_image)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
 
 
 @module.commands("birb", "bird")
@@ -50,13 +62,19 @@ def birbs(bot, trigger):
         "urls": "true",
         "httpsUrls": "true"
     }
-    birb_image = requests.get(url, params=params).json()[0]
-    bot.say(birb_image)
+    try:
+        birb_image = requests.get(url, params=params).json()[0]
+        bot.say(birb_image)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
 
 
 @module.commands("fox", "foxy")
 def fox(bot, trigger):
     """Posts a random fox using the randomfox.ca API."""
     url = "https://randomfox.ca/floof/"
-    fox_image = requests.get(url).json()['image']
-    bot.say(fox_image)
+    try:
+        fox_image = requests.get(url).json()['image']
+        bot.say(fox_image)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
