@@ -8,5 +8,8 @@ def dadjoke(bot, trigger):
     """Posts a dad joke."""
     url = "https://icanhazdadjoke.com/"
     headers = {"Accept": "application/json"}
-    dad_joke = requests.get(url, headers=headers).json()['joke']
-    bot.say(dad_joke)
+    try:
+        dad_joke = requests.get(url, headers=headers).json()['joke']
+        bot.say(dad_joke)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
