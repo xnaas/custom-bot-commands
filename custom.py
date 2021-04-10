@@ -1490,8 +1490,8 @@ def kys(bot, trigger):
         "https://actionsack.com/img/kys/kys.webp",
         "https://actionsack.com/img/kys/mike-pepe.webp",
         "https://actionsack.com/img/kys/mike.webp",
-        "https://actionsack.com/img/kys/music.gif",
-        "https://actionsack.com/img/kys/ohhai.gif",
+        "https://actionsack.com/img/kys/music.webp",
+        "https://actionsack.com/img/kys/ohhai.webp",
         "https://actionsack.com/img/kys/pasta.webp",
         "https://actionsack.com/img/kys/pepe.webp",
         "https://actionsack.com/img/kys/peter-joe.mp4",
@@ -1499,7 +1499,7 @@ def kys(bot, trigger):
         "https://actionsack.com/img/kys/puft.mp4",
         "https://actionsack.com/img/kys/tried.webp",
         "https://actionsack.com/img/kys/wendys.webp",
-        "https://actionsack.com/img/kys/window.gif",
+        "https://actionsack.com/img/kys/window.webp",
         "https://lostallhope.com/"
     ]
     bot.say(random.choice(kys))
