@@ -1469,9 +1469,9 @@ def kazoo(bot, trigger):
 @module.rule(r"^kill\sme.*")
 def killme(bot, trigger):
     killme = [
-        "https://actionsack.com/img/misc/killme-bulb.png",
-        "https://actionsack.com/img/misc/killme-char.png",
-        "https://actionsack.com/img/misc/killme-pika.png"
+        "https://actionsack.com/img/killme/bulb.webp",
+        "https://actionsack.com/img/killme/char.webp",
+        "https://actionsack.com/img/killme/pika.webp",
     ]
     bot.say(random.choice(killme))
 
