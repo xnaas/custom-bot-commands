@@ -1507,12 +1507,12 @@ def kys(bot, trigger):
 
 @module.rule(".*!music.*")
 def listentomusic(bot, trigger):
-    bot.say("https://actionsack.com/img/kys/music.gif")
+    bot.say("https://actionsack.com/img/kys/music.webp")
 
 
 @module.rule(r"^oh\shai.*")
 def ohhai(bot, trigger):
-    bot.say("https://actionsack.com/img/kys/ohhai.gif")
+    bot.say("https://actionsack.com/img/kys/ohhai.webp")
 
 
 @module.rule(".*legal!.*")
