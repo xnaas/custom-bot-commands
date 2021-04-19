@@ -3255,3 +3255,12 @@ def numanuma(bot, trigger):
 @module.commands("gems")
 def gems(bot, trigger):
     bot.say("https://actionsack.com/img/v/gems.mp4")
+
+
+@module.rule(".*explosion!.*")
+def explosion(bot, trigger):
+    explosion = [
+        "https://actionsack.com/img/v/explosion/01.mp4",
+        "https://actionsack.com/img/v/explosion/02.mp4"
+    ]
+    bot.say(random.choice(explosion))
