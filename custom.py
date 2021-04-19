@@ -567,7 +567,7 @@ def triggered(bot, trigger):
 
 @module.rule(r".*to\sbe\sfair.*")
 def tobefair(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/tobefair.webm")
+    bot.say("https://actionsack.com/img/v/tobefair.webm")
 
 
 @module.rule(r".*stop\sbeing\spoor.*")
@@ -1021,7 +1021,7 @@ def marcopolo(bot, trigger):
 @module.commands("work")
 def worktoday(bot, trigger):
     """I don't really wanna do the work today..."""
-    bot.say("https://actionsack.com/img/videos/work.webm")
+    bot.say("https://actionsack.com/img/v/work.webm")
 
 
 @module.rule(".*stbyn.*")
@@ -1274,7 +1274,7 @@ def smitepro(bot, trigger):
 def xmassong(bot, trigger):
     """The only good Christmas song.
     Can also be triggered with '!xmas' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/xmas.webm")
+    bot.say("https://actionsack.com/img/v/xmas.webm")
 
 
 @module.rule(".*!swat.*")
@@ -1282,12 +1282,12 @@ def xmassong(bot, trigger):
 def swat(bot, trigger):
     """Summon SWAT into chat.
     Can also be triggered with '!swat' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/SWAT.mp4")
+    bot.say("https://actionsack.com/img/v/SWAT.mp4")
 
 
 @module.rule(".*(▫|◽|◻|⬜|▪|◾|◼|⬛|🟥|🟧|🟨|🟩|🟦|🟪|🟫).*")
 def square(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/square.mp4")
+    bot.say("https://actionsack.com/img/v/square.mp4")
 
 
 @module.commands("dblflip")
@@ -1325,12 +1325,12 @@ def clickbait(bot, trigger):
 
 @module.rule(".*COVID19!.*")
 def windofgod(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/windofgod.webm")
+    bot.say("https://actionsack.com/img/v/windofgod.webm")
 
 
 @module.rule(".*crossfit.*")
 def crossfit(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/crossfit.webm")
+    bot.say("https://actionsack.com/img/v/crossfit.webm")
 
 
 @module.rule("^dang$")
@@ -1356,7 +1356,7 @@ def dbc(bot, trigger):
 
 @module.rule(r"^Deus\svult!$")
 def deusvult(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/deusvult.webm")
+    bot.say("https://actionsack.com/img/v/deusvult.webm")
 
 
 @module.rule(".*fake!.*")
@@ -1384,7 +1384,7 @@ def erect(bot, trigger):
 def goat(bot, trigger):
     """Greatest of all time!
     Can also be triggered with 'GOAT!' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/GOAT.webm")
+    bot.say("https://actionsack.com/img/v/GOAT.webm")
 
 
 @module.rule("^hackers$")
@@ -1423,7 +1423,7 @@ def iamthemachine(bot, trigger):
 
 @module.rule(r".*I\scan't\seven.*", r".*I'm\sliterally\scan't\seven.*")
 def icanteven(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/icanteven.webm")
+    bot.say("https://actionsack.com/img/v/icanteven.webm")
 
 
 @module.rule(r"^I\sship\s(it|that).*")
@@ -1442,12 +1442,12 @@ def idgaf(bot, trigger):
 
 @module.rule(r".*hugh\smungus.*")
 def hughmungus(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/hughmungus.webm")
+    bot.say("https://actionsack.com/img/v/hughmungus.webm")
 
 
 @module.rule(".*IMDABES.*")
 def imdabes(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/IMDABES.webm")
+    bot.say("https://actionsack.com/img/v/IMDABES.webm")
 
 
 @module.rule(".*!JPEG.*")
@@ -1455,7 +1455,7 @@ def imdabes(bot, trigger):
 def jpeg(bot, trigger):
     """Do I look like I know what a JPEG is?
     Can also be triggered with '!JPEG' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/JPEG.webm")
+    bot.say("https://actionsack.com/img/v/JPEG.webm")
 
 
 @module.rule(".*!kazoo.*")
@@ -1463,7 +1463,7 @@ def jpeg(bot, trigger):
 def kazoo(bot, trigger):
     """Kaaazzzzoooooooooo!!!
     Can also be triggered with '!kazoo' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/kazoo.webm")
+    bot.say("https://actionsack.com/img/v/kazoo.webm")
 
 
 @module.rule(r"^kill\sme.*")
@@ -1675,7 +1675,7 @@ def swiggityswooty(bot, trigger):
 def praisethesun(bot, trigger):
     """Praise the Sun!
     Can also be triggered with 'praise the sun' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/praisethesun.webm")
+    bot.say("https://actionsack.com/img/v/praisethesun.webm")
 
 
 @module.rule(".*#spam.*")
@@ -1757,7 +1757,7 @@ def newhouse(bot, trigger):
 def drone(bot, trigger):
     """Summons a drone into chat.
     Can also be summoned with '!drone' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/drone.webm")
+    bot.say("https://actionsack.com/img/v/drone.webm")
 
 
 @module.rule(".*!cage.*")
@@ -1834,7 +1834,7 @@ def burn(bot, trigger):
 def bustin(bot, trigger):
     """Bustin' makes me feel good!
     Can also be triggered with "bustin'" anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/bustin.webm")
+    bot.say("https://actionsack.com/img/v/bustin.webm")
 
 
 @module.rule(r".*(?<!s)canned(?!\sair).*")
@@ -1888,13 +1888,13 @@ def dance(bot, trigger):
 @module.commands("doomanimal")
 def doomanimal(bot, trigger):
     """Posts "DOOMANIMAL" video by @andmish."""
-    bot.say("https://actionsack.com/img/videos/DOOMANIMAL.webm")
+    bot.say("https://actionsack.com/img/v/DOOMANIMAL.webm")
 
 
 @module.commands("doomcrossing")
 def doomcrossing(bot, trigger):
     """Posts "DOOM CROSSING: Eternal Horizons" by The Chalkeaters feat. Natalia Natchan."""
-    bot.say("https://actionsack.com/img/videos/DOOMCROSSING.webm")
+    bot.say("https://actionsack.com/img/v/DOOMCROSSING.webm")
 
 
 @module.rule(r".*doom\sguy.*")
@@ -2051,7 +2051,7 @@ def panic(bot, trigger):
 
 @module.rule(r".*my\sbrand.*")
 def mybrand(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/MY_BRAND!.webm")
+    bot.say("https://actionsack.com/img/v/MY_BRAND!.webm")
 
 
 @module.rule(".*!nms.*")
@@ -2113,12 +2113,12 @@ def moist(bot, trigger):
 def manga(bot, trigger):
     """Posts a clip from the BowserVids "What's in the bag?" video.
     Can also be triggered with '!manga' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/manga.mp4")
+    bot.say("https://actionsack.com/img/v/manga.mp4")
 
 
 @module.rule(r".*let\sme\sin.*")
 def letmein(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/letmein.mp4")
+    bot.say("https://actionsack.com/img/v/letmein.mp4")
 
 
 @module.rule(r".*i\smade\sthis.*")
@@ -2211,7 +2211,7 @@ def shit(bot, trigger):
 @module.commands("tesla")
 def tesla(bot, trigger):
     """Can also be triggered with '!tesla' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/tesla.webm")
+    bot.say("https://actionsack.com/img/v/tesla.webm")
 
 
 @module.rule(".*!vn.*")
@@ -2418,7 +2418,7 @@ def daquan(bot, trigger):
 def heff(bot, trigger):
     """Is only game, why you heff to be mad?
     Can also be triggered with '!heff' anywhere in a message."""
-    bot.say("https://actionsack.com/img/videos/heff.webm")
+    bot.say("https://actionsack.com/img/v/heff.webm")
 
 
 @module.rule(".*!salty.*")
@@ -2808,7 +2808,7 @@ def xnaas(bot, trigger):
         "https://actionsack.com/img/xnaas/xnaas013.webp",
         "https://actionsack.com/img/xnaas/xnaas014.webp",
         "https://actionsack.com/img/xnaas/yeehaw.webp",
-        "https://actionsack.com/img/videos/tesla.webm"
+        "https://actionsack.com/img/v/tesla.webm"
     ]
     bot.say(random.choice(xnass))
 
@@ -2873,7 +2873,7 @@ def urtooslow(bot, trigger):
 
 @module.rule(r".*whale\srape.*")
 def whalerape(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/whalerape.mp4")
+    bot.say("https://actionsack.com/img/v/whalerape.mp4")
 
 
 @module.rule(".*kwaken.*")
@@ -3113,7 +3113,7 @@ def terrorists(bot, trigger):
 def spacepants(bot, trigger):
     space_pants = [
         "https://actionsack.com/img/misc/spacepants.gif",
-        "https://actionsack.com/img/videos/spacepants.mp4"
+        "https://actionsack.com/img/v/spacepants.mp4"
     ]
     bot.say(random.choice(space_pants))
 
@@ -3243,15 +3243,15 @@ def nda(bot, trigger):
 
 @module.rule(".*darude.*")
 def darude(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/darude.mp4")
+    bot.say("https://actionsack.com/img/v/darude.mp4")
 
 
 @module.rule(".*numa.*")
 def numanuma(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/numa.mp4")
+    bot.say("https://actionsack.com/img/v/numa.mp4")
 
 
 @module.rule(".*!gems.*")
 @module.commands("gems")
 def gems(bot, trigger):
-    bot.say("https://actionsack.com/img/videos/gems.mp4")
+    bot.say("https://actionsack.com/img/v/gems.mp4")
