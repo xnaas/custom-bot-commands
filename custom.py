@@ -3261,6 +3261,7 @@ def gems(bot, trigger):
 def explosion(bot, trigger):
     explosion = [
         "https://actionsack.com/img/v/explosion/01.mp4",
-        "https://actionsack.com/img/v/explosion/02.mp4"
+        "https://actionsack.com/img/v/explosion/02.mp4",
+        "https://actionsack.com/img/v/explosion/03.mp4"
     ]
     bot.say(random.choice(explosion))
