@@ -359,6 +359,7 @@ def deeznutz(bot, trigger):
         formatting.bold("DEEZ NUTZ!"),
         "https://actionsack.com/img/nutz/aldeez.webp",
         "https://actionsack.com/img/nutz/dd.webp",
+        "https://actionsack.com/img/nutz/dragon.webp",
         "https://actionsack.com/img/nutz/grandma.webp",
         "https://actionsack.com/img/nutz/prez.webp",
         "https://actionsack.com/img/nutz/wood.webp"
