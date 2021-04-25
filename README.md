@@ -23,6 +23,9 @@ Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
 ## [img.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/img.py)
 Image searching with [DuckDuckGo Instant Answers API](https://duckduckgo.com/api) and [Google CSE](https://programmablesearchengine.google.com/about/).
 
+## [insult.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/insult.py)
+Uses the [Evil Insult Generator](https://evilinsult.com/api/) to insult other users.
+
 ## [isbn.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/isbn.py)
 Uses the [Open Library Books API](https://openlibrary.org/dev/docs/api/books) to look up a book via ISBN.
 
