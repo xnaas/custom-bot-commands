@@ -14,6 +14,21 @@ def cats(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
+@module.commands("catfact")
+def catfact(bot, trigger):
+    """Posts a random cat fact."""
+    url = "https://cat-fact.herokuapp.com/facts/random"
+    params = {
+        "animal_type": "cat",
+        "amount": "1"
+    }
+    try:
+        cat_fact = requests.get(url, params=params).json()['text']
+        bot.say(cat_fact)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
+
+
 @module.commands("catgif")
 def catgif(bot, trigger):
     """Posts a random cat GIF using thecatapi.com API."""
@@ -33,6 +48,18 @@ def dogs(bot, trigger):
     try:
         dog_image = requests.get(url).json()['message']
         bot.say(dog_image)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
+
+
+@module.commands("dogfact")
+def dogfact(bot, trigger):
+    """Posts a random dog fact."""
+    url = "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs"
+    params = {"number": "1"}
+    try:
+        dog_fact = requests.get(url, params=params).json()[0]['fact']
+        bot.say(dog_fact)
     except BaseException:
         bot.reply("Error reaching API, probably.")
 
