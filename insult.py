@@ -1,5 +1,5 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
-from sopel import module
+from sopel import module, tools
 import requests
 
 
@@ -10,6 +10,11 @@ def insult(bot, trigger):
     url = "https://evilinsult.com/generate_insult.php"
     params = {"lang": "en", "type": "json"}
     target = trigger.group(3)
+
+    if not target:
+        bot.reply("I need someone to insult, dipshit.")
+        return
+    target = tools.Identifier(target)
 
     if target == bot.nick:
         bot.reply("Nice try, retard.")
