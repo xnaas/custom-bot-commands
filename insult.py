@@ -1,6 +1,7 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module, tools
 import requests
+import html
 
 
 @module.commands("insult")
@@ -26,6 +27,7 @@ def insult(bot, trigger):
 
     try:
         insult = requests.get(url, params=params).json()['insult']
-        bot.say("{}: {}".format(target, insult))
+        insult_escaped = html.unescape(insult)
+        bot.say("{}: {}".format(target, insult_escaped))
     except BaseException:
         bot.reply("There was an error. Fuck you.")
