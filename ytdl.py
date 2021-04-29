@@ -9,7 +9,7 @@ ydl_opts = {
     "merge_output_format": "mp4",
     "noplaylist": True,
     "forcejson": True,
-    "outtmpl": "/mnt/media/ShareX/Screenshots/temp/%(id)s.%(ext)s"
+    "outtmpl": "/mnt/media/websites/actionsack.com/tmp/%(id)s.%(ext)s"
 }
 
 
