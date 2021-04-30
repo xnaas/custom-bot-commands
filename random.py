@@ -26,7 +26,8 @@ def rbot(bot, trigger):
 
 @module.commands("fakeperson")
 def fakeperson(bot, trigger):
-    """Posts a not real person. 😱"""
+    """Posts a not real person. 😱
+    Uses thispersondoesnotexist.com"""
     url = "https://thispersondoesnotexist.com/image"
     try:
         response = requests.get(url)
