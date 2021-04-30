@@ -28,17 +28,18 @@ def rbot(bot, trigger):
 def fakeperson(bot, trigger):
     """Posts a not real person. 😱"""
     url = "https://thispersondoesnotexist.com/image"
-    response = requests.get(url)
-
-    random_filename = ''.join(
-        random.SystemRandom().choice(
-            string.ascii_letters +
-            string.digits) for _ in range(5))
-
-    with open("/mnt/media/websites/actionsack.com/tmp/fp_{}.jpg".format(random_filename), "wb") as file:
-        file.write(response.content)
-
-    bot.say("https://actionsack.com/tmp/fp_{}.jpg".format(random_filename))
+    try:
+        response = requests.get(url)
+        random_filename = ''.join(
+            random.SystemRandom().choice(
+                string.ascii_letters +
+                string.digits) for _ in range(5))
+        with open("/mnt/media/websites/actionsack.com/tmp/fp_{}.jpg".format(random_filename), "wb") as file:
+            file.write(response.content)
+        bot.say(
+            "https://actionsack.com/tmp/fp_{}.jpg".format(random_filename))
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
 
 
 @module.commands("advice")
