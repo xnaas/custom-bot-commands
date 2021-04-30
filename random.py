@@ -39,3 +39,13 @@ def fakeperson(bot, trigger):
         file.write(response.content)
 
     bot.say("https://actionsack.com/tmp/fp_{}.jpg".format(random_filename))
+
+
+@module.commands("advice")
+def advice(bot, trigger):
+    url = "https://api.adviceslip.com/advice"
+    try:
+        response = requests.get(url).json()["slip"]["advice"]
+        bot.say(response)
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
