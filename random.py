@@ -50,3 +50,14 @@ def advice(bot, trigger):
         bot.say(response)
     except BaseException:
         bot.reply("Error reaching API, probably.")
+
+
+@module.commands("ron")
+def ronswanson(bot, trigger):
+    """Get a Ron Swanson quote."""
+    url = "https://ron-swanson-quotes.herokuapp.com/v2/quotes"
+    try:
+        quote = requests.get(url).json()[0]
+        bot.say("Ron Swanson says: {}".format(quote))
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
