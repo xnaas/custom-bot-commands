@@ -31,10 +31,12 @@ def ytdl(bot, trigger):
             ext = meta["ext"]
             dur = meta["duration"]
             if not dur:
-                bot.reply("This video has no duration (livestream?) and cannot be downloaded.")
+                bot.reply(
+                    "This video has no duration (livestream?) and cannot be downloaded.")
                 return
             if dur > 600:
-                bot.reply("This video is longer than 10 minutes and cannot be download, sorry!")
+                bot.reply(
+                    "This video is longer than 10 minutes and cannot be download, sorry!")
                 return
             else:
                 ytdl.download([url])
@@ -47,4 +49,5 @@ def ytdl(bot, trigger):
             ytdl.download([url])
             bot.say("https://actionsack.com/tmp/{}.{}".format(id, ext))
         else:
-            bot.reply("This video has no duration (livestream?) and cannot be downloaded.")
+            bot.reply(
+                "This video has no duration (livestream?) and cannot be downloaded.")
