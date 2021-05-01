@@ -1,5 +1,5 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
-from sopel import module
+from sopel import module, tools
 import os
 import youtube_dl
 
@@ -16,9 +16,16 @@ ydl_opts = {
 @module.commands("ytdl")
 def ytdl(bot, trigger):
     """Uses youtube-dl to download a video and post it to chat."""
+    url = trigger.group(3)
+
+    if not url:
+        bot.reply("I need a link, silly!")
+        return
+    url = tools.Identifier(url)
+
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            meta = ydl.extract_info(trigger.group(3), download=False)
+            meta = ydl.extract_info(url, download=False)
             id = meta["id"]
             ext = meta["ext"]
             ydl.download([trigger.group(3)])
