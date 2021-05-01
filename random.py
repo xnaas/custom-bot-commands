@@ -11,17 +11,25 @@ import urllib.parse
 def rbot(bot, trigger):
     """Posts a randomly generated bot.
     Can also be triggered with a 🤖 emoji anywhere in a message."""
-    random_length = random.randrange(1, 50)
-
+    random_length = random.randrange(1, 512)
     random_string = ''.join(
         random.SystemRandom().choice(
             string.ascii_letters +
             string.digits +
             string.punctuation) for _ in range(random_length))
-
     string_urlsafe = urllib.parse.quote_plus(random_string)
-
-    bot.say("https://robohash.org/{}".format(string_urlsafe))
+    url = "https://robohash.org/{}.png".format(string_urlsafe)
+    try:
+        image = requests.get(url)
+        filename = ''.join(
+            random.SystemRandom().choice(
+                string.ascii_letters +
+                string.digits) for _ in range(5))
+        with open("/mnt/media/websites/actionsack.com/tmp/rh_{}.png".format(filename), "wb") as file:
+            file.write(image.content)
+        bot.say("https://actionsack.com/tmp/rh_{}.png".format(filename))
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
 
 
 @module.commands("fakeperson")
@@ -30,15 +38,15 @@ def fakeperson(bot, trigger):
     Uses thispersondoesnotexist.com"""
     url = "https://thispersondoesnotexist.com/image"
     try:
-        response = requests.get(url)
-        random_filename = ''.join(
+        image = requests.get(url)
+        filename = ''.join(
             random.SystemRandom().choice(
                 string.ascii_letters +
                 string.digits) for _ in range(5))
-        with open("/mnt/media/websites/actionsack.com/tmp/fp_{}.jpg".format(random_filename), "wb") as file:
-            file.write(response.content)
+        with open("/mnt/media/websites/actionsack.com/tmp/fp_{}.jpg".format(filename), "wb") as file:
+            file.write(image.content)
         bot.say(
-            "https://actionsack.com/tmp/fp_{}.jpg".format(random_filename))
+            "https://actionsack.com/tmp/fp_{}.jpg".format(filename))
     except BaseException:
         bot.reply("Error reaching API, probably.")
 
