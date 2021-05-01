@@ -55,8 +55,8 @@ def fakeperson(bot, trigger):
 def advice(bot, trigger):
     url = "https://api.adviceslip.com/advice"
     try:
-        response = requests.get(url).json()["slip"]["advice"]
-        bot.say(response)
+        advice = requests.get(url).json()["slip"]["advice"]
+        bot.say(advice)
     except BaseException:
         bot.reply("Error reaching API, probably.")
 
