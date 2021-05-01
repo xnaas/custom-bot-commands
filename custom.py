@@ -3266,3 +3266,8 @@ def explosion(bot, trigger):
         "https://actionsack.com/img/v/explosion/03.mp4"
     ]
     bot.say(random.choice(explosion))
+
+
+@module.rule(r".*I\sneed\sa\shero.*")
+def ineedahero(bot, trigger):
+    bot.say("https://actionsack.com/img/v/ineedahero.mp4")
