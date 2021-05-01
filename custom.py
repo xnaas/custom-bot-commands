@@ -1114,7 +1114,7 @@ def fuckyou(bot, trigger):
 @module.rule(r".*(gfy(?!c)|go\sfuck\syourself).*")
 def gfy(bot, trigger):
     gfy = [
-        "https://actionsack.com/img/fuck/urself/01_Two_Feet-Go_Fuck_Yourself.opus",
+        "https://actionsack.com/img/fuck/urself/01_Two_Feet-Go_Fuck_Yourself.ogg",
         "https://actionsack.com/img/fuck/urself/anime.webp",
         "https://actionsack.com/img/fuck/urself/arms.webp",
         "https://actionsack.com/img/fuck/urself/disney.webp",
@@ -3226,7 +3226,7 @@ def shitstorm(bot, trigger):
 @module.rule("!ts")
 @module.commands("ts")
 def teamspeak(bot, trigger):
-    bot.say("https://actionsack.com/img/music/teamspeak.opus")
+    bot.say("https://actionsack.com/img/music/teamspeak.ogg")
 
 
 @module.rule(".*!tmf.*")
