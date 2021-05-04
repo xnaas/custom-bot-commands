@@ -32,8 +32,8 @@ Uses the [Open Library Books API](https://openlibrary.org/dev/docs/api/books) to
 ## [nsfw.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/nsfw.py)
 RNG of NSFW things.
 
-## [random.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/random.py)
-Adds some random things.
+## [random-apis.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/random-apis.py)
+Adds some random APIs for fun.
 
 ## [smite_vgs.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/smite_vgs.py)
 Adds [Smite's VGS](https://smite.gamepedia.com/Voice_Guided_System) to Sopel.
