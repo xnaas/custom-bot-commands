@@ -8,7 +8,7 @@ Just a standard, run-of-the-mill [magic 8-ball](https://en.wikipedia.org/wiki/Ma
 ## [animals.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/animals.py)
 Posts random animal pics from several different APIs.
 
-## [base64.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/base64.py)
+## [base64coder.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/base64coder.py)
 Encode or decode base64 data.
 
 ## [colors.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/colors.py)
