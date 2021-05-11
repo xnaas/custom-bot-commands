@@ -45,7 +45,7 @@ def reddit_boobs(bot, trigger):
     if trigger.is_privmsg or trigger.sender == "#nsfw":
         url = "https://old.reddit.com/search.json"
         params = {
-            "q": "(boobs OR titties) AND nsfw:yes AND (site:reddit.com OR site:redgifs.com OR site:imgur.com)",
+            "q": "(boobs OR boobies OR titties) AND nsfw:yes AND (site:reddit.com OR site:redgifs.com OR site:imgur.com)",
             "restrict_sr": "",
             "include_over_18": "on",
             "sort": "top",
@@ -65,7 +65,7 @@ def reddit_ass(bot, trigger):
     if trigger.is_privmsg or trigger.sender == "#nsfw":
         url = "https://old.reddit.com/search.json"
         params = {
-            "q": "(ass OR butt) AND nsfw:yes AND (site:reddit.com OR site:redgifs.com OR site:imgur.com)",
+            "q": "(ass OR butt OR booty) AND nsfw:yes AND (site:reddit.com OR site:redgifs.com OR site:imgur.com)",
             "restrict_sr": "",
             "include_over_18": "on",
             "sort": "top",
