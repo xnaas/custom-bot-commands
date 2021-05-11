@@ -9,7 +9,7 @@ headers = {
 }
 
 
-@module.commands("ass")
+@module.commands("ass", "butt", "booty")
 def ass_api(bot, trigger):
     """Posts a random ass pic. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
@@ -24,7 +24,7 @@ def ass_api(bot, trigger):
         bot.reply("This command is only usable in the #nsfw channel.")
 
 
-@module.commands("boobs")
+@module.commands("boobs", "tits")
 def boobs_api(bot, trigger):
     """Posts a random boobs pic. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
