@@ -56,7 +56,7 @@ def advice(bot, trigger):
     url = "https://api.adviceslip.com/advice"
     try:
         advice = requests.get(url).json()["slip"]["advice"]
-        bot.say(advice)
+        bot.reply(advice)
     except BaseException:
         bot.reply("Error reaching API, probably.")
 
