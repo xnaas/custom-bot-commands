@@ -769,7 +769,7 @@ def allsystemsgo(bot, trigger):
     bot.say("https://actionsack.com/img/misc/asg.webp")
 
 
-@module.rule(".*murica.*")
+@module.rule(".*(murica|🍔).*")
 @module.commands("america")
 def murica(bot, trigger):
     """Summons Freedom™ into chat.
@@ -2844,7 +2844,7 @@ def savage(bot, trigger):
     bot.say("https://actionsack.com/img/misc/savage.gif")
 
 
-@module.rule(".*salad.*")
+@module.rule(".*(salad|🥗).*")
 def salad(bot, trigger):
     bot.say("https://actionsack.com/img/misc/🥗.png")
 
