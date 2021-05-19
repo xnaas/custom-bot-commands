@@ -48,6 +48,12 @@ def ytdl(bot, trigger):
         if re.search(r"v\.redd\.it\/", url):
             ytdl.download([url])
             bot.say("https://actionsack.com/tmp/{}.{}".format(id, ext))
+            return
+        if re.search(r"video\.twimg\.com\/", url):
+            ytdl.download([url])
+            bot.say("https://actionsack.com/tmp/{}.{}".format(id, ext))
+            return
         else:
             bot.reply(
                 "This video has no duration (livestream?) and cannot be downloaded.")
+            return
