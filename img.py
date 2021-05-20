@@ -51,7 +51,7 @@ def img_search(bot, trigger):
                 "num": "10",
                 "safe": "active",
                 "searchType": "image",
-                "siteSearch": "www.pinterest.com",
+                "siteSearch": "www.pinterest.com,lookaside.fbsbx.com",
                 "siteSearchFilter": "e",
                 "prettyPrint": "true",
                 "alt": "json",
@@ -90,7 +90,7 @@ def rimg_search(bot, trigger):
         "num": "10",
         "safe": "active",
         "searchType": "image",
-        "siteSearch": "www.pinterest.com",
+        "siteSearch": "www.pinterest.com,lookaside.fbsbx.com",
         "siteSearchFilter": "e",
         "prettyPrint": "true",
         "alt": "json",
@@ -104,8 +104,7 @@ def rimg_search(bot, trigger):
             google_url,
             params=google_params,
             headers=google_headers).json()["items"]
-        google_index = random.randint(0, len(google_results) - 1)
-        image_link = google_results[google_index]["link"]
+        image_link = random.choice(google_results[1:])["link"]
         bot.say(image_link)
     except KeyError:
         bot.reply("No results.")
