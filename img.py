@@ -104,7 +104,7 @@ def rimg_search(bot, trigger):
             google_url,
             params=google_params,
             headers=google_headers).json()["items"]
-        image_link = random.choice(google_results[1:])["link"]
+        image_link = random.choice(google_results)["link"]
         bot.say(image_link)
     except KeyError:
         bot.reply("No results.")
