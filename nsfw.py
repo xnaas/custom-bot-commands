@@ -1,4 +1,4 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
+from rule34Py import rule34Py
 from sopel import module
 import random
 import requests
@@ -56,7 +56,7 @@ def reddit_boobs(bot, trigger):
             "data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rboobs_img)
     else:
-        bot.say("This command is only usable in the #nsfw channel.")
+        bot.reply("This command is only usable in the #nsfw channel.")
 
 
 @module.commands("rass")
@@ -76,4 +76,27 @@ def reddit_ass(bot, trigger):
             "data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rass_img)
     else:
-        bot.say("This command is only usable in the #nsfw channel.")
+        bot.reply("This command is only usable in the #nsfw channel.")
+
+
+@module.commands("rule34")
+@module.example(".rule34 slime")
+def rule34(bot, trigger):
+    """Search rule34.xxx by tags. You can type multiple words to chain together tags.
+    Full Tag List: rule34.xxx/index.php?page=tags&s=list"""
+    if trigger.is_privmsg or trigger.sender == "#nsfw":
+        search_term = trigger.group(2)
+
+        if not search_term:
+            bot.reply("I need some tags, bro!")
+            return
+
+        try:
+            r34 = rule34Py()
+            results = r34.search([search_term], 100)
+            image_link = random.choice(results[1:])["img_file_url"]
+            bot.say(image_link)
+        except IndexError:
+            bot.reply("No results. Try refining your tags.")
+    else:
+        bot.reply("This command is only usable in the #nsfw channel.")
