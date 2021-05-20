@@ -100,8 +100,10 @@ def rimg_search(bot, trigger):
     google_url = "https://customsearch.googleapis.com/customsearch/v1"
 
     try:
-        google_results = requests.get(google_url, params=google_params, headers=google_headers).json()[
-            "items"]
+        google_results = requests.get(
+            google_url,
+            params=google_params,
+            headers=google_headers).json()["items"]
         google_index = random.randint(0, len(google_results) - 1)
         image_link = google_results[google_index]["link"]
         bot.say(image_link)
