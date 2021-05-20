@@ -105,3 +105,5 @@ def rimg_search(bot, trigger):
         bot.say(google_result)
     except KeyError:
         bot.reply("No results.")
+    except IndexError:
+        bot.reply("xnaas doesn't know how to code.")
