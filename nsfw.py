@@ -79,8 +79,8 @@ def reddit_ass(bot, trigger):
         bot.reply("This command is only usable in the #nsfw channel.")
 
 
-@module.commands("rule34")
-@module.example(".rule34 slime")
+@module.commands("rule34", "r34")
+@module.example(".rule34 rimuru_tempest")
 def rule34(bot, trigger):
     """Search rule34.xxx by tags. You can type multiple words to chain together tags.
     Full Tag List: rule34.xxx/index.php?page=tags&s=list"""
