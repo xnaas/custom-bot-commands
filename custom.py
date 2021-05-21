@@ -2849,7 +2849,7 @@ def salad(bot, trigger):
     bot.say("https://actionsack.com/img/misc/🥗.png")
 
 
-@module.rule(".*rickles.*")
+@module.rule(".*(?<!t)rickles.*")
 def rickles(bot, trigger):
     bot.say("https://actionsack.com/img/misc/rickles.png")
 
