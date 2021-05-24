@@ -1,5 +1,4 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
-from sopel import module
+from sopel import module, formatting
 import random
 import requests
 import string
@@ -68,5 +67,23 @@ def ronswanson(bot, trigger):
     try:
         quote = requests.get(url).json()[0]
         bot.say("Ron Swanson says: {}".format(quote))
+    except BaseException:
+        bot.reply("Error reaching API, probably.")
+
+
+@module.commands("nextmcu", "mcunext")
+def next_mcu(bot, trigger):
+    """Info on the next MCU release."""
+    url = "https://whenisthenextmcufilm.com/api"
+    try:
+        r = requests.get(url)
+        days_until = str(r.json()["days_until"])
+        media_title = str(r.json()["title"])
+        media_type = str(r.json()["type"])
+        bot.say(
+            "Up next in the MCU is the {} '{}'. It will be out in {} days.".format(
+                media_type,
+                formatting.italic(media_title),
+                formatting.bold(days_until)))
     except BaseException:
         bot.reply("Error reaching API, probably.")
