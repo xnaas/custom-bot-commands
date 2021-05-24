@@ -48,7 +48,7 @@ def img_search(bot, trigger):
                 "cx": bot.config.googlecse.engine_id,
                 "c2coff": "1",
                 "cr": "countryUS",
-                "num": "10",
+                "num": "1",
                 "safe": "active",
                 "searchType": "image",
                 "siteSearch": "www.pinterest.com,lookaside.fbsbx.com,memegenerator.net",
