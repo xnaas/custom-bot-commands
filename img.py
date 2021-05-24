@@ -56,8 +56,7 @@ def img_search(bot, trigger):
                 "prettyPrint": "true",
                 "alt": "json",
                 "q": search_term,
-                "key": bot.config.googlecse.api_key
-            }
+                "key": bot.config.googlecse.api_key}
             google_url = "https://customsearch.googleapis.com/customsearch/v1"
             google_result = requests.get(
                 google_url,
@@ -95,8 +94,7 @@ def rimg_search(bot, trigger):
         "prettyPrint": "true",
         "alt": "json",
         "q": search_term,
-        "key": bot.config.googlecse.api_key
-    }
+        "key": bot.config.googlecse.api_key}
     google_url = "https://customsearch.googleapis.com/customsearch/v1"
 
     try:

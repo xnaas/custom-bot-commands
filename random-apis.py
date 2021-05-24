@@ -78,8 +78,8 @@ def next_mcu(bot, trigger):
     try:
         r = requests.get(url)
         days_until = str(r.json()["days_until"])
-        media_title = str(r.json()["title"])
-        media_type = str(r.json()["type"])
+        media_title = r.json()["title"]
+        media_type = r.json()["type"]
         bot.say(
             "Up next in the MCU is the {} '{}'. It will be out in {} days.".format(
                 media_type,
