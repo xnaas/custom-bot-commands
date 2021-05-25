@@ -1,7 +1,7 @@
-from rule34Py import rule34Py
 from sopel import module
 import random
 import requests
+import rule34
 
 headers = {
     "User-Agent": "python/requests",
@@ -79,9 +79,10 @@ def reddit_ass(bot, trigger):
         bot.reply("This command is only usable in the #nsfw channel.")
 
 
+r34 = rule34.Sync()
 @module.commands("rule34", "r34")
 @module.example(".rule34 rimuru_tempest")
-def rule34(bot, trigger):
+def rule34_cmd(bot, trigger):
     """Search rule34.xxx by tags. You can type multiple words to chain together tags.
     Full Tag List: rule34.xxx/index.php?page=tags&s=list"""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
@@ -92,11 +93,10 @@ def rule34(bot, trigger):
             return
 
         try:
-            r34 = rule34Py()
-            results = r34.search([search_term], 100)
-            image_link = random.choice(results[1:])["img_file_url"]
-            bot.say(image_link)
-        except IndexError:
+            posts = r34.getImages(tags=search_term)
+            images = [(post.file_url) for post in posts]
+            bot.say(random.choice(images))
+        except TypeError:
             bot.reply("No results. Try refining your tags.")
     else:
         bot.reply("This command is only usable in the #nsfw channel.")
