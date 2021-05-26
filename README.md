@@ -20,6 +20,9 @@ Custom commands for [Action Sack](https://actionsack.com)'s Sopel bot. Many of t
 ## [dadjokes.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/dadjokes.py)
 Uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to post dad jokes.
 
+## [gambling.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/gambling.py)
+Allows users to make and gamble away virtual currency.
+
 ## [img.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/img.py)
 Image searching with [DuckDuckGo Instant Answers API](https://duckduckgo.com/api) and [Google CSE](https://programmablesearchengine.google.com/about/).
 
