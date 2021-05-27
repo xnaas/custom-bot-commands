@@ -108,7 +108,7 @@ def gamble_betflip(bot, trigger):
 
     # Check if user has actually bet (H)eads or (T)ails.
     user_choice = trigger.group(4)
-    if user_choice in ["h", "t"]:
+    if user_choice in ["h", "t", "heads", "tails"]:
 
         heads_or_tails = ["heads", "tails"]
 
