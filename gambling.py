@@ -8,10 +8,10 @@ import time
 @module.commands("award")
 def award_money(bot, trigger):
     """Bot admin uses the power of Admin Abuse to spawn money from nothing."""
-    winner = trigger.group(3)
+    winner = trigger.group(4)
 
     try:
-        amount = int(trigger.group(4).replace(",", "").replace("$", ""))
+        amount = int(trigger.group(3).replace(",", "").replace("$", ""))
     except TypeError:
         bot.reply("I need an amount of money to award.")
         return
@@ -29,10 +29,40 @@ def award_money(bot, trigger):
         bot.reply("Please provide a valid user.")
         return
 
-    currency_amount = bot.db.get_nick_value(
-        winner, "currency_amount", 0) + amount
-    bot.db.set_nick_value(winner, "currency_amount", currency_amount)
-    bot.say("{} has ${:,}".format(winner, currency_amount))
+    award_amount = bot.db.get_nick_value(winner, "currency_amount", 0) + amount
+    bot.db.set_nick_value(winner, "currency_amount", award_amount)
+    bot.say("{} has ${:,}".format(winner, award_amount))
+
+
+@module.require_admin
+@module.require_chanmsg
+@module.commands("take")
+def take_money(bot, trigger):
+    """Bot admin takes (deletes) X amount of money from a user."""
+    loser = trigger.group(4)
+
+    try:
+        amount = int(trigger.group(3).replace(",", "").replace("$", ""))
+    except TypeError:
+        bot.reply("I need an amount of money to take.")
+        return
+    except ValueError:
+        bot.reply("That's not a number...")
+        return
+
+    if not (loser and amount):
+        bot.reply("I need a target and an amount.")
+        return
+
+    loser = tools.Identifier(loser)
+
+    if loser not in bot.channels[trigger.sender].privileges:
+        bot.reply("Please provide a valid user.")
+        return
+
+    take_amount = bot.db.get_nick_value(loser, "currency_amount", 0) - amount
+    bot.db.set_nick_value(loser, "currency_amount", take_amount)
+    bot.say("{} has ${:,}".format(loser, take_amount))
 
 
 @module.require_admin
