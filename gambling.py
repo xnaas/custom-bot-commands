@@ -25,8 +25,8 @@ def award_money(bot, trigger):
         bot.reply("I need an amount and a target.")
         return
 
+    # Check for valid target to award money to.
     winner = tools.Identifier(winner)
-
     if winner not in bot.channels[trigger.sender].privileges:
         bot.reply("Please provide a valid user.")
         return
@@ -58,8 +58,8 @@ def take_money(bot, trigger):
         bot.reply("I need an amount and a target.")
         return
 
+    # Check for valid target to take money from.
     loser = tools.Identifier(loser)
-
     if loser not in bot.channels[trigger.sender].privileges:
         bot.reply("Please provide a valid user.")
         return
@@ -100,9 +100,6 @@ def give_money(bot, trigger):
     if amount > give_check:
         bot.reply(
             "You don't have that much money to give away. Try a smaller amount.")
-        return
-    if give_check == 0:
-        bot.reply("Trying to give away nothing...what a cheap bastard! 😞")
         return
 
     # Check for valid target to give money to.
@@ -179,6 +176,9 @@ def gamble_betflip(bot, trigger):
     # Check that user has actually gambled some amount of money.
     try:
         bet = int(trigger.group(3).replace(",", "").replace("$", ""))
+    except AttributeError:
+        bot.reply("I need an amount of money to bet and (h)eads or (t)ails.")
+        return
     except TypeError:
         bot.reply("I need an amount of money to bet.")
         return
@@ -196,7 +196,7 @@ def gamble_betflip(bot, trigger):
         bot.reply(
             "You don't have enough money to make this bet. Try a smaller bet.")
         return
-    if bet_check == 0:
+    if bet == 0:
         bot.reply("You can't bet nothing!")
         return
 
