@@ -8,10 +8,12 @@ import time
 @module.commands("award")
 def award_money(bot, trigger):
     """Bot admin uses the power of Admin Abuse to spawn money from nothing."""
-    winner = trigger.group(4)
-
     try:
         amount = int(trigger.group(3).replace(",", "").replace("$", ""))
+        winner = trigger.group(4)
+    except AttributeError:
+        bot.reply("I need an amount and a target.")
+        return
     except TypeError:
         bot.reply("I need an amount of money to award.")
         return
@@ -20,7 +22,7 @@ def award_money(bot, trigger):
         return
 
     if not (winner and amount):
-        bot.reply("I need a target and an amount.")
+        bot.reply("I need an amount and a target.")
         return
 
     winner = tools.Identifier(winner)
@@ -39,10 +41,12 @@ def award_money(bot, trigger):
 @module.commands("take")
 def take_money(bot, trigger):
     """Bot admin takes (deletes) X amount of money from a user."""
-    loser = trigger.group(4)
-
     try:
         amount = int(trigger.group(3).replace(",", "").replace("$", ""))
+        loser = trigger.group(4)
+    except AttributeError:
+        bot.reply("I need an amount and a target.")
+        return
     except TypeError:
         bot.reply("I need an amount of money to take.")
         return
@@ -51,7 +55,7 @@ def take_money(bot, trigger):
         return
 
     if not (loser and amount):
-        bot.reply("I need a target and an amount.")
+        bot.reply("I need an amount and a target.")
         return
 
     loser = tools.Identifier(loser)
@@ -70,10 +74,12 @@ def take_money(bot, trigger):
 def give_money(bot, trigger):
     """Give X amount of your money to another user."""
     giver = trigger.nick
-    target = trigger.group(4)
-
     try:
         amount = int(trigger.group(3).replace(",", "").replace("$", ""))
+        target = trigger.group(4)
+    except AttributeError:
+        bot.reply("I need an amount and a target.")
+        return
     except TypeError:
         bot.reply("I need an amount of money to give.")
         return
@@ -82,7 +88,7 @@ def give_money(bot, trigger):
         return
 
     if not (target and amount):
-        bot.reply("I need a target and an amount.")
+        bot.reply("I need an amount and a target.")
         return
 
     # Check if user has enough money to give away...
