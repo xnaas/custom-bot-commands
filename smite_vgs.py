@@ -6,6 +6,7 @@ from sopel import module, formatting
 import random
 import unicodedata
 
+
 # <VA – Attack>
 @module.rule("^VAA$")
 def vgs_vaa(bot, trigger):

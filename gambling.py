@@ -11,7 +11,7 @@ def award_money(bot, trigger):
     winner = trigger.group(3)
 
     try:
-        amount = int(trigger.group(4))
+        amount = int(trigger.group(4).replace(",", "").replace("$", ""))
     except TypeError:
         bot.reply("I need an amount of money to award.")
         return
@@ -32,7 +32,7 @@ def award_money(bot, trigger):
     currency_amount = bot.db.get_nick_value(
         winner, "currency_amount", 0) + amount
     bot.db.set_nick_value(winner, "currency_amount", currency_amount)
-    bot.say("{} has ${}".format(winner, currency_amount))
+    bot.say("{} has ${:,}".format(winner, currency_amount))
 
 
 @module.require_admin
@@ -60,7 +60,7 @@ def check_money(bot, trigger):
 
     currency_amount = bot.db.get_nick_value(target, "currency_amount")
     if currency_amount is not None:
-        bot.say("{} has ${}".format(target, currency_amount))
+        bot.say("{} has ${:,}".format(target, currency_amount))
     else:
         bot.say(
             "{} has never participated in the currency plugin.".format(target))
@@ -81,10 +81,10 @@ def init_money(bot, trigger):
 @module.example(".bf 10 h")
 def gamble_betflip(bot, trigger):
     """Wager X amount of money on (h)eads or (t)ails. Winning will net you double your bet."""
+    gambler = trigger.nick
     # Check that user has actually gambled some amount of money.
     try:
-        bet = int(trigger.group(3))
-        gambler = trigger.nick
+        bet = int(trigger.group(3).replace(",", "").replace("$", ""))
     except TypeError:
         bot.reply("I need an amount of money to bet.")
         return
@@ -129,7 +129,7 @@ def gamble_betflip(bot, trigger):
             bot.db.set_nick_value(
                 gambler, "currency_amount", new_balance)
             bot.reply(
-                "Congrats; the coin landed on {}. You won ${}! Your new balance is ${}.".format(
+                "Congrats; the coin landed on {}. You won ${:,}! Your new balance is ${:,}.".format(
                     flip_result, winnings, new_balance))
             return
         else:
@@ -137,7 +137,7 @@ def gamble_betflip(bot, trigger):
             bot.db.set_nick_value(
                 gambler, "currency_amount", new_balance)
             bot.reply(
-                "Sorry, the coin landed on {}. You lost ${}. Your new balance is ${}.".format(
+                "Sorry, the coin landed on {}. You lost ${:,}. Your new balance is ${:,}.".format(
                     flip_result, bet, new_balance))
             return
     else:
