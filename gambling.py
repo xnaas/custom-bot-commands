@@ -295,17 +295,32 @@ def gamble_wheel(bot, trigger):
     new_balance = spend_on_bet + winnings
     bot.db.set_nick_value(gambler, "currency_amount", new_balance)
     # Stress out the user with delay 😉
-    bot.action("spins the wheel...{0}{0}{0}".format(random.choice(wheel_direction)))
+    bot.action(
+        "spins the wheel...{0}{0}{0}".format(
+            random.choice(wheel_direction)))
     time.sleep(4)
     bot.say(formatting.italic("The wheel slows to a stop..."))
     time.sleep(2)
 
     # Conditionals
     if multiplier == 0:
-        bot.say("The arrow is facing [{}]. {}x multiplier. You lost. New balance: ${}.".format(wheel_result, multiplier, new_balance))
+        bot.say(
+            "The arrow is facing [{}]. {}x multiplier. You lost. New balance: ${}.".format(
+                wheel_result,
+                multiplier,
+                new_balance))
         return
     elif multiplier == 1:
-        bot.say("The arrow is facing [{}]. {}x multiplier. Same balance: ${}.".format(wheel_result, multiplier, bet_check))
+        bot.say(
+            "The arrow is facing [{}]. {}x multiplier. Same balance: ${}.".format(
+                wheel_result,
+                multiplier,
+                bet_check))
         return
     else:
-        bot.say("The arrow is facing [{}]. You won: {}x your money! (${}). Your new balance is: ${}.".format(wheel_result, multiplier, winnings, new_balance))
+        bot.say(
+            "The arrow is facing [{}]. You won: {}x your money! (${}). Your new balance is: ${}.".format(
+                wheel_result,
+                multiplier,
+                winnings,
+                new_balance))
