@@ -102,6 +102,9 @@ def gamble_betflip(bot, trigger):
         bot.reply(
             "You don't have enough money to make this bet. Try a smaller bet.")
         return
+    if bet_check == 0:
+        bot.reply("You can't bet nothing!")
+        return
 
     # Check if user has actually bet (H)eads or (T)ails.
     user_choice = trigger.group(4)
