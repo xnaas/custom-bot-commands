@@ -65,6 +65,64 @@ def take_money(bot, trigger):
     bot.say("{} has ${:,}".format(loser, take_amount))
 
 
+@module.require_chanmsg
+@module.commands("give")
+def give_money(bot, trigger):
+    """Give X amount of your money to another user."""
+    giver = trigger.nick
+    target = trigger.group(4)
+
+    try:
+        amount = int(trigger.group(3).replace(",", "").replace("$", ""))
+    except TypeError:
+        bot.reply("I need an amount of money to give.")
+        return
+    except ValueError:
+        bot.reply("That's not a number...")
+        return
+
+    if not (target and amount):
+        bot.reply("I need a target and an amount.")
+        return
+
+    # Check if user has enough money to give away...
+    give_check = bot.db.get_nick_value(giver, "currency_amount")
+    if give_check is None:
+        bot.reply(
+            "You don't have any money to give away. Please run the `.iwantmoney` command.")
+        return
+    if amount > give_check:
+        bot.reply(
+            "You don't have that much money to give away. Try a smaller amount.")
+        return
+    if give_check == 0:
+        bot.reply("Trying to give away nothing...what a cheap bastard! 😞")
+        return
+
+    # Check for valid target to give money to.
+    target = tools.Identifier(target)
+    if target not in bot.channels[trigger.sender].privileges:
+        bot.reply("Please provide a valid user.")
+        return
+
+    give_amount = bot.db.get_nick_value(giver, "currency_amount", 0) - amount
+    receive_amount = bot.db.get_nick_value(
+        target, "currency_amount", 0) + amount
+    # Take away the money from the giver.
+    bot.db.set_nick_value(giver, "currency_amount", give_amount)
+    # Give the money to the target/reciever.
+    bot.db.set_nick_value(target, "currency_amount", receive_amount)
+    bot.say(
+        "Whoa! {} is such a wonderful person, they've gifted ${:,} to {}. {} now has ${:,} and {} has ${:,}.".format(
+            giver,
+            amount,
+            target,
+            giver,
+            give_amount,
+            target,
+            receive_amount))
+
+
 @module.require_admin
 @module.commands("nomoremoney")
 def delete_money(bot, trigger):
