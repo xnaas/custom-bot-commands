@@ -236,3 +236,76 @@ def gamble_betflip(bot, trigger):
             return
     else:
         bot.reply("I need you to bet on (h)eads or (t)ails.")
+
+
+@module.commands("wheeloffortune", "wheel")
+@module.example(".wheel 100")
+@module.rate(user=60)
+def gamble_wheel(bot, trigger):
+    """Spin the Wheel of Fortune!"""
+    gambler = trigger.nick
+    # Check that user has actually gambled some amount of money.
+    try:
+        bet = int(trigger.group(3).replace(",", "").replace("$", ""))
+    except AttributeError:
+        bot.reply("I need an amount of money to bet.")
+        return module.NOLIMIT
+    except TypeError:
+        bot.reply("I need an amount of money to bet.")
+        return module.NOLIMIT
+    except ValueError:
+        bot.reply("That's not a number...")
+        return module.NOLIMIT
+
+    # Check if user has enough money to make the gamble...
+    bet_check = bot.db.get_nick_value(gambler, "currency_amount")
+    if bet_check is None:
+        bot.reply(
+            "You can't gamble yet! Please run the `.iwantmoney` command.")
+        return module.NOLIMIT
+    if bet > bet_check:
+        bot.reply(
+            "You don't have enough money to make this bet. Try a smaller bet.")
+        return module.NOLIMIT
+    if bet == 0:
+        bot.reply("You can't bet nothing!")
+        return module.NOLIMIT
+
+    # Take the user's money before continuing
+    spend_on_bet = bet_check - bet
+    bot.db.set_nick_value(gambler, "currency_amount", spend_on_bet)
+
+    # Configure Wheel Spin Directions
+    wheel_direction = ["֎", "֍"]
+    pointer_direction = {
+        "←": 2,
+        "↖": 1,
+        "↑": 0,
+        "↗": 7,
+        "→": 6,
+        "↘": 5,
+        "↓": 4,
+        "↙": 3
+    }
+
+    # Get the result first
+    wheel_result = random.choice(list(pointer_direction))
+    multiplier = pointer_direction[wheel_result]
+    winnings = bet * multiplier
+    new_balance = spend_on_bet + winnings
+    bot.db.set_nick_value(gambler, "currency_amount", new_balance)
+    # Stress out the user with delay 😉
+    bot.action("spins the wheel...{0}{0}{0}".format(random.choice(wheel_direction)))
+    time.sleep(4)
+    bot.say(formatting.italic("The wheel slows to a stop..."))
+    time.sleep(2)
+
+    # Conditionals
+    if multiplier == 0:
+        bot.say("The arrow is facing [{}]. {}x multiplier. You lost. New balance: ${}.".format(wheel_result, multiplier, new_balance))
+        return
+    elif multiplier == 1:
+        bot.say("The arrow is facing [{}]. {}x multiplier. Same balance: ${}.".format(wheel_result, multiplier, bet_check))
+        return
+    else:
+        bot.say("The arrow is facing [{}]. You won: {}x your money! (${}). Your new balance is: ${}.".format(wheel_result, multiplier, winnings, new_balance))
