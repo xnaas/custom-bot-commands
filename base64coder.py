@@ -1,4 +1,3 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module
 import base64
 
@@ -29,5 +28,5 @@ def base64_decode(bot, trigger):
         decodedBytes = base64.b64decode(trigger.group(2).encode("utf-8"))
         decodedStr = str(decodedBytes, "utf-8")
         bot.say(decodedStr)
-    except BaseException:
+    except:
         bot.reply("I need real base64, fool.")

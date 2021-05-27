@@ -1,4 +1,3 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module
 import re
 import requests
@@ -18,5 +17,5 @@ def isbn(bot, trigger):
     try:
         book = requests.get(url).url
         bot.say(book)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")

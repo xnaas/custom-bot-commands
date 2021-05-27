@@ -1,4 +1,3 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module
 import requests
 
@@ -10,7 +9,7 @@ def cats(bot, trigger):
     try:
         cat_image = requests.get(url).json()['file']
         bot.say(cat_image)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -25,7 +24,7 @@ def catfact(bot, trigger):
     try:
         cat_fact = requests.get(url, params=params).json()['text']
         bot.say(cat_fact)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -37,7 +36,7 @@ def catgif(bot, trigger):
     try:
         cat_gif = requests.get(url, params=params).json()[0]['url']
         bot.say(cat_gif)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -48,7 +47,7 @@ def dogs(bot, trigger):
     try:
         dog_image = requests.get(url).json()['message']
         bot.say(dog_image)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -60,7 +59,7 @@ def dogfact(bot, trigger):
     try:
         dog_fact = requests.get(url, params=params).json()[0]['fact']
         bot.say(dog_fact)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -76,7 +75,7 @@ def shibe(bot, trigger):
     try:
         shibe_image = requests.get(url, params=params).json()[0]
         bot.say(shibe_image)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -92,7 +91,7 @@ def birbs(bot, trigger):
     try:
         birb_image = requests.get(url, params=params).json()[0]
         bot.say(birb_image)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -103,5 +102,5 @@ def fox(bot, trigger):
     try:
         fox_image = requests.get(url).json()['image']
         bot.say(fox_image)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")

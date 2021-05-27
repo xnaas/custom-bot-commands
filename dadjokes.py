@@ -1,4 +1,3 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module
 import requests
 
@@ -11,5 +10,5 @@ def dadjoke(bot, trigger):
     try:
         dad_joke = requests.get(url, headers=headers).json()['joke']
         bot.say(dad_joke)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")

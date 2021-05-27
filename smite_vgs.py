@@ -2,7 +2,6 @@
 # \x0311 – Start Light Cyan
 # \u200B – ZWSP
 # \x0315 – Start Light Grey
-from __future__ import absolute_import, division, print_function, unicode_literals
 from sopel import module, formatting
 import random
 import unicodedata

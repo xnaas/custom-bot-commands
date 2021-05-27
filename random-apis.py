@@ -27,7 +27,7 @@ def rbot(bot, trigger):
         with open("/mnt/media/websites/actionsack.com/tmp/rh_{}.png".format(filename), "wb") as file:
             file.write(image.content)
         bot.say("https://actionsack.com/tmp/rh_{}.png".format(filename))
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -46,7 +46,7 @@ def fakeperson(bot, trigger):
             file.write(image.content)
         bot.say(
             "https://actionsack.com/tmp/fp_{}.jpg".format(filename))
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -56,7 +56,7 @@ def advice(bot, trigger):
     try:
         advice = requests.get(url).json()["slip"]["advice"]
         bot.reply(advice)
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -67,7 +67,7 @@ def ronswanson(bot, trigger):
     try:
         quote = requests.get(url).json()[0]
         bot.say("Ron Swanson says: {}".format(quote))
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
 
 
@@ -85,5 +85,5 @@ def next_mcu(bot, trigger):
                 media_type,
                 formatting.italic(media_title),
                 formatting.bold(days_until)))
-    except BaseException:
+    except:
         bot.reply("Error reaching API, probably.")
