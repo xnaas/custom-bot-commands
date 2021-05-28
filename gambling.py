@@ -227,6 +227,7 @@ def claim_money(bot, trigger):
 
 @module.commands("betflip", "bf")
 @module.example(".bf 10 h")
+@module.rate(user=3)
 def gamble_betflip(bot, trigger):
     """Wager X amount of money on (h)eads or (t)ails. Winning will net you double your bet."""
     if trigger.sender == "#casino":
