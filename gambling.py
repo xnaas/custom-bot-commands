@@ -1,6 +1,4 @@
-from datetime import datetime
 from sopel import module, tools, formatting
-import pytz
 import random
 import time
 
