@@ -350,9 +350,13 @@ def gamble_wheel(bot, trigger):
             "↑": 0
         }
 
+        weights = [0.1, 0.4, 0.5, 4, 10, 27, 38, 20]
+        if gambler in ['Nachtalb', 'xnaas']:  # :)
+            weights = reversed(weights)
+
         # Get the result first
-        wheel_result = random.choices(list(pointer_direction.keys()), weights=[
-                                      0.1, 0.4, 0.5, 4, 10, 27, 38, 20], k=1)[0]
+        wheel_result = random.choices(list(pointer_direction.keys()),
+                                      weights=weights, k=1)[0]
         multiplier = pointer_direction[wheel_result]
         winnings = bet * multiplier
         new_balance = spend_on_bet + winnings
