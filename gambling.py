@@ -278,18 +278,19 @@ def gamble_wheel(bot, trigger):
     # Configure Wheel Spin Directions
     wheel_direction = ["֎", "֍"]
     pointer_direction = {
-        "←": 2,
-        "↖": 1,
-        "↑": 0,
         "↗": 7,
         "→": 6,
         "↘": 5,
         "↓": 4,
-        "↙": 3
+        "↙": 3,
+        "←": 2,
+        "↖": 1,
+        "↑": 0
     }
 
     # Get the result first
-    wheel_result = random.choice(list(pointer_direction))
+    wheel_result = random.choices(list(pointer_direction.keys()), cum_weights=[
+                                  0.1, 0.4, 0.5, 5, 14, 15, 28, 37], k=1)[0]
     multiplier = pointer_direction[wheel_result]
     winnings = bet * multiplier
     new_balance = spend_on_bet + winnings
