@@ -227,7 +227,7 @@ def claim_money(bot, trigger):
 
 @module.commands("betflip", "bf")
 @module.example(".bf 10 h")
-@module.rate(user=3)
+@module.rate(user=2)
 def gamble_betflip(bot, trigger):
     """Wager X amount of money on (h)eads or (t)ails. Winning will net you double your bet."""
     if trigger.sender == "#casino":
@@ -301,7 +301,7 @@ def gamble_betflip(bot, trigger):
 
 @module.commands("wheeloffortune", "wheel")
 @module.example(".wheel 100")
-@module.rate(user=30)
+@module.rate(user=15)
 def gamble_wheel(bot, trigger):
     """Spin the Wheel of Fortune!"""
     if trigger.sender == "#casino":
@@ -367,17 +367,17 @@ def gamble_wheel(bot, trigger):
 
         # Conditionals
         if multiplier == 0:
-            bot.say(
+            bot.reply(
                 "The arrow is facing [{}]. {}x multiplier. You lost. New balance: ${:,}.".format(
                     wheel_result, multiplier, new_balance))
             return
         elif multiplier == 1:
-            bot.say(
+            bot.reply(
                 "The arrow is facing [{}]. {}x multiplier. Same balance: ${:,}.".format(
                     wheel_result, multiplier, bet_check))
             return
         else:
-            bot.say(
+            bot.reply(
                 "The arrow is facing [{}]. You won: {}x your money! (${:,}). Your new balance is: ${:,}.".format(
                     wheel_result,
                     multiplier,
