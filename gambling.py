@@ -352,7 +352,7 @@ def gamble_wheel(bot, trigger):
 
         # Get the result first
         wheel_result = random.choices(list(pointer_direction.keys()), weights=[
-                                      0.1, 0.4, 0.5, 4, 10, 25, 30, 30], k=1)[0]
+                                      0.1, 0.4, 0.5, 1, 3, 25, 30, 40], k=1)[0]
         multiplier = pointer_direction[wheel_result]
         winnings = bet * multiplier
         new_balance = spend_on_bet + winnings
