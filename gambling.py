@@ -1,11 +1,11 @@
-from sopel import module, tools, formatting
+from sopel import plugin, tools, formatting
 import random
 import time
 
 
-@module.require_admin
-@module.require_chanmsg
-@module.commands("award")
+@plugin.require_admin
+@plugin.require_chanmsg
+@plugin.command("award")
 def award_money(bot, trigger):
     """Bot admin uses the power of Admin Abuse to spawn money from nothing."""
     if trigger.sender == "#casino":
@@ -40,9 +40,9 @@ def award_money(bot, trigger):
         bot.reply("This command can only be used in #casino")
 
 
-@module.require_admin
-@module.require_chanmsg
-@module.commands("take")
+@plugin.require_admin
+@plugin.require_chanmsg
+@plugin.command("take")
 def take_money(bot, trigger):
     """Bot admin takes (deletes) X amount of money from a user."""
     if trigger.sender == "#casino":
@@ -77,8 +77,8 @@ def take_money(bot, trigger):
         bot.reply("This command can only be used in #casino")
 
 
-@module.require_chanmsg
-@module.commands("give")
+@plugin.require_chanmsg
+@plugin.command("give")
 def give_money(bot, trigger):
     """Give X amount of your money to another user."""
     if trigger.sender == "#casino":
@@ -138,8 +138,8 @@ def give_money(bot, trigger):
         bot.reply("This command can only be used in #casino")
 
 
-@module.require_admin
-@module.commands("nomoremoney")
+@plugin.require_admin
+@plugin.command("nomoremoney")
 def delete_money(bot, trigger):
     """Bot admin can make it so a user never had any money."""
     target = trigger.group(3)
@@ -152,8 +152,8 @@ def delete_money(bot, trigger):
     bot.say("{}'s wealth has been deleted from existence.".format(target))
 
 
-@module.require_chanmsg
-@module.commands(r"\$")
+@plugin.require_chanmsg
+@plugin.command(r"\$")
 def check_money(bot, trigger):
     """Check how much money you or another user has."""
     if trigger.sender == "#casino":
@@ -173,8 +173,8 @@ def check_money(bot, trigger):
         bot.reply("This command can only be used in #casino")
 
 
-@module.require_chanmsg
-@module.commands("iwantmoney")
+@plugin.require_chanmsg
+@plugin.command("iwantmoney")
 def init_money(bot, trigger):
     """Use this command to get money for the first time ever and participate in gambling and other fun activities!"""
     if trigger.sender == "#casino":
@@ -188,8 +188,8 @@ def init_money(bot, trigger):
         bot.reply("This command can only be used in #casino")
 
 
-@module.require_chanmsg  # Forcing public claiming serves as a reminder to all.
-@module.commands("timely")
+@plugin.require_chanmsg  # Forcing public claiming serves as a reminder to all.
+@plugin.command("timely")
 def claim_money(bot, trigger):
     """Claim $150 every 24 hours. ($250 for first claim!)"""
     if trigger.sender == "#casino":
@@ -225,9 +225,9 @@ def claim_money(bot, trigger):
         bot.reply("This command can only be used in #casino")
 
 
-@module.commands("betflip", "bf")
-@module.example(".bf 10 h")
-@module.rate(user=2)
+@plugin.command("betflip", "bf")
+@plugin.example(".bf 10 h")
+@plugin.rate(user=2)
 def gamble_betflip(bot, trigger):
     """Wager X amount of money on (h)eads or (t)ails. Winning will net you double your bet."""
     if trigger.sender == "#casino":
@@ -299,9 +299,9 @@ def gamble_betflip(bot, trigger):
         bot.reply("This command can only be used in #casino")
 
 
-@module.commands("wheeloffortune", "wheel")
-@module.example(".wheel 100")
-@module.rate(user=15)
+@plugin.command("wheeloffortune", "wheel")
+@plugin.example(".wheel 100")
+@plugin.rate(user=15)
 def gamble_wheel(bot, trigger):
     """Spin the Wheel of Fortune!"""
     if trigger.sender == "#casino":
@@ -352,7 +352,7 @@ def gamble_wheel(bot, trigger):
 
         # Get the result first
         wheel_result = random.choices(list(pointer_direction.keys()), weights=[
-                                      0.1, 0.4, 0.5, 4, 10, 27, 38, 20], k=1)[0]
+                                      0.1, 0.4, 0.5, 4, 10, 25, 30, 30], k=1)[0]
         multiplier = pointer_direction[wheel_result]
         winnings = bet * multiplier
         new_balance = spend_on_bet + winnings
