@@ -1,6 +1,21 @@
 from sopel import module, tools, formatting
 import random
+import re
 import time
+
+
+def parse_money(number):
+    number = number.replace(',', '').replace('$', '')
+    if number.isdigit():
+        return int(number)
+
+    try:
+        match = re.match('([\d.]+)([kmbt])', number)
+        calc = {'k': 1e3, 'm': 1e6, 'b': 1e9, 't': 1e12}
+        num, size = match.groups()
+        return int(float(num) * calc[size])
+    except:
+        raise ValueError
 
 
 @module.require_admin
@@ -10,7 +25,7 @@ def award_money(bot, trigger):
     """Bot admin uses the power of Admin Abuse to spawn money from nothing."""
     if trigger.sender == "#casino":
         try:
-            amount = int(trigger.group(3).replace(",", "").replace("$", ""))
+            amount = parse_money(trigger.group(3))
             winner = trigger.group(4)
         except AttributeError:
             bot.reply("I need an amount and a target.")
@@ -47,7 +62,7 @@ def take_money(bot, trigger):
     """Bot admin takes (deletes) X amount of money from a user."""
     if trigger.sender == "#casino":
         try:
-            amount = int(trigger.group(3).replace(",", "").replace("$", ""))
+            amount = parse_money(trigger.group(3))
             loser = trigger.group(4)
         except AttributeError:
             bot.reply("I need an amount and a target.")
@@ -84,7 +99,7 @@ def give_money(bot, trigger):
     if trigger.sender == "#casino":
         giver = trigger.nick
         try:
-            amount = int(trigger.group(3).replace(",", "").replace("$", ""))
+            amount = parse_money(trigger.group(3))
             target = trigger.group(4)
         except AttributeError:
             bot.reply("I need an amount and a target.")
@@ -234,7 +249,7 @@ def gamble_betflip(bot, trigger):
         gambler = trigger.nick
         # Check that user has actually gambled some amount of money.
         try:
-            bet = int(trigger.group(3).replace(",", "").replace("$", ""))
+            bet = parse_money(trigger.group(3))
         except AttributeError:
             bot.reply("I need an amount of money to bet and (h)eads or (t)ails.")
             return
@@ -308,7 +323,7 @@ def gamble_wheel(bot, trigger):
         gambler = trigger.nick
         # Check that user has actually gambled some amount of money.
         try:
-            bet = int(trigger.group(3).replace(",", "").replace("$", ""))
+            bet = parse_money(trigger.group(3))
         except AttributeError:
             bot.reply("I need an amount of money to bet.")
             return module.NOLIMIT
