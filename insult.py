@@ -1,10 +1,10 @@
-from sopel import module, tools
+from sopel import plugin, tools
 import requests
 import html
 
 
-@module.commands("insult")
-@module.require_chanmsg
+@plugin.command("insult")
+@plugin.require_chanmsg
 def insult(bot, trigger):
     """Insults another user."""
     url = "https://evilinsult.com/generate_insult.php"
