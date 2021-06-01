@@ -1,4 +1,5 @@
 from sopel import plugin, tools, formatting
+from datetime import datetime, timedelta
 import random
 import time
 
@@ -220,7 +221,10 @@ def claim_money(bot, trigger):
                 "New balance: ${:,}. Don't forget to claim again in 24 hours!".format(claim))
             return
         else:
-            bot.reply("It hasn't been 24 hours yet, greedy!")
+            to_24_hours = 86400 - check_24_hours
+            time_remaining = str(timedelta(seconds=round(to_24_hours)))
+            bot.reply(
+                "{} until you can claim again, greedy!".format(time_remaining))
     else:
         bot.reply("This command can only be used in #casino")
 
