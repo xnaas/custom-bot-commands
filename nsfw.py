@@ -1,4 +1,4 @@
-from sopel import module
+from sopel import plugin
 import random
 import requests
 import rule34
@@ -9,7 +9,7 @@ headers = {
 }
 
 
-@module.commands("ass", "butt", "booty")
+@plugin.commands("ass", "butt", "booty")
 def ass_api(bot, trigger):
     """Posts a random ass pic. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
@@ -24,7 +24,7 @@ def ass_api(bot, trigger):
         bot.reply("This command is only usable in the #nsfw channel.")
 
 
-@module.commands("boobs", "tits")
+@plugin.commands("boobs", "tits", "titties")
 def boobs_api(bot, trigger):
     """Posts a random boobs pic. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
@@ -39,7 +39,7 @@ def boobs_api(bot, trigger):
         bot.reply("This command is only usable in the #nsfw channel.")
 
 
-@module.commands("rboobs")
+@plugin.command("rboobs")
 def reddit_boobs(bot, trigger):
     """Posts a random boob pic from Reddit. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
@@ -59,7 +59,7 @@ def reddit_boobs(bot, trigger):
         bot.reply("This command is only usable in the #nsfw channel.")
 
 
-@module.commands("rass")
+@plugin.command("rass")
 def reddit_ass(bot, trigger):
     """Posts a random ass pic from Reddit. #nsfw only."""
     if trigger.is_privmsg or trigger.sender == "#nsfw":
@@ -80,8 +80,8 @@ def reddit_ass(bot, trigger):
 
 
 r34 = rule34.Sync()
-@module.commands("rule34", "r34")
-@module.example(".rule34 rimuru_tempest")
+@plugin.commands("rule34", "r34")
+@plugin.example(".rule34 rimuru_tempest")
 def rule34_cmd(bot, trigger):
     """Search rule34.xxx by tags. You can type multiple words to chain together tags.
     Full Tag List: rule34.xxx/index.php?page=tags&s=list"""
@@ -93,7 +93,7 @@ def rule34_cmd(bot, trigger):
             return
 
         try:
-            posts = r34.getImages(tags=search_term)
+            posts = r34.getImages(tags=search_term, randomPID=True)
             images = [(post.file_url) for post in posts]
             bot.say(random.choice(images))
         except TypeError:
