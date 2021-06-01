@@ -1,9 +1,9 @@
-from sopel import module
+from sopel import plugin
 import base64
 
 
-@module.commands("b64e")
-@module.example(".b64e I love you.")
+@plugin.command("b64e")
+@plugin.example(".b64e I love you.")
 def base64_encode(bot, trigger):
     """Encodes a message into base64."""
     if not trigger.group(2):
@@ -16,8 +16,8 @@ def base64_encode(bot, trigger):
     bot.say(encodedStr)
 
 
-@module.commands("b64d")
-@module.example(".b64d V293ISBNdWNoIHNlY3JldC4=")
+@plugin.command("b64d")
+@plugin.example(".b64d V293ISBNdWNoIHNlY3JldC4=")
 def base64_decode(bot, trigger):
     """Decodes a base64 string."""
     if not trigger.group(2):
