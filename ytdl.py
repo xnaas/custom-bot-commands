@@ -1,4 +1,4 @@
-from sopel import module, tools
+from sopel import plugin, tools
 import os
 import re
 import youtube_dl
@@ -13,7 +13,7 @@ ytdl_opts = {
 }
 
 
-@module.commands("ytdl")
+@plugin.command("ytdl")
 def ytdl(bot, trigger):
     """Uses youtube-dl to download a video and post it to chat."""
     url = trigger.group(3)
