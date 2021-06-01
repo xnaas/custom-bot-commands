@@ -3,7 +3,7 @@ import random
 import requests
 import rule34
 
-headers = {
+reddit_headers = {
     "User-Agent": "python/requests",
     "Content-Type": "application/json"
 }
@@ -52,7 +52,7 @@ def reddit_boobs(bot, trigger):
             "t": "day",
             "type": "link",
             "limit": "100"}
-        rboobs_img = requests.get(url, params=params, headers=headers).json()[
+        rboobs_img = requests.get(url, params=params, headers=reddit_headers).json()[
             "data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rboobs_img)
     else:
@@ -72,7 +72,7 @@ def reddit_ass(bot, trigger):
             "t": "day",
             "type": "link",
             "limit": "100"}
-        rass_img = requests.get(url, params=params, headers=headers).json()[
+        rass_img = requests.get(url, params=params, headers=reddit_headers).json()[
             "data"]["children"][random.randrange(100)]["data"]["url"]
         bot.say(rass_img)
     else:
@@ -80,6 +80,8 @@ def reddit_ass(bot, trigger):
 
 
 r34 = rule34.Sync()
+
+
 @plugin.commands("rule34", "r34")
 @plugin.example(".rule34 rimuru_tempest")
 def rule34_cmd(bot, trigger):
