@@ -1,26 +1,20 @@
-from sopel import module, formatting
+from sopel import plugin, formatting
 import random
 
-# Remove when dropping support for Sopel < 7.1
-if hasattr(formatting, 'plain'):
-    clean = formatting.plain
-else:
-    def clean(t): return t
 
-
-@module.commands('8', '8ball')
-@module.example('.8 Am I gay?')
+@plugin.commands('8', '8ball')
+@plugin.example('.8 Am I gay?')
 def eightball(bot, trigger):
     """The magic 8ball knows all."""
-    text = clean(trigger.group(2) or '')
+    question = trigger.group(2)
 
-    if not text:
+    if not question:
         try:
             msg = "I need something to foretell!"
         except KeyError:
             msg = "How did you do that?!"
         bot.reply(msg)
-        return module.NOLIMIT
+        return
 
     messages = [
         # Positive Replies (10)
@@ -47,4 +41,4 @@ def eightball(bot, trigger):
         "Outlook not so good.",
         "Very doubtful."
     ]
-    bot.say(random.choice(messages))
+    bot.reply(random.choice(messages))
