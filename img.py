@@ -1,4 +1,4 @@
-from sopel import module, config
+from sopel import plugin, config
 from sopel.config.types import StaticSection, ValidatedAttribute
 import json
 import random
@@ -20,8 +20,8 @@ def configure(config):
     config.googlecse.configure_setting("engine_id", "search engine id")
 
 
-@module.commands("img")
-@module.example(".img catgirl")
+@plugin.command("img")
+@plugin.example(".img catgirl")
 def img_search(bot, trigger):
     """Uses DuckDuckGo Instant Answers API to query for an image.
     If that fails, fallsback to Google CSE."""
@@ -70,8 +70,8 @@ def img_search(bot, trigger):
         bot.reply("No results.")
 
 
-@module.commands("rimg")
-@module.example(".rimg catgirl")
+@plugin.command("rimg")
+@plugin.example(".rimg catgirl")
 def rimg_search(bot, trigger):
     """Does a random image search using a Google CSE."""
     search_term = trigger.group(2)
