@@ -12,7 +12,7 @@ import unicodedata
 if hasattr(formatting, 'plain'):
     clean = formatting.plain
 else:
-    def clean(t): return t
+    clean = lambda t: t
 
 COLOR_SCHEMES = {
     'rainbow': [4, 7, 8, 3, 12, 2, 6],

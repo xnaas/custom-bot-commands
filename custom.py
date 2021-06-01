@@ -7,7 +7,7 @@ import unicodedata
 if hasattr(formatting, 'plain'):
     clean = formatting.plain
 else:
-    def clean(t): return t
+    clean = lambda t: t
 ### Section Exists for "judge" command only ###
 
 
