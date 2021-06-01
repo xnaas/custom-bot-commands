@@ -1,8 +1,8 @@
-from sopel import module
+from sopel import plugin
 import requests
 
 
-@module.commands("cat")
+@plugin.command("cat")
 def cats(bot, trigger):
     """Posts a random cat using the aws.random.cat/meow API."""
     url = "https://aws.random.cat/meow"
@@ -13,7 +13,7 @@ def cats(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("catfact")
+@plugin.command("catfact")
 def catfact(bot, trigger):
     """Posts a random cat fact."""
     url = "https://cat-fact.herokuapp.com/facts/random"
@@ -28,7 +28,7 @@ def catfact(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("catgif")
+@plugin.command("catgif")
 def catgif(bot, trigger):
     """Posts a random cat GIF using thecatapi.com API."""
     url = "https://api.thecatapi.com/v1/images/search"
@@ -40,7 +40,7 @@ def catgif(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("dog")
+@plugin.command("dog")
 def dogs(bot, trigger):
     """Posts a random dog using the dog.ceo/dog-api API."""
     url = "https://dog.ceo/api/breeds/image/random"
@@ -51,7 +51,7 @@ def dogs(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("dogfact")
+@plugin.command("dogfact")
 def dogfact(bot, trigger):
     """Posts a random dog fact."""
     url = "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs"
@@ -63,7 +63,7 @@ def dogfact(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("shibe")
+@plugin.command("shibe")
 def shibe(bot, trigger):
     """Posts a random Shiba Inu using the shibe.online API."""
     url = "https://shibe.online/api/shibes"
@@ -79,7 +79,7 @@ def shibe(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("birb", "bird")
+@plugin.command("birb", "bird")
 def birbs(bot, trigger):
     """Posts a random bird using the shibe.online bird API."""
     url = "https://shibe.online/api/birds"
@@ -95,7 +95,7 @@ def birbs(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("fox", "foxy")
+@plugin.command("fox", "foxy")
 def fox(bot, trigger):
     """Posts a random fox using the randomfox.ca API."""
     url = "https://randomfox.ca/floof/"
