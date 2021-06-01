@@ -1,8 +1,8 @@
-from sopel import module
+from sopel import plugin
 import requests
 
 
-@module.commands("dad", "dadjoke", "dj")
+@plugin.commands("dadjoke", "dj")
 def dadjoke(bot, trigger):
     """Posts a dad joke."""
     url = "https://icanhazdadjoke.com/"
