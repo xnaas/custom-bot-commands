@@ -1,9 +1,9 @@
-from sopel import module
+from sopel import plugin
 import re
 import requests
 
 
-@module.commands("isbn")
+@plugin.command("isbn")
 def isbn(bot, trigger):
     """Look up a book by its ISBN."""
     if not re.match(
