@@ -111,6 +111,9 @@ def give_money(bot, trigger):
             bot.reply(
                 "You don't have that much money to give away. Try a smaller amount.")
             return
+        if amount <= 0:
+            bot.reply("Giving away nothing is pretty scummy. :(")
+            return
 
         # Check for valid target to give money to.
         target = tools.Identifier(target)
@@ -259,7 +262,7 @@ def gamble_betflip(bot, trigger):
             bot.reply(
                 "You don't have enough money to make this bet. Try a smaller bet.")
             return
-        if bet == 0:
+        if bet <= 0:
             bot.reply("You can't bet nothing!")
             return
 
@@ -305,7 +308,7 @@ def gamble_betflip(bot, trigger):
 
 @plugin.command("wheeloffortune", "wheel")
 @plugin.example(".wheel 100")
-@plugin.rate(user=15)
+@plugin.rate(user=2)
 def gamble_wheel(bot, trigger):
     """Spin the Wheel of Fortune!"""
     if trigger.sender == "#casino":
@@ -333,7 +336,7 @@ def gamble_wheel(bot, trigger):
             bot.reply(
                 "You don't have enough money to make this bet. Try a smaller bet.")
             return module.NOLIMIT
-        if bet == 0:
+        if bet <= 0:
             bot.reply("You can't bet nothing!")
             return module.NOLIMIT
 
