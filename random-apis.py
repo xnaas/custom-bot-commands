@@ -1,12 +1,12 @@
-from sopel import module, formatting
+from sopel import plugin, formatting
 import random
 import requests
 import string
 import urllib.parse
 
 
-@module.rule(".*🤖.*")
-@module.commands("rbot")
+@plugin.rule(".*🤖.*")
+@plugin.command("rbot")
 def rbot(bot, trigger):
     """Posts a randomly generated bot.
     Can also be triggered with a 🤖 emoji anywhere in a message."""
@@ -31,7 +31,7 @@ def rbot(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("fakeperson")
+@plugin.command("fakeperson")
 def fakeperson(bot, trigger):
     """Posts a not real person. 😱
     Uses thispersondoesnotexist.com"""
@@ -50,7 +50,7 @@ def fakeperson(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("advice")
+@plugin.command("advice")
 def advice(bot, trigger):
     url = "https://api.adviceslip.com/advice"
     try:
@@ -60,7 +60,7 @@ def advice(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("ron")
+@plugin.command("ron")
 def ronswanson(bot, trigger):
     """Get a Ron Swanson quote."""
     url = "https://ron-swanson-quotes.herokuapp.com/v2/quotes"
@@ -71,7 +71,7 @@ def ronswanson(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@module.commands("nextmcu", "mcunext")
+@plugin.commands("nextmcu", "mcunext")
 def next_mcu(bot, trigger):
     """Info on the next MCU release."""
     url = "https://whenisthenextmcufilm.com/api"
