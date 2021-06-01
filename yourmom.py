@@ -1,9 +1,9 @@
-from sopel import module
+from sopel import plugin
 import os
 import random
 
 
-@module.commands("ym")
+@plugin.command("ym")
 def yourmom(bot, trigger):
     file = os.path.join(os.path.dirname(__file__), "yourmom.txt")
     joke = random.choice(open(file).readlines())
