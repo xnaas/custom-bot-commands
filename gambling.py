@@ -244,27 +244,27 @@ def gamble_betflip(bot, trigger):
             bet = int(trigger.group(3).replace(",", "").replace("$", ""))
         except AttributeError:
             bot.reply("I need an amount of money to bet and (h)eads or (t)ails.")
-            return
+            return plugin.NOLIMIT
         except TypeError:
             bot.reply("I need an amount of money to bet.")
-            return
+            return plugin.NOLIMIT
         except ValueError:
             bot.reply("That's not a number...")
-            return
+            return plugin.NOLIMIT
 
         # Check if user has enough money to make the gamble...
         bet_check = bot.db.get_nick_value(gambler, "currency_amount")
         if bet_check is None:
             bot.reply(
                 "You can't gamble yet! Please run the `.iwantmoney` command.")
-            return
+            return plugin.NOLIMIT
         if bet > bet_check:
             bot.reply(
                 "You don't have enough money to make this bet. Try a smaller bet.")
-            return
+            return plugin.NOLIMIT
         if bet <= 0:
             bot.reply("You can't bet nothing!")
-            return
+            return plugin.NOLIMIT
 
         # Check if user has actually bet (H)eads or (T)ails.
         user_choice = trigger.group(4)
