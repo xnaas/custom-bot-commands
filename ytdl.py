@@ -1,4 +1,4 @@
-from sopel import plugin, tools
+from sopel import plugin, tools, formatting
 import os
 import re
 import youtube_dl
@@ -14,6 +14,7 @@ ytdl_opts = {
 
 
 @plugin.command("ytdl")
+@plugin.output_prefix("[youtube-dl] ")
 def ytdl(bot, trigger):
     """Uses youtube-dl to download a video and post it to chat."""
     url = trigger.group(3)
@@ -38,6 +39,7 @@ def ytdl(bot, trigger):
                     "This video is longer than 10 minutes and cannot be download, sorry!")
                 return
             else:
+                bot.say(formatting.italic("Downloading..."))
                 ytdl.download([url])
                 bot.say("https://actionsack.com/tmp/{}.{}".format(id, ext))
                 return
@@ -45,10 +47,12 @@ def ytdl(bot, trigger):
         bot.reply("Please submit a valid link.")
     except KeyError:
         if re.search(r"v\.redd\.it\/", url):
+            bot.say(formatting.italic("Downloading..."))
             ytdl.download([url])
             bot.say("https://actionsack.com/tmp/{}.{}".format(id, ext))
             return
         if re.search(r"video\.twimg\.com\/", url):
+            bot.say(formatting.italic("Downloading..."))
             ytdl.download([url])
             bot.say("https://actionsack.com/tmp/{}.{}".format(id, ext))
             return
