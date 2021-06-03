@@ -14,18 +14,18 @@ else:
 @plugin.command("nod")
 def nod(bot, trigger):
     """Nod."""
-    bot.say("https://actionsack.com/img/trek/nod.webp")
+    bot.say("https://p.actionsack.com/trek/nod.webp")
 
 
 @plugin.command("spok")
 def spok(bot, trigger):
     """Summon SPOK into chat."""
-    bot.say("https://actionsack.com/img/trek/spok.webp")
+    bot.say("https://p.actionsack.com/trek/spok.webp")
 
 
 @plugin.command("cube")
 def trek_cube(bot, trigger):
-    bot.say("https://actionsack.com/img/trek/cube.webp")
+    bot.say("https://p.actionsack.com/trek/cube.webp")
 
 
 @plugin.rule(r"^Hello(\?|!)$")
@@ -50,15 +50,15 @@ def itisknown(bot, trigger):
 
 @plugin.rule("^yeah!$")
 def yeah(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/yeah!.webp")
+    bot.say("https://p.actionsack.com/misc/yeah!.webp")
 
 
 @plugin.rule("^retard.*")
 def retarded(bot, trigger):
     retard = [
-        "https://actionsack.com/img/retard/catarded.webp",
-        "https://actionsack.com/img/retard/retarded.webp",
-        "https://actionsack.com/img/retard/△.webp"
+        "https://p.actionsack.com/retard/catarded.webp",
+        "https://p.actionsack.com/retard/retarded.webp",
+        "https://p.actionsack.com/retard/△.webp"
     ]
     bot.say(random.choice(retard))
 
@@ -66,40 +66,40 @@ def retarded(bot, trigger):
 @plugin.rule(".*rekt.*")
 def rekt(bot, trigger):
     rekt = [
-        "https://actionsack.com/img/rekt/baseball.gif",
-        "https://actionsack.com/img/rekt/beachdive.mp4",
-        "https://actionsack.com/img/rekt/beachskillz.gif",
-        "https://actionsack.com/img/rekt/bf1revenge.mp4",
-        "https://actionsack.com/img/rekt/bf1sniper.mp4",
-        "https://actionsack.com/img/rekt/blackman.gif",
-        "https://actionsack.com/img/rekt/botw-sled.gif",
-        "https://actionsack.com/img/rekt/calligraphy.mp4",
-        "https://actionsack.com/img/rekt/carcrash.gif",
-        "https://actionsack.com/img/rekt/dive.gif",
-        "https://actionsack.com/img/rekt/ForHonor.webm",
-        "https://actionsack.com/img/rekt/gta-bike.mp4",
-        "https://actionsack.com/img/rekt/gta-bounce.mp4",
-        "https://actionsack.com/img/rekt/gta-cop.mp4",
-        "https://actionsack.com/img/rekt/gta-flight.mp4",
-        "https://actionsack.com/img/rekt/gta-gas.mp4",
-        "https://actionsack.com/img/rekt/gta-phone.mp4",
-        "https://actionsack.com/img/rekt/gta-post.mp4",
-        "https://actionsack.com/img/rekt/gta-rekt.mp4",
-        "https://actionsack.com/img/rekt/gta-stomp.gif",
-        "https://actionsack.com/img/rekt/gta-walkitoff.mp4",
-        "https://actionsack.com/img/rekt/jeep.gif",
-        "https://actionsack.com/img/rekt/leap.gif",
-        "https://actionsack.com/img/rekt/LOLOLOLOL.gif",
-        "https://actionsack.com/img/rekt/poolgirl.gif",
-        "https://actionsack.com/img/rekt/pubg-redzone.mp4",
-        "https://actionsack.com/img/rekt/rekt.png",
-        "https://actionsack.com/img/rekt/running.gif",
-        "https://actionsack.com/img/rekt/skateit.mp4",
-        "https://actionsack.com/img/rekt/slammin.gif",
-        "https://actionsack.com/img/rekt/smash.mp4",
-        "https://actionsack.com/img/rekt/sniped.mp4",
-        "https://actionsack.com/img/rekt/walkbot.gif",
-        "https://actionsack.com/img/rekt/watergun.gif",
+        "https://p.actionsack.com/rekt/baseball.gif",
+        "https://p.actionsack.com/rekt/beachdive.mp4",
+        "https://p.actionsack.com/rekt/beachskillz.gif",
+        "https://p.actionsack.com/rekt/bf1revenge.mp4",
+        "https://p.actionsack.com/rekt/bf1sniper.mp4",
+        "https://p.actionsack.com/rekt/blackman.gif",
+        "https://p.actionsack.com/rekt/botw-sled.gif",
+        "https://p.actionsack.com/rekt/calligraphy.mp4",
+        "https://p.actionsack.com/rekt/carcrash.gif",
+        "https://p.actionsack.com/rekt/dive.gif",
+        "https://p.actionsack.com/rekt/ForHonor.webm",
+        "https://p.actionsack.com/rekt/gta-bike.mp4",
+        "https://p.actionsack.com/rekt/gta-bounce.mp4",
+        "https://p.actionsack.com/rekt/gta-cop.mp4",
+        "https://p.actionsack.com/rekt/gta-flight.mp4",
+        "https://p.actionsack.com/rekt/gta-gas.mp4",
+        "https://p.actionsack.com/rekt/gta-phone.mp4",
+        "https://p.actionsack.com/rekt/gta-post.mp4",
+        "https://p.actionsack.com/rekt/gta-rekt.mp4",
+        "https://p.actionsack.com/rekt/gta-stomp.gif",
+        "https://p.actionsack.com/rekt/gta-walkitoff.mp4",
+        "https://p.actionsack.com/rekt/jeep.gif",
+        "https://p.actionsack.com/rekt/leap.gif",
+        "https://p.actionsack.com/rekt/LOLOLOLOL.gif",
+        "https://p.actionsack.com/rekt/poolgirl.gif",
+        "https://p.actionsack.com/rekt/pubg-redzone.mp4",
+        "https://p.actionsack.com/rekt/rekt.png",
+        "https://p.actionsack.com/rekt/running.gif",
+        "https://p.actionsack.com/rekt/skateit.mp4",
+        "https://p.actionsack.com/rekt/slammin.gif",
+        "https://p.actionsack.com/rekt/smash.mp4",
+        "https://p.actionsack.com/rekt/sniped.mp4",
+        "https://p.actionsack.com/rekt/walkbot.gif",
+        "https://p.actionsack.com/rekt/watergun.gif",
         "https://w.wiki/n9f"
     ]
     bot.say(random.choice(rekt))
@@ -108,62 +108,62 @@ def rekt(bot, trigger):
 @plugin.rule("^420.*")
 def fourtwenty(bot, trigger):
     fourtwozero = [
-        "https://actionsack.com/img/420/attacks.webp",
-        "https://actionsack.com/img/420/birb.webp",
-        "https://actionsack.com/img/420/champions.webp",
-        "https://actionsack.com/img/420/chinarocket.webp",
-        "https://actionsack.com/img/420/claim.webp",
-        "https://actionsack.com/img/420/coma.webp",
-        "https://actionsack.com/img/420/commits.webp",
-        "https://actionsack.com/img/420/comrade.webp",
-        "https://actionsack.com/img/420/crewdragon.webp",
-        "https://actionsack.com/img/420/doc.webp",
-        "https://actionsack.com/img/420/dr.webp",
-        "https://actionsack.com/img/420/exp.webp",
-        "https://actionsack.com/img/420/gravityfalls.webp",
-        "https://actionsack.com/img/420/highnoon-a.webp",
-        "https://actionsack.com/img/420/highnoon.webp",
-        "https://actionsack.com/img/420/lisa.webp",
-        "https://actionsack.com/img/420/mowing.webp",
-        "https://actionsack.com/img/420/old.webp",
-        "https://actionsack.com/img/420/pikachu.webp",
-        "https://actionsack.com/img/420/🍩.webp",
-        "https://actionsack.com/img/420/pokemon.webp",
-        "https://actionsack.com/img/420/realdanger.webp",
-        "https://actionsack.com/img/420/replacements.webp",
-        "https://actionsack.com/img/420/sealab.webp",
-        "https://actionsack.com/img/420/telluhwat.webp",
-        "https://actionsack.com/img/420/thomas.webp",
-        "https://actionsack.com/img/420/thomasrust.webp",
-        "https://actionsack.com/img/420/timesheet.webp",
-        "https://actionsack.com/img/420/toasted.webp",
-        "https://actionsack.com/img/420/toystory.webp",
-        "https://actionsack.com/img/420/wednesday.webp"
+        "https://p.actionsack.com/420/attacks.webp",
+        "https://p.actionsack.com/420/birb.webp",
+        "https://p.actionsack.com/420/champions.webp",
+        "https://p.actionsack.com/420/chinarocket.webp",
+        "https://p.actionsack.com/420/claim.webp",
+        "https://p.actionsack.com/420/coma.webp",
+        "https://p.actionsack.com/420/commits.webp",
+        "https://p.actionsack.com/420/comrade.webp",
+        "https://p.actionsack.com/420/crewdragon.webp",
+        "https://p.actionsack.com/420/doc.webp",
+        "https://p.actionsack.com/420/dr.webp",
+        "https://p.actionsack.com/420/exp.webp",
+        "https://p.actionsack.com/420/gravityfalls.webp",
+        "https://p.actionsack.com/420/highnoon-a.webp",
+        "https://p.actionsack.com/420/highnoon.webp",
+        "https://p.actionsack.com/420/lisa.webp",
+        "https://p.actionsack.com/420/mowing.webp",
+        "https://p.actionsack.com/420/old.webp",
+        "https://p.actionsack.com/420/pikachu.webp",
+        "https://p.actionsack.com/420/🍩.webp",
+        "https://p.actionsack.com/420/pokemon.webp",
+        "https://p.actionsack.com/420/realdanger.webp",
+        "https://p.actionsack.com/420/replacements.webp",
+        "https://p.actionsack.com/420/sealab.webp",
+        "https://p.actionsack.com/420/telluhwat.webp",
+        "https://p.actionsack.com/420/thomas.webp",
+        "https://p.actionsack.com/420/thomasrust.webp",
+        "https://p.actionsack.com/420/timesheet.webp",
+        "https://p.actionsack.com/420/toasted.webp",
+        "https://p.actionsack.com/420/toystory.webp",
+        "https://p.actionsack.com/420/wednesday.webp"
     ]
     bot.say(random.choice(fourtwozero))
 
 
 @plugin.rule(".*:retardeyes:.*")
 def retardeyes(bot, trigger):
-    bot.say("https://actionsack.com/img/emoji/retardeyes.webp")
+    bot.say("https://p.actionsack.com/emoji/retardeyes.webp")
 
 
 @plugin.rule(".*:wesmart:.*")
 def wesmart(bot, trigger):
-    bot.say("https://actionsack.com/img/emoji/wesmart.webp")
+    bot.say("https://p.actionsack.com/emoji/wesmart.webp")
 
 
 @plugin.rule("^thx.*")
 def thx(bot, trigger):
-    bot.say("https://actionsack.com/img/thx/thx.png")
+    bot.say("https://p.actionsack.com/thx/thx.png")
 
 
 @plugin.rule(r"^(thanks|thank\syou).*")
 def thanks(bot, trigger):
     thanks = [
-        "https://actionsack.com/img/thx/h3h3.webm",
-        "https://actionsack.com/img/thx/t.hanks.mp4",
-        "https://actionsack.com/img/thx/thankyou.mp4"
+        "https://p.actionsack.com/thx/h3h3.webm",
+        "https://p.actionsack.com/thx/t.hanks.mp4",
+        "https://p.actionsack.com/thx/thankyou.mp4"
     ]
     bot.say(random.choice(thanks))
 
@@ -174,14 +174,14 @@ def crying(bot, trigger):
     """Bot will reply with a crying GIF or emoticon.
     Can also be summoned by sending a message that is only the 😢 emoji."""
     crying = [
-        "https://actionsack.com/img/QQ/QQ000.webp",
-        "https://actionsack.com/img/QQ/QQ001.webp",
-        "https://actionsack.com/img/QQ/QQ002.webp",
-        "https://actionsack.com/img/QQ/QQ003.webp",
-        "https://actionsack.com/img/QQ/QQ004.webp",
-        "https://actionsack.com/img/QQ/QQ005.webp",
-        "https://actionsack.com/img/QQ/QQ006.webp",
-        "https://actionsack.com/img/QQ/QQ007.webp",
+        "https://p.actionsack.com/QQ/QQ000.webp",
+        "https://p.actionsack.com/QQ/QQ001.webp",
+        "https://p.actionsack.com/QQ/QQ002.webp",
+        "https://p.actionsack.com/QQ/QQ003.webp",
+        "https://p.actionsack.com/QQ/QQ004.webp",
+        "https://p.actionsack.com/QQ/QQ005.webp",
+        "https://p.actionsack.com/QQ/QQ006.webp",
+        "https://p.actionsack.com/QQ/QQ007.webp",
         "ಥ_ಥ",
         "＞︿＜",
         "＞﹏＜",
@@ -195,19 +195,19 @@ def crying(bot, trigger):
 @plugin.command("pat")
 def pat(bot, trigger):
     pat_gifs = [
-        "https://actionsack.com/img/pat/00.gif",
-        "https://actionsack.com/img/pat/01.gif",
-        "https://actionsack.com/img/pat/02.gif",
-        "https://actionsack.com/img/pat/03.gif",
-        "https://actionsack.com/img/pat/04.gif",
-        "https://actionsack.com/img/pat/05.gif"
+        "https://p.actionsack.com/pat/00.gif",
+        "https://p.actionsack.com/pat/01.gif",
+        "https://p.actionsack.com/pat/02.gif",
+        "https://p.actionsack.com/pat/03.gif",
+        "https://p.actionsack.com/pat/04.gif",
+        "https://p.actionsack.com/pat/05.gif"
     ]
     bot.say(random.choice(pat_gifs))
 
 
 @plugin.rule(r".*cry\sme\sa\sriver.*")
 def cryriver(bot, trigger):
-    bot.say("https://actionsack.com/img/QQ/QQ007.webp")
+    bot.say("https://p.actionsack.com/QQ/QQ007.webp")
 
 
 @plugin.rule(".*!(xms|bge).*")
@@ -218,10 +218,10 @@ def xms(bot, trigger):
 @plugin.rule(".*📖.*")
 def book(bot, trigger):
     book = [
-        "https://actionsack.com/img/mike/📖/📖.gif",
-        "https://actionsack.com/img/mike/📖/📖.jpg",
-        "https://actionsack.com/img/mike/📖/📖+.jpg",
-        "https://actionsack.com/img/mike/📖/📖🐇.jpg"
+        "https://p.actionsack.com/mike/📖/📖.gif",
+        "https://p.actionsack.com/mike/📖/📖.jpg",
+        "https://p.actionsack.com/mike/📖/📖+.jpg",
+        "https://p.actionsack.com/mike/📖/📖🐇.jpg"
     ]
     bot.say(random.choice(book))
 
@@ -238,111 +238,111 @@ def grim(bot, trigger):
 
 @plugin.rule("^FOAD.*")
 def foad(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/foad.png")
+    bot.say("https://p.actionsack.com/misc/foad.png")
 
 
 @plugin.rule(".*adapters.*")
 def adapters(bot, trigger):
     adapters = [
-        "https://actionsack.com/img/adapters/00.webp",
-        "https://actionsack.com/img/adapters/01.webp",
-        "https://actionsack.com/img/adapters/02.webp"
+        "https://p.actionsack.com/adapters/00.webp",
+        "https://p.actionsack.com/adapters/01.webp",
+        "https://p.actionsack.com/adapters/02.webp"
     ]
     bot.say(random.choice(adapters))
 
 
 @plugin.rule(r".*accident\W")
 def accident(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/accident.webp")
+    bot.say("https://p.actionsack.com/misc/accident.webp")
 
 
 @plugin.rule(".*14nm.*")
 def fourteennm(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/14nm+++++.mp4")
+    bot.say("https://p.actionsack.com/misc/14nm+++++.mp4")
 
 
 @plugin.rule(".*bait.*")
 def bait(bot, trigger):
     bait = [
-        "https://actionsack.com/img/bait/404bait.png",
-        "https://actionsack.com/img/bait/all-bait.gif",
-        "https://actionsack.com/img/bait/b8.png",
-        "https://actionsack.com/img/bait/bai--what.png",
-        "https://actionsack.com/img/bait/bait-g.gif",
-        "https://actionsack.com/img/bait/bait-krunk.jpg",
-        "https://actionsack.com/img/bait/bait-pole.png",
-        "https://actionsack.com/img/bait/bait-sim.png",
-        "https://actionsack.com/img/bait/bait-therapy.png",
-        "https://actionsack.com/img/bait/bait.gif",
-        "https://actionsack.com/img/bait/bait.png",
-        "https://actionsack.com/img/bait/bait001.jpg",
-        "https://actionsack.com/img/bait/bait002.png",
-        "https://actionsack.com/img/bait/bait003.jpg",
-        "https://actionsack.com/img/bait/bait004.jpg",
-        "https://actionsack.com/img/bait/bait005.jpg",
-        "https://actionsack.com/img/bait/bait006.png",
-        "https://actionsack.com/img/bait/bait007.png",
-        "https://actionsack.com/img/bait/bait008.png",
-        "https://actionsack.com/img/bait/bait009.jpg",
-        "https://actionsack.com/img/bait/bait010.jpg",
-        "https://actionsack.com/img/bait/bait011.jpg",
-        "https://actionsack.com/img/bait/bait012.jpg",
-        "https://actionsack.com/img/bait/bait013.jpg",
-        "https://actionsack.com/img/bait/bait014.jpg",
-        "https://actionsack.com/img/bait/bait015.jpg",
-        "https://actionsack.com/img/bait/bait016.jpg",
-        "https://actionsack.com/img/bait/bait017.png",
-        "https://actionsack.com/img/bait/bait018.png",
-        "https://actionsack.com/img/bait/bait019.png",
-        "https://actionsack.com/img/bait/bait020.jpg",
-        "https://actionsack.com/img/bait/bait021.jpg",
-        "https://actionsack.com/img/bait/bait022.png",
-        "https://actionsack.com/img/bait/bait023.jpg",
-        "https://actionsack.com/img/bait/bait024.jpg",
-        "https://actionsack.com/img/bait/bait025.png",
-        "https://actionsack.com/img/bait/bait026.png",
-        "https://actionsack.com/img/bait/bait027.png",
-        "https://actionsack.com/img/bait/baitkakke.jpg",
-        "https://actionsack.com/img/bait/baitku.png",
-        "https://actionsack.com/img/bait/baitnado.jpg",
-        "https://actionsack.com/img/bait/baito.png",
-        "https://actionsack.com/img/bait/changed-bait.jpg",
-        "https://actionsack.com/img/bait/chosen-bait.png",
-        "https://actionsack.com/img/bait/debait.png",
-        "https://actionsack.com/img/bait/hq-bait.jpg",
-        "https://actionsack.com/img/bait/MBGA.jpg",
-        "https://actionsack.com/img/bait/mikes-bait.jpg",
-        "https://actionsack.com/img/bait/poke-bait.png",
-        "https://actionsack.com/img/bait/teach-bait.jpg",
-        "https://actionsack.com/img/bait/whose-bait.jpg",
-        "https://actionsack.com/img/bait/wtf-bait.jpg"
+        "https://p.actionsack.com/bait/404bait.png",
+        "https://p.actionsack.com/bait/all-bait.gif",
+        "https://p.actionsack.com/bait/b8.png",
+        "https://p.actionsack.com/bait/bai--what.png",
+        "https://p.actionsack.com/bait/bait-g.gif",
+        "https://p.actionsack.com/bait/bait-krunk.jpg",
+        "https://p.actionsack.com/bait/bait-pole.png",
+        "https://p.actionsack.com/bait/bait-sim.png",
+        "https://p.actionsack.com/bait/bait-therapy.png",
+        "https://p.actionsack.com/bait/bait.gif",
+        "https://p.actionsack.com/bait/bait.png",
+        "https://p.actionsack.com/bait/bait001.jpg",
+        "https://p.actionsack.com/bait/bait002.png",
+        "https://p.actionsack.com/bait/bait003.jpg",
+        "https://p.actionsack.com/bait/bait004.jpg",
+        "https://p.actionsack.com/bait/bait005.jpg",
+        "https://p.actionsack.com/bait/bait006.png",
+        "https://p.actionsack.com/bait/bait007.png",
+        "https://p.actionsack.com/bait/bait008.png",
+        "https://p.actionsack.com/bait/bait009.jpg",
+        "https://p.actionsack.com/bait/bait010.jpg",
+        "https://p.actionsack.com/bait/bait011.jpg",
+        "https://p.actionsack.com/bait/bait012.jpg",
+        "https://p.actionsack.com/bait/bait013.jpg",
+        "https://p.actionsack.com/bait/bait014.jpg",
+        "https://p.actionsack.com/bait/bait015.jpg",
+        "https://p.actionsack.com/bait/bait016.jpg",
+        "https://p.actionsack.com/bait/bait017.png",
+        "https://p.actionsack.com/bait/bait018.png",
+        "https://p.actionsack.com/bait/bait019.png",
+        "https://p.actionsack.com/bait/bait020.jpg",
+        "https://p.actionsack.com/bait/bait021.jpg",
+        "https://p.actionsack.com/bait/bait022.png",
+        "https://p.actionsack.com/bait/bait023.jpg",
+        "https://p.actionsack.com/bait/bait024.jpg",
+        "https://p.actionsack.com/bait/bait025.png",
+        "https://p.actionsack.com/bait/bait026.png",
+        "https://p.actionsack.com/bait/bait027.png",
+        "https://p.actionsack.com/bait/baitkakke.jpg",
+        "https://p.actionsack.com/bait/baitku.png",
+        "https://p.actionsack.com/bait/baitnado.jpg",
+        "https://p.actionsack.com/bait/baito.png",
+        "https://p.actionsack.com/bait/changed-bait.jpg",
+        "https://p.actionsack.com/bait/chosen-bait.png",
+        "https://p.actionsack.com/bait/debait.png",
+        "https://p.actionsack.com/bait/hq-bait.jpg",
+        "https://p.actionsack.com/bait/MBGA.jpg",
+        "https://p.actionsack.com/bait/mikes-bait.jpg",
+        "https://p.actionsack.com/bait/poke-bait.png",
+        "https://p.actionsack.com/bait/teach-bait.jpg",
+        "https://p.actionsack.com/bait/whose-bait.jpg",
+        "https://p.actionsack.com/bait/wtf-bait.jpg"
     ]
     bot.say(random.choice(bait))
 
 
 @plugin.rule(".*backhand.*")
 def backhand(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/backhand.mp4")
+    bot.say("https://p.actionsack.com/misc/backhand.mp4")
 
 
 @plugin.rule("^😠$")
 def angryeyes(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/angryeyes.webp")
+    bot.say("https://p.actionsack.com/misc/angryeyes.webp")
 
 
 @plugin.rule(".*alot.*")
 def alot(bot, trigger):
-    bot.say("https://actionsack.com/img/alot/")
+    bot.say("https://p.actionsack.com/alot/")
 
 
 @plugin.rule(".*♿.*")
 def handicap(bot, trigger):
-    bot.say("https://actionsack.com/img/♿/♿.mp4")
+    bot.say("https://p.actionsack.com/♿/♿.mp4")
 
 
 @plugin.rule(".*⤵️.*")
 def down(bot, trigger):
-    bot.say("https://actionsack.com/img/mike/down.gif")
+    bot.say("https://p.actionsack.com/mike/down.gif")
 
 
 @plugin.rule(r"^\.\.\.$")
@@ -356,12 +356,12 @@ def deeznutz(bot, trigger):
     """Can also be triggered with "deez nutz" anywhere in a message."""
     deez_nutz = [
         formatting.bold("DEEZ NUTZ!"),
-        "https://actionsack.com/img/nutz/aldeez.webp",
-        "https://actionsack.com/img/nutz/dd.webp",
-        "https://actionsack.com/img/nutz/dragon.webp",
-        "https://actionsack.com/img/nutz/grandma.webp",
-        "https://actionsack.com/img/nutz/prez.webp",
-        "https://actionsack.com/img/nutz/wood.webp"
+        "https://p.actionsack.com/nutz/aldeez.webp",
+        "https://p.actionsack.com/nutz/dd.webp",
+        "https://p.actionsack.com/nutz/dragon.webp",
+        "https://p.actionsack.com/nutz/grandma.webp",
+        "https://p.actionsack.com/nutz/prez.webp",
+        "https://p.actionsack.com/nutz/wood.webp"
     ]
     bot.say(random.choice(deez_nutz))
 
@@ -370,9 +370,9 @@ def deeznutz(bot, trigger):
 def rlenny(bot, trigger):
     """Sends a random ( ͡° ͜ʖ ͡°) variation...or a GIF/MP4!"""
     rlenny = [
-        "https://actionsack.com/img/lenny/anime.gif",
-        "https://actionsack.com/img/lenny/crazy.mp4",
-        "https://actionsack.com/img/lenny/spiral.gif",
+        "https://p.actionsack.com/lenny/anime.gif",
+        "https://p.actionsack.com/lenny/crazy.mp4",
+        "https://p.actionsack.com/lenny/spiral.gif",
         "( ͡° ͜ʖ ͡°)",
         "(☭ ͜ʖ ☭)",
         "( ° ͜ʖ °)",
@@ -410,15 +410,15 @@ def unflip(bot, trigger):
 @plugin.rule("^pranked!$")
 def prank(bot, trigger):
     prank = [
-        "https://actionsack.com/img/prank/prank01.png",
-        "https://actionsack.com/img/prank/prank02.png"
+        "https://p.actionsack.com/prank/prank01.png",
+        "https://p.actionsack.com/prank/prank02.png"
     ]
     bot.say(random.choice(prank))
 
 
 @plugin.rule(r"^\?{3,}$")
 def que(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/¿¿¿.webp")
+    bot.say("https://p.actionsack.com/misc/¿¿¿.webp")
 
 
 @plugin.rule(r"^\\o/$")
@@ -433,17 +433,17 @@ def shrug(bot, trigger):
 
 @plugin.rule(".*🦏.*")
 def rhino(bot, trigger):
-    bot.say("https://actionsack.com/img/🦏/🦏.webp")
+    bot.say("https://p.actionsack.com/🦏/🦏.webp")
 
 
 @plugin.rule(".*🧀.*")
 def cheese(bot, trigger):
-    bot.say("https://actionsack.com/img/🧀/🧀.mp4")
+    bot.say("https://p.actionsack.com/🧀/🧀.mp4")
 
 
 @plugin.rule(".*🦄.*")
 def unicorn(bot, trigger):
-    bot.say("https://actionsack.com/img/🦄/🦄.webp")
+    bot.say("https://p.actionsack.com/🦄/🦄.webp")
 
 
 @plugin.rule("^🙃$")
@@ -498,7 +498,7 @@ def crossed(bot, trigger):
 
 @plugin.rule(".*(🌎|🌍|🌏).*")
 def earthchan(bot, trigger):
-    bot.say("https://actionsack.com/img/🌎/water.png")
+    bot.say("https://p.actionsack.com/🌎/water.png")
 
 
 @plugin.rule("^🐉$")
@@ -558,21 +558,21 @@ def xfiles(bot, trigger):
 @plugin.rule(".*triggered.*")
 def triggered(bot, trigger):
     triggered = [
-        "https://actionsack.com/img/triggered/beaker.webp",
-        "https://actionsack.com/img/triggered/triggered.webp",
-        "https://actionsack.com/img/triggered/feek.webp"
+        "https://p.actionsack.com/triggered/beaker.webp",
+        "https://p.actionsack.com/triggered/triggered.webp",
+        "https://p.actionsack.com/triggered/feek.webp"
     ]
     bot.say(random.choice(triggered))
 
 
 @plugin.rule(r".*to\sbe\sfair.*")
 def tobefair(bot, trigger):
-    bot.say("https://actionsack.com/img/v/tobefair.webm")
+    bot.say("https://p.actionsack.com/v/tobefair.webm")
 
 
 @plugin.rule(r".*stop\sbeing\spoor.*")
 def stopbeingpoor(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/stopbeingpoor.jpg")
+    bot.say("https://p.actionsack.com/misc/stopbeingpoor.jpg")
 
 
 @plugin.rule(".*!tb.*")
@@ -640,7 +640,7 @@ def jolly(bot, trigger):
 @plugin.command("hg")
 def hg(bot, trigger):
     """I've got the highground now!"""
-    bot.say("https://actionsack.com/img/misc/highground.jpg")
+    bot.say("https://p.actionsack.com/misc/highground.jpg")
 
 
 @plugin.rule(".*!fgr.*")
@@ -649,10 +649,10 @@ def fgr(bot, trigger):
     """Family Guy reference!!!!!
     Can also be triggered with '!fgr' anywhere in a message."""
     fgr = [
-        "https://actionsack.com/img/fgr/gay.jpg",
-        "https://actionsack.com/img/fgr/gears.jpg",
-        "https://actionsack.com/img/fgr/hang.gif",
-        "https://actionsack.com/img/fgr/stewie-gun.jpg"
+        "https://p.actionsack.com/fgr/gay.jpg",
+        "https://p.actionsack.com/fgr/gears.jpg",
+        "https://p.actionsack.com/fgr/hang.gif",
+        "https://p.actionsack.com/fgr/stewie-gun.jpg"
     ]
     bot.say(random.choice(fgr))
 
@@ -662,7 +662,7 @@ def fgr(bot, trigger):
 def adr(bot, trigger):
     """American Dad reference!
     Can also be triggered with '!adr' anywhere in a message."""
-    bot.say("https://actionsack.com/img/fgr/ADR.jpg")
+    bot.say("https://p.actionsack.com/fgr/ADR.jpg")
 
 
 @plugin.rule(".*!csr.*")
@@ -670,7 +670,7 @@ def adr(bot, trigger):
 def csr(bot, trigger):
     """Cleveland Show reference!
     Can also be triggered with '!csr' anywhere in a message."""
-    bot.say("https://actionsack.com/img/fgr/CSR.jpg")
+    bot.say("https://p.actionsack.com/fgr/CSR.jpg")
 
 
 @plugin.command("aegislive")
@@ -683,54 +683,54 @@ def aegislive(bot, trigger):
 
 @plugin.rule(".*!!banebread.*")
 def banebread(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/banebread.png")
+    bot.say("https://p.actionsack.com/nsfw/banebread.png")
 
 
 @plugin.rule(".*!!bread.*")
 def bread(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/🍞.png")
+    bot.say("https://p.actionsack.com/nsfw/🍞.png")
 
 
 @plugin.rule(".*!!datascii.*")
 def datascii(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/datascii.gif")
+    bot.say("https://p.actionsack.com/nsfw/datascii.gif")
 
 
 @plugin.rule(".*!!dickaroo.*")
 def dickaroo(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/dickaroo.gif")
+    bot.say("https://p.actionsack.com/nsfw/dickaroo.gif")
 
 
 @plugin.rule(".*!!fgr.*")
 def fgrnsfw(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/chris-in-brian.png")
+    bot.say("https://p.actionsack.com/nsfw/chris-in-brian.png")
 
 
 @plugin.rule(".*!!ghostbabies.*")
 def ghostbabies(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/ghostbabies.gif")
+    bot.say("https://p.actionsack.com/nsfw/ghostbabies.gif")
 
 
 @plugin.rule(".*!!gimp.*")
 def gimp(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/gimp.gif")
+    bot.say("https://p.actionsack.com/nsfw/gimp.gif")
 
 
 @plugin.rule(".*!!nazi.*")
 def nazi(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/nazi.gif")
+    bot.say("https://p.actionsack.com/nsfw/nazi.gif")
 
 
 @plugin.rule(".*!!ponies.*")
 def ponies(bot, trigger):
-    bot.say("https://actionsack.com/img/nsfw/ponies.mp4")
+    bot.say("https://p.actionsack.com/nsfw/ponies.mp4")
 
 
 @plugin.rule(".*!!jordan.*")
 def jordan(bot, trigger):
     jordan = [
-        "https://actionsack.com/img/jordan/ddosvariants.png",
-        "https://actionsack.com/img/jordan/littledick.png"
+        "https://p.actionsack.com/jordan/ddosvariants.png",
+        "https://p.actionsack.com/jordan/littledick.png"
     ]
     bot.say(random.choice(jordan))
 # === NSFW Commands ===
@@ -744,28 +744,28 @@ def beight(bot, trigger):
 @plugin.rule(".*!kristen.*")
 def kristen(bot, trigger):
     kristen = [
-        "https://actionsack.com/img/kristen/chainsmokers.png",
-        "https://actionsack.com/img/kristen/keith.png",
-        "https://actionsack.com/img/kristen/pidgey.png",
-        "https://actionsack.com/img/kristen/pins.png",
-        "https://actionsack.com/img/kristen/racist.png",
-        "https://actionsack.com/img/kristen/rekt.png",
-        "https://actionsack.com/img/kristen/repost.png",
-        "https://actionsack.com/img/kristen/top.png"
+        "https://p.actionsack.com/kristen/chainsmokers.png",
+        "https://p.actionsack.com/kristen/keith.png",
+        "https://p.actionsack.com/kristen/pidgey.png",
+        "https://p.actionsack.com/kristen/pins.png",
+        "https://p.actionsack.com/kristen/racist.png",
+        "https://p.actionsack.com/kristen/rekt.png",
+        "https://p.actionsack.com/kristen/repost.png",
+        "https://p.actionsack.com/kristen/top.png"
     ]
     bot.say(random.choice(kristen))
 
 
 @plugin.rule(r"^Tasian\sloves\spickles\.($|\s)")
 def tasianpickles(bot, trigger):
-    bot.say("https://actionsack.com/img/tasian/pickles.webp")
+    bot.say("https://p.actionsack.com/tasian/pickles.webp")
 
 
 @plugin.rule(".*!asg.*")
 @plugin.command("asg")
 def allsystemsgo(bot, trigger):
     """Can also be triggered with "!asg" anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/asg.webp")
+    bot.say("https://p.actionsack.com/misc/asg.webp")
 
 
 @plugin.rule(".*(murica|🍔).*")
@@ -774,10 +774,10 @@ def murica(bot, trigger):
     """Summons Freedom™ into chat.
     Can also be triggered with 'murica' anywhere in a message."""
     murica = [
-        "https://actionsack.com/img/murica/clapping.mp4",
-        "https://actionsack.com/img/murica/kiss.gif",
-        "https://actionsack.com/img/murica/knockknock.gif",
-        "https://actionsack.com/img/murica/freedomaf.mp4"
+        "https://p.actionsack.com/murica/clapping.mp4",
+        "https://p.actionsack.com/murica/kiss.gif",
+        "https://p.actionsack.com/murica/knockknock.gif",
+        "https://p.actionsack.com/murica/freedomaf.mp4"
     ]
     bot.say(random.choice(murica))
 
@@ -787,7 +787,7 @@ def murica(bot, trigger):
 def knock(bot, trigger):
     """RP: America knocks on your door...
     Can also be triggered with '!knock' anywhere in a message."""
-    bot.say("https://actionsack.com/img/murica/knockknock.gif")
+    bot.say("https://p.actionsack.com/murica/knockknock.gif")
 
 
 @plugin.command("pledge")
@@ -810,7 +810,7 @@ def mushkin(bot, trigger):
 @plugin.command("mirai")
 def mirai(bot, trigger):
     """Gone but not forgotten, noble soviet bear."""
-    bot.say("https://actionsack.com/img/putin/🐻.mp4")
+    bot.say("https://p.actionsack.com/putin/🐻.mp4")
 
 
 @plugin.rule(".*!putin.*")
@@ -819,10 +819,10 @@ def putin(bot, trigger):
     """Posts a Putin meme of some sort.
     Can also be triggered with '!putin' anywhere in a message."""
     putin = [
-        "https://actionsack.com/img/putin/dance.mp4",
-        "https://actionsack.com/img/putin/pigeon.mp4",
-        "https://actionsack.com/img/putin/ritz.gif",
-        "https://actionsack.com/img/putin/🐻.mp4"
+        "https://p.actionsack.com/putin/dance.mp4",
+        "https://p.actionsack.com/putin/pigeon.mp4",
+        "https://p.actionsack.com/putin/ritz.gif",
+        "https://p.actionsack.com/putin/🐻.mp4"
     ]
     bot.say(random.choice(putin))
 
@@ -830,30 +830,30 @@ def putin(bot, trigger):
 @plugin.command("aidsclub")
 def aidsclub(bot, trigger):
     """Welcome to the club, loser."""
-    bot.say("https://actionsack.com/img/misc/aidsclub.webp")
+    bot.say("https://p.actionsack.com/misc/aidsclub.webp")
 
 
 @plugin.rule(".*!barometer.*")
 @plugin.command("barometer")
 def barometer(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/barometer.webp")
+    bot.say("https://p.actionsack.com/misc/barometer.webp")
 
 
 @plugin.rule(r"^Oh,\syou!$")
 def ohyou(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/Oh,you!.jpg")
+    bot.say("https://p.actionsack.com/misc/Oh,you!.jpg")
 
 
 @plugin.rule(".*!battletoad.*")
 @plugin.command("battletoad")
 def battletoad(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/battletoad.mp4")
+    bot.say("https://p.actionsack.com/misc/battletoad.mp4")
 
 
 @plugin.rule(".*!beaker.*")
 @plugin.command("beaker")
 def beaker(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/beaker.mp4")
+    bot.say("https://p.actionsack.com/misc/beaker.mp4")
 
 
 @plugin.rule(".*!bomb.*")
@@ -861,68 +861,68 @@ def beaker(bot, trigger):
 def bomb(bot, trigger):
     """Bombs Japan again... :/
     Can also be triggered with '!bomb' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/bomb.mp4")
+    bot.say("https://p.actionsack.com/misc/bomb.mp4")
 
 
 @plugin.rule(".*!broden.*")
 @plugin.command("broden")
 def broden(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/broden.mp4")
+    bot.say("https://p.actionsack.com/misc/broden.mp4")
 
 
 @plugin.rule(r".*mikey\sbikey.*")
 def mikeybikey(bot, trigger):
-    bot.say("https://actionsack.com/img/as/mikeybikey.png")
+    bot.say("https://p.actionsack.com/as/mikeybikey.png")
 
 
 @plugin.rule(r".*meal\swith\sit.*")
 def mealwithit(bot, trigger):
-    bot.say("https://actionsack.com/img/deal/mealwithit.webp")
+    bot.say("https://p.actionsack.com/deal/mealwithit.webp")
 
 
 @plugin.rule(r".*deal\swith\sit.*")
 def dealwithit(bot, trigger):
     deal = [
-        "https://actionsack.com/img/deal/brule.webp",
-        "https://actionsack.com/img/deal/coolkid.webp",
-        "https://actionsack.com/img/deal/hippo.mp4",
-        "https://actionsack.com/img/deal/mealwithit.webp",
-        "https://actionsack.com/img/deal/spider.webp",
-        "https://actionsack.com/img/deal/squirtle.webp",
-        "https://actionsack.com/img/deal/tf2.webp"
+        "https://p.actionsack.com/deal/brule.webp",
+        "https://p.actionsack.com/deal/coolkid.webp",
+        "https://p.actionsack.com/deal/hippo.mp4",
+        "https://p.actionsack.com/deal/mealwithit.webp",
+        "https://p.actionsack.com/deal/spider.webp",
+        "https://p.actionsack.com/deal/squirtle.webp",
+        "https://p.actionsack.com/deal/tf2.webp"
     ]
     bot.say(random.choice(deal))
 
 
 @plugin.rule(".*!mindjack.*")
 def mindjack(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/mindjack.png")
+    bot.say("https://p.actionsack.com/misc/mindjack.png")
 
 
 @plugin.command("doge")
 def doge(bot, trigger):
     """Doge memes! (There's not very many...)"""
     doge = [
-        "https://actionsack.com/img/doge/batdoge.webp",
-        "https://actionsack.com/img/doge/dogemine.webp",
-        "https://actionsack.com/img/doge/skeledoge.webp"
+        "https://p.actionsack.com/doge/batdoge.webp",
+        "https://p.actionsack.com/doge/dogemine.webp",
+        "https://p.actionsack.com/doge/skeledoge.webp"
     ]
     bot.say(random.choice(doge))
 
 
 @plugin.rule(".*!dogemine.*")
 def dogemine(bot, trigger):
-    bot.say("https://actionsack.com/img/doge/dogemine.webp")
+    bot.say("https://p.actionsack.com/doge/dogemine.webp")
 
 
 @plugin.rule(".*!skeledoge.*")
 def skeledoge(bot, trigger):
-    bot.say("https://actionsack.com/img/doge/skeledoge.webp")
+    bot.say("https://p.actionsack.com/doge/skeledoge.webp")
 
 
 @plugin.rule(".*!batdoge.*")
 def batdoge(bot, trigger):
-    bot.say("https://actionsack.com/img/doge/batdoge.webp")
+    bot.say("https://p.actionsack.com/doge/batdoge.webp")
 
 
 @plugin.rule(r".*slow\sdown.*")
@@ -933,7 +933,7 @@ def slowdown(bot, trigger):
 @plugin.require_admin
 @plugin.command("smmcb", "smd")
 def smmcb(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/smmcb.gif")
+    bot.say("https://p.actionsack.com/misc/smmcb.gif")
 
 
 @plugin.rule("^(noice)$")
@@ -944,10 +944,10 @@ def noice(bot, trigger):
 @plugin.rule(".*sockbot.*")
 def sockbot(bot, trigger):
     sockbot = [
-        "https://actionsack.com/img/sockbot/headsortails.png",
-        "https://actionsack.com/img/sockbot/knife.png",
-        "https://actionsack.com/img/sockbot/L337.png",
-        "https://actionsack.com/img/sockbot/phone.png",
+        "https://p.actionsack.com/sockbot/headsortails.png",
+        "https://p.actionsack.com/sockbot/knife.png",
+        "https://p.actionsack.com/sockbot/L337.png",
+        "https://p.actionsack.com/sockbot/phone.png",
         "Gone, but not forgotten.",
         "Good riddance to Discord, but RIP Sockbot. 😢"
     ]
@@ -957,47 +957,47 @@ def sockbot(bot, trigger):
 @plugin.rule(".*!brony.*")
 @plugin.command("brony")
 def brony(bot, trigger):
-    bot.say("https://actionsack.com/img/mike/brony.png")
+    bot.say("https://p.actionsack.com/mike/brony.png")
 
 
 @plugin.rule("^banned.*")
 def banned(bot, trigger):
     banned = [
-        "https://actionsack.com/img/banned/beetlejuice.mp4",
-        "https://actionsack.com/img/banned/carryon.png",
-        "https://actionsack.com/img/banned/clapping.gif",
-        "https://actionsack.com/img/banned/hammer00.webp",
-        "https://actionsack.com/img/banned/hammer01.webp",
-        "https://actionsack.com/img/banned/hanging.gif",
-        "https://actionsack.com/img/banned/samuel.gif",
-        "https://actionsack.com/img/banned/slapbeavis.gif",
-        "https://actionsack.com/img/banned/slap.gif",
-        "https://actionsack.com/img/banned/tasian.gif",
-        "https://actionsack.com/img/banned/trash.png",
-        "https://actionsack.com/img/banned/trump.gif",
-        "https://actionsack.com/img/banned/voodoo.png",
-        "https://actionsack.com/img/banned/xbox.png",
-        "https://actionsack.com/img/banned/xnaas.gif"
+        "https://p.actionsack.com/banned/beetlejuice.mp4",
+        "https://p.actionsack.com/banned/carryon.png",
+        "https://p.actionsack.com/banned/clapping.gif",
+        "https://p.actionsack.com/banned/hammer00.webp",
+        "https://p.actionsack.com/banned/hammer01.webp",
+        "https://p.actionsack.com/banned/hanging.gif",
+        "https://p.actionsack.com/banned/samuel.gif",
+        "https://p.actionsack.com/banned/slapbeavis.gif",
+        "https://p.actionsack.com/banned/slap.gif",
+        "https://p.actionsack.com/banned/tasian.gif",
+        "https://p.actionsack.com/banned/trash.png",
+        "https://p.actionsack.com/banned/trump.gif",
+        "https://p.actionsack.com/banned/voodoo.png",
+        "https://p.actionsack.com/banned/xbox.png",
+        "https://p.actionsack.com/banned/xnaas.gif"
     ]
     bot.say(random.choice(banned))
 
 
 @plugin.rule(".*boycott.*")
 def boycott(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/boycott.webp")
+    bot.say("https://p.actionsack.com/misc/boycott.webp")
 
 
 @plugin.rule(".*censor.*")
 def censor(bot, trigger):
     censor = [
-        "https://actionsack.com/img/censored/bunny.webp",
-        "https://actionsack.com/img/censored/censored.webp",
-        "https://actionsack.com/img/censored/eyesored.webp",
-        "https://actionsack.com/img/censored/fox.webp",
-        "https://actionsack.com/img/censored/fren.webp",
-        "https://actionsack.com/img/censored/nose.webp",
-        "https://actionsack.com/img/censored/spider.webp",
-        "https://actionsack.com/img/censored/tasian.webp"
+        "https://p.actionsack.com/censored/bunny.webp",
+        "https://p.actionsack.com/censored/censored.webp",
+        "https://p.actionsack.com/censored/eyesored.webp",
+        "https://p.actionsack.com/censored/fox.webp",
+        "https://p.actionsack.com/censored/fren.webp",
+        "https://p.actionsack.com/censored/nose.webp",
+        "https://p.actionsack.com/censored/spider.webp",
+        "https://p.actionsack.com/censored/tasian.webp"
     ]
     bot.say(random.choice(censor))
 
@@ -1021,7 +1021,7 @@ def marcopolo(bot, trigger):
 @plugin.command("work")
 def worktoday(bot, trigger):
     """I don't really wanna do the work today..."""
-    bot.say("https://actionsack.com/img/v/work.webm")
+    bot.say("https://p.actionsack.com/v/work.webm")
 
 
 @plugin.rule(".*stbyn.*")
@@ -1031,81 +1031,81 @@ def stbyn(bot, trigger):
 
 @plugin.rule(".*🥓.*")
 def bacon(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🥓.mp4")
+    bot.say("https://p.actionsack.com/misc/🥓.mp4")
 
 
 @plugin.rule(".*🍜.*")
 def soupbowl(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🍜.mp4")
+    bot.say("https://p.actionsack.com/misc/🍜.mp4")
 
 
 @plugin.rule(".*🍞.*")
 def breadchan(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🍞.png")
+    bot.say("https://p.actionsack.com/misc/🍞.png")
 
 
 @plugin.rule(".*🎅(|🏻|🏼|🏽|🏾|🏿).*")
 def santa(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🎅.png")
+    bot.say("https://p.actionsack.com/misc/🎅.png")
 
 
 @plugin.rule(".*🎧.*")
 def headphones(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🎧.png")
+    bot.say("https://p.actionsack.com/misc/🎧.png")
 
 
 @plugin.rule(r".*fuck\syou(?!r).*")
 def fuckyou(bot, trigger):
     fuckyou = [
-        "https://actionsack.com/img/fuck/you/airline.webp",
-        "https://actionsack.com/img/fuck/you/anime.mp4",
-        "https://actionsack.com/img/fuck/you/ape.webp",
-        "https://actionsack.com/img/fuck/you/aquaman.webp",
-        "https://actionsack.com/img/fuck/you/arrow.webp",
-        "https://actionsack.com/img/fuck/you/bb8.webp",
-        "https://actionsack.com/img/fuck/you/bird.webp",
-        "https://actionsack.com/img/fuck/you/bot.webp",
-        "https://actionsack.com/img/fuck/you/buzz.webp",
-        "https://actionsack.com/img/fuck/you/card.webp",
-        "https://actionsack.com/img/fuck/you/climb.webp",
-        "https://actionsack.com/img/fuck/you/compilation.webp",
-        "https://actionsack.com/img/fuck/you/cutout.webp",
-        "https://actionsack.com/img/fuck/you/deaf.webp",
-        "https://actionsack.com/img/fuck/you/deer.webp",
-        "https://actionsack.com/img/fuck/you/driving.webp",
-        "https://actionsack.com/img/fuck/you/drums.webp",
-        "https://actionsack.com/img/fuck/you/enthusiastic.webp",
-        "https://actionsack.com/img/fuck/you/faoy.webp",
-        "https://actionsack.com/img/fuck/you/friday.webp",
-        "https://actionsack.com/img/fuck/you/fuku.webp",
-        "https://actionsack.com/img/fuck/you/fur.webp",
-        "https://actionsack.com/img/fuck/you/godzilla.webp",
-        "https://actionsack.com/img/fuck/you/goldenboye.webp",
-        "https://actionsack.com/img/fuck/you/grow.webp",
-        "https://actionsack.com/img/fuck/you/h3h3.webp",
-        "https://actionsack.com/img/fuck/you/hook.webp",
-        "https://actionsack.com/img/fuck/you/jacket.webp",
-        "https://actionsack.com/img/fuck/you/juliemao.webp",
-        "https://actionsack.com/img/fuck/you/kraken.webp",
-        "https://actionsack.com/img/fuck/you/loop.webp",
-        "https://actionsack.com/img/fuck/you/marvel.webp",
-        "https://actionsack.com/img/fuck/you/peaceamongworlds.webp",
-        "https://actionsack.com/img/fuck/you/pigeon.webp",
-        "https://actionsack.com/img/fuck/you/pocket.webp",
-        "https://actionsack.com/img/fuck/you/pocketcat.webp",
-        "https://actionsack.com/img/fuck/you/ragnarok.webp",
-        "https://actionsack.com/img/fuck/you/rudy.webp",
-        "https://actionsack.com/img/fuck/you/samuel.webp",
-        "https://actionsack.com/img/fuck/you/samueltransparent.webp",
-        "https://actionsack.com/img/fuck/you/sayan.webp",
-        "https://actionsack.com/img/fuck/you/skating.webp",
-        "https://actionsack.com/img/fuck/you/space_invader.webp",
-        "https://actionsack.com/img/fuck/you/square.webp",
-        "https://actionsack.com/img/fuck/you/tommydoor.webp",
-        "https://actionsack.com/img/fuck/you/trumpet.webp",
-        "https://actionsack.com/img/fuck/you/westworld.webp",
-        "https://actionsack.com/img/fuck/you/ww-mib.webp",
-        "https://actionsack.com/img/fuck/you/☂.webp"
+        "https://p.actionsack.com/fuck/you/airline.webp",
+        "https://p.actionsack.com/fuck/you/anime.mp4",
+        "https://p.actionsack.com/fuck/you/ape.webp",
+        "https://p.actionsack.com/fuck/you/aquaman.webp",
+        "https://p.actionsack.com/fuck/you/arrow.webp",
+        "https://p.actionsack.com/fuck/you/bb8.webp",
+        "https://p.actionsack.com/fuck/you/bird.webp",
+        "https://p.actionsack.com/fuck/you/bot.webp",
+        "https://p.actionsack.com/fuck/you/buzz.webp",
+        "https://p.actionsack.com/fuck/you/card.webp",
+        "https://p.actionsack.com/fuck/you/climb.webp",
+        "https://p.actionsack.com/fuck/you/compilation.webp",
+        "https://p.actionsack.com/fuck/you/cutout.webp",
+        "https://p.actionsack.com/fuck/you/deaf.webp",
+        "https://p.actionsack.com/fuck/you/deer.webp",
+        "https://p.actionsack.com/fuck/you/driving.webp",
+        "https://p.actionsack.com/fuck/you/drums.webp",
+        "https://p.actionsack.com/fuck/you/enthusiastic.webp",
+        "https://p.actionsack.com/fuck/you/faoy.webp",
+        "https://p.actionsack.com/fuck/you/friday.webp",
+        "https://p.actionsack.com/fuck/you/fuku.webp",
+        "https://p.actionsack.com/fuck/you/fur.webp",
+        "https://p.actionsack.com/fuck/you/godzilla.webp",
+        "https://p.actionsack.com/fuck/you/goldenboye.webp",
+        "https://p.actionsack.com/fuck/you/grow.webp",
+        "https://p.actionsack.com/fuck/you/h3h3.webp",
+        "https://p.actionsack.com/fuck/you/hook.webp",
+        "https://p.actionsack.com/fuck/you/jacket.webp",
+        "https://p.actionsack.com/fuck/you/juliemao.webp",
+        "https://p.actionsack.com/fuck/you/kraken.webp",
+        "https://p.actionsack.com/fuck/you/loop.webp",
+        "https://p.actionsack.com/fuck/you/marvel.webp",
+        "https://p.actionsack.com/fuck/you/peaceamongworlds.webp",
+        "https://p.actionsack.com/fuck/you/pigeon.webp",
+        "https://p.actionsack.com/fuck/you/pocket.webp",
+        "https://p.actionsack.com/fuck/you/pocketcat.webp",
+        "https://p.actionsack.com/fuck/you/ragnarok.webp",
+        "https://p.actionsack.com/fuck/you/rudy.webp",
+        "https://p.actionsack.com/fuck/you/samuel.webp",
+        "https://p.actionsack.com/fuck/you/samueltransparent.webp",
+        "https://p.actionsack.com/fuck/you/sayan.webp",
+        "https://p.actionsack.com/fuck/you/skating.webp",
+        "https://p.actionsack.com/fuck/you/space_invader.webp",
+        "https://p.actionsack.com/fuck/you/square.webp",
+        "https://p.actionsack.com/fuck/you/tommydoor.webp",
+        "https://p.actionsack.com/fuck/you/trumpet.webp",
+        "https://p.actionsack.com/fuck/you/westworld.webp",
+        "https://p.actionsack.com/fuck/you/ww-mib.webp",
+        "https://p.actionsack.com/fuck/you/☂.webp"
     ]
     bot.say(random.choice(fuckyou))
 
@@ -1113,63 +1113,63 @@ def fuckyou(bot, trigger):
 @plugin.rule(r".*(gfy(?!c)|go\sfuck\syourself).*")
 def gfy(bot, trigger):
     gfy = [
-        "https://actionsack.com/img/fuck/urself/01_Two_Feet-Go_Fuck_Yourself.ogg",
-        "https://actionsack.com/img/fuck/urself/anime.webp",
-        "https://actionsack.com/img/fuck/urself/arms.webp",
-        "https://actionsack.com/img/fuck/urself/disney.webp",
-        "https://actionsack.com/img/fuck/urself/doggo.webp",
-        "https://actionsack.com/img/fuck/urself/gay.webp",
-        "https://actionsack.com/img/fuck/urself/gfy.webp",
-        "https://actionsack.com/img/fuck/urself/rugrats.webp",
-        "https://actionsack.com/img/fuck/urself/science.webp"]
+        "https://p.actionsack.com/fuck/urself/01_Two_Feet-Go_Fuck_Yourself.ogg",
+        "https://p.actionsack.com/fuck/urself/anime.webp",
+        "https://p.actionsack.com/fuck/urself/arms.webp",
+        "https://p.actionsack.com/fuck/urself/disney.webp",
+        "https://p.actionsack.com/fuck/urself/doggo.webp",
+        "https://p.actionsack.com/fuck/urself/gay.webp",
+        "https://p.actionsack.com/fuck/urself/gfy.webp",
+        "https://p.actionsack.com/fuck/urself/rugrats.webp",
+        "https://p.actionsack.com/fuck/urself/science.webp"]
     bot.say(random.choice(gfy))
 
 
 @plugin.rule(r"^What\sthe\sfuck\?$")
 def wtfquestion(bot, trigger):
-    bot.say("https://actionsack.com/img/wtf/wtf¿.gif")
+    bot.say("https://p.actionsack.com/wtf/wtf¿.gif")
 
 
 @plugin.rule(r"^What\sthe\sfuck!$")
 def wtfexclamation(bot, trigger):
-    bot.say("https://actionsack.com/img/wtf/wtfh3h3.mp4")
+    bot.say("https://p.actionsack.com/wtf/wtfh3h3.mp4")
 
 
 @plugin.rule("^Fuck!$")
 def fuckexclamation(bot, trigger):
-    bot.say("https://actionsack.com/img/fuck/fuck!.webp")
+    bot.say("https://p.actionsack.com/fuck/fuck!.webp")
 
 
 @plugin.rule(r"^Fuck\syeah!$")
 def fuckyeah(bot, trigger):
-    bot.say("https://actionsack.com/img/fuck/fuckyeah!.webp")
+    bot.say("https://p.actionsack.com/fuck/fuckyeah!.webp")
 
 
 @plugin.rule(r".*fuck\severything.*")
 def fuckeverything(bot, trigger):
-    bot.say("https://actionsack.com/img/fuck/fuckeverything.webp")
+    bot.say("https://p.actionsack.com/fuck/fuckeverything.webp")
 
 
 @plugin.rule(".*ftge.*")
 def ftge(bot, trigger):
     ftge = [
-        "https://actionsack.com/img/fuck/ftge-a.webp",
-        "https://actionsack.com/img/fuck/ftge.webp"
+        "https://p.actionsack.com/fuck/ftge-a.webp",
+        "https://p.actionsack.com/fuck/ftge.webp"
     ]
     bot.say(random.choice(ftge))
 
 
 @plugin.rule(r".*fooled\syou.*")
 def fooledyou(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/fooled.png")
+    bot.say("https://p.actionsack.com/misc/fooled.png")
 
 
 @plugin.rule(r".*fite\sme.*")
 def fiteme(bot, trigger):
     fiteme = [
-        "https://actionsack.com/img/fite/cat.gif",
-        "https://actionsack.com/img/fite/phones.gif",
-        "https://actionsack.com/img/fite/🌮.gif"
+        "https://p.actionsack.com/fite/cat.gif",
+        "https://p.actionsack.com/fite/phones.gif",
+        "https://p.actionsack.com/fite/🌮.gif"
     ]
     bot.say(random.choice(fiteme))
 
@@ -1182,15 +1182,15 @@ def fagexclamation(bot, trigger):
 
 @plugin.rule(".*fags.*")
 def fags(bot, trigger):
-    bot.say("https://actionsack.com/img/faggot/fags.png")
+    bot.say("https://p.actionsack.com/faggot/fags.png")
 
 
 @plugin.rule(".*fag(?!s).*")
 def faggot(bot, trigger):
     faggot = [
-        "https://actionsack.com/img/faggot/faggot.gif",
-        "https://actionsack.com/img/faggot/oh.gif",
-        "https://actionsack.com/img/faggot/urafaget.png",
+        "https://p.actionsack.com/faggot/faggot.gif",
+        "https://p.actionsack.com/faggot/oh.gif",
+        "https://p.actionsack.com/faggot/urafaget.png",
         "Faggot!",
         "(/¯◡ ‿ ◡)/¯ ~~~~ Abracadabra, you're a faggot!"
     ]
@@ -1200,66 +1200,66 @@ def faggot(bot, trigger):
 @plugin.rule("^Gay!$")
 def gayexclamation(bot, trigger):
     gayexclamation = [
-        "https://actionsack.com/img/gay/!.webp",
-        "https://actionsack.com/img/gay/sayshere.webp",
-        "https://actionsack.com/img/gay/shit.webp"
+        "https://p.actionsack.com/gay/!.webp",
+        "https://p.actionsack.com/gay/sayshere.webp",
+        "https://p.actionsack.com/gay/shit.webp"
     ]
     bot.say(random.choice(gayexclamation))
 
 
 @plugin.rule(r".*everything's\sfucked.*")
 def everythingsfucked(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/everythingsfucked.gif")
+    bot.say("https://p.actionsack.com/misc/everythingsfucked.gif")
 
 
 @plugin.rule(r"^o\sshit.*")
 def datboi(bot, trigger):
     oshit = [
-        "https://actionsack.com/img/oshit/8ball.png",
-        "https://actionsack.com/img/oshit/actorboi.gif",
-        "https://actionsack.com/img/oshit/bikeboi.gif",
-        "https://actionsack.com/img/oshit/boistory3.png",
-        "https://actionsack.com/img/oshit/busboi.png",
-        "https://actionsack.com/img/oshit/darksouls.png",
-        "https://actionsack.com/img/oshit/datboi.gif",
-        "https://actionsack.com/img/oshit/deadboi.gif",
-        "https://actionsack.com/img/oshit/edgy.png",
-        "https://actionsack.com/img/oshit/fallen.png",
-        "https://actionsack.com/img/oshit/fancy.png",
-        "https://actionsack.com/img/oshit/fastboi.gif",
-        "https://actionsack.com/img/oshit/fellow.png",
-        "https://actionsack.com/img/oshit/ghostboi.png",
-        "https://actionsack.com/img/oshit/greninja.png",
-        "https://actionsack.com/img/oshit/haramboi.png",
-        "https://actionsack.com/img/oshit/IRL.png",
-        "https://actionsack.com/img/oshit/iWish.png",
-        "https://actionsack.com/img/oshit/jewboi.png",
-        "https://actionsack.com/img/oshit/komradboi.png",
-        "https://actionsack.com/img/oshit/lasthope.png",
-        "https://actionsack.com/img/oshit/milkshake.png",
-        "https://actionsack.com/img/oshit/mortyboi.png",
-        "https://actionsack.com/img/oshit/movie.png",
-        "https://actionsack.com/img/oshit/newboi.png",
-        "https://actionsack.com/img/oshit/news.png",
-        "https://actionsack.com/img/oshit/objectionboi.png",
-        "https://actionsack.com/img/oshit/origin.gif",
-        "https://actionsack.com/img/oshit/pajamaboi.png",
-        "https://actionsack.com/img/oshit/playboi.png",
-        "https://actionsack.com/img/oshit/poolboi.png",
-        "https://actionsack.com/img/oshit/poster.png",
-        "https://actionsack.com/img/oshit/realluke.png",
-        "https://actionsack.com/img/oshit/reasons.png",
-        "https://actionsack.com/img/oshit/sexboi.png",
-        "https://actionsack.com/img/oshit/shiningboi.png",
-        "https://actionsack.com/img/oshit/starwars.png",
-        "https://actionsack.com/img/oshit/suicideboi.png",
-        "https://actionsack.com/img/oshit/sweater.png",
-        "https://actionsack.com/img/oshit/teamboi.png",
-        "https://actionsack.com/img/oshit/towers.png",
-        "https://actionsack.com/img/oshit/trumpboi.png",
-        "https://actionsack.com/img/oshit/warriorboi.png",
-        "https://actionsack.com/img/oshit/wat.png",
-        "https://actionsack.com/img/oshit/woodwork.png"
+        "https://p.actionsack.com/oshit/8ball.png",
+        "https://p.actionsack.com/oshit/actorboi.gif",
+        "https://p.actionsack.com/oshit/bikeboi.gif",
+        "https://p.actionsack.com/oshit/boistory3.png",
+        "https://p.actionsack.com/oshit/busboi.png",
+        "https://p.actionsack.com/oshit/darksouls.png",
+        "https://p.actionsack.com/oshit/datboi.gif",
+        "https://p.actionsack.com/oshit/deadboi.gif",
+        "https://p.actionsack.com/oshit/edgy.png",
+        "https://p.actionsack.com/oshit/fallen.png",
+        "https://p.actionsack.com/oshit/fancy.png",
+        "https://p.actionsack.com/oshit/fastboi.gif",
+        "https://p.actionsack.com/oshit/fellow.png",
+        "https://p.actionsack.com/oshit/ghostboi.png",
+        "https://p.actionsack.com/oshit/greninja.png",
+        "https://p.actionsack.com/oshit/haramboi.png",
+        "https://p.actionsack.com/oshit/IRL.png",
+        "https://p.actionsack.com/oshit/iWish.png",
+        "https://p.actionsack.com/oshit/jewboi.png",
+        "https://p.actionsack.com/oshit/komradboi.png",
+        "https://p.actionsack.com/oshit/lasthope.png",
+        "https://p.actionsack.com/oshit/milkshake.png",
+        "https://p.actionsack.com/oshit/mortyboi.png",
+        "https://p.actionsack.com/oshit/movie.png",
+        "https://p.actionsack.com/oshit/newboi.png",
+        "https://p.actionsack.com/oshit/news.png",
+        "https://p.actionsack.com/oshit/objectionboi.png",
+        "https://p.actionsack.com/oshit/origin.gif",
+        "https://p.actionsack.com/oshit/pajamaboi.png",
+        "https://p.actionsack.com/oshit/playboi.png",
+        "https://p.actionsack.com/oshit/poolboi.png",
+        "https://p.actionsack.com/oshit/poster.png",
+        "https://p.actionsack.com/oshit/realluke.png",
+        "https://p.actionsack.com/oshit/reasons.png",
+        "https://p.actionsack.com/oshit/sexboi.png",
+        "https://p.actionsack.com/oshit/shiningboi.png",
+        "https://p.actionsack.com/oshit/starwars.png",
+        "https://p.actionsack.com/oshit/suicideboi.png",
+        "https://p.actionsack.com/oshit/sweater.png",
+        "https://p.actionsack.com/oshit/teamboi.png",
+        "https://p.actionsack.com/oshit/towers.png",
+        "https://p.actionsack.com/oshit/trumpboi.png",
+        "https://p.actionsack.com/oshit/warriorboi.png",
+        "https://p.actionsack.com/oshit/wat.png",
+        "https://p.actionsack.com/oshit/woodwork.png"
     ]
     bot.say(random.choice(oshit))
 
@@ -1275,7 +1275,7 @@ def smitepro(bot, trigger):
 def xmassong(bot, trigger):
     """The only good Christmas song.
     Can also be triggered with '!xmas' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/xmas.webm")
+    bot.say("https://p.actionsack.com/v/xmas.webm")
 
 
 @plugin.rule(".*!swat.*")
@@ -1283,12 +1283,12 @@ def xmassong(bot, trigger):
 def swat(bot, trigger):
     """Summon SWAT into chat.
     Can also be triggered with '!swat' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/SWAT.mp4")
+    bot.say("https://p.actionsack.com/v/SWAT.mp4")
 
 
 @plugin.rule(".*(▫|◽|◻|⬜|▪|◾|◼|⬛|🟥|🟧|🟨|🟩|🟦|🟪|🟫).*")
 def square(bot, trigger):
-    bot.say("https://actionsack.com/img/v/square.mp4")
+    bot.say("https://p.actionsack.com/v/square.mp4")
 
 
 @plugin.command("dblflip")
@@ -1305,7 +1305,7 @@ def bitesback(bot, trigger):
 
 @plugin.rule("^Bye!$")
 def byebye(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/BYE!.webp")
+    bot.say("https://p.actionsack.com/misc/BYE!.webp")
 
 
 @plugin.command("cb")
@@ -1326,38 +1326,38 @@ def clickbait(bot, trigger):
 
 @plugin.rule(".*COVID19!.*")
 def windofgod(bot, trigger):
-    bot.say("https://actionsack.com/img/v/windofgod.webm")
+    bot.say("https://p.actionsack.com/v/windofgod.webm")
 
 
 @plugin.rule(".*crossfit.*")
 def crossfit(bot, trigger):
-    bot.say("https://actionsack.com/img/v/crossfit.webm")
+    bot.say("https://p.actionsack.com/v/crossfit.webm")
 
 
 @plugin.rule("^dang$")
 def dang(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/dang.jpg")
+    bot.say("https://p.actionsack.com/misc/dang.jpg")
 
 
 @plugin.command("dbc")
 def dbc(bot, trigger):
     """Post a Dragonbro Chi comic."""
     dbc = [
-        "https://actionsack.com/img/dbc/dbc01.png",
-        "https://actionsack.com/img/dbc/dbc02.png",
-        "https://actionsack.com/img/dbc/dbc03.png",
-        "https://actionsack.com/img/dbc/dbc04.png",
-        "https://actionsack.com/img/dbc/dbc07.png",
-        "https://actionsack.com/img/dbc/dbc08.png",
-        "https://actionsack.com/img/dbc/dbc09.png",
-        "https://actionsack.com/img/dbc/dbc10.png"
+        "https://p.actionsack.com/dbc/dbc01.png",
+        "https://p.actionsack.com/dbc/dbc02.png",
+        "https://p.actionsack.com/dbc/dbc03.png",
+        "https://p.actionsack.com/dbc/dbc04.png",
+        "https://p.actionsack.com/dbc/dbc07.png",
+        "https://p.actionsack.com/dbc/dbc08.png",
+        "https://p.actionsack.com/dbc/dbc09.png",
+        "https://p.actionsack.com/dbc/dbc10.png"
     ]
     bot.say(random.choice(dbc))
 
 
 @plugin.rule(r"^Deus\svult!$")
 def deusvult(bot, trigger):
-    bot.say("https://actionsack.com/img/v/deusvult.webm")
+    bot.say("https://p.actionsack.com/v/deusvult.webm")
 
 
 @plugin.rule(".*fake!.*")
@@ -1366,8 +1366,8 @@ def fake(bot, trigger):
     """For when something is super fake.
     Can also be triggered with 'fake!' anywhere in a message."""
     fake = [
-        "https://actionsack.com/img/fake/faux.png",
-        "https://actionsack.com/img/fake/kazoo.gif"
+        "https://p.actionsack.com/fake/faux.png",
+        "https://p.actionsack.com/fake/kazoo.gif"
     ]
     bot.say(random.choice(fake))
 
@@ -1377,7 +1377,7 @@ def fake(bot, trigger):
 def erect(bot, trigger):
     """Classic Krieger GIF.
     Can also be triggered with '!erect' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/erect.gif")
+    bot.say("https://p.actionsack.com/misc/erect.gif")
 
 
 @plugin.rule(".*GOAT!.*")
@@ -1385,7 +1385,7 @@ def erect(bot, trigger):
 def goat(bot, trigger):
     """Greatest of all time!
     Can also be triggered with 'GOAT!' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/GOAT.webm")
+    bot.say("https://p.actionsack.com/v/GOAT.webm")
 
 
 @plugin.rule("^hackers$")
@@ -1393,26 +1393,26 @@ def goat(bot, trigger):
 def hackers(bot, trigger):
     """Summons the world's two greatest hackers.
     Can also be summoned without the preceeding period/full stop."""
-    bot.say("https://actionsack.com/img/as/hackers.png")
+    bot.say("https://p.actionsack.com/as/hackers.png")
 
 
 @plugin.rule("^hue.*")
 def hue(bot, trigger):
     hue = [
-        "https://actionsack.com/img/hue/bots.gif",
-        "https://actionsack.com/img/hue/bus.gif",
-        "https://actionsack.com/img/hue/cat.gif",
-        "https://actionsack.com/img/hue/combo.gif",
-        "https://actionsack.com/img/hue/drhue.gif",
-        "https://actionsack.com/img/hue/drhueves.gif",
-        "https://actionsack.com/img/hue/horse.gif",
-        "https://actionsack.com/img/hue/huemanatee.gif",
-        "https://actionsack.com/img/hue/hueppo.gif",
-        "https://actionsack.com/img/hue/jellyfish.gif",
-        "https://actionsack.com/img/hue/kitten.gif",
-        "https://actionsack.com/img/hue/mike.gif",
-        "https://actionsack.com/img/hue/owls.gif",
-        "https://actionsack.com/img/hue/sdc.gif"
+        "https://p.actionsack.com/hue/bots.gif",
+        "https://p.actionsack.com/hue/bus.gif",
+        "https://p.actionsack.com/hue/cat.gif",
+        "https://p.actionsack.com/hue/combo.gif",
+        "https://p.actionsack.com/hue/drhue.gif",
+        "https://p.actionsack.com/hue/drhueves.gif",
+        "https://p.actionsack.com/hue/horse.gif",
+        "https://p.actionsack.com/hue/huemanatee.gif",
+        "https://p.actionsack.com/hue/hueppo.gif",
+        "https://p.actionsack.com/hue/jellyfish.gif",
+        "https://p.actionsack.com/hue/kitten.gif",
+        "https://p.actionsack.com/hue/mike.gif",
+        "https://p.actionsack.com/hue/owls.gif",
+        "https://p.actionsack.com/hue/sdc.gif"
     ]
     bot.say(random.choice(hue))
 
@@ -1424,31 +1424,31 @@ def iamthemachine(bot, trigger):
 
 @plugin.rule(r".*I\scan't\seven.*", r".*I'm\sliterally\scan't\seven.*")
 def icanteven(bot, trigger):
-    bot.say("https://actionsack.com/img/v/icanteven.webm")
+    bot.say("https://p.actionsack.com/v/icanteven.webm")
 
 
 @plugin.rule(r"^I\sship\s(it|that).*")
 def ishipit(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/fedex.webp")
+    bot.say("https://p.actionsack.com/misc/fedex.webp")
 
 
 @plugin.rule(".*idgaf.*")
 def idgaf(bot, trigger):
     idgaf = [
-        "https://actionsack.com/img/idgaf/20thcentury.webp",
-        "https://actionsack.com/img/idgaf/nophux.webp"
+        "https://p.actionsack.com/idgaf/20thcentury.webp",
+        "https://p.actionsack.com/idgaf/nophux.webp"
     ]
     bot.say(random.choice(idgaf))
 
 
 @plugin.rule(r".*hugh\smungus.*")
 def hughmungus(bot, trigger):
-    bot.say("https://actionsack.com/img/v/hughmungus.webm")
+    bot.say("https://p.actionsack.com/v/hughmungus.webm")
 
 
 @plugin.rule(".*IMDABES.*")
 def imdabes(bot, trigger):
-    bot.say("https://actionsack.com/img/v/IMDABES.webm")
+    bot.say("https://p.actionsack.com/v/IMDABES.webm")
 
 
 @plugin.rule(".*!JPEG.*")
@@ -1456,7 +1456,7 @@ def imdabes(bot, trigger):
 def jpeg(bot, trigger):
     """Do I look like I know what a JPEG is?
     Can also be triggered with '!JPEG' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/JPEG.webm")
+    bot.say("https://p.actionsack.com/v/JPEG.webm")
 
 
 @plugin.rule(".*!kazoo.*")
@@ -1464,15 +1464,15 @@ def jpeg(bot, trigger):
 def kazoo(bot, trigger):
     """Kaaazzzzoooooooooo!!!
     Can also be triggered with '!kazoo' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/kazoo.webm")
+    bot.say("https://p.actionsack.com/v/kazoo.webm")
 
 
 @plugin.rule(r"^kill\sme.*")
 def killme(bot, trigger):
     killme = [
-        "https://actionsack.com/img/killme/bulb.webp",
-        "https://actionsack.com/img/killme/char.webp",
-        "https://actionsack.com/img/killme/pika.webp",
+        "https://p.actionsack.com/killme/bulb.webp",
+        "https://p.actionsack.com/killme/char.webp",
+        "https://p.actionsack.com/killme/pika.webp",
     ]
     bot.say(random.choice(killme))
 
@@ -1480,27 +1480,27 @@ def killme(bot, trigger):
 @plugin.rule(r".*((?<!\w)k(y|m)s(?!\w)|kill\syourself).*")
 def kys(bot, trigger):
     kys = [
-        "https://actionsack.com/img/kys/deals.webp",
-        "https://actionsack.com/img/kys/elmo.webp",
-        "https://actionsack.com/img/kys/gift.webp",
-        "https://actionsack.com/img/kys/gta.webp",
-        "https://actionsack.com/img/kys/hang.webp",
-        "https://actionsack.com/img/kys/howto.webp",
-        "https://actionsack.com/img/kys/iGuess.webp",
-        "https://actionsack.com/img/kys/ike.webp",
-        "https://actionsack.com/img/kys/kys.webp",
-        "https://actionsack.com/img/kys/mike-pepe.webp",
-        "https://actionsack.com/img/kys/mike.webp",
-        "https://actionsack.com/img/kys/music.webp",
-        "https://actionsack.com/img/kys/ohhai.webp",
-        "https://actionsack.com/img/kys/pasta.webp",
-        "https://actionsack.com/img/kys/pepe.webp",
-        "https://actionsack.com/img/kys/peter-joe.webp",
-        "https://actionsack.com/img/kys/peter.webp",
-        "https://actionsack.com/img/kys/puft.webp",
-        "https://actionsack.com/img/kys/tried.webp",
-        "https://actionsack.com/img/kys/wendys.webp",
-        "https://actionsack.com/img/kys/window.webp",
+        "https://p.actionsack.com/kys/deals.webp",
+        "https://p.actionsack.com/kys/elmo.webp",
+        "https://p.actionsack.com/kys/gift.webp",
+        "https://p.actionsack.com/kys/gta.webp",
+        "https://p.actionsack.com/kys/hang.webp",
+        "https://p.actionsack.com/kys/howto.webp",
+        "https://p.actionsack.com/kys/iGuess.webp",
+        "https://p.actionsack.com/kys/ike.webp",
+        "https://p.actionsack.com/kys/kys.webp",
+        "https://p.actionsack.com/kys/mike-pepe.webp",
+        "https://p.actionsack.com/kys/mike.webp",
+        "https://p.actionsack.com/kys/music.webp",
+        "https://p.actionsack.com/kys/ohhai.webp",
+        "https://p.actionsack.com/kys/pasta.webp",
+        "https://p.actionsack.com/kys/pepe.webp",
+        "https://p.actionsack.com/kys/peter-joe.webp",
+        "https://p.actionsack.com/kys/peter.webp",
+        "https://p.actionsack.com/kys/puft.webp",
+        "https://p.actionsack.com/kys/tried.webp",
+        "https://p.actionsack.com/kys/wendys.webp",
+        "https://p.actionsack.com/kys/window.webp",
         "https://lostallhope.com/"
     ]
     bot.say(random.choice(kys))
@@ -1508,12 +1508,12 @@ def kys(bot, trigger):
 
 @plugin.rule(".*!music.*")
 def listentomusic(bot, trigger):
-    bot.say("https://actionsack.com/img/kys/music.webp")
+    bot.say("https://p.actionsack.com/kys/music.webp")
 
 
 @plugin.rule(r"^oh\shai.*")
 def ohhai(bot, trigger):
-    bot.say("https://actionsack.com/img/kys/ohhai.webp")
+    bot.say("https://p.actionsack.com/kys/ohhai.webp")
 
 
 @plugin.rule(".*legal!.*")
@@ -1522,8 +1522,8 @@ def legal(bot, trigger):
     """100% totally legal!
     Can also be triggered with 'legal!' anywhere in a message."""
     legal = [
-        "https://actionsack.com/img/misc/👍LEGAL👍.mp4",
-        "https://actionsack.com/img/misc/🕺LEGAL🕺.mp4"
+        "https://p.actionsack.com/misc/👍LEGAL👍.mp4",
+        "https://p.actionsack.com/misc/🕺LEGAL🕺.mp4"
     ]
     bot.say(random.choice(legal))
 
@@ -1533,8 +1533,8 @@ def legal(bot, trigger):
 def judge(bot, trigger):
     """Judge someone or something."""
     judges = [
-        "not guilty! https://actionsack.com/img/misc/not-guilty.png",
-        "guilty! https://actionsack.com/img/misc/guilty.png"
+        "not guilty! https://p.actionsack.com/misc/not-guilty.png",
+        "guilty! https://p.actionsack.com/misc/guilty.png"
     ]
     text = clean(trigger.group(2) or '')
 
@@ -1551,36 +1551,36 @@ def judge(bot, trigger):
 @plugin.rule(r"^wat($|\W)")
 def wat(bot, trigger):
     wat = [
-        "https://actionsack.com/img/wat/3wats.webp",
-        "https://actionsack.com/img/wat/65wat.webp",
-        "https://actionsack.com/img/wat/emma.webp",
-        "https://actionsack.com/img/wat/filming.webp",
-        "https://actionsack.com/img/wat/gigawat.webp",
-        "https://actionsack.com/img/wat/holdwat.webp",
-        "https://actionsack.com/img/wat/hwat02.webp",
-        "https://actionsack.com/img/wat/inthebutt.webp",
-        "https://actionsack.com/img/wat/jabba.webp",
-        "https://actionsack.com/img/wat/jaja.webp",
-        "https://actionsack.com/img/wat/jjwat.webp",
-        "https://actionsack.com/img/wat/konichiwat.webp",
-        "https://actionsack.com/img/wat/olde.webp",
-        "https://actionsack.com/img/wat/police.webp",
-        "https://actionsack.com/img/wat/slipwat.webp",
-        "https://actionsack.com/img/wat/space.webp",
-        "https://actionsack.com/img/wat/subwat.webp",
-        "https://actionsack.com/img/wat/swat.webp",
-        "https://actionsack.com/img/wat/watchdogs.webp",
-        "https://actionsack.com/img/wat/watduel.webp",
-        "https://actionsack.com/img/wat/waterworld.webp",
-        "https://actionsack.com/img/wat/wathusky.webp",
-        "https://actionsack.com/img/wat/watif.webp",
-        "https://actionsack.com/img/wat/watinthehat.webp",
-        "https://actionsack.com/img/wat/watislove.webp",
-        "https://actionsack.com/img/wat/watmouth.webp",
-        "https://actionsack.com/img/wat/wat.webp",
-        "https://actionsack.com/img/wat/watshake.webp",
-        "https://actionsack.com/img/wat/watwatwatwat.webp",
-        "https://actionsack.com/img/wat/wow.webp"
+        "https://p.actionsack.com/wat/3wats.webp",
+        "https://p.actionsack.com/wat/65wat.webp",
+        "https://p.actionsack.com/wat/emma.webp",
+        "https://p.actionsack.com/wat/filming.webp",
+        "https://p.actionsack.com/wat/gigawat.webp",
+        "https://p.actionsack.com/wat/holdwat.webp",
+        "https://p.actionsack.com/wat/hwat02.webp",
+        "https://p.actionsack.com/wat/inthebutt.webp",
+        "https://p.actionsack.com/wat/jabba.webp",
+        "https://p.actionsack.com/wat/jaja.webp",
+        "https://p.actionsack.com/wat/jjwat.webp",
+        "https://p.actionsack.com/wat/konichiwat.webp",
+        "https://p.actionsack.com/wat/olde.webp",
+        "https://p.actionsack.com/wat/police.webp",
+        "https://p.actionsack.com/wat/slipwat.webp",
+        "https://p.actionsack.com/wat/space.webp",
+        "https://p.actionsack.com/wat/subwat.webp",
+        "https://p.actionsack.com/wat/swat.webp",
+        "https://p.actionsack.com/wat/watchdogs.webp",
+        "https://p.actionsack.com/wat/watduel.webp",
+        "https://p.actionsack.com/wat/waterworld.webp",
+        "https://p.actionsack.com/wat/wathusky.webp",
+        "https://p.actionsack.com/wat/watif.webp",
+        "https://p.actionsack.com/wat/watinthehat.webp",
+        "https://p.actionsack.com/wat/watislove.webp",
+        "https://p.actionsack.com/wat/watmouth.webp",
+        "https://p.actionsack.com/wat/wat.webp",
+        "https://p.actionsack.com/wat/watshake.webp",
+        "https://p.actionsack.com/wat/watwatwatwat.webp",
+        "https://p.actionsack.com/wat/wow.webp"
     ]
     bot.say(random.choice(wat))
 
@@ -1601,10 +1601,10 @@ def windowsten(bot, trigger):
     """Windows 10 bad.
     Can also be triggered with 'Windows 10' anywhere in a message."""
     w10 = [
-        "https://actionsack.com/img/W10/game.png",
-        "https://actionsack.com/img/W10/pubg.webm",
-        "https://actionsack.com/img/W10/stuck.png",
-        "https://actionsack.com/img/W10/updates.webm"
+        "https://p.actionsack.com/W10/game.png",
+        "https://p.actionsack.com/W10/pubg.webm",
+        "https://p.actionsack.com/W10/stuck.png",
+        "https://p.actionsack.com/W10/updates.webm"
     ]
     bot.say(random.choice(w10))
 
@@ -1614,7 +1614,7 @@ def windowsten(bot, trigger):
 def wazard(bot, trigger):
     """Hagrid tells you what you are.
     Can also be triggered with '!wizard' or 'wazard' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/wazard.mp4")
+    bot.say("https://p.actionsack.com/misc/wazard.mp4")
 
 
 @plugin.rule(".*wow!.*")
@@ -1622,33 +1622,33 @@ def wazard(bot, trigger):
 def wow(bot, trigger):
     """Wow! — Can also be triggered with 'wow!' anywhere in a message."""
     wow = [
-        "https://actionsack.com/img/wow/corrupt.webp",
-        "https://actionsack.com/img/wow/wow!!.mp4",
-        "https://actionsack.com/img/wow/wow.webp"
+        "https://p.actionsack.com/wow/corrupt.webp",
+        "https://p.actionsack.com/wow/wow!!.mp4",
+        "https://p.actionsack.com/wow/wow.webp"
     ]
     bot.say(random.choice(wow))
 
 
 @plugin.rule(".*whoa.*")
 def whoa(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/whoa.webp")
+    bot.say("https://p.actionsack.com/misc/whoa.webp")
 
 
 @plugin.rule(r".*wew\slad.*", ".*wew!.*")
 @plugin.command("wew")
 def wew(bot, trigger):
     """wew lad! — Can also be triggered with 'wew!' or 'wew lad' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/wew.webp")
+    bot.say("https://p.actionsack.com/misc/wew.webp")
 
 
 @plugin.rule(r"^(uh\.\.\.|uh{2,})$")
 def uhh(bot, trigger):
     uhh = [
-        "https://actionsack.com/img/uh/uh01.webp",
-        "https://actionsack.com/img/uh/uh02.webp",
-        "https://actionsack.com/img/uh/uh03.webp",
-        "https://actionsack.com/img/uh/uh04.webp",
-        "https://actionsack.com/img/uh/uhbytes.webp"
+        "https://p.actionsack.com/uh/uh01.webp",
+        "https://p.actionsack.com/uh/uh02.webp",
+        "https://p.actionsack.com/uh/uh03.webp",
+        "https://p.actionsack.com/uh/uh04.webp",
+        "https://p.actionsack.com/uh/uhbytes.webp"
     ]
     bot.say(random.choice(uhh))
 
@@ -1656,8 +1656,8 @@ def uhh(bot, trigger):
 @plugin.rule(".*!!twerk.*")
 def twerk(bot, trigger):
     twerkit = [
-        "https://actionsack.com/img/twerk/ash.gif",
-        "https://actionsack.com/img/twerk/nose.gif"
+        "https://p.actionsack.com/twerk/ash.gif",
+        "https://p.actionsack.com/twerk/nose.gif"
     ]
     bot.say(random.choice(twerkit))
 
@@ -1665,8 +1665,8 @@ def twerk(bot, trigger):
 @plugin.rule(r".*swiggity\sswooty.*")
 def swiggityswooty(bot, trigger):
     swiggity = [
-        "https://actionsack.com/img/swiggityswooty/birb.gif",
-        "https://actionsack.com/img/swiggityswooty/fatman.gif"
+        "https://p.actionsack.com/swiggityswooty/birb.gif",
+        "https://p.actionsack.com/swiggityswooty/fatman.gif"
     ]
     bot.say(random.choice(swiggity))
 
@@ -1676,12 +1676,12 @@ def swiggityswooty(bot, trigger):
 def praisethesun(bot, trigger):
     """Praise the Sun!
     Can also be triggered with 'praise the sun' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/praisethesun.webm")
+    bot.say("https://p.actionsack.com/v/praisethesun.webm")
 
 
 @plugin.rule(".*#spam.*")
 def spam(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/spam.png")
+    bot.say("https://p.actionsack.com/misc/spam.png")
 
 
 @plugin.rule(".*!son.*")
@@ -1690,13 +1690,13 @@ def son(bot, trigger):
     """Posts a "don't talk to me or my son" meme/image.
     Can also be triggered with "!son" anywhere in a message."""
     son = [
-        "https://actionsack.com/img/son/acnh.webp",
-        "https://actionsack.com/img/son/chiefs.webp",
-        "https://actionsack.com/img/son/doggos.webp",
-        "https://actionsack.com/img/son/halo.webp",
-        "https://actionsack.com/img/son/subs.webp",
-        "https://actionsack.com/img/son/teslas.webp",
-        "https://actionsack.com/img/son/wieners.webp"
+        "https://p.actionsack.com/son/acnh.webp",
+        "https://p.actionsack.com/son/chiefs.webp",
+        "https://p.actionsack.com/son/doggos.webp",
+        "https://p.actionsack.com/son/halo.webp",
+        "https://p.actionsack.com/son/subs.webp",
+        "https://p.actionsack.com/son/teslas.webp",
+        "https://p.actionsack.com/son/wieners.webp"
     ]
     bot.say(random.choice(son))
 
@@ -1704,18 +1704,18 @@ def son(bot, trigger):
 @plugin.rule("^sh{2,}$")
 def shh(bot, trigger):
     shhh = [
-        "https://actionsack.com/img/shh/clouds.jpg",
-        "https://actionsack.com/img/shh/eardrums.mp4",
-        "https://actionsack.com/img/shh/ninjagaiden.png",
-        "https://actionsack.com/img/shh/stfub.mp4",
-        "https://actionsack.com/img/shh/tlou.jpg"
+        "https://p.actionsack.com/shh/clouds.jpg",
+        "https://p.actionsack.com/shh/eardrums.mp4",
+        "https://p.actionsack.com/shh/ninjagaiden.png",
+        "https://p.actionsack.com/shh/stfub.mp4",
+        "https://p.actionsack.com/shh/tlou.jpg"
     ]
     bot.say(random.choice(shhh))
 
 
 @plugin.rule(r".*sex\srobot.*")
 def sexrobot(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/sexrobot.gif")
+    bot.say("https://p.actionsack.com/misc/sexrobot.gif")
 
 
 @plugin.rule(".*!stickers.*")
@@ -1723,13 +1723,13 @@ def sexrobot(bot, trigger):
 def stickers(bot, trigger):
     """Well-known fact: each sticker on your car adds 5 horsepower.
     Can also be triggered with '!stickers' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/stickers.gif")
+    bot.say("https://p.actionsack.com/misc/stickers.gif")
 
 
 @plugin.command("shaved")
 def shaved(bot, trigger):
     """xnaas' beautiful shaved leg circa 2011."""
-    bot.say("https://actionsack.com/img/xnaas/shaved.webp")
+    bot.say("https://p.actionsack.com/xnaas/shaved.webp")
 
 
 @plugin.rule(".*!rimshot.*")
@@ -1738,10 +1738,10 @@ def rimshot(bot, trigger):
     """Replies with a 'rimshot' GIF.
     Can also be triggered with '!rimshot' anywhere in a message."""
     rim_shot = [
-        "https://actionsack.com/img/rimshot/effects.gif",
-        "https://actionsack.com/img/rimshot/fgr.gif",
-        "https://actionsack.com/img/rimshot/mlp.gif",
-        "https://actionsack.com/img/rimshot/rimshot.gif"
+        "https://p.actionsack.com/rimshot/effects.gif",
+        "https://p.actionsack.com/rimshot/fgr.gif",
+        "https://p.actionsack.com/rimshot/mlp.gif",
+        "https://p.actionsack.com/rimshot/rimshot.gif"
     ]
     bot.say(random.choice(rim_shot))
 
@@ -1750,7 +1750,7 @@ def rimshot(bot, trigger):
 @plugin.command("newhouse")
 def newhouse(bot, trigger):
     """Can also be triggered with '!newhouse' anywhere in a message."""
-    bot.say("https://actionsack.com/img/fecktk/newhouse.webp")
+    bot.say("https://p.actionsack.com/fecktk/newhouse.webp")
 
 
 @plugin.rule(".*!drone.*")
@@ -1758,7 +1758,7 @@ def newhouse(bot, trigger):
 def drone(bot, trigger):
     """Summons a drone into chat.
     Can also be summoned with '!drone' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/drone.webm")
+    bot.say("https://p.actionsack.com/v/drone.webm")
 
 
 @plugin.rule(".*!cage.*")
@@ -1767,9 +1767,9 @@ def nickcage(bot, trigger):
     """Summons Nicolas Cage into chat.
     Can also be summoned with '!cage' anywhere in a message."""
     nick_cage = [
-        "https://actionsack.com/img/cage/scream.webp",
-        "https://actionsack.com/img/cage/side-to-side.webp",
-        "https://actionsack.com/img/cage/wink.webp"
+        "https://p.actionsack.com/cage/scream.webp",
+        "https://p.actionsack.com/cage/side-to-side.webp",
+        "https://p.actionsack.com/cage/wink.webp"
     ]
     bot.say(random.choice(nick_cage))
 
@@ -1798,7 +1798,7 @@ def voiceactor(bot, trigger):
         "Thank you... This is a nice comment... Maybe these stupid insects and take notes and learn what real hospitality is!?",
         "I am sick of attackers and now I fight back... Years and years I was quiet... Not... This... Time... I am so sick of people that are LESS than human! Just be fucking nice and I wont bring out my soulcrusher! Is that too much to ask?! I feel like I am in some stupid episode of PUNKED!",
         "My animation reel is good. You cannot fool me... You cannot weaken my defenses here... I acted those characters all on the fly and made up the scripts on the fly too... I think they are exceptional... Imagine when I actually TRY to make the proper reels... Why must I keep explaining myself to you narrow minded fools?! I can be such a wonderful and charming man... Yet, now you have made me into the dragon!",
-        "https://actionsack.com/img/misc/'voiceactor'.png"]
+        "https://p.actionsack.com/misc/'voiceactor'.png"]
     bot.say(random.choice(voice_actor), max_messages=3)
 
 
@@ -1809,11 +1809,11 @@ def baby(bot, trigger):
     WARNING: not a cutesy command.
     Can also be triggered with '!baby' anywhere in a message."""
     baby_pics = [
-        "https://actionsack.com/img/baby/inflammable.gif",
-        "https://actionsack.com/img/baby/man.png",
-        "https://actionsack.com/img/baby/prayfor.png",
-        "https://actionsack.com/img/baby/rolling.gif",
-        "https://actionsack.com/img/baby/spider.gif"
+        "https://p.actionsack.com/baby/inflammable.gif",
+        "https://p.actionsack.com/baby/man.png",
+        "https://p.actionsack.com/baby/prayfor.png",
+        "https://p.actionsack.com/baby/rolling.gif",
+        "https://p.actionsack.com/baby/spider.gif"
     ]
     bot.say(random.choice(baby_pics))
 
@@ -1822,7 +1822,7 @@ def baby(bot, trigger):
 @plugin.command("boom")
 def boom(bot, trigger):
     """BOOM! — Can also be triggered with 'boom!' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/boom.webp")
+    bot.say("https://p.actionsack.com/misc/boom.webp")
 
 
 @plugin.rule(".*burn!.*")
@@ -1835,37 +1835,37 @@ def burn(bot, trigger):
 def bustin(bot, trigger):
     """Bustin' makes me feel good!
     Can also be triggered with "bustin'" anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/bustin.webm")
+    bot.say("https://p.actionsack.com/v/bustin.webm")
 
 
 @plugin.rule(r".*(?<!s)canned(?!\sair).*")
 def canned(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/canned.gif")
+    bot.say("https://p.actionsack.com/misc/canned.gif")
 
 
 @plugin.rule(r".*consider(\s|ed\s)this.*")
 def consider(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/consider.webp")
+    bot.say("https://p.actionsack.com/misc/consider.webp")
 
 
 @plugin.rule(".*congraturaisins.*")
 def congraturaisins(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/congraturaisins.png")
+    bot.say("https://p.actionsack.com/misc/congraturaisins.png")
 
 
 @plugin.rule(".*cowabunga.*")
 def cowabunga(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/cowabunga.png")
+    bot.say("https://p.actionsack.com/misc/cowabunga.png")
 
 
 @plugin.rule(".*correct!.*")
 def correcthorse(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/correct!.gif")
+    bot.say("https://p.actionsack.com/misc/correct!.gif")
 
 
 @plugin.rule(".*centaur.*")
 def centaur(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/centaur.png")
+    bot.say("https://p.actionsack.com/misc/centaur.png")
 
 
 @plugin.rule(".*(!dance|dance!).*")
@@ -1874,14 +1874,14 @@ def dance(bot, trigger):
     """Posts a dancing GIF.
     Can also be triggered with 'dance!' or '!dance' anywhere in a message."""
     dance_gifs = [
-        "https://actionsack.com/img/dance/arms.gif",
-        "https://actionsack.com/img/dance/arthur.gif",
-        "https://actionsack.com/img/dance/bunny.gif",
-        "https://actionsack.com/img/dance/frankie.gif",
-        "https://actionsack.com/img/dance/gijoe.gif",
-        "https://actionsack.com/img/dance/guy.gif",
-        "https://actionsack.com/img/dance/jontron.gif",
-        "https://actionsack.com/img/dance/skeleton.gif"
+        "https://p.actionsack.com/dance/arms.gif",
+        "https://p.actionsack.com/dance/arthur.gif",
+        "https://p.actionsack.com/dance/bunny.gif",
+        "https://p.actionsack.com/dance/frankie.gif",
+        "https://p.actionsack.com/dance/gijoe.gif",
+        "https://p.actionsack.com/dance/guy.gif",
+        "https://p.actionsack.com/dance/jontron.gif",
+        "https://p.actionsack.com/dance/skeleton.gif"
     ]
     bot.say(random.choice(dance_gifs))
 
@@ -1889,31 +1889,31 @@ def dance(bot, trigger):
 @plugin.command("doomanimal")
 def doomanimal(bot, trigger):
     """Posts "DOOMANIMAL" video by @andmish."""
-    bot.say("https://actionsack.com/img/v/DOOMANIMAL.webm")
+    bot.say("https://p.actionsack.com/v/DOOMANIMAL.webm")
 
 
 @plugin.command("doomcrossing")
 def doomcrossing(bot, trigger):
     """Posts "DOOM CROSSING: Eternal Horizons" by The Chalkeaters feat. Natalia Natchan."""
-    bot.say("https://actionsack.com/img/v/DOOMCROSSING.webm")
+    bot.say("https://p.actionsack.com/v/DOOMCROSSING.webm")
 
 
 @plugin.rule(r".*doom\sguy.*")
 def doomguy(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/doomguy.webp")
+    bot.say("https://p.actionsack.com/misc/doomguy.webp")
 
 
 @plugin.rule(".*grapist.*")
 def grapist(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/grapist.gif")
+    bot.say("https://p.actionsack.com/misc/grapist.gif")
 
 
 @plugin.rule(r".*it\swas\sme(?!ant).*")
 def itwasme(bot, trigger):
     me_dio = [
-        "https://actionsack.com/img/dio/dva.png",
-        "https://actionsack.com/img/dio/sombra.png",
-        "https://actionsack.com/img/dio/trumpva.gif"
+        "https://p.actionsack.com/dio/dva.png",
+        "https://p.actionsack.com/dio/sombra.png",
+        "https://p.actionsack.com/dio/trumpva.gif"
     ]
     bot.say(random.choice(me_dio))
 
@@ -1926,22 +1926,22 @@ def godbless(bot, trigger):
 @plugin.rule(r".*hail\ssatan!.*")
 def hailsatan(bot, trigger):
     hail_satan = [
-        "https://actionsack.com/img/satan/mii.webm",
-        "https://actionsack.com/img/satan/pooh.mp4"
+        "https://p.actionsack.com/satan/mii.webm",
+        "https://p.actionsack.com/satan/pooh.mp4"
     ]
     bot.say(random.choice(hail_satan))
 
 
 @plugin.rule(r".*have\sa\sseat.*")
 def haveaseat(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/haveaseat.gif")
+    bot.say("https://p.actionsack.com/misc/haveaseat.gif")
 
 
 @plugin.rule(".*(jews|✡️|✡).*")
 def jews(bot, trigger):
     jew_pics = [
-        "https://actionsack.com/img/jews/blame.webp",
-        "https://actionsack.com/img/jews/donate.webp"
+        "https://p.actionsack.com/jews/blame.webp",
+        "https://p.actionsack.com/jews/donate.webp"
     ]
     bot.say(random.choice(jew_pics))
 
@@ -1958,12 +1958,12 @@ def kay(bot, trigger):
         "👌🏿",
         "👌🏻👌🏼👌🏽👌🏾👌🏿",
         "🆗",
-        "https://actionsack.com/img/k/kermit.mp4",
-        "https://actionsack.com/img/k/seuss.mp4",
-        "https://actionsack.com/img/k/shirt.mp4",
-        "https://actionsack.com/img/k/snow.mp4",
-        "https://actionsack.com/img/k/VHS.mp4",
-        "https://actionsack.com/img/k/vldlk.gif"
+        "https://p.actionsack.com/k/kermit.mp4",
+        "https://p.actionsack.com/k/seuss.mp4",
+        "https://p.actionsack.com/k/shirt.mp4",
+        "https://p.actionsack.com/k/snow.mp4",
+        "https://p.actionsack.com/k/VHS.mp4",
+        "https://p.actionsack.com/k/vldlk.gif"
     ]
     bot.say(random.choice(kk))
 
@@ -1971,14 +1971,14 @@ def kay(bot, trigger):
 @plugin.rule(".*!words.*")
 def words(bot, trigger):
     # Requested by Aegisfate on 2020-11-19
-    bot.say("https://actionsack.com/img/misc/words.webp")
+    bot.say("https://p.actionsack.com/misc/words.webp")
 
 
 @plugin.rule(".*kiki.*")
 def kiki(bot, trigger):
     kiki = [
-        "https://actionsack.com/img/kiki/sauce.png",
-        "https://actionsack.com/img/kiki/snoop.png",
+        "https://p.actionsack.com/kiki/sauce.png",
+        "https://p.actionsack.com/kiki/snoop.png",
         formatting.monospace('[4:44 PM] Kiki: U sound so far right now'),
         "I S M A E L  C H I A  T O R R E S"]
     bot.say(random.choice(kiki))
@@ -1986,7 +1986,7 @@ def kiki(bot, trigger):
 
 @plugin.rule(r".*major\sspoiler.*")
 def majorspoiler(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/spoiler.png")
+    bot.say("https://p.actionsack.com/misc/spoiler.png")
 
 
 @plugin.rule(".*!navy.*")
@@ -1997,7 +1997,7 @@ def navyseal(bot, trigger):
     Server-wide rate limit of once per 6 hours.
     Can also be triggered with '!navy' anywhere in a message."""
     navy_seal = [
-        "https://actionsack.com/img/misc/navyseal.mp4",
+        "https://p.actionsack.com/misc/navyseal.mp4",
         "What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little ''clever'' comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo."
     ]
     bot.say(random.choice(navy_seal), max_messages=4)
@@ -2006,14 +2006,14 @@ def navyseal(bot, trigger):
 @plugin.rule(".*racist.*")
 def racist(bot, trigger):
     racists = [
-        "https://actionsack.com/img/racist/birds.gif",
-        "https://actionsack.com/img/racist/blackmexican.gif",
-        "https://actionsack.com/img/racist/fall.gif",
-        "https://actionsack.com/img/racist/nelson.gif",
-        "https://actionsack.com/img/racist/prettyracist.mp4",
-        "https://actionsack.com/img/racist/racist.mp4",
-        "https://actionsack.com/img/racist/shake.gif",
-        "https://actionsack.com/img/racist/wash.png"
+        "https://p.actionsack.com/racist/birds.gif",
+        "https://p.actionsack.com/racist/blackmexican.gif",
+        "https://p.actionsack.com/racist/fall.gif",
+        "https://p.actionsack.com/racist/nelson.gif",
+        "https://p.actionsack.com/racist/prettyracist.mp4",
+        "https://p.actionsack.com/racist/racist.mp4",
+        "https://p.actionsack.com/racist/shake.gif",
+        "https://p.actionsack.com/racist/wash.png"
     ]
     bot.say(random.choice(racists))
 
@@ -2021,11 +2021,11 @@ def racist(bot, trigger):
 @plugin.rule(".*niggers.*")
 def niggers(bot, trigger):
     niggers = [
-        "https://actionsack.com/img/racist/nig/cana.png",
-        "https://actionsack.com/img/racist/nig/kan.png",
-        "https://actionsack.com/img/racist/nig/kristen.png",
-        "https://actionsack.com/img/racist/nig/naggers.gif",
-        "https://actionsack.com/img/racist/nig/welfare.png"
+        "https://p.actionsack.com/racist/nig/cana.png",
+        "https://p.actionsack.com/racist/nig/kan.png",
+        "https://p.actionsack.com/racist/nig/kristen.png",
+        "https://p.actionsack.com/racist/nig/naggers.gif",
+        "https://p.actionsack.com/racist/nig/welfare.png"
     ]
     if trigger.is_privmsg or trigger.sender == "#nsfw":
         bot.say(random.choice(niggers))
@@ -2033,59 +2033,59 @@ def niggers(bot, trigger):
 
 @plugin.rule(r".*pasta\sdisasta.*")
 def pastadisasta(bot, trigger):
-    bot.say("https://actionsack.com/img/🍝/disasta.webm")
+    bot.say("https://p.actionsack.com/🍝/disasta.webm")
 
 
 @plugin.rule(r".*(?<!his)panic!.*")
 def panic(bot, trigger):
     panic_room = [
-        "https://actionsack.com/img/panic/00.webp",
-        "https://actionsack.com/img/panic/01.webp",
-        "https://actionsack.com/img/panic/02.webp",
-        "https://actionsack.com/img/panic/03.webp",
-        "https://actionsack.com/img/panic/04.webp",
-        "https://actionsack.com/img/panic/05.webp",
-        "https://actionsack.com/img/panic/06.webp"
+        "https://p.actionsack.com/panic/00.webp",
+        "https://p.actionsack.com/panic/01.webp",
+        "https://p.actionsack.com/panic/02.webp",
+        "https://p.actionsack.com/panic/03.webp",
+        "https://p.actionsack.com/panic/04.webp",
+        "https://p.actionsack.com/panic/05.webp",
+        "https://p.actionsack.com/panic/06.webp"
     ]
     bot.say(random.choice(panic_room))
 
 
 @plugin.rule(r".*my\sbrand.*")
 def mybrand(bot, trigger):
-    bot.say("https://actionsack.com/img/v/MY_BRAND!.webm")
+    bot.say("https://p.actionsack.com/v/MY_BRAND!.webm")
 
 
 @plugin.rule(".*!nms.*")
 def nms(bot, trigger):
     no_mans_sky = [
-        "https://actionsack.com/img/nms/ice.png",
-        "https://actionsack.com/img/nms/legit.gif",
-        "https://actionsack.com/img/nms/mike.png"
+        "https://p.actionsack.com/nms/ice.png",
+        "https://p.actionsack.com/nms/legit.gif",
+        "https://p.actionsack.com/nms/mike.png"
     ]
     bot.say(random.choice(no_mans_sky))
 
 
 @plugin.rule(r"^(nice|sick)\sgif.*")
 def sickgif(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/sickgif.gif")
+    bot.say("https://p.actionsack.com/misc/sickgif.gif")
 
 
 @plugin.rule("^nerd!$")
 def nerd(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/nerd!.gif")
+    bot.say("https://p.actionsack.com/misc/nerd!.gif")
 
 
 @plugin.rule(".*neat!.*")
 def neat(bot, trigger):
     neat = [
-        "https://actionsack.com/img/neat/anime.gif",
-        "https://actionsack.com/img/neat/bender01.gif",
-        "https://actionsack.com/img/neat/bender02.gif",
-        "https://actionsack.com/img/neat/bender03.gif",
-        "https://actionsack.com/img/neat/ffcat.png",
-        "https://actionsack.com/img/neat/neat.mp4",
-        "https://actionsack.com/img/neat/spiderman.gif",
-        "https://actionsack.com/img/neat/stare.gif"
+        "https://p.actionsack.com/neat/anime.gif",
+        "https://p.actionsack.com/neat/bender01.gif",
+        "https://p.actionsack.com/neat/bender02.gif",
+        "https://p.actionsack.com/neat/bender03.gif",
+        "https://p.actionsack.com/neat/ffcat.png",
+        "https://p.actionsack.com/neat/neat.mp4",
+        "https://p.actionsack.com/neat/spiderman.gif",
+        "https://p.actionsack.com/neat/stare.gif"
     ]
     bot.say(random.choice(neat))
 
@@ -2094,8 +2094,8 @@ def neat(bot, trigger):
 @plugin.rule(r".*my\sserver.*")
 def myserver(bot, trigger):
     my_server = [
-        "https://actionsack.com/img/server/irl.jpg",
-        "https://actionsack.com/img/server/weekend.png"
+        "https://p.actionsack.com/server/irl.jpg",
+        "https://p.actionsack.com/server/weekend.png"
     ]
     bot.say(random.choice(my_server))
 
@@ -2103,8 +2103,8 @@ def myserver(bot, trigger):
 @plugin.rule(r".*(?<!\w)moist(?!\w).*")
 def moist(bot, trigger):
     moist = [
-        "https://actionsack.com/img/moist/asian.jpg",
-        "https://actionsack.com/img/moist/old.jpg"
+        "https://p.actionsack.com/moist/asian.jpg",
+        "https://p.actionsack.com/moist/old.jpg"
     ]
     bot.say(random.choice(moist))
 
@@ -2114,35 +2114,35 @@ def moist(bot, trigger):
 def manga(bot, trigger):
     """Posts a clip from the BowserVids "What's in the bag?" video.
     Can also be triggered with '!manga' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/manga.mp4")
+    bot.say("https://p.actionsack.com/v/manga.mp4")
 
 
 @plugin.rule(r".*let\sme\sin.*")
 def letmein(bot, trigger):
-    bot.say("https://actionsack.com/img/v/letmein.mp4")
+    bot.say("https://p.actionsack.com/v/letmein.mp4")
 
 
 @plugin.rule(r".*i\smade\sthis.*")
 def imadethis(bot, trigger):
     iMadeThis = [
-        "https://actionsack.com/img/OC/apple.png",
-        "https://actionsack.com/img/OC/comic.png",
-        "https://actionsack.com/img/OC/iGIF.gif",
-        "https://actionsack.com/img/OC/iGIF2.gif",
-        "https://actionsack.com/img/OC/iPickle.png",
-        "https://actionsack.com/img/OC/starwars.png"
+        "https://p.actionsack.com/OC/apple.png",
+        "https://p.actionsack.com/OC/comic.png",
+        "https://p.actionsack.com/OC/iGIF.gif",
+        "https://p.actionsack.com/OC/iGIF2.gif",
+        "https://p.actionsack.com/OC/iPickle.png",
+        "https://p.actionsack.com/OC/starwars.png"
     ]
     bot.say(random.choice(iMadeThis))
 
 
 @plugin.rule(r".*(?<!\w)eat\sshit.*")
 def frank(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/frank.gif")
+    bot.say("https://p.actionsack.com/misc/frank.gif")
 
 
 @plugin.rule(".*GTFO.*")
 def gtfo(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/gtfo.png")
+    bot.say("https://p.actionsack.com/misc/gtfo.png")
 
 
 @plugin.rule(".*hawt.*")
@@ -2153,46 +2153,46 @@ def hawt(bot, trigger):
 @plugin.rule("^hwat.*")
 def hwat(bot, trigger):
     hwat = [
-        "https://actionsack.com/img/wat/hwat01.webp",
-        "https://actionsack.com/img/wat/hwat02.webp"
+        "https://p.actionsack.com/wat/hwat01.webp",
+        "https://p.actionsack.com/wat/hwat02.webp"
     ]
     bot.say(random.choice(hwat))
 
 
 @plugin.rule(r".*I\ssee\syou(?!\').*")
 def iseeyou(bot, trigger):
-    bot.say("https://actionsack.com/img/👀/iSeeU.mp4")
+    bot.say("https://p.actionsack.com/👀/iSeeU.mp4")
 
 
 @plugin.rule(".*eyelids.*")
 def eyelids(bot, trigger):
-    bot.say("https://actionsack.com/img/👀/eyelids.mp4")
+    bot.say("https://p.actionsack.com/👀/eyelids.mp4")
 
 
 @plugin.rule(".*👀.*")
 def eyes(bot, trigger):
     eyes = [
-        "https://actionsack.com/img/👀/anime.png",
-        "https://actionsack.com/img/👀/big01.png",
-        "https://actionsack.com/img/👀/big02.png",
-        "https://actionsack.com/img/👀/big03.png",
-        "https://actionsack.com/img/👀/big04.png",
-        "https://actionsack.com/img/👀/big05.png",
-        "https://actionsack.com/img/👀/big06.png",
-        "https://actionsack.com/img/👀/big07.png",
-        "https://actionsack.com/img/👀/big08.png",
-        "https://actionsack.com/img/👀/bigred.png",
-        "https://actionsack.com/img/👀/deadpool.gif",
-        "https://actionsack.com/img/👀/eric01.png",
-        "https://actionsack.com/img/👀/eric02.png",
-        "https://actionsack.com/img/👀/eyelids.mp4",
-        "https://actionsack.com/img/👀/fecktk.png",
-        "https://actionsack.com/img/👀/iSeeU.mp4",
-        "https://actionsack.com/img/👀/monkey.png",
-        "https://actionsack.com/img/👀/obama.png",
-        "https://actionsack.com/img/👀/trump.png",
-        "https://actionsack.com/img/👀/walrus.png",
-        "https://actionsack.com/img/👀/woody.png"
+        "https://p.actionsack.com/👀/anime.png",
+        "https://p.actionsack.com/👀/big01.png",
+        "https://p.actionsack.com/👀/big02.png",
+        "https://p.actionsack.com/👀/big03.png",
+        "https://p.actionsack.com/👀/big04.png",
+        "https://p.actionsack.com/👀/big05.png",
+        "https://p.actionsack.com/👀/big06.png",
+        "https://p.actionsack.com/👀/big07.png",
+        "https://p.actionsack.com/👀/big08.png",
+        "https://p.actionsack.com/👀/bigred.png",
+        "https://p.actionsack.com/👀/deadpool.gif",
+        "https://p.actionsack.com/👀/eric01.png",
+        "https://p.actionsack.com/👀/eric02.png",
+        "https://p.actionsack.com/👀/eyelids.mp4",
+        "https://p.actionsack.com/👀/fecktk.png",
+        "https://p.actionsack.com/👀/iSeeU.mp4",
+        "https://p.actionsack.com/👀/monkey.png",
+        "https://p.actionsack.com/👀/obama.png",
+        "https://p.actionsack.com/👀/trump.png",
+        "https://p.actionsack.com/👀/walrus.png",
+        "https://p.actionsack.com/👀/woody.png"
     ]
     bot.say(random.choice(eyes))
 
@@ -2200,10 +2200,10 @@ def eyes(bot, trigger):
 @plugin.rule(r"^💩(|\s)💩$")
 def shit(bot, trigger):
     shit_gifs = [
-        "https://actionsack.com/img/💩/cardi.mp4",
-        "https://actionsack.com/img/💩/extreme.mp4",
-        "https://actionsack.com/img/💩/McCafé.gif",
-        "https://actionsack.com/img/💩/🚽.gif"
+        "https://p.actionsack.com/💩/cardi.mp4",
+        "https://p.actionsack.com/💩/extreme.mp4",
+        "https://p.actionsack.com/💩/McCafé.gif",
+        "https://p.actionsack.com/💩/🚽.gif"
     ]
     bot.say(random.choice(shit_gifs))
 
@@ -2212,7 +2212,7 @@ def shit(bot, trigger):
 @plugin.command("tesla")
 def tesla(bot, trigger):
     """Can also be triggered with '!tesla' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/tesla.webm")
+    bot.say("https://p.actionsack.com/v/tesla.webm")
 
 
 @plugin.rule(".*!vn.*")
@@ -2221,67 +2221,67 @@ def vapenaysh(bot, trigger):
     """Vape naysh, y'all!
     Can also be triggered with '!vn' anywhere in a message."""
     vape_naysh = [
-        "https://actionsack.com/img/vn/20.png",
-        "https://actionsack.com/img/vn/2fast.png",
-        "https://actionsack.com/img/vn/5minutes.png",
-        "https://actionsack.com/img/vn/anal.png",
-        "https://actionsack.com/img/vn/area.png",
-        "https://actionsack.com/img/vn/arrest.webm",
-        "https://actionsack.com/img/vn/bart.gif",
-        "https://actionsack.com/img/vn/bart.webm",
-        "https://actionsack.com/img/vn/beanie.png",
-        "https://actionsack.com/img/vn/breakingbad.png",
-        "https://actionsack.com/img/vn/bubble.mp4",
-        "https://actionsack.com/img/vn/burns.gif",
-        "https://actionsack.com/img/vn/charged.png",
-        "https://actionsack.com/img/vn/C&H.gif",
-        "https://actionsack.com/img/vn/coconut.png",
-        "https://actionsack.com/img/vn/dora.png",
-        "https://actionsack.com/img/vn/faceswap.gif",
-        "https://actionsack.com/img/vn/fancy-ethan.png",
-        "https://actionsack.com/img/vn/first.png",
-        "https://actionsack.com/img/vn/flappy.gif",
-        "https://actionsack.com/img/vn/gaysex.png",
-        "https://actionsack.com/img/vn/godzilla.gif",
-        "https://actionsack.com/img/vn/goldengate.png",
-        "https://actionsack.com/img/vn/h3h3.png",
-        "https://actionsack.com/img/vn/iRape.png",
-        "https://actionsack.com/img/vn/it.png",
-        "https://actionsack.com/img/vn/iVape.png",
-        "https://actionsack.com/img/vn/legend.png",
-        "https://actionsack.com/img/vn/LOV.png",
-        "https://actionsack.com/img/vn/lungs.gif",
-        "https://actionsack.com/img/vn/mei.gif",
-        "https://actionsack.com/img/vn/minecraft.png",
-        "https://actionsack.com/img/vn/mountvapemore.png",
-        "https://actionsack.com/img/vn/mowing.webm",
-        "https://actionsack.com/img/vn/party.png",
-        "https://actionsack.com/img/vn/passcode.png",
-        "https://actionsack.com/img/vn/pc.mp4",
-        "https://actionsack.com/img/vn/pepe.png",
-        "https://actionsack.com/img/vn/phatcash.png",
-        "https://actionsack.com/img/vn/phatclouds.mp4",
-        "https://actionsack.com/img/vn/☂.png",
-        "https://actionsack.com/img/vn/server.mp4",
-        "https://actionsack.com/img/vn/skills.gif",
-        "https://actionsack.com/img/vn/skull.png",
-        "https://actionsack.com/img/vn/space-smile.png",
-        "https://actionsack.com/img/vn/sphynx.png",
-        "https://actionsack.com/img/vn/spongebob.png",
-        "https://actionsack.com/img/vn/stock_vape.png",
-        "https://actionsack.com/img/vn/tornado-ethan.png",
-        "https://actionsack.com/img/vn/tornado.png",
-        "https://actionsack.com/img/vn/tower.png",
-        "https://actionsack.com/img/vn/twintowers.png",
-        "https://actionsack.com/img/vn/vapecat.gif",
-        "https://actionsack.com/img/vn/vapecat.mp4",
-        "https://actionsack.com/img/vn/vapecat.png",
-        "https://actionsack.com/img/vn/vapeman.mp4",
-        "https://actionsack.com/img/vn/vnkit.png",
-        "https://actionsack.com/img/vn/wedding.png",
-        "https://actionsack.com/img/vn/whale.png",
-        "https://actionsack.com/img/vn/woodwork.png",
-        "https://actionsack.com/img/vn/wut.png"
+        "https://p.actionsack.com/vn/20.png",
+        "https://p.actionsack.com/vn/2fast.png",
+        "https://p.actionsack.com/vn/5minutes.png",
+        "https://p.actionsack.com/vn/anal.png",
+        "https://p.actionsack.com/vn/area.png",
+        "https://p.actionsack.com/vn/arrest.webm",
+        "https://p.actionsack.com/vn/bart.gif",
+        "https://p.actionsack.com/vn/bart.webm",
+        "https://p.actionsack.com/vn/beanie.png",
+        "https://p.actionsack.com/vn/breakingbad.png",
+        "https://p.actionsack.com/vn/bubble.mp4",
+        "https://p.actionsack.com/vn/burns.gif",
+        "https://p.actionsack.com/vn/charged.png",
+        "https://p.actionsack.com/vn/C&H.gif",
+        "https://p.actionsack.com/vn/coconut.png",
+        "https://p.actionsack.com/vn/dora.png",
+        "https://p.actionsack.com/vn/faceswap.gif",
+        "https://p.actionsack.com/vn/fancy-ethan.png",
+        "https://p.actionsack.com/vn/first.png",
+        "https://p.actionsack.com/vn/flappy.gif",
+        "https://p.actionsack.com/vn/gaysex.png",
+        "https://p.actionsack.com/vn/godzilla.gif",
+        "https://p.actionsack.com/vn/goldengate.png",
+        "https://p.actionsack.com/vn/h3h3.png",
+        "https://p.actionsack.com/vn/iRape.png",
+        "https://p.actionsack.com/vn/it.png",
+        "https://p.actionsack.com/vn/iVape.png",
+        "https://p.actionsack.com/vn/legend.png",
+        "https://p.actionsack.com/vn/LOV.png",
+        "https://p.actionsack.com/vn/lungs.gif",
+        "https://p.actionsack.com/vn/mei.gif",
+        "https://p.actionsack.com/vn/minecraft.png",
+        "https://p.actionsack.com/vn/mountvapemore.png",
+        "https://p.actionsack.com/vn/mowing.webm",
+        "https://p.actionsack.com/vn/party.png",
+        "https://p.actionsack.com/vn/passcode.png",
+        "https://p.actionsack.com/vn/pc.mp4",
+        "https://p.actionsack.com/vn/pepe.png",
+        "https://p.actionsack.com/vn/phatcash.png",
+        "https://p.actionsack.com/vn/phatclouds.mp4",
+        "https://p.actionsack.com/vn/☂.png",
+        "https://p.actionsack.com/vn/server.mp4",
+        "https://p.actionsack.com/vn/skills.gif",
+        "https://p.actionsack.com/vn/skull.png",
+        "https://p.actionsack.com/vn/space-smile.png",
+        "https://p.actionsack.com/vn/sphynx.png",
+        "https://p.actionsack.com/vn/spongebob.png",
+        "https://p.actionsack.com/vn/stock_vape.png",
+        "https://p.actionsack.com/vn/tornado-ethan.png",
+        "https://p.actionsack.com/vn/tornado.png",
+        "https://p.actionsack.com/vn/tower.png",
+        "https://p.actionsack.com/vn/twintowers.png",
+        "https://p.actionsack.com/vn/vapecat.gif",
+        "https://p.actionsack.com/vn/vapecat.mp4",
+        "https://p.actionsack.com/vn/vapecat.png",
+        "https://p.actionsack.com/vn/vapeman.mp4",
+        "https://p.actionsack.com/vn/vnkit.png",
+        "https://p.actionsack.com/vn/wedding.png",
+        "https://p.actionsack.com/vn/whale.png",
+        "https://p.actionsack.com/vn/woodwork.png",
+        "https://p.actionsack.com/vn/wut.png"
     ]
     bot.say(random.choice(vape_naysh))
 
@@ -2289,19 +2289,19 @@ def vapenaysh(bot, trigger):
 @plugin.rule(".*🦈.*")
 def sharku(bot, trigger):
     sharks = [
-        "https://actionsack.com/img/🦈/TV.webp",
-        "https://actionsack.com/img/🦈/bed.webp",
-        "https://actionsack.com/img/🦈/bleps_irl.webp",
-        "https://actionsack.com/img/🦈/borking.webp",
-        "https://actionsack.com/img/🦈/buff_girl.webp",
-        "https://actionsack.com/img/🦈/comic.webp",
-        "https://actionsack.com/img/🦈/costume.webp",
-        "https://actionsack.com/img/🦈/cuddles.webp",
-        "https://actionsack.com/img/🦈/drawing.webp",
-        "https://actionsack.com/img/🦈/flame.webp",
-        "https://actionsack.com/img/🦈/food_bowl.webp",
-        "https://actionsack.com/img/🦈/leash.webp",
-        "https://actionsack.com/img/🦈/pet.webp"
+        "https://p.actionsack.com/🦈/TV.webp",
+        "https://p.actionsack.com/🦈/bed.webp",
+        "https://p.actionsack.com/🦈/bleps_irl.webp",
+        "https://p.actionsack.com/🦈/borking.webp",
+        "https://p.actionsack.com/🦈/buff_girl.webp",
+        "https://p.actionsack.com/🦈/comic.webp",
+        "https://p.actionsack.com/🦈/costume.webp",
+        "https://p.actionsack.com/🦈/cuddles.webp",
+        "https://p.actionsack.com/🦈/drawing.webp",
+        "https://p.actionsack.com/🦈/flame.webp",
+        "https://p.actionsack.com/🦈/food_bowl.webp",
+        "https://p.actionsack.com/🦈/leash.webp",
+        "https://p.actionsack.com/🦈/pet.webp"
     ]
     bot.say(random.choice(sharks))
 
@@ -2312,13 +2312,13 @@ def batman(bot, trigger):
     """Summons a Batman. Names are base64 encoded.
     Can also be triggered by sending a message that is only the "🦇👨" emoji."""
     bat_men = [
-        "https://actionsack.com/img/🦇👨/amFqYWJybzE=.webp",
-        "https://actionsack.com/img/🦇👨/beer.webp",
-        "https://actionsack.com/img/🦇👨/bWlrZQ==.webp",
-        "https://actionsack.com/img/🦇👨/dGFzaWFu.webp",
-        "https://actionsack.com/img/🦇👨/eG5hYXM=.webp",
-        "https://actionsack.com/img/🦇👨/ZmVja3Rr.webp",
-        "https://actionsack.com/img/🦇👨/ZmVlaw==.webp"
+        "https://p.actionsack.com/🦇👨/amFqYWJybzE=.webp",
+        "https://p.actionsack.com/🦇👨/beer.webp",
+        "https://p.actionsack.com/🦇👨/bWlrZQ==.webp",
+        "https://p.actionsack.com/🦇👨/dGFzaWFu.webp",
+        "https://p.actionsack.com/🦇👨/eG5hYXM=.webp",
+        "https://p.actionsack.com/🦇👨/ZmVja3Rr.webp",
+        "https://p.actionsack.com/🦇👨/ZmVlaw==.webp"
     ]
     bot.say(random.choice(bat_men))
 
@@ -2326,40 +2326,40 @@ def batman(bot, trigger):
 @plugin.rule(".*🤔{3,}.*")
 def think(bot, trigger):
     thinking = [
-        "https://actionsack.com/img/think/aesthetic.webp",
-        "https://actionsack.com/img/think/agon.webp",
-        "https://actionsack.com/img/think/barometer.webp",
-        "https://actionsack.com/img/think/beer.webp",
-        "https://actionsack.com/img/think/circle.webp",
-        "https://actionsack.com/img/think/e.webp",
-        "https://actionsack.com/img/think/fu.webp",
-        "https://actionsack.com/img/think/layers.webp",
-        "https://actionsack.com/img/think/something.webp",
-        "https://actionsack.com/img/think/spin.webp",
-        "https://actionsack.com/img/think/spinner.webp",
-        "https://actionsack.com/img/think/statue.webp",
-        "https://actionsack.com/img/think/thonk.webp"
+        "https://p.actionsack.com/think/aesthetic.webp",
+        "https://p.actionsack.com/think/agon.webp",
+        "https://p.actionsack.com/think/barometer.webp",
+        "https://p.actionsack.com/think/beer.webp",
+        "https://p.actionsack.com/think/circle.webp",
+        "https://p.actionsack.com/think/e.webp",
+        "https://p.actionsack.com/think/fu.webp",
+        "https://p.actionsack.com/think/layers.webp",
+        "https://p.actionsack.com/think/something.webp",
+        "https://p.actionsack.com/think/spin.webp",
+        "https://p.actionsack.com/think/spinner.webp",
+        "https://p.actionsack.com/think/statue.webp",
+        "https://p.actionsack.com/think/thonk.webp"
     ]
     bot.say(random.choice(thinking))
 
 
 @plugin.rule(".*🚸.*")
 def as_linus(bot, trigger):
-    bot.say("https://actionsack.com/img/as/linus.png")
+    bot.say("https://p.actionsack.com/as/linus.png")
 
 
 @plugin.rule(".*🚬.*")
 def smoking(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/smoking.webp")
+    bot.say("https://p.actionsack.com/misc/smoking.webp")
 
 
 @plugin.rule(".*🚁.*")
 def heli(bot, trigger):
     helicopter = [
-        "https://actionsack.com/img/🚁/engineer.webp",
-        "https://actionsack.com/img/🚁/fgr.webp",
-        "https://actionsack.com/img/🚁/hair.webp",
-        "https://actionsack.com/img/🚁/peewee.webp"
+        "https://p.actionsack.com/🚁/engineer.webp",
+        "https://p.actionsack.com/🚁/fgr.webp",
+        "https://p.actionsack.com/🚁/hair.webp",
+        "https://p.actionsack.com/🚁/peewee.webp"
     ]
     bot.say(random.choice(helicopter))
 
@@ -2367,24 +2367,24 @@ def heli(bot, trigger):
 @plugin.rule(".*🍝.*")
 def spaghetti(bot, trigger):
     spaghettis = [
-        "https://actionsack.com/img/🍝/21pilots.webm",
-        "https://actionsack.com/img/🍝/allstar.webm",
-        "https://actionsack.com/img/🍝/disasta.webm",
-        "https://actionsack.com/img/🍝/double.png",
-        "https://actionsack.com/img/🍝/lie.webm",
-        "https://actionsack.com/img/🍝/mom's.webm"
+        "https://p.actionsack.com/🍝/21pilots.webm",
+        "https://p.actionsack.com/🍝/allstar.webm",
+        "https://p.actionsack.com/🍝/disasta.webm",
+        "https://p.actionsack.com/🍝/double.png",
+        "https://p.actionsack.com/🍝/lie.webm",
+        "https://p.actionsack.com/🍝/mom's.webm"
     ]
     bot.say(random.choice(spaghettis))
 
 
 @plugin.rule(".*svehla.*")
 def svehla(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/svehla.webp")
+    bot.say("https://p.actionsack.com/misc/svehla.webp")
 
 
 @plugin.rule(".*🗑.*")
 def trash(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🗑.webp")
+    bot.say("https://p.actionsack.com/misc/🗑.webp")
 
 
 @plugin.rule(".*!cumcan.*")
@@ -2392,7 +2392,7 @@ def trash(bot, trigger):
 def cumcan(bot, trigger):
     """Cum cleanup.
     Can also be triggered with '!cumcan' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/cumcan.webp")
+    bot.say("https://p.actionsack.com/misc/cumcan.webp")
 
 
 @plugin.rule(".*!cancer.*")
@@ -2401,8 +2401,8 @@ def cancer(bot, trigger):
     """Warning! Posts pure cancer into chat.
     Can also be triggered with '!cancer' anywhere in a message."""
     cancer_images = [
-        "https://actionsack.com/img/as/cancer-list.png",
-        "https://actionsack.com/img/as/cancer-microscope.png"
+        "https://p.actionsack.com/as/cancer-list.png",
+        "https://p.actionsack.com/as/cancer-microscope.png"
     ]
     bot.say(random.choice(cancer_images))
 
@@ -2411,7 +2411,7 @@ def cancer(bot, trigger):
 @plugin.command("daquan")
 def daquan(bot, trigger):
     """Can also be triggered with '!daquan' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/daquan.jpg")
+    bot.say("https://p.actionsack.com/misc/daquan.jpg")
 
 
 @plugin.rule(".*!heff.*")
@@ -2419,7 +2419,7 @@ def daquan(bot, trigger):
 def heff(bot, trigger):
     """Is only game, why you heff to be mad?
     Can also be triggered with '!heff' anywhere in a message."""
-    bot.say("https://actionsack.com/img/v/heff.webm")
+    bot.say("https://p.actionsack.com/v/heff.webm")
 
 
 @plugin.rule(".*!salty.*")
@@ -2427,24 +2427,24 @@ def heff(bot, trigger):
 def salty(bot, trigger):
     """Can also be triggered with '!salty' anywhere in a message."""
     salty = [
-        "https://actionsack.com/img/salt/%23staysalty.png",
-        "https://actionsack.com/img/salt/all-these-flavors.png",
-        "https://actionsack.com/img/salt/dance.webp",
-        "https://actionsack.com/img/salt/power-salt.gif",
-        "https://actionsack.com/img/salt/salty-bitch.png",
-        "https://actionsack.com/img/salt/super-salty.png"
+        "https://p.actionsack.com/salt/%23staysalty.png",
+        "https://p.actionsack.com/salt/all-these-flavors.png",
+        "https://p.actionsack.com/salt/dance.webp",
+        "https://p.actionsack.com/salt/power-salt.gif",
+        "https://p.actionsack.com/salt/salty-bitch.png",
+        "https://p.actionsack.com/salt/super-salty.png"
     ]
     bot.say(random.choice(salty))
 
 
 @plugin.rule(r".*\[laughs\].*")
 def laughs(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/laughs.jpg")
+    bot.say("https://p.actionsack.com/misc/laughs.jpg")
 
 
 @plugin.rule(r".*\[raughs\].*")
 def raughs(bot, trigger):
-    bot.say("https://actionsack.com/img/tasian/raughs.webp")
+    bot.say("https://p.actionsack.com/tasian/raughs.webp")
 
 # Action Sack People Section
 
@@ -2455,32 +2455,32 @@ def asak(bot, trigger):
     """Posts an Action Sack meme.
     Can also be triggered with '!asak' anywhere in a message."""
     asak = [
-        "https://actionsack.com/img/as/AG.gif",
-        "https://actionsack.com/img/as/aids-convo.png",
-        "https://actionsack.com/img/as/beej.gif",
-        "https://actionsack.com/img/as/brokeback.png",
-        "https://actionsack.com/img/as/bus-stop.png",
-        "https://actionsack.com/img/as/cancer-list.png",
-        "https://actionsack.com/img/as/cancer-microscope.png",
-        "https://actionsack.com/img/as/copy.png",
-        "https://actionsack.com/img/as/dirty-jaja.png",
-        "https://actionsack.com/img/as/family-fart.png",
-        "https://actionsack.com/img/as/family-gun.gif",
-        "https://actionsack.com/img/as/fecktk-eyes-mike.png",
-        "https://actionsack.com/img/as/gangster.png",
-        "https://actionsack.com/img/as/gay-shit.png",
-        "https://actionsack.com/img/as/hackers.png",
-        "https://actionsack.com/img/as/hand.gif",
-        "https://actionsack.com/img/as/iQuit.png",
-        "https://actionsack.com/img/as/kys-mike.png",
-        "https://actionsack.com/img/as/kys-or-smd.png",
-        "https://actionsack.com/img/as/linus.png",
-        "https://actionsack.com/img/as/mikeybikey.png",
-        "https://actionsack.com/img/as/mugshot.png",
-        "https://actionsack.com/img/as/pumpkin.png",
-        "https://actionsack.com/img/as/reflection.png",
-        "https://actionsack.com/img/as/snapchat.png",
-        "https://actionsack.com/img/as/soup.png"
+        "https://p.actionsack.com/as/AG.gif",
+        "https://p.actionsack.com/as/aids-convo.png",
+        "https://p.actionsack.com/as/beej.gif",
+        "https://p.actionsack.com/as/brokeback.png",
+        "https://p.actionsack.com/as/bus-stop.png",
+        "https://p.actionsack.com/as/cancer-list.png",
+        "https://p.actionsack.com/as/cancer-microscope.png",
+        "https://p.actionsack.com/as/copy.png",
+        "https://p.actionsack.com/as/dirty-jaja.png",
+        "https://p.actionsack.com/as/family-fart.png",
+        "https://p.actionsack.com/as/family-gun.gif",
+        "https://p.actionsack.com/as/fecktk-eyes-mike.png",
+        "https://p.actionsack.com/as/gangster.png",
+        "https://p.actionsack.com/as/gay-shit.png",
+        "https://p.actionsack.com/as/hackers.png",
+        "https://p.actionsack.com/as/hand.gif",
+        "https://p.actionsack.com/as/iQuit.png",
+        "https://p.actionsack.com/as/kys-mike.png",
+        "https://p.actionsack.com/as/kys-or-smd.png",
+        "https://p.actionsack.com/as/linus.png",
+        "https://p.actionsack.com/as/mikeybikey.png",
+        "https://p.actionsack.com/as/mugshot.png",
+        "https://p.actionsack.com/as/pumpkin.png",
+        "https://p.actionsack.com/as/reflection.png",
+        "https://p.actionsack.com/as/snapchat.png",
+        "https://p.actionsack.com/as/soup.png"
     ]
     bot.say(random.choice(asak))
 
@@ -2491,13 +2491,13 @@ def ComputersByte(bot, trigger):
     """Posts a ComputersByte meme.
     Can also be triggered with '!bytes' anywhere in a message."""
     computers_byte = [
-        "https://actionsack.com/img/bytes/april.png",
-        "https://actionsack.com/img/bytes/bj.png",
-        "https://actionsack.com/img/bytes/bytes.gif",
-        "https://actionsack.com/img/bytes/bytes01.png",
-        "https://actionsack.com/img/bytes/cursor.png",
-        "https://actionsack.com/img/bytes/hatched.png",
-        "https://actionsack.com/img/bytes/syrup.png"
+        "https://p.actionsack.com/bytes/april.png",
+        "https://p.actionsack.com/bytes/bj.png",
+        "https://p.actionsack.com/bytes/bytes.gif",
+        "https://p.actionsack.com/bytes/bytes01.png",
+        "https://p.actionsack.com/bytes/cursor.png",
+        "https://p.actionsack.com/bytes/hatched.png",
+        "https://p.actionsack.com/bytes/syrup.png"
     ]
     bot.say(random.choice(computers_byte))
 
@@ -2508,51 +2508,51 @@ def ComputersByte(bot, trigger):
 def fecktk(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     fecktks = [
-        "https://actionsack.com/img/fecktk/ascii.webp",
-        "https://actionsack.com/img/fecktk/baclol.webp",
-        "https://actionsack.com/img/fecktk/bacon.webp",
-        "https://actionsack.com/img/fecktk/blowie.webp",
-        "https://actionsack.com/img/fecktk/elif.webp",
-        "https://actionsack.com/img/fecktk/empty.webp",
-        "https://actionsack.com/img/fecktk/eyes.webp",
-        "https://actionsack.com/img/fecktk/fecktk01.webp",
-        "https://actionsack.com/img/fecktk/fecktk02.webp",
-        "https://actionsack.com/img/fecktk/fecktk03.webp",
-        "https://actionsack.com/img/fecktk/fecktk04.webp",
-        "https://actionsack.com/img/fecktk/fecktk05.webp",
-        "https://actionsack.com/img/fecktk/fecktk06.webp",
-        "https://actionsack.com/img/fecktk/fecktk07.webp",
-        "https://actionsack.com/img/fecktk/fecktk08.webp",
-        "https://actionsack.com/img/fecktk/fecktk09.webp",
-        "https://actionsack.com/img/fecktk/fecktk10.webp",
-        "https://actionsack.com/img/fecktk/fecktk11.webp",
-        "https://actionsack.com/img/fecktk/fecktk12.webp",
-        "https://actionsack.com/img/fecktk/fecktk13.webp",
-        "https://actionsack.com/img/fecktk/fecktk14.webp",
-        "https://actionsack.com/img/fecktk/fecktk15.webp",
-        "https://actionsack.com/img/fecktk/fecktk16.webp",
-        "https://actionsack.com/img/fecktk/fecktk17.webp",
-        "https://actionsack.com/img/fecktk/fecktk18.webp",
-        "https://actionsack.com/img/fecktk/fecktk19.webp",
-        "https://actionsack.com/img/fecktk/fecktk20.webp",
-        "https://actionsack.com/img/fecktk/fecktk21.webp",
-        "https://actionsack.com/img/fecktk/fecktk22.webp",
-        "https://actionsack.com/img/fecktk/fecktk23.webp",
-        "https://actionsack.com/img/fecktk/fetus.webp",
-        "https://actionsack.com/img/fecktk/guilty.webp",
-        "https://actionsack.com/img/fecktk/holden.webp",
-        "https://actionsack.com/img/fecktk/lildick.webp",
-        "https://actionsack.com/img/fecktk/mumble.webp",
-        "https://actionsack.com/img/fecktk/neck.webp",
-        "https://actionsack.com/img/fecktk/newegg.webp",
-        "https://actionsack.com/img/fecktk/newhouse.webp",
-        "https://actionsack.com/img/fecktk/punch.webp",
-        "https://actionsack.com/img/fecktk/rape.webp",
-        "https://actionsack.com/img/fecktk/sandwich.webp",
-        "https://actionsack.com/img/fecktk/slap.webp",
-        "https://actionsack.com/img/fecktk/snatch.webp",
-        "https://actionsack.com/img/fecktk/strim.webp",
-        "https://actionsack.com/img/fecktk/zoomies.webp"
+        "https://p.actionsack.com/fecktk/ascii.webp",
+        "https://p.actionsack.com/fecktk/baclol.webp",
+        "https://p.actionsack.com/fecktk/bacon.webp",
+        "https://p.actionsack.com/fecktk/blowie.webp",
+        "https://p.actionsack.com/fecktk/elif.webp",
+        "https://p.actionsack.com/fecktk/empty.webp",
+        "https://p.actionsack.com/fecktk/eyes.webp",
+        "https://p.actionsack.com/fecktk/fecktk01.webp",
+        "https://p.actionsack.com/fecktk/fecktk02.webp",
+        "https://p.actionsack.com/fecktk/fecktk03.webp",
+        "https://p.actionsack.com/fecktk/fecktk04.webp",
+        "https://p.actionsack.com/fecktk/fecktk05.webp",
+        "https://p.actionsack.com/fecktk/fecktk06.webp",
+        "https://p.actionsack.com/fecktk/fecktk07.webp",
+        "https://p.actionsack.com/fecktk/fecktk08.webp",
+        "https://p.actionsack.com/fecktk/fecktk09.webp",
+        "https://p.actionsack.com/fecktk/fecktk10.webp",
+        "https://p.actionsack.com/fecktk/fecktk11.webp",
+        "https://p.actionsack.com/fecktk/fecktk12.webp",
+        "https://p.actionsack.com/fecktk/fecktk13.webp",
+        "https://p.actionsack.com/fecktk/fecktk14.webp",
+        "https://p.actionsack.com/fecktk/fecktk15.webp",
+        "https://p.actionsack.com/fecktk/fecktk16.webp",
+        "https://p.actionsack.com/fecktk/fecktk17.webp",
+        "https://p.actionsack.com/fecktk/fecktk18.webp",
+        "https://p.actionsack.com/fecktk/fecktk19.webp",
+        "https://p.actionsack.com/fecktk/fecktk20.webp",
+        "https://p.actionsack.com/fecktk/fecktk21.webp",
+        "https://p.actionsack.com/fecktk/fecktk22.webp",
+        "https://p.actionsack.com/fecktk/fecktk23.webp",
+        "https://p.actionsack.com/fecktk/fetus.webp",
+        "https://p.actionsack.com/fecktk/guilty.webp",
+        "https://p.actionsack.com/fecktk/holden.webp",
+        "https://p.actionsack.com/fecktk/lildick.webp",
+        "https://p.actionsack.com/fecktk/mumble.webp",
+        "https://p.actionsack.com/fecktk/neck.webp",
+        "https://p.actionsack.com/fecktk/newegg.webp",
+        "https://p.actionsack.com/fecktk/newhouse.webp",
+        "https://p.actionsack.com/fecktk/punch.webp",
+        "https://p.actionsack.com/fecktk/rape.webp",
+        "https://p.actionsack.com/fecktk/sandwich.webp",
+        "https://p.actionsack.com/fecktk/slap.webp",
+        "https://p.actionsack.com/fecktk/snatch.webp",
+        "https://p.actionsack.com/fecktk/strim.webp",
+        "https://p.actionsack.com/fecktk/zoomies.webp"
     ]
     bot.say(random.choice(fecktks))
 
@@ -2564,24 +2564,24 @@ def feek(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     feeks = [
         "Works for Me™",
-        "https://actionsack.com/img/feek/ben.webp",
-        "https://actionsack.com/img/feek/bitch.webp",
-        "https://actionsack.com/img/feek/die.webp",
-        "https://actionsack.com/img/feek/error.webp",
-        "https://actionsack.com/img/feek/feek01.webp",
-        "https://actionsack.com/img/feek/feek02.webp",
-        "https://actionsack.com/img/feek/feek03.webp",
-        "https://actionsack.com/img/feek/feek04.webp",
-        "https://actionsack.com/img/feek/feek05.webp",
-        "https://actionsack.com/img/feek/feek06.webp",
-        "https://actionsack.com/img/feek/feek07.webp",
-        "https://actionsack.com/img/feek/feek08.webp",
-        "https://actionsack.com/img/feek/free.webp",
-        "https://actionsack.com/img/feek/hated.webp",
-        "https://actionsack.com/img/feek/hidden.webp",
-        "https://actionsack.com/img/feek/lucky.webp",
-        "https://actionsack.com/img/feek/PokéKeith.webp",
-        "https://actionsack.com/img/feek/rape.webp"
+        "https://p.actionsack.com/feek/ben.webp",
+        "https://p.actionsack.com/feek/bitch.webp",
+        "https://p.actionsack.com/feek/die.webp",
+        "https://p.actionsack.com/feek/error.webp",
+        "https://p.actionsack.com/feek/feek01.webp",
+        "https://p.actionsack.com/feek/feek02.webp",
+        "https://p.actionsack.com/feek/feek03.webp",
+        "https://p.actionsack.com/feek/feek04.webp",
+        "https://p.actionsack.com/feek/feek05.webp",
+        "https://p.actionsack.com/feek/feek06.webp",
+        "https://p.actionsack.com/feek/feek07.webp",
+        "https://p.actionsack.com/feek/feek08.webp",
+        "https://p.actionsack.com/feek/free.webp",
+        "https://p.actionsack.com/feek/hated.webp",
+        "https://p.actionsack.com/feek/hidden.webp",
+        "https://p.actionsack.com/feek/lucky.webp",
+        "https://p.actionsack.com/feek/PokéKeith.webp",
+        "https://p.actionsack.com/feek/rape.webp"
     ]
     bot.say(random.choice(feeks))
 
@@ -2592,24 +2592,24 @@ def feek(bot, trigger):
 def jajabro(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     jajabros = [
-        "https://actionsack.com/img/jaja/dogs.png",
-        "https://actionsack.com/img/jaja/halo.jpg",
-        "https://actionsack.com/img/jaja/jaja01.png",
-        "https://actionsack.com/img/jaja/jaja02.png",
-        "https://actionsack.com/img/jaja/jaja03.png",
-        "https://actionsack.com/img/jaja/jaja04.png",
-        "https://actionsack.com/img/jaja/jaja05.png",
-        "https://actionsack.com/img/jaja/jaja06.gif",
-        "https://actionsack.com/img/jaja/jaja07.gif",
-        "https://actionsack.com/img/jaja/jaja08.png",
-        "https://actionsack.com/img/jaja/jaja09.png",
-        "https://actionsack.com/img/jaja/jaja10.png",
-        "https://actionsack.com/img/jaja/jaja11.png",
-        "https://actionsack.com/img/jaja/jaja12.png",
-        "https://actionsack.com/img/jaja/plush.png",
-        "https://actionsack.com/img/jaja/que.png",
-        "https://actionsack.com/img/jaja/smrt.gif",
-        "https://actionsack.com/img/jaja/subwat.png"
+        "https://p.actionsack.com/jaja/dogs.png",
+        "https://p.actionsack.com/jaja/halo.jpg",
+        "https://p.actionsack.com/jaja/jaja01.png",
+        "https://p.actionsack.com/jaja/jaja02.png",
+        "https://p.actionsack.com/jaja/jaja03.png",
+        "https://p.actionsack.com/jaja/jaja04.png",
+        "https://p.actionsack.com/jaja/jaja05.png",
+        "https://p.actionsack.com/jaja/jaja06.gif",
+        "https://p.actionsack.com/jaja/jaja07.gif",
+        "https://p.actionsack.com/jaja/jaja08.png",
+        "https://p.actionsack.com/jaja/jaja09.png",
+        "https://p.actionsack.com/jaja/jaja10.png",
+        "https://p.actionsack.com/jaja/jaja11.png",
+        "https://p.actionsack.com/jaja/jaja12.png",
+        "https://p.actionsack.com/jaja/plush.png",
+        "https://p.actionsack.com/jaja/que.png",
+        "https://p.actionsack.com/jaja/smrt.gif",
+        "https://p.actionsack.com/jaja/subwat.png"
     ]
     bot.say(random.choice(jajabros))
 
@@ -2620,74 +2620,74 @@ def jajabro(bot, trigger):
 def mike(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     mikes = [
-        "https://actionsack.com/img/mike/720v1080.png",
-        "https://actionsack.com/img/mike/8ball.png",
-        "https://actionsack.com/img/mike/amnesia.png",
-        "https://actionsack.com/img/mike/bath.png",
-        "https://actionsack.com/img/mike/bernie.png",
-        "https://actionsack.com/img/mike/blowie.png",
-        "https://actionsack.com/img/mike/brony.png",
-        "https://actionsack.com/img/mike/change.png",
-        "https://actionsack.com/img/mike/cocksucker.png",
-        "https://actionsack.com/img/mike/cuppstick.gif",
-        "https://actionsack.com/img/mike/cuppstick.png",
-        "https://actionsack.com/img/mike/dance.mp4",
-        "https://actionsack.com/img/mike/doll.png",
-        "https://actionsack.com/img/mike/down.gif",
-        "https://actionsack.com/img/mike/drink.gif",
-        "https://actionsack.com/img/mike/everydaymike.gif",
-        "https://actionsack.com/img/mike/fraud.png",
-        "https://actionsack.com/img/mike/graphene.png",
-        "https://actionsack.com/img/mike/haloistrash.png",
-        "https://actionsack.com/img/mike/high.png",
-        "https://actionsack.com/img/mike/MAGA.png",
-        "https://actionsack.com/img/mike/mashed-potatoes.png",
-        "https://actionsack.com/img/mike/mike001.png",
-        "https://actionsack.com/img/mike/mike002.png",
-        "https://actionsack.com/img/mike/mike004.png",
-        "https://actionsack.com/img/mike/mike005.png",
-        "https://actionsack.com/img/mike/mike006.png",
-        "https://actionsack.com/img/mike/mike008.png",
-        "https://actionsack.com/img/mike/mike009.png",
-        "https://actionsack.com/img/mike/mike010.png",
-        "https://actionsack.com/img/mike/mike011.png",
-        "https://actionsack.com/img/mike/mike012.png",
-        "https://actionsack.com/img/mike/mike013.png",
-        "https://actionsack.com/img/mike/mike014.png",
-        "https://actionsack.com/img/mike/mike015.png",
-        "https://actionsack.com/img/mike/mike016.png",
-        "https://actionsack.com/img/mike/mike017.png",
-        "https://actionsack.com/img/mike/mike018.png",
-        "https://actionsack.com/img/mike/mike019.png",
-        "https://actionsack.com/img/mike/mike020.png",
-        "https://actionsack.com/img/mike/mike021.png",
-        "https://actionsack.com/img/mike/mike022.png",
-        "https://actionsack.com/img/mike/mike023.png",
-        "https://actionsack.com/img/mike/mike024.png",
-        "https://actionsack.com/img/mike/mike025.png",
-        "https://actionsack.com/img/mike/mike026.png",
-        "https://actionsack.com/img/mike/mike027.png",
-        "https://actionsack.com/img/mike/mike028.png",
-        "https://actionsack.com/img/mike/mike029.png",
-        "https://actionsack.com/img/mike/mike030.png",
-        "https://actionsack.com/img/mike/mike031.png",
-        "https://actionsack.com/img/mike/mike032.png",
-        "https://actionsack.com/img/mike/miker.png",
-        "https://actionsack.com/img/mike/MLP.png",
-        "https://actionsack.com/img/mike/MMM.png",
-        "https://actionsack.com/img/mike/noctua.png",
-        "https://actionsack.com/img/mike/nosex.png",
-        "https://actionsack.com/img/mike/quora.png",
-        "https://actionsack.com/img/mike/simple-mike.png",
-        "https://actionsack.com/img/mike/smurf.png",
-        "https://actionsack.com/img/mike/syria.png",
-        "https://actionsack.com/img/mike/virgin.png",
-        "https://actionsack.com/img/mike/yoj.png",
-        "https://actionsack.com/img/mike/yummy-mike.png",
-        "https://actionsack.com/img/mike/📖/📖+.jpg",
-        "https://actionsack.com/img/mike/📖/📖.gif",
-        "https://actionsack.com/img/mike/📖/📖.jpg",
-        "https://actionsack.com/img/mike/📖/📖🐇.jpg"
+        "https://p.actionsack.com/mike/720v1080.png",
+        "https://p.actionsack.com/mike/8ball.png",
+        "https://p.actionsack.com/mike/amnesia.png",
+        "https://p.actionsack.com/mike/bath.png",
+        "https://p.actionsack.com/mike/bernie.png",
+        "https://p.actionsack.com/mike/blowie.png",
+        "https://p.actionsack.com/mike/brony.png",
+        "https://p.actionsack.com/mike/change.png",
+        "https://p.actionsack.com/mike/cocksucker.png",
+        "https://p.actionsack.com/mike/cuppstick.gif",
+        "https://p.actionsack.com/mike/cuppstick.png",
+        "https://p.actionsack.com/mike/dance.mp4",
+        "https://p.actionsack.com/mike/doll.png",
+        "https://p.actionsack.com/mike/down.gif",
+        "https://p.actionsack.com/mike/drink.gif",
+        "https://p.actionsack.com/mike/everydaymike.gif",
+        "https://p.actionsack.com/mike/fraud.png",
+        "https://p.actionsack.com/mike/graphene.png",
+        "https://p.actionsack.com/mike/haloistrash.png",
+        "https://p.actionsack.com/mike/high.png",
+        "https://p.actionsack.com/mike/MAGA.png",
+        "https://p.actionsack.com/mike/mashed-potatoes.png",
+        "https://p.actionsack.com/mike/mike001.png",
+        "https://p.actionsack.com/mike/mike002.png",
+        "https://p.actionsack.com/mike/mike004.png",
+        "https://p.actionsack.com/mike/mike005.png",
+        "https://p.actionsack.com/mike/mike006.png",
+        "https://p.actionsack.com/mike/mike008.png",
+        "https://p.actionsack.com/mike/mike009.png",
+        "https://p.actionsack.com/mike/mike010.png",
+        "https://p.actionsack.com/mike/mike011.png",
+        "https://p.actionsack.com/mike/mike012.png",
+        "https://p.actionsack.com/mike/mike013.png",
+        "https://p.actionsack.com/mike/mike014.png",
+        "https://p.actionsack.com/mike/mike015.png",
+        "https://p.actionsack.com/mike/mike016.png",
+        "https://p.actionsack.com/mike/mike017.png",
+        "https://p.actionsack.com/mike/mike018.png",
+        "https://p.actionsack.com/mike/mike019.png",
+        "https://p.actionsack.com/mike/mike020.png",
+        "https://p.actionsack.com/mike/mike021.png",
+        "https://p.actionsack.com/mike/mike022.png",
+        "https://p.actionsack.com/mike/mike023.png",
+        "https://p.actionsack.com/mike/mike024.png",
+        "https://p.actionsack.com/mike/mike025.png",
+        "https://p.actionsack.com/mike/mike026.png",
+        "https://p.actionsack.com/mike/mike027.png",
+        "https://p.actionsack.com/mike/mike028.png",
+        "https://p.actionsack.com/mike/mike029.png",
+        "https://p.actionsack.com/mike/mike030.png",
+        "https://p.actionsack.com/mike/mike031.png",
+        "https://p.actionsack.com/mike/mike032.png",
+        "https://p.actionsack.com/mike/miker.png",
+        "https://p.actionsack.com/mike/MLP.png",
+        "https://p.actionsack.com/mike/MMM.png",
+        "https://p.actionsack.com/mike/noctua.png",
+        "https://p.actionsack.com/mike/nosex.png",
+        "https://p.actionsack.com/mike/quora.png",
+        "https://p.actionsack.com/mike/simple-mike.png",
+        "https://p.actionsack.com/mike/smurf.png",
+        "https://p.actionsack.com/mike/syria.png",
+        "https://p.actionsack.com/mike/virgin.png",
+        "https://p.actionsack.com/mike/yoj.png",
+        "https://p.actionsack.com/mike/yummy-mike.png",
+        "https://p.actionsack.com/mike/📖/📖+.jpg",
+        "https://p.actionsack.com/mike/📖/📖.gif",
+        "https://p.actionsack.com/mike/📖/📖.jpg",
+        "https://p.actionsack.com/mike/📖/📖🐇.jpg"
     ]
     bot.say(random.choice(mikes))
 
@@ -2698,35 +2698,35 @@ def mike(bot, trigger):
 def tasian(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     tasians = [
-        "https://actionsack.com/img/tasian/2016.webp",
-        "https://actionsack.com/img/tasian/balloon.webp",
-        "https://actionsack.com/img/tasian/dance.webp",
-        "https://actionsack.com/img/tasian/dance.mp4",
-        "https://actionsack.com/img/tasian/D.webp",
-        "https://actionsack.com/img/tasian/driver.webp",
-        "https://actionsack.com/img/tasian/fortnite.webp",
-        "https://actionsack.com/img/tasian/grin.webp",
-        "https://actionsack.com/img/tasian/korea.webp",
-        "https://actionsack.com/img/tasian/koreatext.webp",
-        "https://actionsack.com/img/tasian/math.webp",
-        "https://actionsack.com/img/tasian/naga.webp",
-        "https://actionsack.com/img/tasian/noodles.webp",
-        "https://actionsack.com/img/tasian/pacman.webp",
-        "https://actionsack.com/img/tasian/pickles.webp",
-        "https://actionsack.com/img/tasian/pikaval.webp",
-        "https://actionsack.com/img/tasian/racist01.webp",
-        "https://actionsack.com/img/tasian/racist02.webp",
-        "https://actionsack.com/img/tasian/racist03.webp",
-        "https://actionsack.com/img/tasian/raughs.webp",
-        "https://actionsack.com/img/tasian/singing.mp4",
-        "https://actionsack.com/img/tasian/tall.webp",
-        "https://actionsack.com/img/tasian/val01.webp",
-        "https://actionsack.com/img/tasian/val02.webp",
-        "https://actionsack.com/img/tasian/val03.webp",
-        "https://actionsack.com/img/tasian/val04.webp",
-        "https://actionsack.com/img/tasian/val05.webp",
-        "https://actionsack.com/img/tasian/val06.webp",
-        "https://actionsack.com/img/tasian/val07.webp"
+        "https://p.actionsack.com/tasian/2016.webp",
+        "https://p.actionsack.com/tasian/balloon.webp",
+        "https://p.actionsack.com/tasian/dance.webp",
+        "https://p.actionsack.com/tasian/dance.mp4",
+        "https://p.actionsack.com/tasian/D.webp",
+        "https://p.actionsack.com/tasian/driver.webp",
+        "https://p.actionsack.com/tasian/fortnite.webp",
+        "https://p.actionsack.com/tasian/grin.webp",
+        "https://p.actionsack.com/tasian/korea.webp",
+        "https://p.actionsack.com/tasian/koreatext.webp",
+        "https://p.actionsack.com/tasian/math.webp",
+        "https://p.actionsack.com/tasian/naga.webp",
+        "https://p.actionsack.com/tasian/noodles.webp",
+        "https://p.actionsack.com/tasian/pacman.webp",
+        "https://p.actionsack.com/tasian/pickles.webp",
+        "https://p.actionsack.com/tasian/pikaval.webp",
+        "https://p.actionsack.com/tasian/racist01.webp",
+        "https://p.actionsack.com/tasian/racist02.webp",
+        "https://p.actionsack.com/tasian/racist03.webp",
+        "https://p.actionsack.com/tasian/raughs.webp",
+        "https://p.actionsack.com/tasian/singing.mp4",
+        "https://p.actionsack.com/tasian/tall.webp",
+        "https://p.actionsack.com/tasian/val01.webp",
+        "https://p.actionsack.com/tasian/val02.webp",
+        "https://p.actionsack.com/tasian/val03.webp",
+        "https://p.actionsack.com/tasian/val04.webp",
+        "https://p.actionsack.com/tasian/val05.webp",
+        "https://p.actionsack.com/tasian/val06.webp",
+        "https://p.actionsack.com/tasian/val07.webp"
     ]
     bot.say(random.choice(tasians))
 
@@ -2737,25 +2737,25 @@ def tasian(bot, trigger):
 def viz(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     vizs = [
-        "https://actionsack.com/img/viz/bad4u.webp",
-        "https://actionsack.com/img/viz/drunk01.webp",
-        "https://actionsack.com/img/viz/drunk02.webp",
-        "https://actionsack.com/img/viz/drunk03.webp",
-        "https://actionsack.com/img/viz/drunk04.webp",
-        "https://actionsack.com/img/viz/drunk05.webp",
-        "https://actionsack.com/img/viz/drunk06.webp",
-        "https://actionsack.com/img/viz/drunk07.webp",
-        "https://actionsack.com/img/viz/drunk08.webp",
-        "https://actionsack.com/img/viz/drunk09.webp",
-        "https://actionsack.com/img/viz/fecktk.webp",
-        "https://actionsack.com/img/viz/FOT.webp",
-        "https://actionsack.com/img/viz/lololololol.webp",
-        "https://actionsack.com/img/viz/lovescock.webp",
-        "https://actionsack.com/img/viz/oh.ok.webp",
-        "https://actionsack.com/img/viz/poison.webp",
-        "https://actionsack.com/img/viz/ride.webp",
-        "https://actionsack.com/img/viz/tree.webp",
-        "https://actionsack.com/img/viz/whoknows.webp"
+        "https://p.actionsack.com/viz/bad4u.webp",
+        "https://p.actionsack.com/viz/drunk01.webp",
+        "https://p.actionsack.com/viz/drunk02.webp",
+        "https://p.actionsack.com/viz/drunk03.webp",
+        "https://p.actionsack.com/viz/drunk04.webp",
+        "https://p.actionsack.com/viz/drunk05.webp",
+        "https://p.actionsack.com/viz/drunk06.webp",
+        "https://p.actionsack.com/viz/drunk07.webp",
+        "https://p.actionsack.com/viz/drunk08.webp",
+        "https://p.actionsack.com/viz/drunk09.webp",
+        "https://p.actionsack.com/viz/fecktk.webp",
+        "https://p.actionsack.com/viz/FOT.webp",
+        "https://p.actionsack.com/viz/lololololol.webp",
+        "https://p.actionsack.com/viz/lovescock.webp",
+        "https://p.actionsack.com/viz/oh.ok.webp",
+        "https://p.actionsack.com/viz/poison.webp",
+        "https://p.actionsack.com/viz/ride.webp",
+        "https://p.actionsack.com/viz/tree.webp",
+        "https://p.actionsack.com/viz/whoknows.webp"
     ]
     bot.say(random.choice(vizs))
 
@@ -2765,10 +2765,10 @@ def viz(bot, trigger):
 def voodoo(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     voodoos = [
-        "https://actionsack.com/img/voodoo/eggslut.webp",
-        "https://actionsack.com/img/voodoo/eggslut-lq.webp",
-        "https://actionsack.com/img/voodoo/eggslut-smol.webp",
-        "https://actionsack.com/img/voodoo/pewpew.webp",
+        "https://p.actionsack.com/voodoo/eggslut.webp",
+        "https://p.actionsack.com/voodoo/eggslut-lq.webp",
+        "https://p.actionsack.com/voodoo/eggslut-smol.webp",
+        "https://p.actionsack.com/voodoo/pewpew.webp",
         "I fantasize about fucking California's earthquake fault line. The dirt, the debris, the thought of the earth quivering under me as I slowly stick my dick into its gaping wide entrance. I keep looking at news stories and getting the firmest erections of my life seeing those beautiful cracks. She's so open and so wanting. Each earthquake is like another whimper just begging for me to take her. The amount of cum I've lost just thinking about thrusting my rod into our beloved planet. Talk about getting my rocks off. Fuck I'm hard."
     ]
     bot.say(random.choice(voodoos), max_messages=2)
@@ -2780,36 +2780,36 @@ def voodoo(bot, trigger):
 def xnaas(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     xnass = [
-        "https://actionsack.com/img/xnaas/animals.webp",
-        "https://actionsack.com/img/xnaas/d3.webm",
-        "https://actionsack.com/img/xnaas/fd.mp4",
-        "https://actionsack.com/img/xnaas/gape.webp",
-        "https://actionsack.com/img/xnaas/iShit.webp",
-        "https://actionsack.com/img/xnaas/mac.webp",
-        "https://actionsack.com/img/xnaas/propain.webp",
-        "https://actionsack.com/img/xnaas/pussy.mp4",
-        "https://actionsack.com/img/xnaas/QotH.webp",
-        "https://actionsack.com/img/xnaas/reality.webp",
-        "https://actionsack.com/img/xnaas/shaved.webp",
-        "https://actionsack.com/img/xnaas/typing.webp",
-        "https://actionsack.com/img/xnaas/vamp.webp",
-        "https://actionsack.com/img/xnaas/victory.webp",
-        "https://actionsack.com/img/xnaas/wesmart.webp",
-        "https://actionsack.com/img/xnaas/xnaas001.webp",
-        "https://actionsack.com/img/xnaas/xnaas002.webp",
-        "https://actionsack.com/img/xnaas/xnaas003.webp",
-        "https://actionsack.com/img/xnaas/xnaas004.webp",
-        "https://actionsack.com/img/xnaas/xnaas005.webp",
-        "https://actionsack.com/img/xnaas/xnaas006.webp",
-        "https://actionsack.com/img/xnaas/xnaas008.webp",
-        "https://actionsack.com/img/xnaas/xnaas009.webp",
-        "https://actionsack.com/img/xnaas/xnaas010.webp",
-        "https://actionsack.com/img/xnaas/xnaas011.webp",
-        "https://actionsack.com/img/xnaas/xnaas012.webp",
-        "https://actionsack.com/img/xnaas/xnaas013.webp",
-        "https://actionsack.com/img/xnaas/xnaas014.webp",
-        "https://actionsack.com/img/xnaas/yeehaw.webp",
-        "https://actionsack.com/img/v/tesla.webm"
+        "https://p.actionsack.com/xnaas/animals.webp",
+        "https://p.actionsack.com/xnaas/d3.webm",
+        "https://p.actionsack.com/xnaas/fd.mp4",
+        "https://p.actionsack.com/xnaas/gape.webp",
+        "https://p.actionsack.com/xnaas/iShit.webp",
+        "https://p.actionsack.com/xnaas/mac.webp",
+        "https://p.actionsack.com/xnaas/propain.webp",
+        "https://p.actionsack.com/xnaas/pussy.mp4",
+        "https://p.actionsack.com/xnaas/QotH.webp",
+        "https://p.actionsack.com/xnaas/reality.webp",
+        "https://p.actionsack.com/xnaas/shaved.webp",
+        "https://p.actionsack.com/xnaas/typing.webp",
+        "https://p.actionsack.com/xnaas/vamp.webp",
+        "https://p.actionsack.com/xnaas/victory.webp",
+        "https://p.actionsack.com/xnaas/wesmart.webp",
+        "https://p.actionsack.com/xnaas/xnaas001.webp",
+        "https://p.actionsack.com/xnaas/xnaas002.webp",
+        "https://p.actionsack.com/xnaas/xnaas003.webp",
+        "https://p.actionsack.com/xnaas/xnaas004.webp",
+        "https://p.actionsack.com/xnaas/xnaas005.webp",
+        "https://p.actionsack.com/xnaas/xnaas006.webp",
+        "https://p.actionsack.com/xnaas/xnaas008.webp",
+        "https://p.actionsack.com/xnaas/xnaas009.webp",
+        "https://p.actionsack.com/xnaas/xnaas010.webp",
+        "https://p.actionsack.com/xnaas/xnaas011.webp",
+        "https://p.actionsack.com/xnaas/xnaas012.webp",
+        "https://p.actionsack.com/xnaas/xnaas013.webp",
+        "https://p.actionsack.com/xnaas/xnaas014.webp",
+        "https://p.actionsack.com/xnaas/yeehaw.webp",
+        "https://p.actionsack.com/v/tesla.webm"
     ]
     bot.say(random.choice(xnass))
 
@@ -2824,7 +2824,7 @@ def JTL(bot, trigger):
         "JTL is addicted to {} 😱".format("\u200B".join("xnaas")),
         "God cries because JTL touches himself at night.",
         "JTL's quote addition is insane. Almost feel bad for the dude.",
-        "https://actionsack.com/img/JTL/sendit.webp"
+        "https://p.actionsack.com/JTL/sendit.webp"
     ]
     bot.say(random.choice(JTL))
 
@@ -2835,7 +2835,7 @@ def JTL(bot, trigger):
 def nC(bot, trigger):
     """A user triggering this command can only do so once per 15 minutes."""
     nC = [
-        "https://actionsack.com/img/nC/gambler.webp"
+        "https://p.actionsack.com/nC/gambler.webp"
     ]
     bot.say(random.choice(nC))
 
@@ -2846,76 +2846,76 @@ def nC(bot, trigger):
 @plugin.command("RGB")
 def RGB(bot, trigger):
     """Can also be triggered with '!RGB' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/RGB.webp")
+    bot.say("https://p.actionsack.com/misc/RGB.webp")
 
 
 @plugin.rule(".*savage!.*")
 def savage(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/savage.gif")
+    bot.say("https://p.actionsack.com/misc/savage.gif")
 
 
 @plugin.rule(".*(salad|🥗).*")
 def salad(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🥗.png")
+    bot.say("https://p.actionsack.com/misc/🥗.png")
 
 
 @plugin.rule(".*(?<!t)rickles.*")
 def rickles(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/rickles.png")
+    bot.say("https://p.actionsack.com/misc/rickles.png")
 
 
 @plugin.rule(r"^(yo|)u\swin.*")
 def uwin(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/uWin.png")
+    bot.say("https://p.actionsack.com/misc/uWin.png")
 
 
 @plugin.rule(r"^you\sdon\'t\ssay.*")
 def udontsay(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/yds.png")
+    bot.say("https://p.actionsack.com/misc/yds.png")
 
 
 @plugin.rule(r".*you\'re\stoo\sslow.*")
 def urtooslow(bot, trigger):
     too_slow = [
-        "https://actionsack.com/img/sanic/master.png",
-        "https://actionsack.com/img/sanic/running.gif"
+        "https://p.actionsack.com/sanic/master.png",
+        "https://p.actionsack.com/sanic/running.gif"
     ]
     bot.say(random.choice(too_slow))
 
 
 @plugin.rule(r".*whale\srape.*")
 def whalerape(bot, trigger):
-    bot.say("https://actionsack.com/img/v/whalerape.mp4")
+    bot.say("https://p.actionsack.com/v/whalerape.mp4")
 
 
 @plugin.rule(".*kwaken.*")
 def kwaken(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/kwaken.png")
+    bot.say("https://p.actionsack.com/misc/kwaken.png")
 
 
 @plugin.rule(".*KFC.*")
 def kfc(bot, trigger):
     kfc = [
-        "https://actionsack.com/img/kfc/00.png",
-        "https://actionsack.com/img/kfc/01.png",
-        "https://actionsack.com/img/kfc/02.png",
+        "https://p.actionsack.com/kfc/00.png",
+        "https://p.actionsack.com/kfc/01.png",
+        "https://p.actionsack.com/kfc/02.png",
     ]
     bot.say(random.choice(kfc))
 
 
 @plugin.rule(".*(?<!en)joy!.*")
 def joy(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/joy.gif")
+    bot.say("https://p.actionsack.com/misc/joy.gif")
 
 
 @plugin.rule(".*bernie.*")
 def bernii(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/bernii.webp")
+    bot.say("https://p.actionsack.com/misc/bernii.webp")
 
 
 @plugin.rule(".*blumkin.*")
 def blumpkin(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/blumkin.gif")
+    bot.say("https://p.actionsack.com/misc/blumkin.gif")
 
 
 @plugin.rule(".*!(chief|halo).*")
@@ -2924,22 +2924,22 @@ def chief(bot, trigger):
     """Posts a Master Chief/Halo-related image.
     Can also be triggered with '!chief' or '!halo' anywhere in chat."""
     master_chef = [
-        "https://actionsack.com/img/son/chiefs.webp",
-        "https://actionsack.com/img/son/halo.webp",
-        "https://actionsack.com/img/halo/59bullets.png",
-        "https://actionsack.com/img/halo/anime.png",
-        "https://actionsack.com/img/halo/car.gif",
-        "https://actionsack.com/img/halo/face00.gif",
-        "https://actionsack.com/img/halo/face01.gif",
-        "https://actionsack.com/img/halo/Halo5.png",
-        "https://actionsack.com/img/halo/happening.gif",
-        "https://actionsack.com/img/halo/jaja.png",
-        "https://actionsack.com/img/halo/perfect_game.png",
-        "https://actionsack.com/img/halo/pony.png",
-        "https://actionsack.com/img/halo/skiing.png",
-        "https://actionsack.com/img/halo/what_do_you_think.png",
-        "https://actionsack.com/img/halo/❔.png",
-        "https://actionsack.com/img/halo/🗑.png"
+        "https://p.actionsack.com/son/chiefs.webp",
+        "https://p.actionsack.com/son/halo.webp",
+        "https://p.actionsack.com/halo/59bullets.png",
+        "https://p.actionsack.com/halo/anime.png",
+        "https://p.actionsack.com/halo/car.gif",
+        "https://p.actionsack.com/halo/face00.gif",
+        "https://p.actionsack.com/halo/face01.gif",
+        "https://p.actionsack.com/halo/Halo5.png",
+        "https://p.actionsack.com/halo/happening.gif",
+        "https://p.actionsack.com/halo/jaja.png",
+        "https://p.actionsack.com/halo/perfect_game.png",
+        "https://p.actionsack.com/halo/pony.png",
+        "https://p.actionsack.com/halo/skiing.png",
+        "https://p.actionsack.com/halo/what_do_you_think.png",
+        "https://p.actionsack.com/halo/❔.png",
+        "https://p.actionsack.com/halo/🗑.png"
     ]
     bot.say(random.choice(master_chef))
 
@@ -2949,9 +2949,9 @@ def chief(bot, trigger):
 def drphil(bot, trigger):
     """Can also be triggered with '!drphil' anywhere in a message."""
     dr_phil = [
-        "https://actionsack.com/img/drphil/apples.webp",
-        "https://actionsack.com/img/drphil/ride.webp",
-        "https://actionsack.com/img/drphil/WSTYAHHWASFOH.webp"
+        "https://p.actionsack.com/drphil/apples.webp",
+        "https://p.actionsack.com/drphil/ride.webp",
+        "https://p.actionsack.com/drphil/WSTYAHHWASFOH.webp"
     ]
     bot.say(random.choice(dr_phil))
 
@@ -2959,8 +2959,8 @@ def drphil(bot, trigger):
 @plugin.rule(".*🌀.*")
 def hurricane(bot, trigger):
     hurricanes = [
-        "https://actionsack.com/img/🌀/AD.png",
-        "https://actionsack.com/img/🌀/matthew.png"
+        "https://p.actionsack.com/🌀/AD.png",
+        "https://p.actionsack.com/🌀/matthew.png"
     ]
     bot.say(random.choice(hurricanes))
 
@@ -2971,18 +2971,18 @@ def pepe(bot, trigger):
     """Posts a rare pepe into chat.
     Can also be triggered with '!pepe' anywhere in a message."""
     rare_pepes = [
-        "https://actionsack.com/img/pepe/anime.png",
-        "https://actionsack.com/img/pepe/black.png",
-        "https://actionsack.com/img/pepe/bulba.jpg",
-        "https://actionsack.com/img/pepe/combat.gif",
-        "https://actionsack.com/img/pepe/cthulhu.png",
-        "https://actionsack.com/img/pepe/great-post.png",
-        "https://actionsack.com/img/pepe/human-mouth.gif",
-        "https://actionsack.com/img/pepe/reeeee.gif",
-        "https://actionsack.com/img/pepe/religion.jpg",
-        "https://actionsack.com/img/pepe/steak.png",
-        "https://actionsack.com/img/pepe/sub.png",
-        "https://actionsack.com/img/pepe/trump.png"
+        "https://p.actionsack.com/pepe/anime.png",
+        "https://p.actionsack.com/pepe/black.png",
+        "https://p.actionsack.com/pepe/bulba.jpg",
+        "https://p.actionsack.com/pepe/combat.gif",
+        "https://p.actionsack.com/pepe/cthulhu.png",
+        "https://p.actionsack.com/pepe/great-post.png",
+        "https://p.actionsack.com/pepe/human-mouth.gif",
+        "https://p.actionsack.com/pepe/reeeee.gif",
+        "https://p.actionsack.com/pepe/religion.jpg",
+        "https://p.actionsack.com/pepe/steak.png",
+        "https://p.actionsack.com/pepe/sub.png",
+        "https://p.actionsack.com/pepe/trump.png"
     ]
     bot.say(random.choice(rare_pepes))
 
@@ -2990,40 +2990,40 @@ def pepe(bot, trigger):
 @plugin.rule(".*repost.*")
 def repost(bot, trigger):
     reposts = [
-        "https://actionsack.com/img/repost/3weeks.png",
-        "https://actionsack.com/img/repost/5minutes.png",
-        "https://actionsack.com/img/repost/back-to-the-repost.png",
-        "https://actionsack.com/img/repost/better.gif",
-        "https://actionsack.com/img/repost/cat.webp",
-        "https://actionsack.com/img/repost/cock.png",
-        "https://actionsack.com/img/repost/detected.gif",
-        "https://actionsack.com/img/repost/evil.gif",
-        "https://actionsack.com/img/repost/GotG.mp4",
-        "https://actionsack.com/img/repost/groundhog.gif",
-        "https://actionsack.com/img/repost/homer.png",
-        "https://actionsack.com/img/repost/IB.mp4",
-        "https://actionsack.com/img/repost/ITSAREPOST!!!.png",
-        "https://actionsack.com/img/repost/jurassic.gif",
-        "https://actionsack.com/img/repost/MiB.webp",
-        "https://actionsack.com/img/repost/nobody_cares.gif",
-        "https://actionsack.com/img/repost/ohshit.mp4",
-        "https://actionsack.com/img/repost/pacific_rim.gif",
-        "https://actionsack.com/img/repost/picard.mp4",
-        "https://actionsack.com/img/repost/police.png",
-        "https://actionsack.com/img/repost/rekt.gif",
-        "https://actionsack.com/img/repost/remember.png",
-        "https://actionsack.com/img/repost/repeat.gif",
-        "https://actionsack.com/img/repost/security-check.png",
-        "https://actionsack.com/img/repost/seinfeld.gif",
-        "https://actionsack.com/img/repost/soflo.png",
-        "https://actionsack.com/img/repost/wait....gif"
+        "https://p.actionsack.com/repost/3weeks.png",
+        "https://p.actionsack.com/repost/5minutes.png",
+        "https://p.actionsack.com/repost/back-to-the-repost.png",
+        "https://p.actionsack.com/repost/better.gif",
+        "https://p.actionsack.com/repost/cat.webp",
+        "https://p.actionsack.com/repost/cock.png",
+        "https://p.actionsack.com/repost/detected.gif",
+        "https://p.actionsack.com/repost/evil.gif",
+        "https://p.actionsack.com/repost/GotG.mp4",
+        "https://p.actionsack.com/repost/groundhog.gif",
+        "https://p.actionsack.com/repost/homer.png",
+        "https://p.actionsack.com/repost/IB.mp4",
+        "https://p.actionsack.com/repost/ITSAREPOST!!!.png",
+        "https://p.actionsack.com/repost/jurassic.gif",
+        "https://p.actionsack.com/repost/MiB.webp",
+        "https://p.actionsack.com/repost/nobody_cares.gif",
+        "https://p.actionsack.com/repost/ohshit.mp4",
+        "https://p.actionsack.com/repost/pacific_rim.gif",
+        "https://p.actionsack.com/repost/picard.mp4",
+        "https://p.actionsack.com/repost/police.png",
+        "https://p.actionsack.com/repost/rekt.gif",
+        "https://p.actionsack.com/repost/remember.png",
+        "https://p.actionsack.com/repost/repeat.gif",
+        "https://p.actionsack.com/repost/security-check.png",
+        "https://p.actionsack.com/repost/seinfeld.gif",
+        "https://p.actionsack.com/repost/soflo.png",
+        "https://p.actionsack.com/repost/wait....gif"
     ]
     bot.say(random.choice(reposts))
 
 
 @plugin.rule("^🪦$")
 def rip(bot, trigger):
-    bot.say("https://actionsack.com/img/emoji/rip.png")
+    bot.say("https://p.actionsack.com/emoji/rip.png")
 
 
 @plugin.rule(".*!trump.*")
@@ -3031,40 +3031,40 @@ def rip(bot, trigger):
 def trump(bot, trigger):
     """Can also be triggered with '!trump' anywhere in a message."""
     trumps = [
-        "https://actionsack.com/img/trump/baby.png",
-        "https://actionsack.com/img/trump/beatdown.gif",
-        "https://actionsack.com/img/trump/bingbong.png",
-        "https://actionsack.com/img/trump/blog.mp4",
-        "https://actionsack.com/img/trump/boo!.mp4",
-        "https://actionsack.com/img/trump/caress.gif",
-        "https://actionsack.com/img/trump/covfefe.png",
-        "https://actionsack.com/img/trump/dump.png",
-        "https://actionsack.com/img/trump/fuckyou.gif",
-        "https://actionsack.com/img/trump/golf.gif",
-        "https://actionsack.com/img/trump/HEYYOUGUYS.png",
-        "https://actionsack.com/img/trump/kiss.png",
-        "https://actionsack.com/img/trump/monster.mp4",
-        "https://actionsack.com/img/trump/nagus.png",
-        "https://actionsack.com/img/trump/no.mp4",
-        "https://actionsack.com/img/trump/real-villian.gif",
-        "https://actionsack.com/img/trump/reason.mp4",
-        "https://actionsack.com/img/trump/satan.gif",
-        "https://actionsack.com/img/trump/sauron.png",
-        "https://actionsack.com/img/trump/simple.png",
-        "https://actionsack.com/img/trump/stump.gif",
-        "https://actionsack.com/img/trump/tacos.gif",
-        "https://actionsack.com/img/trump/tap.png",
-        "https://actionsack.com/img/trump/tears.mp4",
-        "https://actionsack.com/img/trump/tears.png",
-        "https://actionsack.com/img/trump/think.png",
-        "https://actionsack.com/img/trump/troll.png",
-        "https://actionsack.com/img/trump/trump-chan.png",
-        "https://actionsack.com/img/trump/trumpler.mp4",
-        "https://actionsack.com/img/trump/trump-vs-hillary.mp4",
-        "https://actionsack.com/img/trump/trump-yell.png",
-        "https://actionsack.com/img/trump/wall.mp4",
-        "https://actionsack.com/img/trump/WOF.png",
-        "https://actionsack.com/img/trump/トランプ.webm"
+        "https://p.actionsack.com/trump/baby.png",
+        "https://p.actionsack.com/trump/beatdown.gif",
+        "https://p.actionsack.com/trump/bingbong.png",
+        "https://p.actionsack.com/trump/blog.mp4",
+        "https://p.actionsack.com/trump/boo!.mp4",
+        "https://p.actionsack.com/trump/caress.gif",
+        "https://p.actionsack.com/trump/covfefe.png",
+        "https://p.actionsack.com/trump/dump.png",
+        "https://p.actionsack.com/trump/fuckyou.gif",
+        "https://p.actionsack.com/trump/golf.gif",
+        "https://p.actionsack.com/trump/HEYYOUGUYS.png",
+        "https://p.actionsack.com/trump/kiss.png",
+        "https://p.actionsack.com/trump/monster.mp4",
+        "https://p.actionsack.com/trump/nagus.png",
+        "https://p.actionsack.com/trump/no.mp4",
+        "https://p.actionsack.com/trump/real-villian.gif",
+        "https://p.actionsack.com/trump/reason.mp4",
+        "https://p.actionsack.com/trump/satan.gif",
+        "https://p.actionsack.com/trump/sauron.png",
+        "https://p.actionsack.com/trump/simple.png",
+        "https://p.actionsack.com/trump/stump.gif",
+        "https://p.actionsack.com/trump/tacos.gif",
+        "https://p.actionsack.com/trump/tap.png",
+        "https://p.actionsack.com/trump/tears.mp4",
+        "https://p.actionsack.com/trump/tears.png",
+        "https://p.actionsack.com/trump/think.png",
+        "https://p.actionsack.com/trump/troll.png",
+        "https://p.actionsack.com/trump/trump-chan.png",
+        "https://p.actionsack.com/trump/trumpler.mp4",
+        "https://p.actionsack.com/trump/trump-vs-hillary.mp4",
+        "https://p.actionsack.com/trump/trump-yell.png",
+        "https://p.actionsack.com/trump/wall.mp4",
+        "https://p.actionsack.com/trump/WOF.png",
+        "https://p.actionsack.com/trump/トランプ.webm"
     ]
     bot.say(random.choice(trumps))
 
@@ -3072,7 +3072,7 @@ def trump(bot, trigger):
 @plugin.command("downvote")
 def downvote(bot, trigger):
     downvotes = [
-        "https://actionsack.com/img/vote/down/00.gif"
+        "https://p.actionsack.com/vote/down/00.gif"
     ]
     bot.say(random.choice(downvotes))
 
@@ -3080,22 +3080,22 @@ def downvote(bot, trigger):
 @plugin.command("upvote")
 def upvote(bot, trigger):
     upvotes = [
-        "https://actionsack.com/img/vote/up/00.mp4",
-        "https://actionsack.com/img/vote/up/01.mp4"
+        "https://p.actionsack.com/vote/up/00.mp4",
+        "https://p.actionsack.com/vote/up/01.mp4"
     ]
     bot.say(random.choice(upvotes))
 
 
 @plugin.rule(r"^apologize\.(\s$|$)")
 def apologize(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/apologize.webp")
+    bot.say("https://p.actionsack.com/misc/apologize.webp")
 
 
 @plugin.rule(r".*(?<!sh)it\'s\shappening.*")
 def happening(bot, trigger):
     its_happening = [
-        "https://actionsack.com/img/halo/happening.gif",
-        "https://actionsack.com/img/misc/happening.gif"
+        "https://p.actionsack.com/halo/happening.gif",
+        "https://p.actionsack.com/misc/happening.gif"
     ]
     bot.say(random.choice(its_happening))
 
@@ -3103,29 +3103,29 @@ def happening(bot, trigger):
 @plugin.rule(r"^It\'s\stime\sto\sstop!$")
 def timetostop(bot, trigger):
     time_to_stop = [
-        "https://actionsack.com/img/🛑/00.webp",
-        "https://actionsack.com/img/🛑/01.webp",
-        "https://actionsack.com/img/🛑/02.webp",
-        "https://actionsack.com/img/🛑/03.webp",
+        "https://p.actionsack.com/🛑/00.webp",
+        "https://p.actionsack.com/🛑/01.webp",
+        "https://p.actionsack.com/🛑/02.webp",
+        "https://p.actionsack.com/🛑/03.webp",
     ]
     bot.say(random.choice(time_to_stop))
 
 
 @plugin.rule(".*pepsi.*")
 def pepsi(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/pepsi.gif")
+    bot.say("https://p.actionsack.com/misc/pepsi.gif")
 
 
 @plugin.rule(".*terrorist.*")
 def terrorists(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/terrorist.gif")
+    bot.say("https://p.actionsack.com/misc/terrorist.gif")
 
 
 @plugin.rule(r".*space\spants!.*")
 def spacepants(bot, trigger):
     space_pants = [
-        "https://actionsack.com/img/misc/spacepants.gif",
-        "https://actionsack.com/img/v/spacepants.mp4"
+        "https://p.actionsack.com/misc/spacepants.gif",
+        "https://p.actionsack.com/v/spacepants.mp4"
     ]
     bot.say(random.choice(space_pants))
 
@@ -3134,17 +3134,17 @@ def spacepants(bot, trigger):
 @plugin.command("peep")
 def peep(bot, trigger):
     """Peep on chat. Can also be triggered with '!peep' anywhere in a message."""
-    bot.say("https://actionsack.com/img/misc/peep.gif")
+    bot.say("https://p.actionsack.com/misc/peep.gif")
 
 
 @plugin.rule(".*🥒.*")
 def cucumber(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🥒.gif")
+    bot.say("https://p.actionsack.com/misc/🥒.gif")
 
 
 @plugin.rule(".*krang.*")
 def krang(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/krang.png")
+    bot.say("https://p.actionsack.com/misc/krang.png")
 
 
 @plugin.rule(".*!reality.*")
@@ -3152,26 +3152,26 @@ def krang(bot, trigger):
 @plugin.rate(channel=86400)
 def reality(bot, trigger):
     """Lays down a hard reality. Rate-limited to once per day per channel."""
-    bot.say("https://actionsack.com/img/xnaas/reality.webp")
+    bot.say("https://p.actionsack.com/xnaas/reality.webp")
 
 
 @plugin.rule(r".*mass\smurder.*")
 @plugin.command("shooting")
 def shooting(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/shooting.gif")
+    bot.say("https://p.actionsack.com/misc/shooting.gif")
 
 
 @plugin.rule(r".*🆒(|\s)🐱.*")
 def coolcat(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/🆒🐱.png")
+    bot.say("https://p.actionsack.com/misc/🆒🐱.png")
 
 
 @plugin.rule(".*shitpost.*")
 def shitpost(bot, trigger):
     shit_post = [
-        "https://actionsack.com/img/shitpost/catpost.gif",
-        "https://actionsack.com/img/shitpost/dbz.png",
-        "https://actionsack.com/img/shitpost/shitpost.png"
+        "https://p.actionsack.com/shitpost/catpost.gif",
+        "https://p.actionsack.com/shitpost/dbz.png",
+        "https://p.actionsack.com/shitpost/shitpost.png"
     ]
     bot.say(random.choice(shit_post))
 
@@ -3179,43 +3179,43 @@ def shitpost(bot, trigger):
 @plugin.rule("^No!$")
 def no(bot, trigger):
     nonono = [
-        "https://actionsack.com/img/no/00.mp4",
-        "https://actionsack.com/img/no/01.mp4",
+        "https://p.actionsack.com/no/00.mp4",
+        "https://p.actionsack.com/no/01.mp4",
     ]
     bot.say(random.choice(nonono))
 
 
 @plugin.rule(r"^just\.\.\.no$")
 def justno(bot, trigger):
-    bot.say("https://actionsack.com/img/no/just...no.webp")
+    bot.say("https://p.actionsack.com/no/just...no.webp")
 
 
 @plugin.rule(".*🏇.*")
 def horses(bot, trigger):
     race_horses = [
-        "https://actionsack.com/img/🏇/girl.gif",
-        "https://actionsack.com/img/🏇/hoh.gif"
+        "https://p.actionsack.com/🏇/girl.gif",
+        "https://p.actionsack.com/🏇/hoh.gif"
     ]
     bot.say(random.choice(race_horses))
 
 
 @plugin.rule(".*👽.*")
 def alien(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/👽.webp")
+    bot.say("https://p.actionsack.com/misc/👽.webp")
 
 
 @plugin.rule(".*😮{3,}.*")
 def gaping_mouth(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/😮.webp")
+    bot.say("https://p.actionsack.com/misc/😮.webp")
 
 
 @plugin.rule(".*🕷(?!👨).*")
 def spider(bot, trigger):
     spiders = [
-        "https://actionsack.com/img/🕷/cat.webp",
-        "https://actionsack.com/img/🕷/girl.webp",
-        "https://actionsack.com/img/🕷/song.webp",
-        "https://actionsack.com/img/🕷/swing.webp"
+        "https://p.actionsack.com/🕷/cat.webp",
+        "https://p.actionsack.com/🕷/girl.webp",
+        "https://p.actionsack.com/🕷/song.webp",
+        "https://p.actionsack.com/🕷/swing.webp"
     ]
     bot.say(random.choice(spiders))
 
@@ -3223,28 +3223,28 @@ def spider(bot, trigger):
 @plugin.rule(r".*(spiderman|🕷(|\s)👨).*")
 def spiderman(bot, trigger):
     spider_man = [
-        "https://actionsack.com/img/🕷👨/orphans.webp",
-        "https://actionsack.com/img/🕷👨/smell.webp"
+        "https://p.actionsack.com/🕷👨/orphans.webp",
+        "https://p.actionsack.com/🕷👨/smell.webp"
     ]
     bot.say(random.choice(spider_man))
 
 
 @plugin.rule(".*shitstorm.*")
 def shitstorm(bot, trigger):
-    bot.say("https://actionsack.com/img/misc/shitstorm.webp")
+    bot.say("https://p.actionsack.com/misc/shitstorm.webp")
 
 
 @plugin.rule("!ts")
 @plugin.command("ts")
 def teamspeak(bot, trigger):
-    bot.say("https://actionsack.com/img/a/teamspeak.ogg")
+    bot.say("https://p.actionsack.com/a/teamspeak.ogg")
 
 
 @plugin.rule(".*!tmf.*")
 @plugin.command("tmf")
 def thatsmyfetish(bot, trigger):
     """That's my fetish. ( ͡° ͜ʖ ͡°)"""
-    bot.say("https://actionsack.com/img/misc/tmf.webp")
+    bot.say("https://p.actionsack.com/misc/tmf.webp")
 
 
 @plugin.rule("^NDA$")
@@ -3255,48 +3255,48 @@ def nda(bot, trigger):
 
 @plugin.rule(".*darude.*")
 def darude(bot, trigger):
-    bot.say("https://actionsack.com/img/v/darude.mp4")
+    bot.say("https://p.actionsack.com/v/darude.mp4")
 
 
 @plugin.rule(".*numa.*")
 def numanuma(bot, trigger):
-    bot.say("https://actionsack.com/img/v/numa.mp4")
+    bot.say("https://p.actionsack.com/v/numa.mp4")
 
 
 @plugin.rule(".*!gems.*")
 @plugin.command("gems")
 def gems(bot, trigger):
-    bot.say("https://actionsack.com/img/v/gems.mp4")
+    bot.say("https://p.actionsack.com/v/gems.mp4")
 
 
 @plugin.rule(".*explosion!.*")
 def explosion(bot, trigger):
     explosion = [
-        "https://actionsack.com/img/v/explosion/01.mp4",
-        "https://actionsack.com/img/v/explosion/02.mp4",
-        "https://actionsack.com/img/v/explosion/03.mp4"
+        "https://p.actionsack.com/v/explosion/01.mp4",
+        "https://p.actionsack.com/v/explosion/02.mp4",
+        "https://p.actionsack.com/v/explosion/03.mp4"
     ]
     bot.say(random.choice(explosion))
 
 
 @plugin.rule(r".*I\sneed\sa\shero.*")
 def ineedahero(bot, trigger):
-    bot.say("https://actionsack.com/img/v/ineedahero.mp4")
+    bot.say("https://p.actionsack.com/v/ineedahero.mp4")
 
 
 @plugin.rule(".*!MDMA.*")
 @plugin.command("mdma")
 def mdma(bot, trigger):
-    bot.say("https://actionsack.com/img/a/MDMA.ogg")
+    bot.say("https://p.actionsack.com/a/MDMA.ogg")
 
 
 @plugin.rule(".*!albatraoz.*")
 @plugin.command("albatraoz")
 def albatraoz(bot, trigger):
-    bot.say("https://actionsack.com/img/a/albatraoz.ogg")
+    bot.say("https://p.actionsack.com/a/albatraoz.ogg")
 
 
 @plugin.rule(".*!swing.*")
 @plugin.command("swing")
 def little_swing(bot, trigger):
-    bot.say("https://actionsack.com/img/a/swing.ogg")
+    bot.say("https://p.actionsack.com/a/swing.ogg")
