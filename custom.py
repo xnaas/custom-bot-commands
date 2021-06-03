@@ -3288,3 +3288,15 @@ def ineedahero(bot, trigger):
 @plugin.command("mdma")
 def mdma(bot, trigger):
     bot.say("https://actionsack.com/img/a/MDMA.ogg")
+
+
+@plugin.rule(".*!albatraoz.*")
+@plugin.command("albatraoz")
+def albatraoz(bot, trigger):
+    bot.say("https://actionsack.com/img/a/albatraoz.ogg")
+
+
+@plugin.rule(".*!swing.*")
+@plugin.command("swing")
+def little_swing(bot, trigger):
+    bot.say("https://actionsack.com/img/a/swing.ogg")
