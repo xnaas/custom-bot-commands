@@ -3237,7 +3237,7 @@ def shitstorm(bot, trigger):
 @plugin.rule("!ts")
 @plugin.command("ts")
 def teamspeak(bot, trigger):
-    bot.say("https://actionsack.com/img/music/teamspeak.ogg")
+    bot.say("https://actionsack.com/img/a/teamspeak.ogg")
 
 
 @plugin.rule(".*!tmf.*")
@@ -3282,3 +3282,9 @@ def explosion(bot, trigger):
 @plugin.rule(r".*I\sneed\sa\shero.*")
 def ineedahero(bot, trigger):
     bot.say("https://actionsack.com/img/v/ineedahero.mp4")
+
+
+@plugin.rule(".*!MDMA.*")
+@plugin.command("mdma")
+def mdma(bot, trigger):
+    bot.say("https://actionsack.com/img/a/MDMA.ogg")
