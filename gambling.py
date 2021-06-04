@@ -185,9 +185,9 @@ def init_money(bot, trigger):
         target = trigger.nick
         check_for_money = bot.db.get_nick_value(target, "currency_amount")
         if check_for_money is None:
-            bot.db.set_nick_value(target, "currency_amount", 100)
+            bot.db.set_nick_value(target, "currency_amount", 250)
             bot.say(
-                "Congratulations! Here's $100 to get you started, {}.".format(target))
+                "Congratulations! Here's $250 to get you started, {}.".format(target))
     else:
         bot.reply("This command can only be used in #casino")
 
@@ -209,7 +209,7 @@ def claim_money(bot, trigger):
         check_for_timely = bot.db.get_nick_value(claimer, "currency_timely")
         if check_for_timely is None:
             bot.db.set_nick_value(claimer, "currency_timely", now)
-            claim = check_for_money + 150
+            claim = check_for_money + 250
             bot.db.set_nick_value(claimer, "currency_amount", claim)
             bot.reply(
                 "New balance: ${:,}. Don't forget to claim again in 24 hours!".format(claim))
