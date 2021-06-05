@@ -8,11 +8,6 @@ import itertools
 import random
 import unicodedata
 
-# Remove when dropping support for Sopel < 7.1
-if hasattr(formatting, 'plain'):
-    clean = formatting.plain
-else:
-    clean = lambda t: t
 
 COLOR_SCHEMES = {
     'rainbow': [4, 7, 8, 3, 12, 2, 6],
@@ -31,7 +26,7 @@ SCHEME_ERRORS = {
 @plugin.commands('rainbow', 'usa', 'commie', 'spooky')
 def rainbow_cmd(bot, trigger):
     """Make text colored. Options are "rainbow", "usa", "commie", and "spooky"."""
-    text = clean(trigger.group(2) or '')
+    text = formatting.plain(trigger.group(2))
     scheme = trigger.group(1).lower()
 
     if not text:

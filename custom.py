@@ -2,27 +2,22 @@ from sopel import plugin, formatting
 import random
 import unicodedata
 
-### Section Exists for "judge" command only ###
-# Remove when dropping support for Sopel < 7.1
-if hasattr(formatting, 'plain'):
-    clean = formatting.plain
-else:
-    clean = lambda t: t
-### Section Exists for "judge" command only ###
 
-
+@plugin.rule(".*!nod.*")
 @plugin.command("nod")
 def nod(bot, trigger):
     """Nod."""
     bot.say("https://p.actionsack.com/trek/nod.webp")
 
 
+@plugin.rule(".*!spok.*")
 @plugin.command("spok")
 def spok(bot, trigger):
     """Summon SPOK into chat."""
     bot.say("https://p.actionsack.com/trek/spok.webp")
 
 
+@plugin.rule(".*!cube.*")
 @plugin.command("cube")
 def trek_cube(bot, trigger):
     bot.say("https://p.actionsack.com/trek/cube.webp")
@@ -1536,7 +1531,7 @@ def judge(bot, trigger):
         "not guilty! https://p.actionsack.com/misc/not-guilty.png",
         "guilty! https://p.actionsack.com/misc/guilty.png"
     ]
-    text = clean(trigger.group(2) or '')
+    text = formatting.plain(trigger.group(2))
 
     if not text:
         try:
@@ -1544,8 +1539,9 @@ def judge(bot, trigger):
         except KeyError:
             msg = "How did you do that?!"
         bot.reply(msg)
-        return module.NOLIMIT
-    bot.say("{} is {}".format(trigger.group(2), random.choice(judges)))
+        return
+
+    bot.say("{} is {}".format(text, random.choice(judges)))
 
 
 @plugin.rule(r"^wat($|\W)")
