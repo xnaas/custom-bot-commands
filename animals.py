@@ -79,7 +79,7 @@ def shibe(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@plugin.command("birb", "bird")
+@plugin.commands("bird", "birb")
 def birbs(bot, trigger):
     """Posts a random bird using the shibe.online bird API."""
     url = "https://shibe.online/api/birds"
@@ -95,7 +95,7 @@ def birbs(bot, trigger):
         bot.reply("Error reaching API, probably.")
 
 
-@plugin.command("fox", "foxy")
+@plugin.commands("fox", "foxy")
 def fox(bot, trigger):
     """Posts a random fox using the randomfox.ca API."""
     url = "https://randomfox.ca/floof/"
