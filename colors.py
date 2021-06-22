@@ -41,8 +41,10 @@ def rainbow_cmd(bot, trigger):
         colors = COLOR_SCHEMES[scheme]
     except KeyError:
         # not possible to reach this at time of writing, but who knows?
-        # mistakes happen when updating stuff that needs to be changed in parallel
-        bot.reply("I don't know what color sequence to use for '{}'!".format(scheme))
+        # mistakes happen when updating stuff that needs to be changed in
+        # parallel
+        bot.reply(
+            "I don't know what color sequence to use for '{}'!".format(scheme))
         return
 
     color_cycle = itertools.cycle(colors)
@@ -52,5 +54,5 @@ def rainbow_cmd(bot, trigger):
             char if unicodedata.category(char) == 'Zs'
             else formatting.color(char, next(color_cycle))
             for char in text
-        )
+        ), max_messages=2
     )
