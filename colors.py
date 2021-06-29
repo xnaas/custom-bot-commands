@@ -54,5 +54,5 @@ def rainbow_cmd(bot, trigger):
             char if unicodedata.category(char) == 'Zs'
             else formatting.color(char, next(color_cycle))
             for char in text
-        ), max_messages=2
+        ), max_messages=4
     )

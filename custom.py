@@ -728,6 +728,11 @@ def jordan(bot, trigger):
         "https://p.actionsack.com/jordan/littledick.png"
     ]
     bot.say(random.choice(jordan))
+
+
+@plugin.rule(".*!!cockhunter.*")
+def cock_hunter(bot, trigger):
+    bot.say("https://p.actionsack.com/nsfw/cock_hunter.webp")
 # === NSFW Commands ===
 
 
