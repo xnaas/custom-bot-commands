@@ -42,7 +42,7 @@ Uses the [Evil Insult Generator](https://evilinsult.com/api/) to insult other us
 Uses the [Open Library Books API](https://openlibrary.org/dev/docs/api/books) to look up a book via ISBN.
 
 
-## [mcu.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/nsfw.py)
+## [mcu.py](https://github.com/xnaas/custom-sopel-plugins/blob/master/mcu.py)
 Queries the [whenisthenextmcufilm API](https://whenisthenextmcufilm.com) for upcoming MCU movie and show info.
 
 
