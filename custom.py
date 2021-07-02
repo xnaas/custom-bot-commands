@@ -2843,24 +2843,24 @@ def nC(bot, trigger):
 # /Action Sack People Section
 
 
-@plugin.rule(".*!RGB.*")
+@plugin.search("!RGB")
 @plugin.command("RGB")
 def RGB(bot, trigger):
     """Can also be triggered with '!RGB' anywhere in a message."""
     bot.say("https://p.actionsack.com/misc/RGB.webp")
 
 
-@plugin.rule(".*savage!.*")
+@plugin.search("savage!")
 def savage(bot, trigger):
     bot.say("https://p.actionsack.com/misc/savage.gif")
 
 
-@plugin.rule(".*(salad|🥗).*")
+@plugin.search("🥗")
 def salad(bot, trigger):
     bot.say("https://p.actionsack.com/misc/🥗.png")
 
 
-@plugin.rule(".*(?<!t)rickles.*")
+@plugin.search("(?<!t)rickles")
 def rickles(bot, trigger):
     bot.say("https://p.actionsack.com/misc/rickles.png")
 
@@ -2875,7 +2875,7 @@ def udontsay(bot, trigger):
     bot.say("https://p.actionsack.com/misc/yds.png")
 
 
-@plugin.rule(r".*you\'re\stoo\sslow.*")
+@plugin.search(r"you\'re too slow")
 def urtooslow(bot, trigger):
     too_slow = [
         "https://p.actionsack.com/sanic/master.png",
@@ -2884,17 +2884,17 @@ def urtooslow(bot, trigger):
     bot.say(random.choice(too_slow))
 
 
-@plugin.rule(r".*whale\srape.*")
+@plugin.search("whale rape")
 def whalerape(bot, trigger):
     bot.say("https://p.actionsack.com/v/whalerape.mp4")
 
 
-@plugin.rule(".*kwaken.*")
+@plugin.search("kwaken")
 def kwaken(bot, trigger):
     bot.say("https://p.actionsack.com/misc/kwaken.png")
 
 
-@plugin.rule(".*KFC.*")
+@plugin.search("KFC")
 def kfc(bot, trigger):
     kfc = [
         "https://p.actionsack.com/kfc/00.png",
@@ -2904,22 +2904,22 @@ def kfc(bot, trigger):
     bot.say(random.choice(kfc))
 
 
-@plugin.rule(".*(?<!en)joy!.*")
+@plugin.search("(?<!en)joy!")
 def joy(bot, trigger):
     bot.say("https://p.actionsack.com/misc/joy.gif")
 
 
-@plugin.rule(".*bernie.*")
+@plugin.search("bernie")
 def bernii(bot, trigger):
     bot.say("https://p.actionsack.com/misc/bernii.webp")
 
 
-@plugin.rule(".*blumkin.*")
+@plugin.search("blumkin")
 def blumpkin(bot, trigger):
     bot.say("https://p.actionsack.com/misc/blumkin.gif")
 
 
-@plugin.rule(".*!(chief|halo).*")
+@plugin.search("!(chief|halo)")
 @plugin.command("chief", "halo")
 def chief(bot, trigger):
     """Posts a Master Chief/Halo-related image.
@@ -2945,7 +2945,7 @@ def chief(bot, trigger):
     bot.say(random.choice(master_chef))
 
 
-@plugin.rule(".*!drphil.*")
+@plugin.search("!drphil")
 @plugin.command("drphil")
 def drphil(bot, trigger):
     """Can also be triggered with '!drphil' anywhere in a message."""
@@ -2957,7 +2957,7 @@ def drphil(bot, trigger):
     bot.say(random.choice(dr_phil))
 
 
-@plugin.rule(".*🌀.*")
+@plugin.search("🌀")
 def hurricane(bot, trigger):
     hurricanes = [
         "https://p.actionsack.com/🌀/AD.png",
@@ -2966,7 +2966,7 @@ def hurricane(bot, trigger):
     bot.say(random.choice(hurricanes))
 
 
-@plugin.rule(".*!pepe.*")
+@plugin.search("!pepe")
 @plugin.command("pepe")
 def pepe(bot, trigger):
     """Posts a rare pepe into chat.
@@ -2988,7 +2988,7 @@ def pepe(bot, trigger):
     bot.say(random.choice(rare_pepes))
 
 
-@plugin.rule(".*repost.*")
+@plugin.search("repost")
 def repost(bot, trigger):
     reposts = [
         "https://p.actionsack.com/repost/3weeks.png",
@@ -3027,7 +3027,7 @@ def rip(bot, trigger):
     bot.say("https://p.actionsack.com/emoji/rip.png")
 
 
-@plugin.rule(".*!trump.*")
+@plugin.search("!trump")
 @plugin.command("trump")
 def trump(bot, trigger):
     """Can also be triggered with '!trump' anywhere in a message."""
@@ -3092,7 +3092,7 @@ def apologize(bot, trigger):
     bot.say("https://p.actionsack.com/misc/apologize.webp")
 
 
-@plugin.rule(r".*(?<!sh)it\'s\shappening.*")
+@plugin.search(r"(?<!sh)it\'s happening")
 def happening(bot, trigger):
     its_happening = [
         "https://p.actionsack.com/halo/happening.gif",
@@ -3112,17 +3112,17 @@ def timetostop(bot, trigger):
     bot.say(random.choice(time_to_stop))
 
 
-@plugin.rule(".*pepsi.*")
+@plugin.rule("pepsi")
 def pepsi(bot, trigger):
     bot.say("https://p.actionsack.com/misc/pepsi.gif")
 
 
-@plugin.rule(".*terrorist.*")
+@plugin.search("terrorist")
 def terrorists(bot, trigger):
     bot.say("https://p.actionsack.com/misc/terrorist.gif")
 
 
-@plugin.rule(r".*space\spants!.*")
+@plugin.search("space pants")
 def spacepants(bot, trigger):
     space_pants = [
         "https://p.actionsack.com/misc/spacepants.gif",
@@ -3131,43 +3131,43 @@ def spacepants(bot, trigger):
     bot.say(random.choice(space_pants))
 
 
-@plugin.rule(".*!peep.*")
+@plugin.search("!peep")
 @plugin.command("peep")
 def peep(bot, trigger):
     """Peep on chat. Can also be triggered with '!peep' anywhere in a message."""
     bot.say("https://p.actionsack.com/misc/peep.gif")
 
 
-@plugin.rule(".*🥒.*")
+@plugin.search("🥒")
 def cucumber(bot, trigger):
     bot.say("https://p.actionsack.com/misc/🥒.gif")
 
 
-@plugin.rule(".*krang.*")
+@plugin.search("krang")
 def krang(bot, trigger):
     bot.say("https://p.actionsack.com/misc/krang.png")
 
 
-@plugin.rule(".*!reality.*")
 @plugin.command("reality")
-@plugin.rate(channel=86400)
+@plugin.rate(server=86400)
 def reality(bot, trigger):
-    """Lays down a hard reality. Rate-limited to once per day per channel."""
+    """Lays down a hard reality. Rate-limited to once per day on the server."""
     bot.say("https://p.actionsack.com/xnaas/reality.webp")
 
 
-@plugin.rule(r".*mass\smurder.*")
+@plugin.search("mass murder")
 @plugin.command("shooting")
 def shooting(bot, trigger):
+    """Can also be triggered with 'mass murder' anywhere in a message."""
     bot.say("https://p.actionsack.com/misc/shooting.gif")
 
 
-@plugin.rule(r".*🆒(|\s)🐱.*")
+@plugin.search(r"🆒(|\s)🐱")
 def coolcat(bot, trigger):
     bot.say("https://p.actionsack.com/misc/🆒🐱.png")
 
 
-@plugin.rule(".*shitpost.*")
+@plugin.search("shitpost")
 def shitpost(bot, trigger):
     shit_post = [
         "https://p.actionsack.com/shitpost/catpost.gif",
@@ -3191,7 +3191,7 @@ def justno(bot, trigger):
     bot.say("https://p.actionsack.com/no/just...no.webp")
 
 
-@plugin.rule(".*🏇.*")
+@plugin.search("🏇")
 def horses(bot, trigger):
     race_horses = [
         "https://p.actionsack.com/🏇/girl.gif",
@@ -3200,17 +3200,17 @@ def horses(bot, trigger):
     bot.say(random.choice(race_horses))
 
 
-@plugin.rule(".*👽.*")
+@plugin.search("👽")
 def alien(bot, trigger):
     bot.say("https://p.actionsack.com/misc/👽.webp")
 
 
-@plugin.rule(".*😮{3,}.*")
+@plugin.search("😮{3,}")
 def gaping_mouth(bot, trigger):
     bot.say("https://p.actionsack.com/misc/😮.webp")
 
 
-@plugin.rule(".*🕷(?!👨).*")
+@plugin.search("🕷(?!👨)")
 def spider(bot, trigger):
     spiders = [
         "https://p.actionsack.com/🕷/cat.webp",
@@ -3221,8 +3221,10 @@ def spider(bot, trigger):
     bot.say(random.choice(spiders))
 
 
-@plugin.rule(r".*(spiderman|🕷(|\s)👨).*")
+@plugin.search(r"🕷(|\s)👨")
+@plugin.command("spiderman")
 def spiderman(bot, trigger):
+    """Can also be triggered with '🕷👨' anywhere in a message."""
     spider_man = [
         "https://p.actionsack.com/🕷👨/orphans.webp",
         "https://p.actionsack.com/🕷👨/smell.webp"
@@ -3230,21 +3232,23 @@ def spiderman(bot, trigger):
     bot.say(random.choice(spider_man))
 
 
-@plugin.rule(".*shitstorm.*")
+@plugin.search("shitstorm")
 def shitstorm(bot, trigger):
     bot.say("https://p.actionsack.com/misc/shitstorm.webp")
 
 
-@plugin.rule("!ts")
+@plugin.search("!ts")
 @plugin.command("ts")
 def teamspeak(bot, trigger):
+    """Can also be triggered with '!ts' anywhere in a message."""
     bot.say("https://p.actionsack.com/a/teamspeak.ogg")
 
 
-@plugin.rule(".*!tmf.*")
+@plugin.search("!tmf")
 @plugin.command("tmf")
 def thatsmyfetish(bot, trigger):
-    """That's my fetish. ( ͡° ͜ʖ ͡°)"""
+    """That's my fetish. ( ͡° ͜ʖ ͡°)
+    Can also be triggered with '!tmf' anywhere in a message."""
     bot.say("https://p.actionsack.com/misc/tmf.webp")
 
 
@@ -3254,23 +3258,25 @@ def nda(bot, trigger):
         "⚠️ That's ⚠️ some ⚠️ NDA ⚠️ shit ⚠️ right ⚠️ there! ⚠️"))
 
 
-@plugin.rule(".*darude.*")
+@plugin.search("darude")
 def darude(bot, trigger):
     bot.say("https://p.actionsack.com/v/darude.mp4")
 
 
-@plugin.rule(".*numa.*")
+@plugin.search("numa")
 def numanuma(bot, trigger):
     bot.say("https://p.actionsack.com/v/numa.mp4")
 
 
-@plugin.rule(".*!gems.*")
+@plugin.search("!gems")
 @plugin.command("gems")
 def gems(bot, trigger):
+    """The greatest video game song to ever exist.
+    Can also be triggered with '!gems' anywhere in a message."""
     bot.say("https://p.actionsack.com/v/gems.mp4")
 
 
-@plugin.rule(".*explosion!.*")
+@plugin.search("explosion!")
 def explosion(bot, trigger):
     explosion = [
         "https://p.actionsack.com/v/explosion/01.mp4",
@@ -3280,7 +3286,7 @@ def explosion(bot, trigger):
     bot.say(random.choice(explosion))
 
 
-@plugin.rule(r".*I\sneed\sa\shero.*")
+@plugin.search("I need a hero")
 def ineedahero(bot, trigger):
     bot.say("https://p.actionsack.com/v/ineedahero.mp4")
 
