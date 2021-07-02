@@ -3285,19 +3285,22 @@ def ineedahero(bot, trigger):
     bot.say("https://p.actionsack.com/v/ineedahero.mp4")
 
 
-@plugin.rule(".*!MDMA.*")
+@plugin.search("!MDMA")
 @plugin.command("mdma")
 def mdma(bot, trigger):
+    """Can also be triggered with '!MDMA' anywhere in a message."""
     bot.say("https://p.actionsack.com/a/MDMA.ogg")
 
 
-@plugin.rule(".*!albatraoz.*")
+@plugin.search("!albatraoz")
 @plugin.command("albatraoz")
 def albatraoz(bot, trigger):
+    """Can also be triggered with '!albatraoz' anywhere in a message."""
     bot.say("https://p.actionsack.com/a/albatraoz.ogg")
 
 
-@plugin.rule(".*!swing.*")
+@plugin.search("!swing")
 @plugin.command("swing")
 def little_swing(bot, trigger):
+    """Can also be triggered with '!swing' anywhere in a message."""
     bot.say("https://p.actionsack.com/a/swing.ogg")
