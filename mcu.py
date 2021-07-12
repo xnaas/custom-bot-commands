@@ -23,7 +23,7 @@ def next_mcu(bot, trigger):
 
 @plugin.command("next4mcu")
 @plugin.output_prefix("[MCU] ")
-def next_mcu(bot, trigger):
+def next4_mcu(bot, trigger):
     """Info on the next MCU release."""
     url = "https://whenisthenextmcufilm.com/api"
     try:
